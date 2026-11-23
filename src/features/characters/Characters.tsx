@@ -1,5 +1,13 @@
 "use client";
+import { CharacterImport } from "./CharacterImport";
+import {
+  CustomSheet,
+  PlayableCustomSheet,
+  downloadCharacterJson,
+} from "./CustomSheet";
+import { exportCharacter } from "@/domain/character-files";
 import { CharacterPrint } from "../print/CharacterPrint";
+import { PaperSheet } from "./PaperSheet";
 import { TabletopSheet } from "./TabletopSheet";
 import { useEffect, useState } from "react";
 import type { Content, EditionId, SourceBook } from "@/entities/content";
@@ -17,6 +25,7 @@ import {
   deriveCharacter,
   castingAbility,
   pointCost,
+  validateCharacter,
   classSpellLevel,
 } from "@/domain/rules/character";
 import { requestJson } from "@/shared/client";
@@ -92,13 +101,19 @@ export function Characters({
   sources: SourceBook[];
   settings: Settings;
 }) {
+  const [editorMode, setEditorMode] = useState<"sheet" | "steps">("sheet");
+  const [inventoryPick, setInventoryPick] = useState("");
+  const [spellPick, setSpellPick] = useState("");
+  const [importing, setImporting] = useState(false);
+  const [isImport, setIsImport] = useState(false);
+  const [importWarnings, setImportWarnings] = useState<string[]>([]);
   const [detail, setDetail] = useState<Content | null>(null);
   const [entries, setEntries] = useState<Content[]>([]),
     [records, setRecords] = useState<CharacterRecord[]>([]),
     [selected, setSelected] = useState<CharacterRecord | null>(null),
     [draft, setDraft] = useState<CharacterData | null>(null),
     [step, setStep] = useState(0),
-    [tab, setTab] = useState("За столом"),
+    [tab, setTab] = useState("Бумажный лист"),
     [error, setError] = useState(""),
     [notice, setNotice] = useState(""),
     [busy, setBusy] = useState(false),
@@ -165,6 +180,11 @@ export function Characters({
     }
   }
   function create() {
+    setInventoryPick("");
+    setSpellPick("");
+    setIsImport(false);
+    setImportWarnings([]);
+    setImporting(false);
     setClassId("");
     setPick("");
     setNotice("");
@@ -196,9 +216,24 @@ export function Characters({
     "Владения",
     "Снаряжение",
     "Заклинания",
+    "Свой лист",
     "Проверка",
   ];
   const active = draft ?? c;
+  const draftStats =
+    draft && draft.classes.every((x) => classRules[x.classId])
+      ? deriveCharacter(draft)
+      : null;
+  const draftParsed = draft ? characterSchema.safeParse(draft) : null;
+  const draftIssues = draftParsed?.success
+    ? validateCharacter(
+        draftParsed.data,
+        new Map(entries.map((e) => [e.id, e])),
+      )
+    : draft
+      ? ["Заполните имя и проверьте допустимые значения полей."]
+      : [];
+
   const savePatch = (patch: Partial<CharacterData>) =>
     c && command("save", { data: { ...c, ...patch } });
   const spellClasses =
@@ -222,6 +257,8 @@ export function Characters({
     data: CharacterData,
     change: (v: CharacterData["inventory"]) => void,
   ) {
+    const pick = inventoryPick;
+    const setPick = setInventoryPick;
     return (
       <>
         <div className="character-row">
@@ -336,6 +373,8 @@ export function Characters({
     data: CharacterData,
     change: (v: CharacterData["spells"]) => void,
   ) {
+    const pick = spellPick;
+    const setPick = setSpellPick;
     return (
       <>
         <div className="character-row">
@@ -457,10 +496,28 @@ export function Characters({
         </div>
         <button
           className="button primary"
-          disabled={!loaded || busy}
+          disabled={!loaded || busy || !!draft}
           onClick={create}
         >
           ＋ Создать персонажа
+        </button>
+        <button
+          className="button"
+          disabled={!loaded || busy || !!draft}
+          onClick={() => {
+            create();
+            setStep(5);
+            setEditorMode("steps");
+          }}
+        >
+          ＋ Свой лист
+        </button>
+        <button
+          className="button"
+          disabled={!loaded || busy || !!draft}
+          onClick={() => setImporting(!importing)}
+        >
+          ↑ Загрузить JSON
         </button>
       </div>
       {error && (
@@ -474,14 +531,67 @@ export function Characters({
         </p>
       )}
       {!loaded && <p>Загрузка персонажей…</p>}
+      {importing && (
+        <CharacterImport
+          entries={entries}
+          edition={edition}
+          close={() => setImporting(false)}
+          accept={(data, warnings) => {
+            setSelected(null);
+            setDraft(data);
+            setIsImport(true);
+            setImportWarnings(warnings);
+            setImporting(false);
+            setEditorMode("sheet");
+            setStep(0);
+            setError("");
+          }}
+        />
+      )}
       {draft ? (
-        <div className="character-panel">
+        <div className={`character-panel character-builder ${editorMode}`}>
           <div className="character-row">
             <h2>{selected ? "Редактирование героя" : "Создание героя"}</h2>
-            <button className="button" onClick={() => setDraft(null)}>
+            <button
+              className="button"
+              onClick={() => {
+                if (window.confirm("Отменить несохранённые изменения листа?"))
+                  setDraft(null);
+              }}
+            >
               Отмена
             </button>
           </div>
+          <div className="character-row">
+            <button
+              className="button"
+              aria-pressed={editorMode === "sheet"}
+              onClick={() => setEditorMode("sheet")}
+            >
+              Лист целиком
+            </button>
+            <button
+              className="button"
+              aria-pressed={editorMode === "steps"}
+              onClick={() => setEditorMode("steps")}
+            >
+              По шагам
+            </button>
+          </div>
+          {importWarnings.map((w) => (
+            <p className="character-help" key={w}>
+              {w}
+            </p>
+          ))}
+          {draftStats && (
+            <div className="builder-summary">
+              <strong>{draft.name || "Без имени"}</strong>
+              <span>Уровень {draftStats.level}</span>
+              <span>Макс. хиты {draftStats.maxHp}</span>
+              <span>КД {draftStats.ac}</span>
+              <span>Мастерство {signed(draftStats.proficiency)}</span>
+            </div>
+          )}
           <nav className="character-tabs" aria-label="Шаги создания">
             {stages.map((s, i) => (
               <button
@@ -490,6 +600,10 @@ export function Characters({
                 className={step === i ? "active" : ""}
                 onClick={() => {
                   setStep(i);
+                  if (editorMode === "sheet")
+                    document
+                      .getElementById(`builder-${i}`)
+                      ?.scrollIntoView({ behavior: "smooth", block: "start" });
                   setPick("");
                 }}
               >
@@ -497,8 +611,9 @@ export function Characters({
               </button>
             ))}
           </nav>
-          {step === 0 && (
-            <>
+          {(editorMode === "sheet" || step === 0) && (
+            <section className="sheet-editor-section" id="builder-0">
+              <h3>Происхождение</h3>
               <div className="character-grid">
                 <label>
                   Имя
@@ -541,6 +656,63 @@ export function Characters({
                   />
                 )}
               </div>
+              <div className="character-grid">
+                {draft.classes.map((x, index) => (
+                  <div key={x.classId}>
+                    <label>
+                      Уровень · {name(x.classId)}
+                      <input
+                        type="number"
+                        min={1}
+                        max={20}
+                        value={x.level}
+                        onChange={(e) => {
+                          const level = Math.max(
+                            1,
+                            Math.min(20, Math.trunc(Number(e.target.value))),
+                          );
+                          update({
+                            classes: draft.classes.map((old, i) =>
+                              i !== index
+                                ? old
+                                : {
+                                    ...old,
+                                    level,
+                                    hpRolls: Array.from(
+                                      { length: level },
+                                      (_, j) =>
+                                        old.hpRolls[j] ??
+                                        Math.floor(
+                                          classRules[old.classId].hitDie / 2,
+                                        ) + 1,
+                                    ),
+                                  },
+                            ),
+                          });
+                        }}
+                      />
+                    </label>
+                    <Picker
+                      label={"Подкласс · " + name(x.classId)}
+                      entries={refs("Subclass").filter(
+                        (e) =>
+                          e.kind === "Reference" &&
+                          e.reference.parentId === x.classId,
+                      )}
+                      value={x.subclassId ?? ""}
+                      change={(id) =>
+                        update({
+                          classes: draft.classes.map((old, i) =>
+                            i === index
+                              ? { ...old, subclassId: id || null }
+                              : old,
+                          ),
+                        })
+                      }
+                    />
+                  </div>
+                ))}
+              </div>
               {[
                 draft.speciesRaceId,
                 draft.backgroundId,
@@ -553,10 +725,11 @@ export function Characters({
                   />
                 </details>
               ))}
-            </>
+            </section>
           )}
-          {step === 1 && (
-            <>
+          {(editorMode === "sheet" || step === 1) && (
+            <section className="sheet-editor-section" id="builder-1">
+              <h3>Характеристики</h3>
               <label>
                 Метод характеристик
                 <select
@@ -657,10 +830,56 @@ export function Characters({
                 отдельно по выбранным правилам. Они не применяются
                 автоматически.
               </p>
-            </>
+              <h4>Боевые параметры и поправки</h4>
+              <div className="character-grid">
+                {(["maxHp", "ac", "initiative", "speed"] as const).map((k) => (
+                  <label key={k}>
+                    {
+                      {
+                        maxHp: "Поправка к максимуму хитов",
+                        ac: "КД вручную (пусто — автоматически)",
+                        initiative: "Поправка к инициативе",
+                        speed: "Скорость, футы",
+                      }[k]
+                    }
+                    <input
+                      type="number"
+                      value={draft.adjustments[k] ?? ""}
+                      onChange={(e) =>
+                        update({
+                          adjustments: {
+                            ...draft.adjustments,
+                            [k]:
+                              k === "ac" && e.target.value === ""
+                                ? null
+                                : Number(e.target.value),
+                          },
+                        })
+                      }
+                    />
+                  </label>
+                ))}
+                {(isImport || selected) &&
+                  (["hp", "tempHp"] as const).map((k) => (
+                    <label key={k}>
+                      {k === "hp" ? "Текущие хиты" : "Временные хиты"}
+                      <input
+                        type="number"
+                        min={0}
+                        max={1000000}
+                        value={draft[k]}
+                        onChange={(e) =>
+                          update({ [k]: Number(e.target.value) })
+                        }
+                      />
+                    </label>
+                  ))}
+              </div>
+            </section>
           )}
-          {step === 2 && (
-            <>
+          {(editorMode === "sheet" || step === 2) && (
+            <section className="sheet-editor-section" id="builder-2">
+              <h3>Владения</h3>
               <div className="character-grid">
                 {Object.entries(skillLabels).map(([k, label]) => (
                   <label key={k}>
@@ -703,13 +922,34 @@ export function Characters({
                 Выберите владения, предоставленные классом, видом и
                 предысторией. Текст правил доступен на первом шаге.
               </p>
-            </>
+            </section>
           )}
-          {step === 3 &&
-            inventoryEditor(draft, (inventory) => update({ inventory }))}
-          {step === 4 && spellEditor(draft, (spells) => update({ spells }))}
-          {step === 5 && (
-            <>
+          {(editorMode === "sheet" || step === 3) && (
+            <section className="sheet-editor-section" id="builder-3">
+              <h3>Снаряжение</h3>
+              {inventoryEditor(draft, (inventory) => update({ inventory }))}
+            </section>
+          )}
+          {(editorMode === "sheet" || step === 4) && (
+            <section className="sheet-editor-section" id="builder-4">
+              <h3>Заклинания</h3>
+              {spellEditor(draft, (spells) => update({ spells }))}
+            </section>
+          )}
+          {(editorMode === "sheet" || step === 5) && (
+            <section className="sheet-editor-section" id="builder-5">
+              <CustomSheet
+                sheet={draft.customSheet}
+                character={draft}
+                content={entries}
+                change={(customSheet) => update({ customSheet })}
+                design
+              />
+            </section>
+          )}
+          {(editorMode === "sheet" || step === 6) && (
+            <section className="sheet-editor-section" id="builder-6">
+              <h3>Проверка и сохранение</h3>
               <h2>{draft.name}</h2>
               <p>
                 {name(draft.speciesRaceId)} · {name(draft.backgroundId)} ·{" "}
@@ -733,11 +973,20 @@ export function Characters({
                 ячейки рассчитываются автоматически. Особые эффекты умений
                 внесите как поправки в листе.
               </p>
+              {draftIssues.length > 0 && (
+                <ul className="error" aria-label="Проверьте перед сохранением">
+                  {draftIssues.map((issue, i) => (
+                    <li key={i}>{issue}</li>
+                  ))}
+                </ul>
+              )}
               <button
                 className="button primary"
-                disabled={busy}
+                disabled={busy || draftIssues.length > 0}
                 onClick={() =>
-                  command(selected ? "save" : "create", { data: draft })
+                  command(selected ? "save" : isImport ? "import" : "create", {
+                    data: draft,
+                  })
                 }
               >
                 {busy
@@ -746,9 +995,12 @@ export function Characters({
                     ? "Сохранить изменения"
                     : "Создать героя"}
               </button>
-            </>
+            </section>
           )}
-          <div className="character-row character-step-actions">
+          <div
+            className="character-row character-step-actions"
+            hidden={editorMode === "sheet"}
+          >
             <button
               className="button"
               disabled={step === 0}
@@ -761,7 +1013,7 @@ export function Characters({
             </span>
             <button
               className="button"
-              disabled={step === 5}
+              disabled={step === stages.length - 1}
               onClick={() => {
                 setStep(step + 1);
                 setPick("");
@@ -788,6 +1040,8 @@ export function Characters({
                 className="button"
                 disabled={busy || selected.archived}
                 onClick={() => {
+                  setIsImport(false);
+                  setImportWarnings([]);
                   setDraft(structuredClone(c));
                   setStep(0);
                   setPick("");
@@ -806,16 +1060,25 @@ export function Characters({
               </button>
               <button
                 className="button"
+                disabled={busy || selected.archived}
                 onClick={() => {
-                  const blob = new Blob([JSON.stringify(selected, null, 2)], {
-                    type: "application/json",
-                  });
-                  const url = URL.createObjectURL(blob);
-                  const a = document.createElement("a");
-                  a.href = url;
-                  a.download = "character-" + selected.id + ".json";
-                  a.click();
-                  URL.revokeObjectURL(url);
+                  setIsImport(false);
+                  setImportWarnings([]);
+                  setDraft(structuredClone(c));
+                  setEditorMode("steps");
+                  setStep(5);
+                  setPick("");
+                }}
+              >
+                Настроить свой лист
+              </button>
+              <button
+                className="button"
+                onClick={() => {
+                  downloadCharacterJson(
+                    exportCharacter(c),
+                    "character-" + selected.id + ".json",
+                  );
                 }}
               >
                 Экспорт JSON
@@ -830,7 +1093,7 @@ export function Characters({
                 .map((x) => name(x.classId) + " " + x.level)
                 .join(" / ")}
             </p>
-            <div className="character-stats">
+            <div className="character-stats" hidden={c.customSheet.standalone}>
               {[
                 ["Уровень", stats.level],
                 ["Хиты", `${c.hp} / ${stats.maxHp}`],
@@ -848,9 +1111,32 @@ export function Characters({
               ))}
             </div>
           </div>
+          {tab === "Свои поля" && (
+            <PlayableCustomSheet
+              key={selected.id + ":" + selected.version}
+              sheet={c.customSheet}
+              save={(customSheet) => savePatch({ customSheet })}
+              disabled={busy || selected.archived}
+            />
+          )}
+          {c.importSource && (
+            <button
+              className="button"
+              onClick={() =>
+                downloadCharacterJson(
+                  JSON.parse(c.importSource!.json),
+                  "original-lss.json",
+                )
+              }
+            >
+              Скачать исходный LSS JSON
+            </button>
+          )}
           <CharacterPrint character={c} content={entries} />
           <nav className="character-tabs" aria-label="Разделы листа">
             {[
+              "Бумажный лист",
+              "Свои поля",
               "За столом",
               "Лист",
               "Инвентарь",
@@ -874,6 +1160,9 @@ export function Characters({
             disabled={busy || selected.archived}
             className="character-panel character-content"
           >
+            {tab === "Бумажный лист" && (
+              <PaperSheet character={c} content={entries} />
+            )}
             {tab === "За столом" && (
               <TabletopSheet
                 key={selected.id}

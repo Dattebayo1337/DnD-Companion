@@ -60,6 +60,7 @@ const command = z
   .object({
     action: z.enum([
       "create",
+      "import",
       "save",
       "damage",
       "heal",
@@ -87,7 +88,7 @@ export async function characterCommand(
   ownerId: string | null = null,
 ) {
   const b = command.parse(input);
-  if (b.action === "create") {
+  if (b.action === "create" || b.action === "import") {
     if (!b.data) throw new CharacterError("Не заполнен персонаж.");
     const data = b.data;
     const entries = await catalog(data.edition);
@@ -96,7 +97,7 @@ export async function characterCommand(
       new Map(entries.map((e) => [e.id, e])),
     );
     if (issues.length) throw new CharacterError(issues.join("\n"));
-    data.hp = deriveCharacter(data).maxHp;
+    if (b.action === "create") data.hp = deriveCharacter(data).maxHp;
     return record(
       await db.character.create({
         data: {

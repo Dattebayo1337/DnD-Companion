@@ -1,4 +1,6 @@
 import type { CharacterData } from "@/entities/character";
+import { PaperSheet } from "../characters/PaperSheet";
+import { CustomSheet } from "../characters/CustomSheet";
 import { skillLabels } from "@/entities/character";
 import type { Content } from "@/entities/content";
 import {
@@ -21,6 +23,8 @@ export function SharedSheet({
   character: CharacterData;
   content: Content[];
 }) {
+  if (c.customSheet.standalone)
+    return <PaperSheet character={c} content={content} />;
   const entries = new Map(content.map((e) => [e.id, e]));
   const name = (id: string) =>
     entries.get(id)?.nameRu ?? "Запись справочника недоступна";
@@ -309,6 +313,7 @@ export function SharedSheet({
         text={c.proficiencies || "Дополнительные владения не указаны."}
       />
       <h3>Заметки персонажа</h3>
+      <CustomSheet sheet={c.customSheet} />
       <RulesText text={c.notes || "Заметок нет."} />
     </article>
   );

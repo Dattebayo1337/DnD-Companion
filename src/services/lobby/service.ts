@@ -131,7 +131,7 @@ export async function lobbyView(
   ).map((c) => ({
     id: c.id,
     version: c.version,
-    data: characterSchema.parse(c.data),
+    data: { ...characterSchema.parse(c.data), importSource: undefined },
   }));
   const contentIds = new Set<string>();
   for (const { data: c } of characters) {

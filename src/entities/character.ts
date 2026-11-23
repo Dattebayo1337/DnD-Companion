@@ -53,9 +53,59 @@ const scores = z
 const uuid = z.string().uuid(),
   count = z.number().int().min(0).max(1000000),
   text = z.string().max(20000);
+export const customSheetSchema = z
+  .object({
+    title: z.string().trim().max(120).default("Мой лист"),
+    columns: z.union([z.literal(1), z.literal(2)]).default(2),
+    standalone: z.boolean().optional(),
+    blocks: z
+      .array(
+        z
+          .object({
+            id: uuid,
+            title: z.string().trim().min(1).max(120),
+            kind: z.enum(["text", "number", "checkbox", "resource"]),
+            text: text.default(""),
+            value: z.number().finite().min(-1000000).max(1000000).default(0),
+            max: z.number().int().min(0).max(1000000).default(1),
+            checked: z.boolean().default(false),
+            wide: z.boolean().default(false),
+            group: z.string().max(60).optional(),
+            caption: z.string().max(120).optional(),
+          })
+          .strict(),
+      )
+      .max(120)
+      .default([]),
+  })
+  .strict()
+  .superRefine((sheet, ctx) => {
+    if (new Set(sheet.blocks.map((b) => b.id)).size !== sheet.blocks.length)
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: "Идентификаторы блоков должны быть уникальны.",
+      });
+    for (const block of sheet.blocks)
+      if (
+        block.kind === "resource" &&
+        (!Number.isInteger(block.value) ||
+          block.value < 0 ||
+          block.value > block.max)
+      )
+        ctx.addIssue({
+          code: z.ZodIssueCode.custom,
+          message: "Счётчик должен быть целым числом от 0 до максимума.",
+        });
+  });
+export type CustomSheet = z.infer<typeof customSheetSchema>;
 export const characterSchema = z
   .object({
     name: z.string().trim().min(1).max(120),
+    customSheet: customSheetSchema.default({}),
+    importSource: z
+      .object({ format: z.literal("lss-v2"), json: z.string().max(1048576) })
+      .strict()
+      .optional(),
     edition: editionSchema,
     speciesRaceId: uuid,
     backgroundId: uuid,

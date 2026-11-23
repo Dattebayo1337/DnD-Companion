@@ -27,7 +27,7 @@ export async function POST(request: Request) {
   try {
     const user = await requireAccount(request);
     checkOrigin(request);
-    const body = JSON.parse(await readBody(request));
+    const body = JSON.parse(await readBody(request, 8 * 1024 * 1024));
     if (body.action === "roll") return Response.json(rollAbilities());
     return Response.json(await characterCommand(body, user.id));
   } catch (e) {

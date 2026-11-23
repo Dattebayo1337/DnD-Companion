@@ -1,6 +1,6 @@
 import type { CharacterData } from "@/entities/character";
 import type { Content } from "@/entities/content";
-import { SharedSheet } from "../lobby/SharedSheet";
+import { PaperSheet } from "../characters/PaperSheet";
 import { RulesText } from "../compendium/RulesText";
 import { PrintPreview } from "./PrintPreview";
 import { castingLabels, componentLabels } from "@/localization/labels";
@@ -16,8 +16,8 @@ export function CharacterPrint({
   );
   return (
     <div className="print-actions">
-      <PrintPreview title="Печатный лист">
-        <SharedSheet character={character} content={content} />
+      <PrintPreview title="Экспорт PDF / печать">
+        <PaperSheet character={character} content={content} />
       </PrintPreview>
       <PrintPreview title="Памятка заклинаний">
         <h1>{character.name} · подготовленные заклинания</h1>
