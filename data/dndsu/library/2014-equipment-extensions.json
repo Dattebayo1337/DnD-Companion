@@ -1,0 +1,574 @@
+{
+  "schemaVersion": 1,
+  "name": "Снаряжение 2014 из таблиц и дополнений ДнД.су",
+  "sources": [
+    {
+      "id": "cbcfc44c-1ef2-5d55-a5d6-95d1196d0b49",
+      "shortName": "Каталог 2014 · Eberron: Rising from the Last War",
+      "fullNameRu": "Эберрон: восставшие из Последней войны",
+      "fullNameOriginal": "Eberron: Rising from the Last War",
+      "edition": "5e_2014",
+      "publisher": "Справочник ДнД.су",
+      "releaseDate": null,
+      "contentType": "MetadataOnly",
+      "licenseType": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке."
+    },
+    {
+      "id": "4be0f627-79e6-5fd6-ac0a-ad4e1ac21b87",
+      "shortName": "Каталог 2014 · Tomb of Annihilation",
+      "fullNameRu": "Каталог ДнД.су · Tomb of Annihilation",
+      "fullNameOriginal": "Tomb of Annihilation",
+      "edition": "5e_2014",
+      "publisher": "Справочник ДнД.су",
+      "releaseDate": null,
+      "contentType": "MetadataOnly",
+      "licenseType": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке."
+    },
+    {
+      "id": "02f1b749-1cdf-54ef-a362-8823b03cc4bc",
+      "shortName": "Каталог 2014 · Out of the Abyss",
+      "fullNameRu": "Из Бездны",
+      "fullNameOriginal": "Out of the Abyss",
+      "edition": "5e_2014",
+      "publisher": "Справочник ДнД.су",
+      "releaseDate": null,
+      "contentType": "MetadataOnly",
+      "licenseType": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке."
+    },
+    {
+      "id": "561bc325-6814-5ae2-af99-3a8d1179a980",
+      "shortName": "Каталог 2014 · Waterdeep: Dragon Heist",
+      "fullNameRu": "Глубоководье. Драконий куш",
+      "fullNameOriginal": "Waterdeep: Dragon Heist",
+      "edition": "5e_2014",
+      "publisher": "Справочник ДнД.су",
+      "releaseDate": null,
+      "contentType": "MetadataOnly",
+      "licenseType": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке."
+    },
+    {
+      "id": "d1696a9f-fbd4-571f-a239-503c6f4f5488",
+      "shortName": "Каталог 2014 · Dragonlance: Shadow of the Dragon Queen",
+      "fullNameRu": "Драконье копьё: тень королевы драконов",
+      "fullNameOriginal": "Dragonlance: Shadow of the Dragon Queen",
+      "edition": "5e_2014",
+      "publisher": "Справочник ДнД.су",
+      "releaseDate": null,
+      "contentType": "MetadataOnly",
+      "licenseType": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке."
+    },
+    {
+      "id": "57fcda3b-8562-5907-a3fe-b5b3f1f8a4aa",
+      "shortName": "Каталог 2014 · Volo's Guide to Monsters",
+      "fullNameRu": "Руководство Воло по монстрам",
+      "fullNameOriginal": "Volo's Guide to Monsters",
+      "edition": "5e_2014",
+      "publisher": "Справочник ДнД.су",
+      "releaseDate": null,
+      "contentType": "MetadataOnly",
+      "licenseType": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке."
+    },
+    {
+      "id": "ef336dd2-b67c-56f5-a1aa-09ce12ae34d2",
+      "shortName": "Каталог 2014 · Player's Handbook",
+      "fullNameRu": "Книга игрока",
+      "fullNameOriginal": "Player's Handbook",
+      "edition": "5e_2014",
+      "publisher": "Справочник ДнД.су",
+      "releaseDate": null,
+      "contentType": "MetadataOnly",
+      "licenseType": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке."
+    },
+    {
+      "id": "b2c68952-66d7-58b1-a887-9cca1e5ef630",
+      "shortName": "Каталог 2014 · Curse of Strahd",
+      "fullNameRu": "Проклятие Страда",
+      "fullNameOriginal": "Curse of Strahd",
+      "edition": "5e_2014",
+      "publisher": "Справочник ДнД.су",
+      "releaseDate": null,
+      "contentType": "MetadataOnly",
+      "licenseType": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке."
+    }
+  ],
+  "entries": [
+    {
+      "id": "155ec92f-c722-59e4-a89d-09c8fd53737f",
+      "edition": "5e_2014",
+      "nameRu": "Двухклинковый скимитар",
+      "nameOriginal": "Double-Bladed Scimitar",
+      "sourceBookId": "cbcfc44c-1ef2-5d55-a5d6-95d1196d0b49",
+      "source": "https://dnd.su/articles/inventory/147-armor-arms-equipment-tools/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2014",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Снаряжение"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T09:00:00.000Z",
+      "updatedAt": "2026-11-27T09:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "В бою это двуручное оружие даёт дополнительную атаку вторым клинком. Для неё у персонажа должно оставаться бонусное действие.",
+      "reference": {
+        "category": "Weapon",
+        "properties": [
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "100 зм"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "6 фунтов"
+          },
+          {
+            "nameRu": "Урон",
+            "valueRu": "2к4 рубящего"
+          },
+          {
+            "nameRu": "Свойства",
+            "valueRu": "Двуручное, особое"
+          }
+        ],
+        "features": [
+          {
+            "level": null,
+            "nameRu": "Атака вторым клинком",
+            "descriptionRu": "Сразу после атаки этим скимитаром в составе действия «Атака» в свой ход можно бонусным действием нанести второй удар. Для его урона бросьте 1к4 вместо обычных 2к4."
+          }
+        ]
+      }
+    },
+    {
+      "id": "3aeadcb7-a0fe-5837-a83f-ad7aff7e876d",
+      "edition": "5e_2014",
+      "nameRu": "Иклва",
+      "nameOriginal": "Yklwa",
+      "sourceBookId": "4be0f627-79e6-5fd6-ac0a-ad4e1ac21b87",
+      "source": "https://dnd.su/articles/inventory/147-armor-arms-equipment-tools/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2014",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Снаряжение"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T09:00:00.000Z",
+      "updatedAt": "2026-11-27T09:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Чультское оружие для боя на короткой дистанции. Урон остаётся колющим как при рукопашной атаке, так и при броске.",
+      "reference": {
+        "category": "Weapon",
+        "properties": [
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "1 зм"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "3 фунта"
+          },
+          {
+            "nameRu": "Урон",
+            "valueRu": "1к8 колющего"
+          },
+          {
+            "nameRu": "Свойства",
+            "valueRu": "Метательное. Обычная дистанция 10 футов, предельная 30 футов."
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "e685793c-113b-5d70-a1a3-952f80e5d9f0",
+      "edition": "5e_2014",
+      "nameRu": "Короткое копьё с крюком",
+      "nameOriginal": "Hooked Shortspear",
+      "sourceBookId": "02f1b749-1cdf-54ef-a362-8823b03cc4bc",
+      "source": "https://dnd.su/articles/inventory/147-armor-arms-equipment-tools/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2014",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Снаряжение"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T09:00:00.000Z",
+      "updatedAt": "2026-11-27T09:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "При попадании можно заменить урон попыткой опрокинуть цель. Выберите эффект после того, как атака попала.",
+      "reference": {
+        "category": "Weapon",
+        "properties": [
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "Определяет мастер"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "2 фунта"
+          },
+          {
+            "nameRu": "Урон",
+            "valueRu": "1к4 колющего"
+          },
+          {
+            "nameRu": "Свойства",
+            "valueRu": "Лёгкое"
+          }
+        ],
+        "features": [
+          {
+            "level": null,
+            "nameRu": "Подсечка",
+            "descriptionRu": "Цель совершает спасбросок Силы против Сл 8 + ваш модификатор Силы + бонус мастерства. При провале цель падает ничком. Вы отказались от урона и при успешном спасброске."
+          }
+        ]
+      }
+    },
+    {
+      "id": "c0e0eac9-397a-583e-ad32-02b46ea49b2d",
+      "edition": "5e_2014",
+      "nameRu": "Лёгкий многозарядный арбалет",
+      "nameOriginal": "Light Repeating Crossbow",
+      "sourceBookId": "02f1b749-1cdf-54ef-a362-8823b03cc4bc",
+      "source": "https://dnd.su/articles/inventory/147-armor-arms-equipment-tools/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2014",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Снаряжение"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T09:00:00.000Z",
+      "updatedAt": "2026-11-27T09:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Обоймы хватает на шесть выстрелов. Свойство «Перезарядка» обычного лёгкого арбалета к этой модели не применяется.",
+      "reference": {
+        "category": "Weapon",
+        "properties": [
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "Определяет мастер"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "5 фунтов"
+          },
+          {
+            "nameRu": "Урон",
+            "valueRu": "1к8 колющего"
+          },
+          {
+            "nameRu": "Свойства",
+            "valueRu": "Двуручное, боеприпас. Дистанция 40/160 футов."
+          }
+        ],
+        "features": [
+          {
+            "level": null,
+            "nameRu": "Обойма",
+            "descriptionRu": "После каждого выстрела следующий болт подаётся автоматически. Опустевшую обойму перезаряжают действием."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2f578351-3d24-5d66-a068-873dc8c0b540",
+      "edition": "5e_2014",
+      "nameRu": "Большой длинный лук",
+      "nameOriginal": "Oversized Longbow",
+      "sourceBookId": "561bc325-6814-5ae2-af99-3a8d1179a980",
+      "source": "https://dnd.su/articles/inventory/147-armor-arms-equipment-tools/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2014",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Снаряжение"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T09:00:00.000Z",
+      "updatedAt": "2026-11-27T09:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Лук для существа как минимум Среднего размера с Силой 18 или выше. Для стрельбы нужны большие стрелы.",
+      "reference": {
+        "category": "Weapon",
+        "properties": [
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "Определяет мастер"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "2 фунта"
+          },
+          {
+            "nameRu": "Урон",
+            "valueRu": "2к6 колющего + модификатор Силы стрелка"
+          },
+          {
+            "nameRu": "Свойства",
+            "valueRu": "Двуручное, тяжёлое, боеприпас. Дистанция 150/600 футов."
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "a303d519-1535-59af-a00a-d15b6c61b04f",
+      "edition": "5e_2014",
+      "nameRu": "Хупак",
+      "nameOriginal": "Hoopak",
+      "sourceBookId": "d1696a9f-fbd4-571f-a239-503c6f4f5488",
+      "source": "https://dnd.su/articles/inventory/147-armor-arms-equipment-tools/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2014",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Снаряжение"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T09:00:00.000Z",
+      "updatedAt": "2026-11-27T09:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Одно оружие служит копьём в рукопашной и пращой на расстоянии. Для этих двух способов атаки используются разные кости и виды урона.",
+      "reference": {
+        "category": "Weapon",
+        "properties": [
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "1 см"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "2 фунта"
+          },
+          {
+            "nameRu": "Свойства",
+            "valueRu": "Двуручное, фехтовальное, особое, боеприпас"
+          }
+        ],
+        "features": [
+          {
+            "level": null,
+            "nameRu": "Рукопашная атака",
+            "descriptionRu": "Наносит 1к6 колющего урона. Боеприпас для этой атаки не нужен."
+          },
+          {
+            "level": null,
+            "nameRu": "Дальнобойная атака",
+            "descriptionRu": "Считается воинским дальнобойным оружием. Использует снаряды для пращи и наносит 1к4 дробящего урона. Дистанция 40/160 футов."
+          }
+        ]
+      }
+    },
+    {
+      "id": "df6c71f3-dad9-5710-a93f-61d0c6f0bd83",
+      "edition": "5e_2014",
+      "nameRu": "Покров выживания",
+      "nameOriginal": "Survival Mantle",
+      "sourceBookId": "57fcda3b-8562-5907-a3fe-b5b3f1f8a4aa",
+      "source": "https://dnd.su/articles/inventory/147-armor-arms-equipment-tools/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2014",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Снаряжение"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T09:00:00.000Z",
+      "updatedAt": "2026-11-27T09:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Покров позволяет носителю дышать даже в вакууме. Против вредных газов он даёт преимущество на спасброски, включая эффекты ядовитого дыхания и газовых облаков.",
+      "reference": {
+        "category": "Armor",
+        "properties": [
+          {
+            "nameRu": "Доспех",
+            "valueRu": "Считается немагическими полулатами. Занимает место доспеха."
+          },
+          {
+            "nameRu": "Класс Доспеха",
+            "valueRu": "15 + модификатор Ловкости (максимум +2)"
+          },
+          {
+            "nameRu": "Надевание и снятие",
+            "valueRu": "5 минут надеть, 1 минута снять, как средний доспех."
+          },
+          {
+            "nameRu": "Скрытность",
+            "valueRu": "Помеха, как у полулат."
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "7a591477-5b07-5db1-a90a-33f2f771fee6",
+      "edition": "5e_2014",
+      "nameRu": "Разделочные когти",
+      "nameOriginal": "Flensing Claws",
+      "sourceBookId": "57fcda3b-8562-5907-a3fe-b5b3f1f8a4aa",
+      "source": "https://dnd.su/articles/inventory/147-armor-arms-equipment-tools/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2014",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Снаряжение"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T09:00:00.000Z",
+      "updatedAt": "2026-11-27T09:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Эти когти закреплены за конкретным существом. Их игровая механика задаёт одну рукопашную атаку действием. Крошечные и Громадные существа не могут быть носителями.",
+      "reference": {
+        "category": "Weapon",
+        "properties": [
+          {
+            "nameRu": "Атака",
+            "valueRu": "Бонус мастерства + модификатор Силы к попаданию. При попадании добавьте модификатор Силы к рубящему урону."
+          }
+        ],
+        "features": [
+          {
+            "level": null,
+            "nameRu": "Урон по размеру",
+            "descriptionRu": "Маленькое существо бросает 1к8, Среднее — 1к10, Большое — 1к12, Огромное — 2к8."
+          }
+        ]
+      }
+    },
+    {
+      "id": "1543b420-6564-5cd3-ade6-2272883c43f1",
+      "edition": "5e_2014",
+      "nameRu": "Драконьи шахматы",
+      "nameOriginal": "Dragonchess Set",
+      "sourceBookId": "ef336dd2-b67c-56f5-a1aa-09ce12ae34d2",
+      "source": "https://dnd.su/articles/inventory/147-armor-arms-equipment-tools/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2014",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Снаряжение"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T09:00:00.000Z",
+      "updatedAt": "2026-11-27T09:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Игровой набор для партии в драконьи шахматы. Владение именно этим набором позволяет прибавлять бонус мастерства к проверкам характеристики, когда вы играете в шахматы.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "1 зм"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "½ фунта"
+          },
+          {
+            "nameRu": "Владение",
+            "valueRu": "Игровой набор — драконьи шахматы"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "589cfec3-59b2-5668-aae8-be25fea2f079",
+      "edition": "5e_2014",
+      "nameRu": "Ставка трёх драконов",
+      "nameOriginal": "Three-Dragon Ante Set",
+      "sourceBookId": "ef336dd2-b67c-56f5-a1aa-09ce12ae34d2",
+      "source": "https://dnd.su/articles/inventory/147-armor-arms-equipment-tools/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2014",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Снаряжение"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T09:00:00.000Z",
+      "updatedAt": "2026-11-27T09:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Набор для карточной игры «Ставка трёх драконов». Владение этим набором позволяет добавлять бонус мастерства к проверкам характеристики во время игры.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "1 зм"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "В таблице не указан"
+          },
+          {
+            "nameRu": "Владение",
+            "valueRu": "Игровой набор — ставка трёх драконов"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "465665e2-3e69-58f6-a0fb-de3163a66d29",
+      "edition": "5e_2014",
+      "nameRu": "Набор охотника на монстров",
+      "nameOriginal": "Monster Hunter's Pack",
+      "sourceBookId": "b2c68952-66d7-58b1-a887-9cca1e5ef630",
+      "source": "https://dnd.su/articles/inventory/147-armor-arms-equipment-tools/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2014",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Снаряжение"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T09:00:00.000Z",
+      "updatedAt": "2026-11-27T09:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Дорожный комплект, собранный в сундуке. Его можно добавить в снаряжение целиком, а расходуемые предметы отмечать по мере использования.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Стоимость набора",
+            "valueRu": "33 зм"
+          }
+        ],
+        "features": [
+          {
+            "level": null,
+            "nameRu": "Содержимое",
+            "descriptionRu": "Сундук, лом, молоток, три деревянных кола, священный символ, фляга святой воды, кандалы, стальное зеркало, фляга масла, трутница и три факела."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-24T13:29:25.146Z",
+  "checkedAt": "2026-11-27T06:37:00.659Z",
   "indexes": [
     {
       "edition": "5e_2014",
@@ -882,34 +882,6 @@
           "parent": "Artificer"
         },
         {
-          "nameRu": "Путь берсерка",
-          "nameOriginal": "Path of the Berserker",
-          "url": "https://next.dnd.su/class/barbarian#subclass.berserker",
-          "source": "Player's Handbook 2024",
-          "parent": "Barbarian"
-        },
-        {
-          "nameRu": "Путь дикого сердца",
-          "nameOriginal": "Path of the Wild Heart",
-          "url": "https://next.dnd.su/class/barbarian#subclass.wild-heart",
-          "source": "Player's Handbook 2024",
-          "parent": "Barbarian"
-        },
-        {
-          "nameRu": "Путь Мирового древа",
-          "nameOriginal": "Path of the World Tree",
-          "url": "https://next.dnd.su/class/barbarian#subclass.world-tree",
-          "source": "Player's Handbook 2024",
-          "parent": "Barbarian"
-        },
-        {
-          "nameRu": "Путь фанатика",
-          "nameOriginal": "Path of the Zealot",
-          "url": "https://next.dnd.su/class/barbarian#subclass.zealot",
-          "source": "Player's Handbook 2024",
-          "parent": "Barbarian"
-        },
-        {
           "nameRu": "Коллегия доблести",
           "nameOriginal": "College of Valor",
           "url": "https://next.dnd.su/class/bard#subclass.valor",
@@ -952,81 +924,46 @@
           "parent": "Bard"
         },
         {
-          "nameRu": "Домен войны",
-          "nameOriginal": "War Domain",
-          "url": "https://next.dnd.su/class/cleric#subclass.war-domain",
+          "nameRu": "Путь берсерка",
+          "nameOriginal": "Path of the Berserker",
+          "url": "https://next.dnd.su/class/barbarian#subclass.berserker",
           "source": "Player's Handbook 2024",
-          "parent": "Cleric"
+          "parent": "Barbarian"
         },
         {
-          "nameRu": "Домен жизни",
-          "nameOriginal": "Life Domain",
-          "url": "https://next.dnd.su/class/cleric#subclass.life-domain",
+          "nameRu": "Путь дикого сердца",
+          "nameOriginal": "Path of the Wild Heart",
+          "url": "https://next.dnd.su/class/barbarian#subclass.wild-heart",
           "source": "Player's Handbook 2024",
-          "parent": "Cleric"
+          "parent": "Barbarian"
         },
         {
-          "nameRu": "Домен обмана",
-          "nameOriginal": "Trickery Domain",
-          "url": "https://next.dnd.su/class/cleric#subclass.trickery-domain",
+          "nameRu": "Путь Мирового древа",
+          "nameOriginal": "Path of the World Tree",
+          "url": "https://next.dnd.su/class/barbarian#subclass.world-tree",
           "source": "Player's Handbook 2024",
-          "parent": "Cleric"
+          "parent": "Barbarian"
         },
         {
-          "nameRu": "Домен света",
-          "nameOriginal": "Light Domain",
-          "url": "https://next.dnd.su/class/cleric#subclass.light-domain",
+          "nameRu": "Путь фанатика",
+          "nameOriginal": "Path of the Zealot",
+          "url": "https://next.dnd.su/class/barbarian#subclass.zealot",
           "source": "Player's Handbook 2024",
-          "parent": "Cleric"
+          "parent": "Barbarian"
         },
         {
-          "nameRu": "Домен знаний",
-          "nameOriginal": "Knowledge Domain",
-          "url": "https://next.dnd.su/class/cleric#subclass.knowledge-domain",
-          "source": "Forgotten Realms: Heroes of Faerun",
-          "parent": "Cleric"
+          "nameRu": "Путь бушующего в бою",
+          "nameOriginal": "Path of the Battlerager",
+          "url": "https://next.dnd.su/class/barbarian#subclass.battlerager",
+          "parent": "Barbarian",
+          "source": ""
         },
         {
-          "nameRu": "Домен упокоения",
-          "nameOriginal": "Grave Domain",
-          "url": "https://next.dnd.su/class/cleric#subclass.grave-domain",
-          "source": "Ravenloft: The Horrors Within",
-          "parent": "Cleric"
-        },
-        {
-          "nameRu": "Домен магии",
-          "nameOriginal": "Arcana Domain",
-          "url": "https://next.dnd.su/class/cleric#subclass.arcana-domain",
-          "source": "Arcana Unleashed",
-          "parent": "Cleric"
-        },
-        {
-          "nameRu": "Круг звёзд",
-          "nameOriginal": "Circle of Stars",
-          "url": "https://next.dnd.su/class/druid#subclass.stars",
-          "source": "Player's Handbook 2024",
-          "parent": "Druid"
-        },
-        {
-          "nameRu": "Круг земли",
-          "nameOriginal": "Circle of the Land",
-          "url": "https://next.dnd.su/class/druid#subclass.land",
-          "source": "Player's Handbook 2024",
-          "parent": "Druid"
-        },
-        {
-          "nameRu": "Круг луны",
-          "nameOriginal": "Circle of the Moon",
-          "url": "https://next.dnd.su/class/druid#subclass.moon",
-          "source": "Player's Handbook 2024",
-          "parent": "Druid"
-        },
-        {
-          "nameRu": "Круг моря",
-          "nameOriginal": "Circle of the Sea",
-          "url": "https://next.dnd.su/class/druid#subclass.sea",
-          "source": "Player's Handbook 2024",
-          "parent": "Druid"
+          "nameRu": "Путь дикой магии",
+          "nameOriginal": "Path of Wild Magic",
+          "url": "https://next.dnd.su/class/barbarian#subclass.e-wild-magic",
+          "parent": "Barbarian",
+          "source": ""
         },
         {
           "nameRu": "Мастер боя",
@@ -1069,244 +1006,6 @@
           "url": "https://next.dnd.su/class/fighter#subclass.arcane-archer",
           "source": "Arcana Unleashed",
           "parent": "Fighter"
-        },
-        {
-          "nameRu": "Воин открытой ладони",
-          "nameOriginal": "Warrior of the Open Hand",
-          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-the-hand",
-          "source": "Player's Handbook 2024",
-          "parent": "Monk"
-        },
-        {
-          "nameRu": "Воин тени",
-          "nameOriginal": "Warrior of Shadow",
-          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-shadow",
-          "source": "Player's Handbook 2024",
-          "parent": "Monk"
-        },
-        {
-          "nameRu": "Воин милосердия",
-          "nameOriginal": "Warrior of Mercy",
-          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-mercy",
-          "source": "Player's Handbook 2024",
-          "parent": "Monk"
-        },
-        {
-          "nameRu": "Воин cтихий",
-          "nameOriginal": "Warrior of the Elements",
-          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-the-elements",
-          "source": "Player's Handbook 2024",
-          "parent": "Monk"
-        },
-        {
-          "nameRu": "Мистический воин",
-          "nameOriginal": "Warrior of the Mystic Arts",
-          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-the-mystic-arts",
-          "source": "Arcana Unleashed",
-          "parent": "Monk"
-        },
-        {
-          "nameRu": "Клятва преданности",
-          "nameOriginal": "Oath of Devotion",
-          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-devotion",
-          "source": "Player's Handbook 2024",
-          "parent": "Paladin"
-        },
-        {
-          "nameRu": "Клятва славы",
-          "nameOriginal": "Oath of Glory",
-          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-glory",
-          "source": "Player's Handbook 2024",
-          "parent": "Paladin"
-        },
-        {
-          "nameRu": "Клятва возмездия",
-          "nameOriginal": "Oath of Vengeance",
-          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-vengeance",
-          "source": "Player's Handbook 2024",
-          "parent": "Paladin"
-        },
-        {
-          "nameRu": "Клятва древних",
-          "nameOriginal": "Oath of the Ancients",
-          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-the-ancients",
-          "source": "Player's Handbook 2024",
-          "parent": "Paladin"
-        },
-        {
-          "nameRu": "Клятва благородных гениев",
-          "nameOriginal": "Oath of the Noble Genies",
-          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-the-noble-genies",
-          "source": "Forgotten Realms: Heroes of Faerun",
-          "parent": "Paladin"
-        },
-        {
-          "nameRu": "Охотник",
-          "nameOriginal": "Hunter",
-          "url": "https://next.dnd.su/class/ranger#subclass.hunter-ranger",
-          "source": "Player's Handbook 2024",
-          "parent": "Ranger"
-        },
-        {
-          "nameRu": "Повелитель зверей",
-          "nameOriginal": "Beast Master",
-          "url": "https://next.dnd.su/class/ranger#subclass.beastmaster",
-          "source": "Player's Handbook 2024",
-          "parent": "Ranger"
-        },
-        {
-          "nameRu": "Странник фей",
-          "nameOriginal": "Fey Wanderer",
-          "url": "https://next.dnd.su/class/ranger#subclass.fey-wanderer",
-          "source": "Player's Handbook 2024",
-          "parent": "Ranger"
-        },
-        {
-          "nameRu": "Сумрачный охотник",
-          "nameOriginal": "Gloom Stalker",
-          "url": "https://next.dnd.su/class/ranger#subclass.gloom-stalker",
-          "source": "Player's Handbook 2024",
-          "parent": "Ranger"
-        },
-        {
-          "nameRu": "Зимний ходок",
-          "nameOriginal": "Winter Walker",
-          "url": "https://next.dnd.su/class/ranger#subclass.winter-walker",
-          "source": "Forgotten Realms: Heroes of Faerun",
-          "parent": "Ranger"
-        },
-        {
-          "nameRu": "Страж пустошей",
-          "nameOriginal": "Hollow Warden",
-          "url": "https://next.dnd.su/class/ranger#subclass.hollow-warden",
-          "source": "Ravenloft: The Horrors Within",
-          "parent": "Ranger"
-        },
-        {
-          "nameRu": "Вор",
-          "nameOriginal": "Thief",
-          "url": "https://next.dnd.su/class/rogue#subclass.thief",
-          "source": "Player's Handbook 2024",
-          "parent": "Rogue"
-        },
-        {
-          "nameRu": "Клинок душ",
-          "nameOriginal": "Soulknife",
-          "url": "https://next.dnd.su/class/rogue#subclass.soulknife",
-          "source": "Player's Handbook 2024",
-          "parent": "Rogue"
-        },
-        {
-          "nameRu": "Мистический ловкач",
-          "nameOriginal": "Arcane Trickster",
-          "url": "https://next.dnd.su/class/rogue#subclass.arcane-trickster",
-          "source": "Player's Handbook 2024",
-          "parent": "Rogue"
-        },
-        {
-          "nameRu": "Убийца",
-          "nameOriginal": "Assassin",
-          "url": "https://next.dnd.su/class/rogue#subclass.assassin",
-          "source": "Player's Handbook 2024",
-          "parent": "Rogue"
-        },
-        {
-          "nameRu": "Наследник троицы",
-          "nameOriginal": "Scion of the Three",
-          "url": "https://next.dnd.su/class/rogue#subclass.scion-of-the-three",
-          "source": "Forgotten Realms: Heroes of Faerun",
-          "parent": "Rogue"
-        },
-        {
-          "nameRu": "Фантом",
-          "nameOriginal": "Phantom",
-          "url": "https://next.dnd.su/class/rogue#subclass.phantom",
-          "source": "Ravenloft: The Horrors Within",
-          "parent": "Rogue"
-        },
-        {
-          "nameRu": "Аберрантное чародейство",
-          "nameOriginal": "Aberrant Sorcery",
-          "url": "https://next.dnd.su/class/sorcerer#subclass.aberrant-sorcery",
-          "source": "Player's Handbook 2024",
-          "parent": "Sorcerer"
-        },
-        {
-          "nameRu": "Драконье чародейство",
-          "nameOriginal": "Draconic Sorcery",
-          "url": "https://next.dnd.su/class/sorcerer#subclass.draconic-sorcery",
-          "source": "Player's Handbook 2024",
-          "parent": "Sorcerer"
-        },
-        {
-          "nameRu": "Заводное чародейство",
-          "nameOriginal": "Clockwork Sorcery",
-          "url": "https://next.dnd.su/class/sorcerer#subclass.clockwork-sorcery",
-          "source": "Player's Handbook 2024",
-          "parent": "Sorcerer"
-        },
-        {
-          "nameRu": "Чародейство дикой магии",
-          "nameOriginal": "Wild Magic Sorcery",
-          "url": "https://next.dnd.su/class/sorcerer#subclass.wild-magic-sorcery",
-          "source": "Player's Handbook 2024",
-          "parent": "Sorcerer"
-        },
-        {
-          "nameRu": "Чародейство чаропламени",
-          "nameOriginal": "Spellfire Sorcery",
-          "url": "https://next.dnd.su/class/sorcerer#subclass.spellfire-sorcery",
-          "source": "Forgotten Realms: Heroes of Faerun",
-          "parent": "Sorcerer"
-        },
-        {
-          "nameRu": "Теневое чародейство",
-          "nameOriginal": "Shadow Sorcery",
-          "url": "https://next.dnd.su/class/sorcerer#subclass.shadow-sorcery",
-          "source": "Ravenloft: The Horrors Within",
-          "parent": "Sorcerer"
-        },
-        {
-          "nameRu": "Архифея",
-          "nameOriginal": "Archfey Patron",
-          "url": "https://next.dnd.su/class/warlock#subclass.archfey",
-          "source": "Player's Handbook 2024",
-          "parent": "Warlock"
-        },
-        {
-          "nameRu": "Великий древний",
-          "nameOriginal": "Great Old One Patron",
-          "url": "https://next.dnd.su/class/warlock#subclass.greate-old-one-patron",
-          "source": "Player's Handbook 2024",
-          "parent": "Warlock"
-        },
-        {
-          "nameRu": "Исчадие",
-          "nameOriginal": "Fiend Patron",
-          "url": "https://next.dnd.su/class/warlock#subclass.fiend-patron",
-          "source": "Player's Handbook 2024",
-          "parent": "Warlock"
-        },
-        {
-          "nameRu": "Небожитель",
-          "nameOriginal": "Celestial Patron",
-          "url": "https://next.dnd.su/class/warlock#subclass.celestial-patron",
-          "source": "Player's Handbook 2024",
-          "parent": "Warlock"
-        },
-        {
-          "nameRu": "Нежить",
-          "nameOriginal": "Undead Patron",
-          "url": "https://next.dnd.su/class/warlock#subclass.undead",
-          "source": "Ravenloft: The Horrors Within",
-          "parent": "Warlock"
-        },
-        {
-          "nameRu": "Предтеча",
-          "nameOriginal": "Vestige Patron",
-          "url": "https://next.dnd.su/class/warlock#subclass.vestige-patron",
-          "source": "Arcana Unleashed",
-          "parent": "Warlock"
         },
         {
           "nameRu": "Воплотитель",
@@ -1370,6 +1069,470 @@
           "url": "https://next.dnd.su/class/wizard#subclass.bladesinger",
           "source": "Forgotten Realms: Heroes of Faerun",
           "parent": "Wizard"
+        },
+        {
+          "nameRu": "Круг звёзд",
+          "nameOriginal": "Circle of Stars",
+          "url": "https://next.dnd.su/class/druid#subclass.stars",
+          "source": "Player's Handbook 2024",
+          "parent": "Druid"
+        },
+        {
+          "nameRu": "Круг земли",
+          "nameOriginal": "Circle of the Land",
+          "url": "https://next.dnd.su/class/druid#subclass.land",
+          "source": "Player's Handbook 2024",
+          "parent": "Druid"
+        },
+        {
+          "nameRu": "Круг луны",
+          "nameOriginal": "Circle of the Moon",
+          "url": "https://next.dnd.su/class/druid#subclass.moon",
+          "source": "Player's Handbook 2024",
+          "parent": "Druid"
+        },
+        {
+          "nameRu": "Круг моря",
+          "nameOriginal": "Circle of the Sea",
+          "url": "https://next.dnd.su/class/druid#subclass.sea",
+          "source": "Player's Handbook 2024",
+          "parent": "Druid"
+        },
+        {
+          "nameRu": "Домен войны",
+          "nameOriginal": "War Domain",
+          "url": "https://next.dnd.su/class/cleric#subclass.war-domain",
+          "source": "Player's Handbook 2024",
+          "parent": "Cleric"
+        },
+        {
+          "nameRu": "Домен жизни",
+          "nameOriginal": "Life Domain",
+          "url": "https://next.dnd.su/class/cleric#subclass.life-domain",
+          "source": "Player's Handbook 2024",
+          "parent": "Cleric"
+        },
+        {
+          "nameRu": "Домен обмана",
+          "nameOriginal": "Trickery Domain",
+          "url": "https://next.dnd.su/class/cleric#subclass.trickery-domain",
+          "source": "Player's Handbook 2024",
+          "parent": "Cleric"
+        },
+        {
+          "nameRu": "Домен света",
+          "nameOriginal": "Light Domain",
+          "url": "https://next.dnd.su/class/cleric#subclass.light-domain",
+          "source": "Player's Handbook 2024",
+          "parent": "Cleric"
+        },
+        {
+          "nameRu": "Домен знаний",
+          "nameOriginal": "Knowledge Domain",
+          "url": "https://next.dnd.su/class/cleric#subclass.knowledge-domain",
+          "source": "Forgotten Realms: Heroes of Faerun",
+          "parent": "Cleric"
+        },
+        {
+          "nameRu": "Домен упокоения",
+          "nameOriginal": "Grave Domain",
+          "url": "https://next.dnd.su/class/cleric#subclass.grave-domain",
+          "source": "Ravenloft: The Horrors Within",
+          "parent": "Cleric"
+        },
+        {
+          "nameRu": "Домен магии",
+          "nameOriginal": "Arcana Domain",
+          "url": "https://next.dnd.su/class/cleric#subclass.arcana-domain",
+          "source": "Arcana Unleashed",
+          "parent": "Cleric"
+        },
+        {
+          "nameRu": "Архифея",
+          "nameOriginal": "Archfey Patron",
+          "url": "https://next.dnd.su/class/warlock#subclass.archfey",
+          "source": "Player's Handbook 2024",
+          "parent": "Warlock"
+        },
+        {
+          "nameRu": "Великий древний",
+          "nameOriginal": "Great Old One Patron",
+          "url": "https://next.dnd.su/class/warlock#subclass.greate-old-one-patron",
+          "source": "Player's Handbook 2024",
+          "parent": "Warlock"
+        },
+        {
+          "nameRu": "Исчадие",
+          "nameOriginal": "Fiend Patron",
+          "url": "https://next.dnd.su/class/warlock#subclass.fiend-patron",
+          "source": "Player's Handbook 2024",
+          "parent": "Warlock"
+        },
+        {
+          "nameRu": "Небожитель",
+          "nameOriginal": "Celestial Patron",
+          "url": "https://next.dnd.su/class/warlock#subclass.celestial-patron",
+          "source": "Player's Handbook 2024",
+          "parent": "Warlock"
+        },
+        {
+          "nameRu": "Нежить",
+          "nameOriginal": "Undead Patron",
+          "url": "https://next.dnd.su/class/warlock#subclass.undead",
+          "source": "Ravenloft: The Horrors Within",
+          "parent": "Warlock"
+        },
+        {
+          "nameRu": "Предтеча",
+          "nameOriginal": "Vestige Patron",
+          "url": "https://next.dnd.su/class/warlock#subclass.vestige-patron",
+          "source": "Arcana Unleashed",
+          "parent": "Warlock"
+        },
+        {
+          "nameRu": "Космический покровитель",
+          "nameOriginal": "Cosmic Patron",
+          "url": "https://next.dnd.su/class/warlock#subclass.cosmic",
+          "parent": "Warlock",
+          "source": ""
+        },
+        {
+          "nameRu": "Воин открытой ладони",
+          "nameOriginal": "Warrior of the Open Hand",
+          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-the-hand",
+          "source": "Player's Handbook 2024",
+          "parent": "Monk"
+        },
+        {
+          "nameRu": "Воин тени",
+          "nameOriginal": "Warrior of Shadow",
+          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-shadow",
+          "source": "Player's Handbook 2024",
+          "parent": "Monk"
+        },
+        {
+          "nameRu": "Воин милосердия",
+          "nameOriginal": "Warrior of Mercy",
+          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-mercy",
+          "source": "Player's Handbook 2024",
+          "parent": "Monk"
+        },
+        {
+          "nameRu": "Воин cтихий",
+          "nameOriginal": "Warrior of the Elements",
+          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-the-elements",
+          "source": "Player's Handbook 2024",
+          "parent": "Monk"
+        },
+        {
+          "nameRu": "Мистический воин",
+          "nameOriginal": "Warrior of the Mystic Arts",
+          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-the-mystic-arts",
+          "source": "Arcana Unleashed",
+          "parent": "Monk"
+        },
+        {
+          "nameRu": "Воин таинственных отваров",
+          "nameOriginal": "Warrior of the Mystic Brews",
+          "url": "https://next.dnd.su/class/monk#subclass.mystic-brews",
+          "parent": "Monk",
+          "source": ""
+        },
+        {
+          "nameRu": "Воин змеи",
+          "nameOriginal": "Warrior of the Serpent",
+          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-the-serpent",
+          "parent": "Monk",
+          "source": ""
+        },
+        {
+          "nameRu": "Клятва преданности",
+          "nameOriginal": "Oath of Devotion",
+          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-devotion",
+          "source": "Player's Handbook 2024",
+          "parent": "Paladin"
+        },
+        {
+          "nameRu": "Клятва славы",
+          "nameOriginal": "Oath of Glory",
+          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-glory",
+          "source": "Player's Handbook 2024",
+          "parent": "Paladin"
+        },
+        {
+          "nameRu": "Клятва возмездия",
+          "nameOriginal": "Oath of Vengeance",
+          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-vengeance",
+          "source": "Player's Handbook 2024",
+          "parent": "Paladin"
+        },
+        {
+          "nameRu": "Клятва древних",
+          "nameOriginal": "Oath of the Ancients",
+          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-the-ancients",
+          "source": "Player's Handbook 2024",
+          "parent": "Paladin"
+        },
+        {
+          "nameRu": "Клятва благородных гениев",
+          "nameOriginal": "Oath of the Noble Genies",
+          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-the-noble-genies",
+          "source": "Forgotten Realms: Heroes of Faerun",
+          "parent": "Paladin"
+        },
+        {
+          "nameRu": "Вор",
+          "nameOriginal": "Thief",
+          "url": "https://next.dnd.su/class/rogue#subclass.thief",
+          "source": "Player's Handbook 2024",
+          "parent": "Rogue"
+        },
+        {
+          "nameRu": "Клинок душ",
+          "nameOriginal": "Soulknife",
+          "url": "https://next.dnd.su/class/rogue#subclass.soulknife",
+          "source": "Player's Handbook 2024",
+          "parent": "Rogue"
+        },
+        {
+          "nameRu": "Мистический ловкач",
+          "nameOriginal": "Arcane Trickster",
+          "url": "https://next.dnd.su/class/rogue#subclass.arcane-trickster",
+          "source": "Player's Handbook 2024",
+          "parent": "Rogue"
+        },
+        {
+          "nameRu": "Убийца",
+          "nameOriginal": "Assassin",
+          "url": "https://next.dnd.su/class/rogue#subclass.assassin",
+          "source": "Player's Handbook 2024",
+          "parent": "Rogue"
+        },
+        {
+          "nameRu": "Наследник троицы",
+          "nameOriginal": "Scion of the Three",
+          "url": "https://next.dnd.su/class/rogue#subclass.scion-of-the-three",
+          "source": "Forgotten Realms: Heroes of Faerun",
+          "parent": "Rogue"
+        },
+        {
+          "nameRu": "Фантом",
+          "nameOriginal": "Phantom",
+          "url": "https://next.dnd.su/class/rogue#subclass.phantom",
+          "source": "Ravenloft: The Horrors Within",
+          "parent": "Rogue"
+        },
+        {
+          "nameRu": "Охотник",
+          "nameOriginal": "Hunter",
+          "url": "https://next.dnd.su/class/ranger#subclass.hunter-ranger",
+          "source": "Player's Handbook 2024",
+          "parent": "Ranger"
+        },
+        {
+          "nameRu": "Повелитель зверей",
+          "nameOriginal": "Beast Master",
+          "url": "https://next.dnd.su/class/ranger#subclass.beastmaster",
+          "source": "Player's Handbook 2024",
+          "parent": "Ranger"
+        },
+        {
+          "nameRu": "Странник фей",
+          "nameOriginal": "Fey Wanderer",
+          "url": "https://next.dnd.su/class/ranger#subclass.fey-wanderer",
+          "source": "Player's Handbook 2024",
+          "parent": "Ranger"
+        },
+        {
+          "nameRu": "Сумрачный охотник",
+          "nameOriginal": "Gloom Stalker",
+          "url": "https://next.dnd.su/class/ranger#subclass.gloom-stalker",
+          "source": "Player's Handbook 2024",
+          "parent": "Ranger"
+        },
+        {
+          "nameRu": "Зимний ходок",
+          "nameOriginal": "Winter Walker",
+          "url": "https://next.dnd.su/class/ranger#subclass.winter-walker",
+          "source": "Forgotten Realms: Heroes of Faerun",
+          "parent": "Ranger"
+        },
+        {
+          "nameRu": "Страж пустошей",
+          "nameOriginal": "Hollow Warden",
+          "url": "https://next.dnd.su/class/ranger#subclass.hollow-warden",
+          "source": "Ravenloft: The Horrors Within",
+          "parent": "Ranger"
+        },
+        {
+          "nameRu": "Аберрантное чародейство",
+          "nameOriginal": "Aberrant Sorcery",
+          "url": "https://next.dnd.su/class/sorcerer#subclass.aberrant-sorcery",
+          "source": "Player's Handbook 2024",
+          "parent": "Sorcerer"
+        },
+        {
+          "nameRu": "Драконье чародейство",
+          "nameOriginal": "Draconic Sorcery",
+          "url": "https://next.dnd.su/class/sorcerer#subclass.draconic-sorcery",
+          "source": "Player's Handbook 2024",
+          "parent": "Sorcerer"
+        },
+        {
+          "nameRu": "Заводное чародейство",
+          "nameOriginal": "Clockwork Sorcery",
+          "url": "https://next.dnd.su/class/sorcerer#subclass.clockwork-sorcery",
+          "source": "Player's Handbook 2024",
+          "parent": "Sorcerer"
+        },
+        {
+          "nameRu": "Чародейство дикой магии",
+          "nameOriginal": "Wild Magic Sorcery",
+          "url": "https://next.dnd.su/class/sorcerer#subclass.wild-magic-sorcery",
+          "source": "Player's Handbook 2024",
+          "parent": "Sorcerer"
+        },
+        {
+          "nameRu": "Чародейство чаропламени",
+          "nameOriginal": "Spellfire Sorcery",
+          "url": "https://next.dnd.su/class/sorcerer#subclass.spellfire-sorcery",
+          "source": "Forgotten Realms: Heroes of Faerun",
+          "parent": "Sorcerer"
+        },
+        {
+          "nameRu": "Теневое чародейство",
+          "nameOriginal": "Shadow Sorcery",
+          "url": "https://next.dnd.su/class/sorcerer#subclass.shadow-sorcery",
+          "source": "Ravenloft: The Horrors Within",
+          "parent": "Sorcerer"
+        },
+        {
+          "nameRu": "Кровь",
+          "nameOriginal": "Blood",
+          "url": "https://next.dnd.su/class/wow/death-knight#specialization.blood",
+          "parent": "Death Knight",
+          "parentUrl": "https://next.dnd.su/class/wow/death-knight",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Лёд",
+          "nameOriginal": "Frost",
+          "url": "https://next.dnd.su/class/wow/death-knight#specialization.Frost",
+          "parent": "Death Knight",
+          "parentUrl": "https://next.dnd.su/class/wow/death-knight",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Нечестивости",
+          "nameOriginal": "Unholy",
+          "url": "https://next.dnd.su/class/wow/death-knight#specialization.unholy",
+          "parent": "Death Knight",
+          "parentUrl": "https://next.dnd.su/class/wow/death-knight",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Архифея",
+          "nameOriginal": "Archfey",
+          "url": "https://next.dnd.su/class/wow/warlock#subclass.archfey",
+          "parent": "Warlock",
+          "parentUrl": "https://next.dnd.su/class/wow/warlock",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Великий древний",
+          "nameOriginal": "Greate Old One Patron",
+          "url": "https://next.dnd.su/class/wow/warlock#subclass.greate-old-one-patron",
+          "parent": "Warlock",
+          "parentUrl": "https://next.dnd.su/class/wow/warlock",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Исчадие",
+          "nameOriginal": "Fiend Patron",
+          "url": "https://next.dnd.su/class/wow/warlock#subclass.fiend-patron",
+          "parent": "Warlock",
+          "parentUrl": "https://next.dnd.su/class/wow/warlock",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Небожитель",
+          "nameOriginal": "Celestial Patron",
+          "url": "https://next.dnd.su/class/wow/warlock#subclass.celestial-patron",
+          "parent": "Warlock",
+          "parentUrl": "https://next.dnd.su/class/wow/warlock",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Нежить",
+          "nameOriginal": "Undead",
+          "url": "https://next.dnd.su/class/wow/warlock#subclass.undead",
+          "parent": "Warlock",
+          "parentUrl": "https://next.dnd.su/class/wow/warlock",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Предтеча",
+          "nameOriginal": "Vestige Patron",
+          "url": "https://next.dnd.su/class/wow/warlock#subclass.vestige-patron",
+          "parent": "Warlock",
+          "parentUrl": "https://next.dnd.su/class/wow/warlock",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Космический покровитель",
+          "nameOriginal": "Cosmic Patron",
+          "url": "https://next.dnd.su/class/wow/warlock#subclass.cosmic",
+          "parent": "Warlock",
+          "parentUrl": "https://next.dnd.su/class/wow/warlock",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Борец ринга",
+          "nameOriginal": "Squared Circle",
+          "url": "https://next.dnd.su/class/pugilist#subclass.squared-circle",
+          "parent": "Pugilist",
+          "parentUrl": "https://next.dnd.su/class/pugilist",
+          "source": "The Pugilist Class"
+        },
+        {
+          "nameRu": "Бретёр",
+          "nameOriginal": "Piss And Vinegar",
+          "url": "https://next.dnd.su/class/pugilist#subclass.piss-and-vinegar",
+          "parent": "Pugilist",
+          "parentUrl": "https://next.dnd.su/class/pugilist",
+          "source": "The Pugilist Class"
+        },
+        {
+          "nameRu": "Бродяга и дворняга",
+          "nameOriginal": "Dog And Hound",
+          "url": "https://next.dnd.su/class/pugilist#subclass.dog-and-hound",
+          "parent": "Pugilist",
+          "parentUrl": "https://next.dnd.su/class/pugilist",
+          "source": "The Pugilist Class"
+        },
+        {
+          "nameRu": "Десница ужаса",
+          "nameOriginal": "Hand Of Dread",
+          "url": "https://next.dnd.su/class/pugilist#subclass.hand-of-dread",
+          "parent": "Pugilist",
+          "parentUrl": "https://next.dnd.su/class/pugilist",
+          "source": "The Pugilist Class"
+        },
+        {
+          "nameRu": "Знаток науки тумаков",
+          "nameOriginal": "Sweet Science",
+          "url": "https://next.dnd.su/class/pugilist#subclass.sweet-science",
+          "parent": "Pugilist",
+          "parentUrl": "https://next.dnd.su/class/pugilist",
+          "source": "The Pugilist Class"
+        },
+        {
+          "nameRu": "Святой улиц",
+          "nameOriginal": "Street Saint",
+          "url": "https://next.dnd.su/class/pugilist#subclass.street-saint",
+          "parent": "Pugilist",
+          "parentUrl": "https://next.dnd.su/class/pugilist",
+          "source": "The Pugilist Class"
         }
       ]
     }

@@ -5,6 +5,7 @@ export function startBattle(b: BattleData): BattleData {
     ...b,
     status: "running",
     round: 1,
+    furthestRound: 1,
     turn: 0,
     participants: [...b.participants].sort(
       (a, c) => c.initiative - a.initiative,
@@ -32,7 +33,40 @@ export function moveTurn(
     round--;
     turn = b.participants.length - 1;
   }
-  return { ...b, round, turn };
+  const furthestRound = b.furthestRound ?? b.round;
+  if (round <= furthestRound) return { ...b, round, turn, furthestRound };
+  return {
+    ...b,
+    round,
+    turn,
+    furthestRound: round,
+    participants: b.participants.map(tickCombatantEffects),
+  };
+}
+
+function tickCombatantEffects(combatant: Combatant): Combatant {
+  const snapshot = combatant.effectSnapshot;
+  if (!snapshot?.effects.some((effect) => effect.remaining !== null))
+    return combatant;
+  const effects = snapshot.effects.flatMap((effect) => {
+    if (effect.remaining === null) return [effect];
+    return effect.remaining === 1
+      ? []
+      : [{ ...effect, remaining: effect.remaining - 1 }];
+  });
+  const acBySource = new Map<string, number>();
+  for (const effect of effects)
+    if (effect.acBonus !== null)
+      acBySource.set(effect.source.toLowerCase(), effect.acBonus);
+  const ac = [...acBySource.values()].reduce(
+    (total, bonus) => total + bonus,
+    snapshot.baseAc,
+  );
+  return {
+    ...combatant,
+    ac: Math.max(0, Math.min(100, ac)),
+    effectSnapshot: { ...snapshot, effects },
+  };
 }
 export function combatDamage(
   p: Combatant,

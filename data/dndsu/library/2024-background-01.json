@@ -1,0 +1,2612 @@
+{
+  "schemaVersion": 1,
+  "name": "Справочник ДнД.су · 2024-background · 01",
+  "sources": [
+    {
+      "id": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "shortName": "Каталог 2024 · Forgotten Realms: Heroes of Faerûn",
+      "fullNameRu": "Каталог ДнД.су · Forgotten Realms: Heroes of Faerûn",
+      "fullNameOriginal": "Forgotten Realms: Heroes of Faerûn",
+      "edition": "5e_2024",
+      "publisher": "Справочник ДнД.су",
+      "releaseDate": null,
+      "contentType": "MetadataOnly",
+      "licenseType": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке."
+    },
+    {
+      "id": "dd248841-b313-56b0-a997-0414645f714f",
+      "shortName": "Каталог 2024 · Arcana Unleashed",
+      "fullNameRu": "Освобождённая магия",
+      "fullNameOriginal": "Arcana Unleashed",
+      "edition": "5e_2024",
+      "publisher": "Справочник ДнД.су",
+      "releaseDate": null,
+      "contentType": "MetadataOnly",
+      "licenseType": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке."
+    },
+    {
+      "id": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "shortName": "Каталог 2024 · Eberron: Forge of the Artificer",
+      "fullNameRu": "Эберрон: кузница изобретателя",
+      "fullNameOriginal": "Eberron: Forge of the Artificer",
+      "edition": "5e_2024",
+      "publisher": "Справочник ДнД.су",
+      "releaseDate": null,
+      "contentType": "MetadataOnly",
+      "licenseType": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке."
+    },
+    {
+      "id": "f3d24332-ca77-5238-a7cf-5f4418fc95c9",
+      "shortName": "Каталог 2024 · Ravenloft: The Horrors Within",
+      "fullNameRu": "Равенлофт: ужасы внутри",
+      "fullNameOriginal": "Ravenloft: The Horrors Within",
+      "edition": "5e_2024",
+      "publisher": "Справочник ДнД.су",
+      "releaseDate": null,
+      "contentType": "MetadataOnly",
+      "licenseType": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке."
+    },
+    {
+      "id": "0fdcba6d-c99a-5fab-a5a4-7102749db0c9",
+      "shortName": "Каталог 2024 · Lorwyn: First Light",
+      "fullNameRu": "Лорвин: первый свет",
+      "fullNameOriginal": "Lorwyn: First Light",
+      "edition": "5e_2024",
+      "publisher": "Справочник ДнД.су",
+      "releaseDate": null,
+      "contentType": "MetadataOnly",
+      "licenseType": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке."
+    },
+    {
+      "id": "cc5fd0c1-9f2a-5c56-a6bb-b163ae0b835a",
+      "shortName": "Каталог 2024 · Astarion’s Book of Hungers",
+      "fullNameRu": "Каталог ДнД.су · Astarion’s Book of Hungers",
+      "fullNameOriginal": "Astarion’s Book of Hungers",
+      "edition": "5e_2024",
+      "publisher": "Справочник ДнД.су",
+      "releaseDate": null,
+      "contentType": "MetadataOnly",
+      "licenseType": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке."
+    }
+  ],
+  "entries": [
+    {
+      "id": "067ee136-b9b8-5c12-abac-0d13aef1f64b",
+      "edition": "5e_2024",
+      "nameRu": "Обитатель зон мёртвой магии",
+      "nameOriginal": "Dead Magic Dweller",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/908-dead-magic-dweller/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Выживание и Медицина. Связанная особенность — Лекарь. Инструменты персонажа — Инструменты кожевника.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Телосложение, Мудрость"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Лекарь"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Выживание и Медицина"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты кожевника"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Палица, Инструменты кожевника, Спальник, Одеяло, Комплект целителя, Шест, Рационы на 3 дня, Палатка, Огниво, 5 Факелов, Дорожная одежда, Бурдюк и 32 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "075da22b-4902-5718-a291-d334283529e8",
+      "edition": "5e_2024",
+      "nameRu": "Эксперимент Зари мироздания",
+      "nameOriginal": "Cosmic Dawn Experiment",
+      "sourceBookId": "dd248841-b313-56b0-a997-0414645f714f",
+      "source": "https://next.dnd.su/backgrounds/956-cosmic-dawn-experiment/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Атлетика и Выживание. Связанная особенность — Преобразованная анатомия. Инструменты персонажа — Ремесленные инструменты.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Ловкость, Телосложение"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Преобразованная анатомия"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Атлетика и Выживание"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Ремесленные инструменты"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Ремесленные инструменты (выбранные выше), Рюкзак, Мантия, Дорожная одежда, 30 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "091e37a8-2266-55a1-a8fd-9bc53dacc666",
+      "edition": "5e_2024",
+      "nameRu": "Наследник дома Медани",
+      "nameOriginal": "House Medani Heir",
+      "sourceBookId": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "source": "https://next.dnd.su/backgrounds/941-house-medani-heir/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Проницательность и Расследование. Связанная особенность — Метка обнаружения. Инструменты персонажа — Набор для грима.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Интеллект, Мудрость"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Метка обнаружения"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Проницательность и Расследование"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Набор для грима"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Набор для грима, Отличная одежда, 10 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "19059967-d1f0-50de-ac2e-801416c6b193",
+      "edition": "5e_2024",
+      "nameRu": "Ищущий бурю Горнила",
+      "nameOriginal": "Crucible Storm Chaser",
+      "sourceBookId": "dd248841-b313-56b0-a997-0414645f714f",
+      "source": "https://next.dnd.su/backgrounds/958-crucible-storm-chaser/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Атлетика и Природа. Связанная особенность — Магическая перегрузка. Инструменты персонажа — Инструменты стеклодува.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Телосложение, Интеллект"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Магическая перегрузка"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Атлетика и Природа"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты стеклодува"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Инструменты стеклодува, Рюкзак, Верёвка, Дорожная одежда, 15 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "1e28073e-36f3-5485-ad34-f91eb79eb292",
+      "edition": "5e_2024",
+      "nameRu": "Шпион Самоцветного конклава",
+      "nameOriginal": "Bejeweled Conclave Spy",
+      "sourceBookId": "dd248841-b313-56b0-a997-0414645f714f",
+      "source": "https://next.dnd.su/backgrounds/955-bejeweled-conclave-spy/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Восприятие и Обман. Связанная особенность — Колдовское красноречие. Инструменты персонажа — Набор для грима.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Мудрость, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Колдовское красноречие"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Восприятие и Обман"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Набор для грима"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Набор для грима, Отличная одежда, Духи, 5 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "26bac9a2-8d87-55dc-a4ab-88170e4fc3f1",
+      "edition": "5e_2024",
+      "nameRu": "Наёмник Жентарима",
+      "nameOriginal": "Zhentarim Mercenary",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/924-zhentarim-mercenary/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Восприятие и Запугивание. Связанная особенность — Бандит Жентарима. Инструменты персонажа — Набор для фальсификации.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Ловкость, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Бандит Жентарима"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Восприятие и Запугивание"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Набор для фальсификации"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Дубинка, Кинжал, Набор для фальсификации, Отличная одежда, Направленный фонарь, 3 фляги Масла, 2 Кошеля, Леска, Трутница и 11 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "30ad690c-1e37-576f-a9fc-468c8959b49b",
+      "edition": "5e_2024",
+      "nameRu": "Смотритель Изумрудного анклава",
+      "nameOriginal": "Emerald Enclave Caretaker",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/910-emerald-enclave-caretaker/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Выживание и Природа. Связанная особенность — Птенец Изумрудного анклава. Инструменты персонажа — Набор травника.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Телосложение, Интеллект, Мудрость"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Птенец Изумрудного анклава"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Выживание и Природа"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Набор травника"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Короткий лук, 20 Стрел, Набор травника, Спальник, Одеяло, Кошель, Палатка, Дорожная одежда и 13 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "352ea4a1-c6e1-51d6-a897-fdcd968313b8",
+      "edition": "5e_2024",
+      "nameRu": "Наследник дома Каннит",
+      "nameOriginal": "House Cannith Heir",
+      "sourceBookId": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "source": "https://next.dnd.su/backgrounds/935-house-cannith-heir/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Ловкость рук и Расследование. Связанная особенность — Метка создания. Инструменты персонажа — Ремесленные инструменты.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Ловкость, Интеллект"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Метка создания"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Ловкость рук и Расследование"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Ремесленные инструменты"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Ремесленные инструменты (выбранные выше), Ломик, Отличная одежда, 2 Кошеля, 17 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "37e61d56-8974-5e41-af7d-bbe82d8598f3",
+      "edition": "5e_2024",
+      "nameRu": "Странник Туманов",
+      "nameOriginal": "Mist Wanderer",
+      "sourceBookId": "f3d24332-ca77-5238-a7cf-5f4418fc95c9",
+      "source": "https://next.dnd.su/backgrounds/952-mist-wanderer/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Выживание и Скрытность. Связанная особенность — Черта Тёмного дара на ваш выбор (рекомендуется Ходок туманов). Инструменты персонажа — Выберите один тип Ремесленных инструментов.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Телосложение, Мудрость"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Черта Тёмного дара на ваш выбор (рекомендуется Ходок туманов)"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Выживание и Скрытность"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Выберите один тип Ремесленных инструментов"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Ремесленные инструменты (выбранные выше), Лампа, 5 фляг Масла, Кошель, Верёвка, Трутница, Дорожная одежда, 30 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "3dfe0502-c866-5ed3-a3e8-e9d13ddf9dee",
+      "edition": "5e_2024",
+      "nameRu": "Рашеменский странник",
+      "nameOriginal": "Rashemi Wanderer",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/921-rashemi-wanderer/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Восприятие и Запугивание. Связанная особенность — Крепкий. Инструменты персонажа — Инструменты картографа.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Телосложение, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Крепкий"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Восприятие и Запугивание"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты картографа"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Инструменты картографа, Рюкзак, Спальник, Направленный фонарь, 3 фляги Масла, Верёвка, Трутница, Дорожная одежда, Бурдюк и 23 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "46334635-f5fc-54b7-ab58-1c32c44a4908",
+      "edition": "5e_2024",
+      "nameRu": "Чондатский флибустьер",
+      "nameOriginal": "Chondathan Freebooter",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/907-chondathan-freebooter/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Атлетика и Ловкость рук. Связанная особенность — Одарённый. Инструменты персонажа — Инструменты ткача.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Ловкость, Мудрость"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Одарённый"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Атлетика и Ловкость рук"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты ткача"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Кинжал, Инструменты ткача, Рюкзак, Металлические шарики, Корзина, Спальник, Ведро, Рационы на 3 дня, Верёвка, Сигнальный свисток, Дорожная одежда и 38 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "4dec8b61-f12d-53a1-abcb-4408c6a9a917",
+      "edition": "5e_2024",
+      "nameRu": "Наследник дома Фиарлан",
+      "nameOriginal": "House Phiarlan Heir",
+      "sourceBookId": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "source": "https://next.dnd.su/backgrounds/943-house-phiarlan-heir/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Обман и Скрытность. Связанная особенность — Метка тени. Инструменты персонажа — Набор для грима.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Мудрость, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Метка тени"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Обман и Скрытность"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Набор для грима"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Набор для грима, Отличная одежда, 10 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "588d0cca-61b7-5616-aa16-889107a364a7",
+      "edition": "5e_2024",
+      "nameRu": "Наследник дома Денейт",
+      "nameOriginal": "House Deneith Heir",
+      "sourceBookId": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "source": "https://next.dnd.su/backgrounds/936-house-deneith-heir/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Восприятие и Проницательность. Связанная особенность — Метка стража. Инструменты персонажа — Игровой набор.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Телосложение, Мудрость"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Метка стража"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Восприятие и Проницательность"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Игровой набор"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Копьё, Короткий лук, 20 Стрелы, Игровой набор (выбранный выше), Отличная одежда, Комплект целителя, Колчан, 1 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "5da88094-c2ea-566e-a346-db06be4f2ee3",
+      "edition": "5e_2024",
+      "nameRu": "Рекрут Могильного ковенанта",
+      "nameOriginal": "Covenant of the Grave Recruit",
+      "sourceBookId": "dd248841-b313-56b0-a997-0414645f714f",
+      "source": "https://next.dnd.su/backgrounds/957-covenant-of-the-grave-recruit/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: История и Медицина. Связанная особенность — Колдовской могильщик. Инструменты персонажа — Набор травника.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Интеллект, Мудрость"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Колдовской могильщик"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "История и Медицина"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Набор травника"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Кинжал, Набор травника, Книга (анатомия), Лопата, 16 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "5ee93e6e-4a07-5a14-ac07-1d470be871fc",
+      "edition": "5e_2024",
+      "nameRu": "Изгнанник Владык теней",
+      "nameOriginal": "Shadowmasters Exile",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/922-shadowmasters-exile/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Акробатика и Скрытность. Связанная особенность — Неистово атакующий. Инструменты персонажа — Воровские инструменты.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Интеллект, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Неистово атакующий"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Акробатика и Скрытность"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Воровские инструменты"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) 2 Кинжала, Воровские инструменты, Калтропы, Крюк-кошка, Железные шипы, Зеркало, 2 Кошеля, Верёвка, Дорожная одежда и 3 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "64730d90-17b3-50c8-afdd-f1dea834bd3d",
+      "edition": "5e_2024",
+      "nameRu": "Хранитель мифала",
+      "nameOriginal": "Mythalkeeper",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/919-mythalkeeper/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: История и Тайная магия. Связанная особенность — Мастеровой. Инструменты персонажа — Инструменты ювелира.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Интеллект, Мудрость, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Мастеровой"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "История и Тайная магия"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты ювелира"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Боевой посох, Инструменты ювелира, Духи, Кошель, Мантия, Лопата, Леска, Бурдюк и 16 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "66add85e-5a3a-5974-a939-164cda7c504e",
+      "edition": "5e_2024",
+      "nameRu": "Археолог",
+      "nameOriginal": "Archaeologist",
+      "sourceBookId": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "source": "https://next.dnd.su/backgrounds/933-archaeologist/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Выживание и История. Связанная особенность — Одарённый. Инструменты персонажа — Инструменты картографа.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Интеллект, Мудрость"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Одарённый"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Выживание и История"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты картографа"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Инструменты картографа, Направленный фонарь, Карта, Тубус для карт и свитков, Лопата, Палатка, Дорожная одежда, 17 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "6d0cfb1f-3c26-5024-a689-6a23f99d8631",
+      "edition": "5e_2024",
+      "nameRu": "Аберрантный наследник",
+      "nameOriginal": "Aberrant Heir",
+      "sourceBookId": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "source": "https://next.dnd.su/backgrounds/932-aberrant-heir/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Запугивание и История. Связанная особенность — Аберрантная метка. Инструменты персонажа — Набор для грима.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Телосложение, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Аберрантная метка"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Запугивание и История"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Набор для грима"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Кинжал, Набор для грима, Костюм, Дорожная одежда, 16 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "7427acd0-8161-55d1-acbf-0568f77bbd29",
+      "edition": "5e_2024",
+      "nameRu": "Посвящённый чаропламени",
+      "nameOriginal": "Spellfire Initiate",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/923-spellfire-initiate/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Восприятие и Тайная магия. Связанная особенность — Искра чаропламени. Инструменты персонажа — Игровой набор.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Телосложение, Интеллект, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Искра чаропламени"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Восприятие и Тайная магия"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Игровой набор"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Игровой набор (выбранный выше), Магическая фокусировка (Кристалл или Волшебная палочка), 2 Кошеля, Дорожная одежда и 36 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "74563d63-e815-5f68-a311-110b50295252",
+      "edition": "5e_2024",
+      "nameRu": "Следователь",
+      "nameOriginal": "Investigator",
+      "sourceBookId": "f3d24332-ca77-5238-a7cf-5f4418fc95c9",
+      "source": "https://next.dnd.su/backgrounds/951-investigator/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Проницательность и Расследование. Связанная особенность — Остроглазый или Черта Тёмного дара на ваш выбор. Инструменты персонажа — Набор для грима.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Интеллект, Мудрость, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Остроглазый или Черта Тёмного дара на ваш выбор"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Проницательность и Расследование"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Набор для грима"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Набор для грима, Кандалы, Лопата, Дорожная одежда, 3 Флакона, 16 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "7ff232ec-298d-53f9-a77c-1960a3ab3528",
+      "edition": "5e_2024",
+      "nameRu": "Преследуемый",
+      "nameOriginal": "Haunted One",
+      "sourceBookId": "f3d24332-ca77-5238-a7cf-5f4418fc95c9",
+      "source": "https://next.dnd.su/backgrounds/950-haunted-one/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Выживание и Тайная магия. Связанная особенность — Выживший или Черта Тёмного дара на ваш выбор. Инструменты персонажа — Игровой набор.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Телосложение, Мудрость, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Выживший или Черта Тёмного дара на ваш выбор"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Выживание и Тайная магия"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Игровой набор"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Игровой набор (выбранный выше), Ломик, 1 Святая вода (1 фляга), Зеркало, 2 фляги Масла, Сигнальный свисток, Трутница, Дорожная одежда, 5 Факелов, Бурдюк, 14 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "897309bd-bd70-5990-a031-02f758ca707c",
+      "edition": "5e_2024",
+      "nameRu": "Арфист",
+      "nameOriginal": "Harper",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/913-harper/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Выступление и Ловкость рук. Связанная особенность — Агент Арфистов. Инструменты персонажа — Набор для грима.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Интеллект, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Агент Арфистов"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Выступление и Ловкость рук"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Набор для грима"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Набор для грима, Спальник, Костюм, Крюк-кошка, Верёвка, Дорожная одежда и 14 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "8a289bd1-a675-59e6-a012-d02d10d2023e",
+      "edition": "5e_2024",
+      "nameRu": "Затронутый гением",
+      "nameOriginal": "Genie Touched",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/912-genie-touched/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Восприятие и Убеждение. Связанная особенность — Посвящённый в магию (Волшебник). Инструменты персонажа — Инструменты стеклодува.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Мудрость, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Посвящённый в магию (Волшебник)"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Восприятие и Убеждение"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты стеклодува"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Лёгкий молот, Инструменты стеклодува, Отличная одежда, Лампа, 3 фляги Масла, Бурдюк и 2 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "8be856d8-7b61-50b5-adb0-641a2c05f909",
+      "edition": "5e_2024",
+      "nameRu": "Наёмник Пламенного кулака",
+      "nameOriginal": "Flaming Fist Mercenary",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/911-flaming-fist-mercenary/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Восприятие и Запугивание. Связанная особенность — Крепкий. Инструменты персонажа — Инструменты кузнеца.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Телосложение, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Крепкий"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Восприятие и Запугивание"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты кузнеца"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Булава, Инструменты кузнеца, Отличная одежда, Кандалы, Портативный таран и 4 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "8e1dc745-6694-5e55-a891-272258a13282",
+      "edition": "5e_2024",
+      "nameRu": "Агент Девятого пера",
+      "nameOriginal": "Agent of the Ninth Quill",
+      "sourceBookId": "dd248841-b313-56b0-a997-0414645f714f",
+      "source": "https://next.dnd.su/backgrounds/954-agent-of-the-ninth-quill/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Ловкость рук и Тайная магия. Связанная особенность — Мистический лазутчик. Инструменты персонажа — Воровские инструменты.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Интеллект, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Мистический лазутчик"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Ловкость рук и Тайная магия"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Воровские инструменты"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Кинжал, Лёгкий молот, Воровские инструменты, Железные шипы, Верёвка, Дорожная одежда, 17 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "8e8a8eca-f31b-57e4-a94b-ce0c171e30b7",
+      "edition": "5e_2024",
+      "nameRu": "Эксперт Лорвина",
+      "nameOriginal": "Lorwyn Expert",
+      "sourceBookId": "0fdcba6d-c99a-5fab-a5a4-7102749db0c9",
+      "source": "https://next.dnd.su/backgrounds/931-lorwyn-expert/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Атлетика и Природа. Связанная особенность — Дитя солнца. Инструменты персонажа — Инструменты картографа.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Телосложение, Мудрость"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Дитя солнца"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Атлетика и Природа"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты картографа"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Боевой посох, Инструменты картографа, Рюкзак, Корзина, 4 листа Пергамента, Верёвка, Дорожная одежда, 29 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "91f68f93-167b-5e6e-ad5c-3e4571d53b3a",
+      "edition": "5e_2024",
+      "nameRu": "Наследник дома Ориен",
+      "nameOriginal": "House Orien Heir",
+      "sourceBookId": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "source": "https://next.dnd.su/backgrounds/942-house-orien-heir/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Акробатика и Атлетика. Связанная особенность — Метка прохода. Инструменты персонажа — Инструменты картографа.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Телосложение, Интеллект"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Метка прохода"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Акробатика и Атлетика"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты картографа"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Инструменты картографа, Отличная одежда, Карта, Тубус для карт и свитков, 18 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "9d2617b5-9b93-5d9f-ac65-04d9e9fe545c",
+      "edition": "5e_2024",
+      "nameRu": "Наследник дома Джораско",
+      "nameOriginal": "House Jorasco Heir",
+      "sourceBookId": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "source": "https://next.dnd.su/backgrounds/938-house-jorasco-heir/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Медицина и Скрытность. Связанная особенность — Метка исцеления. Инструменты персонажа — Набор травника.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Телосложение, Мудрость"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Метка исцеления"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Медицина и Скрытность"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Набор травника"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Набор травника, Отличная одежда, Комплект целителя, 25 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "a2386088-40cb-59d0-aad2-049735441a40",
+      "edition": "5e_2024",
+      "nameRu": "Наследник дома Сивис",
+      "nameOriginal": "House Sivis Heir",
+      "sourceBookId": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "source": "https://next.dnd.su/backgrounds/944-house-sivis-heir/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Восприятие и История. Связанная особенность — Метка письма. Инструменты персонажа — Инструменты каллиграфа.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Интеллект, Мудрость, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Метка письма"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Восприятие и История"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты каллиграфа"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Инструменты каллиграфа, Отличная одежда, Чернила, 5 Писчее перо, 30 листов Бумаги, 9 листов Пергамента, 8 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "a2d71b98-588e-54f3-a1cf-de001632ca02",
+      "edition": "5e_2024",
+      "nameRu": "Сыскной",
+      "nameOriginal": "Inquisitive",
+      "sourceBookId": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "source": "https://next.dnd.su/backgrounds/948-inquisitive/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Проницательность и Расследование. Связанная особенность — Бдительный. Инструменты персонажа — Воровские инструменты.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Телосложение, Интеллект, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Бдительный"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Проницательность и Расследование"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Воровские инструменты"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Воровские инструменты, Направленный фонарь, Ломик, 10 фляг Масла, Дорожная одежда, 10 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "a6b447c8-3823-5244-a67e-899f8ba16f9e",
+      "edition": "5e_2024",
+      "nameRu": "Дрессировщик фамильяров",
+      "nameOriginal": "Familiar Trainer",
+      "sourceBookId": "dd248841-b313-56b0-a997-0414645f714f",
+      "source": "https://next.dnd.su/backgrounds/959-familiar-trainer/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Обращение с животными и Тайная магия. Связанная особенность — Друг-фамильяр. Инструменты персонажа — Игровой набор.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Телосложение, Интеллект, Мудрость"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Друг-фамильяр"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Обращение с животными и Тайная магия"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Игровой набор"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Боевой посох, Игровой набор (выбранный выше), Спальник, Колокольчик, Леска, Трутница, Дорожная одежда, Бурдюк, 44 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "a7223378-cd6e-593d-a2bd-9669761cee11",
+      "edition": "5e_2024",
+      "nameRu": "Расхититель гробниц Мулхоранда",
+      "nameOriginal": "Mulhorandi Tomb Raider",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/918-mulhorandi-tomb-raider/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Расследование и Религия. Связанная особенность — Везучий. Инструменты персонажа — Инструменты каменщика.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Телосложение, Интеллект"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Везучий"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Расследование и Религия"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты каменщика"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Кинжал, Лёгкий молот, Инструменты каменщика, Рюкзак, Спальник, Ломик, Лестница, Шест, 2 Кошеля, Верёвка, Леска, Трутница, 5 Факелов, Дорожная одежда, Бурдюк и 26 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "ad96a03f-4be0-5678-ab7e-c6bceead0e54",
+      "edition": "5e_2024",
+      "nameRu": "Кутила",
+      "nameOriginal": "Carouser",
+      "sourceBookId": "cc5fd0c1-9f2a-5c56-a6bb-b163ae0b835a",
+      "source": "https://next.dnd.su/backgrounds/926-carouser/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Обман и Убеждение. Связанная особенность — Неустанный гуляка. Инструменты персонажа — Игровой набор.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Интеллект, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Неустанный гуляка"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Обман и Убеждение"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Игровой набор"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Кинжал, Игровой набор (выбранный выше), Отличная одежда, Стеклянная бутылка, Зеркало, Духи, Кошель, Трутница, 19 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "b4002f56-632e-5cd8-a140-767492a7a57b",
+      "edition": "5e_2024",
+      "nameRu": "Вассал Альянса лордов",
+      "nameOriginal": "Lords’ Alliance Vassal",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/916-lords-alliance-vassal/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Проницательность и Убеждение. Связанная особенность — Агент Альянса лордов. Инструменты персонажа — Инструменты каллиграфа.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Интеллект, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Агент Альянса лордов"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Проницательность и Убеждение"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты каллиграфа"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) 2 Метательных копья, Инструменты каллиграфа, Отличная одежда, Чернила, 5 Писчих перьев, 9 листов Пергамента и 13 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "b6aab722-db5c-5df9-ab5b-2c50edbacd67",
+      "edition": "5e_2024",
+      "nameRu": "Эксперт Шэдоумура",
+      "nameOriginal": "Shadowmoor Expert",
+      "sourceBookId": "0fdcba6d-c99a-5fab-a5a4-7102749db0c9",
+      "source": "https://next.dnd.su/backgrounds/930-shadowmoor-expert/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Акробатика и Обман. Связанная особенность — Проклинатель Шэдоумура. Инструменты персонажа — Инструменты стеклодува.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Интеллект, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Проклинатель Шэдоумура"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Акробатика и Обман"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты стеклодува"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Кинжал, Инструменты стеклодува, Рюкзак, Охотничий капкан, Лампа, 3 фляги Масла, Дорожная одежда, Бурдюк, 8 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "b7abb568-245e-5ac7-aa0b-e9ce99af7311",
+      "edition": "5e_2024",
+      "nameRu": "Агент дома",
+      "nameOriginal": "House Agent",
+      "sourceBookId": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "source": "https://next.dnd.su/backgrounds/934-house-agent/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Расследование и Убеждение. Связанная особенность — Везучий. Инструменты персонажа — Ремесленные инструменты.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Интеллект, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Везучий"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Расследование и Убеждение"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Ремесленные инструменты"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Ремесленные инструменты (выбранные выше), Отличная одежда, 20 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "ba159715-9e54-5afa-afb6-ca7cffa32251",
+      "edition": "5e_2024",
+      "nameRu": "Ученик Провидцев",
+      "nameOriginal": "Seer Apprentice",
+      "sourceBookId": "dd248841-b313-56b0-a997-0414645f714f",
+      "source": "https://next.dnd.su/backgrounds/962-seer-apprentice/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: История и Проницательность. Связанная особенность — Мистические предвестия. Инструменты персонажа — Инструменты навигатора.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Интеллект, Мудрость, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Мистические предвестия"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "История и Проницательность"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты навигатора"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Инструменты навигатора, 8 Свечей, Чернила, Писчее перо, 9 листов Пергамента, Кошель, Трутница, Дорожная одежда, 11 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "bb0b34af-cff0-5eb2-aef3-8b980bd78866",
+      "edition": "5e_2024",
+      "nameRu": "Переживший атаку вампира",
+      "nameOriginal": "Vampire Survivor",
+      "sourceBookId": "cc5fd0c1-9f2a-5c56-a6bb-b163ae0b835a",
+      "source": "https://next.dnd.su/backgrounds/928-vampire-survivor/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Проницательность и Религия. Связанная особенность — Охотник на вампиров. Инструменты персонажа — Инструменты резчика по дереву.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Телосложение, Мудрость"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Охотник на вампиров"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Проницательность и Религия"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты резчика по дереву"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Инструменты резчика по дереву, Ломик, Закрытый фонарь, Священный символ (реликварий), Святая вода, Зеркало, 3 фляги Масла, Трутница, Дорожная одежда, Бурдюк, 4 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "c1e137cd-3bb6-5eeb-a696-b545bf5fcb17",
+      "edition": "5e_2024",
+      "nameRu": "Подопечный Оберегающих дланей",
+      "nameOriginal": "Ward of the Sheltering Hands",
+      "sourceBookId": "dd248841-b313-56b0-a997-0414645f714f",
+      "source": "https://next.dnd.su/backgrounds/963-ward-of-the-sheltering-hands/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Медицина и Проницательность. Связанная особенность — Магический заслон. Инструменты персонажа — Инструменты повара.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Телосложение, Мудрость, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Магический заслон"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Медицина и Проницательность"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты повара"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Инструменты повара, Одеяло, Комплект целителя, Лампа, 3 фляги Масла, Трутница, Дорожная одежда, Бурдюк, 40 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "c29e6545-6808-5c96-adaa-0daccec0ee90",
+      "edition": "5e_2024",
+      "nameRu": "Наследник дома Лирандар",
+      "nameOriginal": "House Lyrandar Heir",
+      "sourceBookId": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "source": "https://next.dnd.su/backgrounds/940-house-lyrandar-heir/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Акробатика и Природа. Связанная особенность — Метка бури. Инструменты персонажа — Инструменты навигатора.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Ловкость, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Метка бури"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Акробатика и Природа"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты навигатора"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Инструменты навигатора, Отличная одежда, 10 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "c794ac61-311b-544c-af17-86fa1fedda97",
+      "edition": "5e_2024",
+      "nameRu": "Посвящённый Плетущих горизонты",
+      "nameOriginal": "Horizon Weaver Initiate",
+      "sourceBookId": "dd248841-b313-56b0-a997-0414645f714f",
+      "source": "https://next.dnd.su/backgrounds/960-horizon-weaver-initiate/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Акробатика и Выживание. Связанная особенность — Портальный прыгун. Инструменты персонажа — Инструменты ткача.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Телосложение, Мудрость"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Портальный прыгун"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Акробатика и Выживание"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты ткача"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Короткий лук, 20 Стрелы, Инструменты ткача, Карта, Колчан, Верёвка, Дорожная одежда, 18 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "c80e0848-a6a4-5727-a101-ae595d52f6aa",
+      "edition": "5e_2024",
+      "nameRu": "Пилигрим лунного колодца",
+      "nameOriginal": "Moonwell Pilgrim",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/917-moonwell-pilgrim/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Выступление и Природа. Связанная особенность — Посвящённый в магию (Друид). Инструменты персонажа — Инструменты художника.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Телосложение, Мудрость, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Посвящённый в магию (Друид)"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Выступление и Природа"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты художника"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Боевой посох, Инструменты художника, Спальник, Колокольчик, Кошель, Мантия, Леска, Дорожная одежда, Бурдюк и 34 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "c901e736-5b9c-5428-a925-4b6fbf92508a",
+      "edition": "5e_2024",
+      "nameRu": "Наследник дома Кундарак",
+      "nameOriginal": "House Kundarak Heir",
+      "sourceBookId": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "source": "https://next.dnd.su/backgrounds/939-house-kundarak-heir/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Расследование и Тайная магия. Связанная особенность — Метка охранения. Инструменты персонажа — Воровские инструменты.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Телосложение, Интеллект"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Метка охранения"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Расследование и Тайная магия"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Воровские инструменты"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Воровские инструменты, Отличная одежда, 10 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "cb960933-43e3-5ac3-abd3-465004c75095",
+      "edition": "5e_2024",
+      "nameRu": "Рыцарь Латной перчатки",
+      "nameOriginal": "Knight of the Gauntlet",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/915-knight-of-the-gauntlet/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Атлетика и Медицина. Связанная особенность — Новичок Латной перчатки. Инструменты персонажа — Инструменты кузнеца.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Интеллект, Мудрость"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Новичок Латной перчатки"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Атлетика и Медицина"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты кузнеца"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Копьё, Инструменты кузнеца, Направленный фонарь, Священный символ, Кандалы, 5 фляг Масла, Трутница, Дорожная одежда и 9 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "cffa15ed-aec4-50c5-af60-7884acf00f49",
+      "edition": "5e_2024",
+      "nameRu": "Медиум",
+      "nameOriginal": "Spirit Medium",
+      "sourceBookId": "f3d24332-ca77-5238-a7cf-5f4418fc95c9",
+      "source": "https://next.dnd.su/backgrounds/953-spirit-medium/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Проницательность и Религия. Связанная особенность — Черта Тёмного дара на ваш выбор (рекомендуется Сонм голосов). Инструменты персонажа — Игровой набор.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Телосложение, Интеллект, Мудрость"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Черта Тёмного дара на ваш выбор (рекомендуется Сонм голосов)"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Проницательность и Религия"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Игровой набор"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Кинжал, Игровой набор (выбранный выше), Корзина, Колокольчик, 8 Свеч, Чернила, Писчее перо, 5 листов Бумаги, Трутница, Дорожная одежда, 32 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "db480e5b-ce0a-5646-ae14-49a9299202a4",
+      "edition": "5e_2024",
+      "nameRu": "Наследник дома Галланда",
+      "nameOriginal": "House Ghallanda Heir",
+      "sourceBookId": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "source": "https://next.dnd.su/backgrounds/937-house-ghallanda-heir/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Проницательность и Убеждение. Связанная особенность — Метка гостеприимства. Инструменты персонажа — Инструменты повара.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Мудрость, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Метка гостеприимства"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Проницательность и Убеждение"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты повара"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Инструменты повара, Отличная одежда, Железный горшок, Лампа, 5 фляг Масла, Духи, 26 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "dbefa912-8282-528f-a82f-959056900438",
+      "edition": "5e_2024",
+      "nameRu": "Культист Дракона",
+      "nameOriginal": "Dragon Cultist",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/909-dragon-cultist/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Обман и Скрытность. Связанная особенность — Посвящённый Культа дракона. Инструменты персонажа — Инструменты каллиграфа.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Телосложение, Интеллект"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Посвящённый Культа дракона"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Обман и Скрытность"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты каллиграфа"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Инструменты каллиграфа, Кинжал, Стеклянная бутылка, Лампа, Кандалы, 5 фляг Масла, 2 Кошеля, Мантия, Верёвка и 30 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "dcd9c53b-300f-58ed-a29f-d486a9662348",
+      "edition": "5e_2024",
+      "nameRu": "Подлёдный рыболов",
+      "nameOriginal": "Ice Fisher",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/914-ice-fisher/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Атлетика и Обращение с животными. Связанная особенность — Бдительный. Инструменты персонажа — Инструменты резчика по дереву.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Ловкость, Телосложение"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Бдительный"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Атлетика и Обращение с животными"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты резчика по дереву"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Инструменты резчика по дереву, Корзина, Блок и лебёдка, Ведро, Цепь, Охотничий капкан, Сеть, Шест, Рационы на 3 дня, Верёвка, Дорожная одежда и 32 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "ebb56079-7801-5c65-aaf4-95e3e9951984",
+      "edition": "5e_2024",
+      "nameRu": "Член труппы Театра фантазмов",
+      "nameOriginal": "Phantasmic Circus Trouper",
+      "sourceBookId": "dd248841-b313-56b0-a997-0414645f714f",
+      "source": "https://next.dnd.su/backgrounds/961-phantasmic-circus-trouper/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Выступление и Обман. Связанная особенность — Мистический артист. Инструменты персонажа — Набор для грима.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Телосложение, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Мистический артист"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Выступление и Обман"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Набор для грима"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Набор для грима, Игровой набор (любой), Костюм, Зеркало, Дорожная одежда, 12 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "f353fbeb-bd67-52b6-ab48-73927d328bb2",
+      "edition": "5e_2024",
+      "nameRu": "Наследник дома Вадалис",
+      "nameOriginal": "House Vadalis Heir",
+      "sourceBookId": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "source": "https://next.dnd.su/backgrounds/947-house-vadalis-heir/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Обращение с животными и Природа. Связанная особенность — Метка обхождения. Инструменты персонажа — Набор травника.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Телосложение, Мудрость, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Метка обхождения"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Обращение с животными и Природа"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Набор травника"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Набор травника, Отличная одежда, Сеть, 29 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "f40c424c-4313-50a9-a8d0-0b17f4f8e075",
+      "edition": "5e_2024",
+      "nameRu": "Наследник дома Туранни",
+      "nameOriginal": "House Thuranni Heir",
+      "sourceBookId": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "source": "https://next.dnd.su/backgrounds/946-house-thuranni-heir/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Выступление и Скрытность. Связанная особенность — Метка тени. Инструменты персонажа — Музыкальный инструмент.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Ловкость, Интеллект, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Метка тени"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Выступление и Скрытность"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Музыкальный инструмент"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Музыкальный инструмент (выбранный выше), Костюм, Отличная одежда, 13 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "f6373ebe-fa53-599c-aaa9-94ed81981883",
+      "edition": "5e_2024",
+      "nameRu": "Посвящённый вампира",
+      "nameOriginal": "Vampire Devotee",
+      "sourceBookId": "cc5fd0c1-9f2a-5c56-a6bb-b163ae0b835a",
+      "source": "https://next.dnd.su/backgrounds/927-vampire-devotee/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Скрытность и Убеждение. Связанная особенность — Игрушка вампира. Инструменты персонажа — Инструменты повара.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Телосложение, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Игрушка вампира"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Скрытность и Убеждение"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты повара"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Инструменты повара, Отличная одежда, 2 Стеклянных бутылки, Комплект целителя, Духи, Лампа, 3 фляги Масла, Бурдюк, 19 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "fb5a0a9e-99c8-57ee-a00e-333c2f43c076",
+      "edition": "5e_2024",
+      "nameRu": "Наследник дома Тарашк",
+      "nameOriginal": "House Tharashk Heir",
+      "sourceBookId": "11d97d4d-9e12-58e8-a43c-01ffebc4cfd1",
+      "source": "https://next.dnd.su/backgrounds/945-house-tharashk-heir/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Восприятие и Выживание. Связанная особенность — Метка поиска. Инструменты персонажа — Игровой набор.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Телосложение, Интеллект, Мудрость"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Метка поиска"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Восприятие и Выживание"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Игровой набор"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Игровой набор (выбранный выше), Комплект для лазания, Отличная одежда, Охотничий капкан, Кандалы, 2 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "fdb1fb5b-802e-5bed-a7ef-dda43834f906",
+      "edition": "5e_2024",
+      "nameRu": "Оруженосец Пурпурного дракона",
+      "nameOriginal": "Purple Dragon Squire",
+      "sourceBookId": "b0cfc2fe-9874-5d69-aee2-c638a9bdffb8",
+      "source": "https://next.dnd.su/backgrounds/920-purple-dragon-squire/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Подготовка персонажа включает навыки: Обращение с животными и Проницательность. Связанная особенность — Новобранец Пурпурного дракона. Инструменты персонажа — Инструменты навигатора.",
+      "reference": {
+        "category": "Background",
+        "properties": [
+          {
+            "nameRu": "Характеристики",
+            "valueRu": "Сила, Мудрость, Харизма"
+          },
+          {
+            "nameRu": "Начальная черта",
+            "valueRu": "Новобранец Пурпурного дракона"
+          },
+          {
+            "nameRu": "Навыки",
+            "valueRu": "Обращение с животными и Проницательность"
+          },
+          {
+            "nameRu": "Инструменты",
+            "valueRu": "Инструменты навигатора"
+          },
+          {
+            "nameRu": "Снаряжение",
+            "valueRu": "Выберите А или Б: (А) Копьё, Инструменты навигатора, Отличная одежда и 9 ЗМ; или (Б) 50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    }
+  ]
+}

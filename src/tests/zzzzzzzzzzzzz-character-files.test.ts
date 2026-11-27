@@ -296,3 +296,202 @@ test("Import creates a new record preserving HP and custom fields, never mutates
   assert.equal(saved.data.customSheet.standalone, true);
   assert.ok(saved.data.customSheet.blocks.length > 40);
 });
+
+test("Temporary bonuses affect the derived sheet and expire after a round or rest", async () => {
+  const { deriveCharacter, advanceEffectRound, restCharacter } = await import(
+    "../domain/rules/character"
+  );
+  const character = hero();
+  const base = deriveCharacter(character);
+  character.effects = [
+    {
+      id: randomUUID(),
+      source: "Щит",
+      target: "ac",
+      bonus: 5,
+      duration: { kind: "rounds", remaining: 1 },
+    },
+    {
+      id: randomUUID(),
+      source: "Усталость",
+      target: "speed",
+      bonus: -10,
+      duration: { kind: "rest" },
+    },
+    {
+      id: randomUUID(),
+      source: "Помощь",
+      target: "skills",
+      bonus: 2,
+      duration: { kind: "manual" },
+    },
+  ];
+  assert.equal(deriveCharacter(character).ac, base.ac + 5);
+  assert.equal(deriveCharacter(character).speed, base.speed - 10);
+  assert.equal(
+    deriveCharacter(character).passivePerception,
+    base.passivePerception + 2,
+  );
+  character.effects = advanceEffectRound(character.effects);
+  assert.equal(deriveCharacter(character).ac, base.ac);
+  const rested = restCharacter(character, "long");
+  assert.equal(deriveCharacter(rested).speed, base.speed);
+  assert.equal(rested.effects.length, 1);
+});
+
+test("Bound effects follow equipped items and active conditions", async () => {
+  const { deriveCharacter, restCharacter } = await import(
+    "../domain/rules/character"
+  );
+  const character = hero();
+  const itemId = randomUUID();
+  const conditionId = randomUUID();
+  character.inventory.push({
+    id: itemId,
+    contentId: randomUUID(),
+    quantity: 1,
+    equipped: false,
+    attuned: false,
+  });
+  character.effects = [
+    {
+      id: randomUUID(),
+      source: "Предмет",
+      target: "ac",
+      bonus: 1,
+      duration: { kind: "equipment", itemId },
+    },
+    {
+      id: randomUUID(),
+      source: "Состояние",
+      target: "speed",
+      bonus: -10,
+      duration: { kind: "condition", conditionId },
+    },
+  ];
+  const base = deriveCharacter(character);
+  character.inventory[0].equipped = true;
+  character.conditionIds.push(conditionId);
+  assert.equal(deriveCharacter(character).ac, base.ac + 1);
+  assert.equal(deriveCharacter(character).speed, base.speed - 10);
+  assert.equal(restCharacter(character, "long").effects.length, 2);
+  character.inventory = [];
+  character.conditionIds = [];
+  assert.equal(deriveCharacter(character).ac, base.ac);
+  assert.equal(deriveCharacter(character).speed, base.speed);
+});
+
+test("Targeted bonuses change only the selected check and avoid stacking the same source", async () => {
+  const { deriveCharacter } = await import("../domain/rules/character");
+  const character = hero();
+  const base = deriveCharacter(character);
+  character.effects = [
+    {
+      id: randomUUID(),
+      source: "Помощь",
+      target: "skills",
+      bonus: 1,
+      duration: { kind: "manual" },
+    },
+    {
+      id: randomUUID(),
+      source: "Помощь",
+      target: "skills",
+      specific: "Perception",
+      bonus: 3,
+      duration: { kind: "manual" },
+    },
+    {
+      id: randomUUID(),
+      source: "Амулет",
+      target: "saves",
+      specific: "DEX",
+      bonus: 2,
+      duration: { kind: "manual" },
+    },
+  ];
+  const result = deriveCharacter(characterSchema.parse(character));
+  assert.equal(result.passivePerception, base.passivePerception + 3);
+  assert.equal(result.skills.Athletics, base.skills.Athletics + 1);
+  assert.equal(result.saves.DEX, base.saves.DEX + 2);
+  assert.equal(result.saves.WIS, base.saves.WIS);
+});
+
+test("Combat effects cancel roll modes and apply typed damage once per trait", async () => {
+  const { calculateDamage, rollModifiers } = await import(
+    "../domain/rules/character-combat"
+  );
+  const { rollDice } = await import("../domain/rules/dice");
+  const character = hero();
+  for (const [target, specific] of [
+    ["advantage", "saves"],
+    ["disadvantage", "saves"],
+    ["resistance", "Fire"],
+    ["resistance", "Fire"],
+    ["vulnerability", "Fire"],
+    ["immunity", "Cold"],
+  ] as const)
+    character.effects.push({
+      id: randomUUID(),
+      source: randomUUID(),
+      target,
+      specific,
+      bonus: 1,
+      duration: { kind: "manual" },
+    });
+  const data = characterSchema.parse(character);
+  assert.equal(rollModifiers(data, "saves").mode, "normal");
+  assert.equal(rollModifiers(data, "saves").effects.length, 2);
+  data.effects = data.effects.filter((effect) => effect.target !== "advantage");
+  const dice = [18, 3];
+  assert.equal(
+    rollDice("1d20+2", rollModifiers(data, "saves").mode, () => dice.shift()!)
+      .total,
+    5,
+  );
+  assert.equal(calculateDamage(data, 15, "Fire").total, 14);
+  assert.equal(calculateDamage(data, 15, "Cold").total, 0);
+  assert.equal(calculateDamage(data, 15).total, 15);
+});
+
+test("Resource limit modifiers and speed overrides respect active conditions", async () => {
+  const { deriveCharacter } = await import("../domain/rules/character");
+  const character = hero();
+  const base = deriveCharacter(character);
+  const resource = base.resources[0];
+  assert.ok(resource);
+  character.effects = [
+    {
+      id: randomUUID(),
+      source: "Запас",
+      target: "resource",
+      specific: resource.key,
+      bonus: 2,
+      duration: { kind: "manual" },
+    },
+    {
+      id: randomUUID(),
+      source: "Замедление",
+      target: "speedOverride",
+      bonus: 10,
+      duration: { kind: "manual" },
+    },
+    {
+      id: randomUUID(),
+      source: "Ускорение",
+      target: "speed",
+      bonus: 5,
+      duration: { kind: "manual" },
+    },
+  ];
+  const parsed = characterSchema.parse(character);
+  assert.equal(deriveCharacter(parsed).speed, 10);
+  assert.equal(deriveCharacter(parsed).resources[0].max, resource.max + 2);
+  parsed.conditionIds = ["a934dbcb-8d75-5dfa-a642-5c04428c499f"];
+  assert.equal(deriveCharacter(parsed).speed, 0);
+  parsed.conditionIds = [];
+  parsed.effects = parsed.effects.filter(
+    (effect) => effect.target !== "speedOverride",
+  );
+  assert.equal(deriveCharacter(parsed).speed, base.speed + 5);
+});

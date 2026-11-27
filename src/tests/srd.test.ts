@@ -93,10 +93,11 @@ test("SRD: проверенные боевые поля и лечение сох
     assert.equal(spell(i, "Magic Missile").spell.savingThrow, null);
     assert.match(spell(i, "Magic Missile").spell.damage, /каждая стрела/);
     assert.ok(spell(i, "Fireball").spell.higherLevelsRu.length > 40);
-    assert.equal(
-      datasets[i].entries.filter((e) => e.contentVersion === 2).length,
-      8,
-    );
+    assert.deepEqual(spell(i, "Ice Storm").spell.damageTypes, [
+      "Bludgeoning",
+      "Cold",
+    ]);
+    assert.ok(spell(i, "Ice Storm").spell.savingThrows?.includes("DEX"));
   }
   assert.match(spell(0, "Cure Wounds").spell.healing, /^1к8/);
   assert.match(spell(1, "Cure Wounds").spell.healing, /^2к8/);

@@ -1,58 +1,22 @@
-import { readFile } from "node:fs/promises";
 import { db } from "../src/database/client";
-import { importDataset, parseDataset } from "../src/imports/pipeline";
+import { importBundledFile, libraryFiles } from "./bundled-catalog";
+
 try {
-  for (const category of ["spells", "monsters", "references"])
-    for (const year of [2014, 2024])
-      console.log(
-        year,
-        await importDataset(
-          parseDataset(
-            await readFile(`data/srd/${category}-${year}.json`, "utf8"),
-          ),
-        ),
-      );
-  for (const year of [2014, 2024])
-    console.log(
-      year,
-      await importDataset(
-        parseDataset(
-          await readFile(`data/phb/backgrounds-${year}.json`, "utf8"),
-        ),
-      ),
-    );
-  for (const year of [2014, 2024])
-    console.log(
-      year,
-      await importDataset(
-        parseDataset(
-          await readFile(`data/dndsu/supplement-${year}.json`, "utf8"),
-        ),
-      ),
-    );
-  for (const year of [2014, 2024])
-    console.log(
-      year,
-      await importDataset(
-        parseDataset(
-          await readFile(`data/phb/subclasses-${year}.json`, "utf8"),
-        ),
-      ),
-    );
-  for (const year of [2014, 2024])
-    console.log(
-      year,
-      await importDataset(
-        parseDataset(await readFile(`data/phb/feats-${year}.json`, "utf8")),
-      ),
-    );
-  for (const year of [2014, 2024])
-    console.log(
-      year,
-      await importDataset(
-        parseDataset(await readFile(`data/dndsu/options-${year}.json`, "utf8")),
-      ),
-    );
+  const sets = [
+    "srd/spells",
+    "srd/monsters",
+    "srd/references",
+    "phb/backgrounds",
+    "dndsu/supplement",
+    "phb/subclasses",
+    "phb/feats",
+    "dndsu/options",
+  ];
+  const paths = sets.flatMap((name) =>
+    [2014, 2024].map((year) => `data/${name}-${year}.json`),
+  );
+  for (const path of [...paths, ...libraryFiles()])
+    console.log(path, await importBundledFile(path));
 } finally {
   await db.$disconnect();
 }

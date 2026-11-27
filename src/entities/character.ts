@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { abilities, editionSchema } from "./content";
+import { abilities, damages, editionSchema } from "./content";
 export const skillAbilities = {
   Acrobatics: "DEX",
   AnimalHandling: "WIS",
@@ -100,6 +100,76 @@ export const customSheetSchema = z
 export type CustomSheet = z.infer<typeof customSheetSchema>;
 export const characterSchema = z
   .object({
+    effects: z
+      .array(
+        z
+          .object({
+            id: uuid,
+            source: z.string().trim().min(1).max(120),
+            target: z.enum([
+              "ac",
+              "speed",
+              "speedOverride",
+              "resource",
+              "saves",
+              "skills",
+              "advantage",
+              "disadvantage",
+              "resistance",
+              "immunity",
+              "vulnerability",
+            ]),
+            specific: z.string().max(160).optional(),
+            bonus: z.number().int().min(-100).max(100),
+            duration: z.discriminatedUnion("kind", [
+              z.object({ kind: z.literal("manual") }),
+              z.object({
+                kind: z.literal("rounds"),
+                remaining: z.number().int().min(1).max(100),
+              }),
+              z.object({ kind: z.literal("rest") }),
+              z.object({ kind: z.literal("concentration"), spellId: uuid }),
+              z.object({ kind: z.literal("equipment"), itemId: uuid }),
+              z.object({ kind: z.literal("condition"), conditionId: uuid }),
+            ]),
+          })
+          .strict()
+          .refine(
+            (effect) =>
+              effect.target === "speedOverride"
+                ? effect.bonus >= 0
+                : effect.bonus !== 0,
+            "Укажите допустимое значение эффекта.",
+          )
+          .refine(
+            (effect) =>
+              effect.target === "resource"
+                ? Boolean(effect.specific?.trim())
+                : ["advantage", "disadvantage"].includes(effect.target)
+                  ? ["attack", "skills", "saves"].includes(
+                      effect.specific ?? "",
+                    )
+                  : ["resistance", "immunity", "vulnerability"].includes(
+                        effect.target,
+                      )
+                    ? damages.some((type) => type === effect.specific)
+                    : effect.specific === undefined ||
+                      (effect.target === "saves" &&
+                        abilities.some(
+                          (ability) => ability === effect.specific,
+                        )) ||
+                      (effect.target === "skills" &&
+                        Object.hasOwn(skillAbilities, effect.specific)),
+            "Поправка должна указывать подходящий навык или спасбросок.",
+          ),
+      )
+      .max(30)
+      .refine(
+        (effects) =>
+          new Set(effects.map((effect) => effect.id)).size === effects.length,
+        "Повторяющиеся идентификаторы эффектов.",
+      )
+      .default([]),
     name: z.string().trim().min(1).max(120),
     customSheet: customSheetSchema.default({}),
     importSource: z

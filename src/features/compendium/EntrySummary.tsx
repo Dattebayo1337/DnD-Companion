@@ -31,6 +31,7 @@ const referenceIcons = {
   Armor: Shield,
   Equipment: Backpack,
   MagicItem: Gem,
+  BestiaryProfile: Skull,
   Condition: CircleAlert,
   Rule: ScrollText,
 };

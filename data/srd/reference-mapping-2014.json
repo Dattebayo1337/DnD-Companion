@@ -3722,5 +3722,999 @@
     "en": "Monsters: Legendary Creatures",
     "file": "14_Monsters.md",
     "method": "parallel rules chapter"
+  },
+  {
+    "category": "Rule",
+    "ru": "Характеристики: Значения характеристик и модификаторы",
+    "en": "Abilities: Ability Scores and Modifiers",
+    "file": "01_Abilities.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Характеристики: Состязания",
+    "en": "Abilities: Contests",
+    "file": "01_Abilities.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Характеристики: Навыки",
+    "en": "Abilities: Skills",
+    "file": "01_Abilities.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Характеристики: Вариант: Навыки с другими характеристиками",
+    "en": "Abilities: Variant: Skills with Different Abilities",
+    "file": "01_Abilities.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Характеристики: Пассивные проверки",
+    "en": "Abilities: Passive Checks",
+    "file": "01_Abilities.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Характеристики: Совместная работа",
+    "en": "Abilities: Working Together",
+    "file": "01_Abilities.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Характеристики: Групповые проверки",
+    "en": "Abilities: Group Checks",
+    "file": "01_Abilities.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Характеристики: Использование каждой характеристики",
+    "en": "Abilities: Using Each Ability",
+    "file": "01_Abilities.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Характеристики: Сила",
+    "en": "Abilities: Strength",
+    "file": "01_Abilities.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Характеристики: Ловкость",
+    "en": "Abilities: Dexterity",
+    "file": "01_Abilities.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Характеристики: Телосложение",
+    "en": "Abilities: Constitution",
+    "file": "01_Abilities.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Характеристики: Интеллект",
+    "en": "Abilities: Intelligence",
+    "file": "01_Abilities.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Характеристики: Мудрость",
+    "en": "Abilities: Wisdom",
+    "file": "01_Abilities.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Характеристики: Харизма",
+    "en": "Abilities: Charisma",
+    "file": "01_Abilities.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Путешествия: Скорость",
+    "en": "Adventuring: Speed",
+    "file": "02_Adventuring.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Путешествия: Особые типы перемещения",
+    "en": "Adventuring: Special Types of Movement",
+    "file": "02_Adventuring.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Путешествия: Падение",
+    "en": "Adventuring: Falling",
+    "file": "02_Adventuring.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Путешествия: Удушье",
+    "en": "Adventuring: Suffocating",
+    "file": "02_Adventuring.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Путешествия: Зрение и свет",
+    "en": "Adventuring: Vision and Light",
+    "file": "02_Adventuring.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Путешествия: Еда и вода",
+    "en": "Adventuring: Food and Water",
+    "file": "02_Adventuring.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Путешествия: Взаимодействие с предметами",
+    "en": "Adventuring: Interacting with Objects",
+    "file": "02_Adventuring.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Путешествия: Короткий отдых",
+    "en": "Adventuring: Short Rest",
+    "file": "02_Adventuring.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Путешествия: Долгий отдых",
+    "en": "Adventuring: Long Rest",
+    "file": "02_Adventuring.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Путешествия: Расходы на образ жизни",
+    "en": "Adventuring: Lifestyle Expenses",
+    "file": "02_Adventuring.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Путешествия: Занятия в свободное время",
+    "en": "Adventuring: Downtime Activities",
+    "file": "02_Adventuring.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Внезапность",
+    "en": "Combat: Surprise",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Инициатива",
+    "en": "Combat: Initiative",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Ваш ход",
+    "en": "Combat: Your Turn",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Бонусные действия",
+    "en": "Combat: Bonus Actions",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Прочая деятельность в ваш ход",
+    "en": "Combat: Other Activity on Your Turn",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Разделение перемещения",
+    "en": "Combat: Breaking Up Your Move",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Перемещение между атаками",
+    "en": "Combat: Moving between Attacks",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Использование разных скоростей",
+    "en": "Combat: Using Different Speeds",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Труднопроходимая местность",
+    "en": "Combat: Difficult Terrain",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Положение лёжа",
+    "en": "Combat: Being Prone",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Перемещение вокруг других существ",
+    "en": "Combat: Moving Around Other Creatures",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Полёт",
+    "en": "Combat: Flying Movement",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Размер существа",
+    "en": "Combat: Creature Size",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Пространство",
+    "en": "Combat: Space",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Протискивание в меньшее пространство",
+    "en": "Combat: Squeezing into a Smaller Space",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Атака",
+    "en": "Combat: Attack",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Сотворение заклинания",
+    "en": "Combat: Cast a Spell",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Рывок",
+    "en": "Combat: Dash",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Отход",
+    "en": "Combat: Disengage",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Уклонение",
+    "en": "Combat: Dodge",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Помощь",
+    "en": "Combat: Help",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Скрыться",
+    "en": "Combat: Hide",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Подготовка",
+    "en": "Combat: Ready",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Поиск",
+    "en": "Combat: Search",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Использование предмета",
+    "en": "Combat: Use an Object",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Броски атаки",
+    "en": "Combat: Attack Rolls",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Модификаторы к броску",
+    "en": "Combat: Modifiers to the Roll",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Выпадение 1 или 20",
+    "en": "Combat: Rolling 1 or 20",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Незримые атакующие и цели",
+    "en": "Combat: Unseen Attackers and Targets",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Дальнобойные атаки",
+    "en": "Combat: Ranged Attacks",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Дистанция",
+    "en": "Combat: Range",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Дальнобойные атаки в ближнем бою",
+    "en": "Combat: Ranged Attacks in Close Combat",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Рукопашные атаки",
+    "en": "Combat: Melee Attacks",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Провоцированные атаки",
+    "en": "Combat: Opportunity Attacks",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Сражение двумя оружиями",
+    "en": "Combat: Two-Weapon Fighting",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Захват",
+    "en": "Combat: Grappling",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Толчок существа",
+    "en": "Combat: Shoving a Creature",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Укрытие",
+    "en": "Combat: Cover",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Урон и лечение",
+    "en": "Combat: Damage and Healing",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Хиты",
+    "en": "Combat: Hit Points",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Броски урона",
+    "en": "Combat: Damage Rolls",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Критические попадания",
+    "en": "Combat: Critical Hits",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Типы урона",
+    "en": "Combat: Damage Types",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Сопротивление и уязвимость к урону",
+    "en": "Combat: Damage Resistance and Vulnerability",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Лечение",
+    "en": "Combat: Healing",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Падение до 0 хитов",
+    "en": "Combat: Dropping to 0 Hit Points",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Мгновенная смерть",
+    "en": "Combat: Instant Death",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Потеря сознания",
+    "en": "Combat: Falling Unconscious",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Спасброски от смерти",
+    "en": "Combat: Death Saving Throws",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Стабилизация существа",
+    "en": "Combat: Stabilizing a Creature",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Монстры и смерть",
+    "en": "Combat: Monsters and Death",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Оглушение существа",
+    "en": "Combat: Knocking a Creature Out",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Временные хиты",
+    "en": "Combat: Temporary Hit Points",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Посадка и спешивание",
+    "en": "Combat: Mounting and Dismounting",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: Управление скакуном",
+    "en": "Combat: Controlling a Mount",
+    "file": "03_Combat.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Детали персонажа: Мировоззрение",
+    "en": "Character Details: Alignment",
+    "file": "05_CharacterDetails.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Детали персонажа: Предыстории",
+    "en": "Character Details: Backgrounds",
+    "file": "05_CharacterDetails.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Детали персонажа: Вдохновение",
+    "en": "Character Details: Inspiration",
+    "file": "05_CharacterDetails.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Детали персонажа: Языки",
+    "en": "Character Details: Languages",
+    "file": "05_CharacterDetails.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Детали персонажа: За пределами 1-го уровня",
+    "en": "Character Details: Beyond 1st Level",
+    "file": "05_CharacterDetails.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Мультиклассирование: Требования",
+    "en": "Multiclassing: Prerequisites",
+    "file": "07_Multiclassing.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Мультиклассирование: Очки опыта",
+    "en": "Multiclassing: Experience Points",
+    "file": "07_Multiclassing.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Мультиклассирование: Хиты и Кости Хитов",
+    "en": "Multiclassing: Hit Points and Hit Dice",
+    "file": "07_Multiclassing.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Мультиклассирование: Бонус мастерства",
+    "en": "Multiclassing: Proficiency Bonus",
+    "file": "07_Multiclassing.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Мультиклассирование: Владения",
+    "en": "Multiclassing: Proficiencies",
+    "file": "07_Multiclassing.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Мультиклассирование: Божественный канал",
+    "en": "Multiclassing: Channel Divinity",
+    "file": "07_Multiclassing.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Мультиклассирование: Дополнительная атака",
+    "en": "Multiclassing: Extra Attack",
+    "file": "07_Multiclassing.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Мультиклассирование: Защита без доспехов",
+    "en": "Multiclassing: Unarmored Defense",
+    "file": "07_Multiclassing.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Мультиклассирование: Сотворение заклинаний",
+    "en": "Multiclassing: Spellcasting",
+    "file": "07_Multiclassing.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Сотворение заклинаний",
+    "en": "Spells: Spellcasting",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Что такое заклинание?",
+    "en": "Spells: What Is a Spell?",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Уровень заклинания",
+    "en": "Spells: Spell Level",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Известные и подготовленные заклинания",
+    "en": "Spells: Known and Prepared Spells",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Ячейки заклинаний",
+    "en": "Spells: Spell Slots",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Сотворение заклинания с помощью ячейки более высокого уровня",
+    "en": "Spells: Casting a Spell at a Higher Level",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Заговоры",
+    "en": "Spells: Cantrips",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Ритуалы",
+    "en": "Spells: Rituals",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Сотворение заклинания",
+    "en": "Spells: Casting a Spell",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Время накладывания",
+    "en": "Spells: Casting Time",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Бонусное действие",
+    "en": "Spells: Bonus Action",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Реакции",
+    "en": "Spells: Reactions",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Более долгое время накладывания",
+    "en": "Spells: Longer Casting Times",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Дистанция заклинания",
+    "en": "Spells: Spell Range",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Компоненты",
+    "en": "Spells: Components",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Вербальный (В)",
+    "en": "Spells: Verbal (V)",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Соматический (С)",
+    "en": "Spells: Somatic (S)",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Материальный (М)",
+    "en": "Spells: Material (M)",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Длительность",
+    "en": "Spells: Duration",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Мгновенная",
+    "en": "Spells: Instantaneous",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Концентрация",
+    "en": "Spells: Concentration",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Цели",
+    "en": "Spells: Targets",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Чистый путь до цели",
+    "en": "Spells: A Clear Path to the Target",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Нацеливание на себя",
+    "en": "Spells: Targeting Yourself",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Области воздействия",
+    "en": "Spells: Areas of Effect",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Конус",
+    "en": "Spells: Cone",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Куб",
+    "en": "Spells: Cube",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Цилиндр",
+    "en": "Spells: Cylinder",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Линия",
+    "en": "Spells: Line",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Сфера",
+    "en": "Spells: Sphere",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Спасброски от заклинаний",
+    "en": "Spells: Spell Saving Throws",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Броски атаки заклинанием",
+    "en": "Spells: Spell Attack Rolls",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Комбинирование магических эффектов",
+    "en": "Spells: Combining Magical Effects",
+    "file": "10_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Инструментарий мастера: Ловушки",
+    "en": "Gamemastering Toolbox: Traps",
+    "file": "12_GamemasteringToolbox.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Инструментарий мастера: Яды",
+    "en": "Gamemastering Toolbox: Poisons",
+    "file": "12_GamemasteringToolbox.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Инструментарий мастера: Болезни",
+    "en": "Gamemastering Toolbox: Diseases",
+    "file": "12_GamemasteringToolbox.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Инструментарий мастера: Безумие",
+    "en": "Gamemastering Toolbox: Madness",
+    "file": "12_GamemasteringToolbox.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Инструментарий мастера: Предметы",
+    "en": "Gamemastering Toolbox: Objects",
+    "file": "12_GamemasteringToolbox.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Инструментарий мастера: Пантеоны",
+    "en": "Gamemastering Toolbox: Pantheons",
+    "file": "12_GamemasteringToolbox.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Инструментарий мастера: Планы",
+    "en": "Gamemastering Toolbox: Planes",
+    "file": "12_GamemasteringToolbox.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Бой: порядок боя",
+    "en": "Combat: Combat Step by Step",
+    "file": "03_Combat.md",
+    "method": "chapter opening and combat sequence"
+  },
+  {
+    "category": "Equipment",
+    "ru": "Набор взломщика",
+    "en": "Burglar's Pack",
+    "file": "09_Equipment.md",
+    "method": "named equipment pack and price"
+  },
+  {
+    "category": "Equipment",
+    "ru": "Набор дипломата",
+    "en": "Diplomat's Pack",
+    "file": "09_Equipment.md",
+    "method": "named equipment pack and price"
+  },
+  {
+    "category": "Equipment",
+    "ru": "Набор исследователя подземелий",
+    "en": "Dungeoneer's Pack",
+    "file": "09_Equipment.md",
+    "method": "named equipment pack and price"
+  },
+  {
+    "category": "Equipment",
+    "ru": "Набор артиста",
+    "en": "Entertainer's Pack",
+    "file": "09_Equipment.md",
+    "method": "named equipment pack and price"
+  },
+  {
+    "category": "Equipment",
+    "ru": "Набор путешественника",
+    "en": "Explorer's Pack",
+    "file": "09_Equipment.md",
+    "method": "named equipment pack and price"
+  },
+  {
+    "category": "Equipment",
+    "ru": "Набор священника",
+    "en": "Priest's Pack",
+    "file": "09_Equipment.md",
+    "method": "named equipment pack and price"
+  },
+  {
+    "category": "Equipment",
+    "ru": "Набор учёного",
+    "en": "Scholar's Pack",
+    "file": "09_Equipment.md",
+    "method": "named equipment pack and price"
   }
 ]

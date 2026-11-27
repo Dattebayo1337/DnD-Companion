@@ -6,6 +6,7 @@ import {
   classRules,
   deriveCharacter,
   spellSlots,
+  castingAbility,
   gainLevel,
   restCharacter,
   validateCharacter,
@@ -46,8 +47,8 @@ function hero(year = 2024, name = "Wizard", level = 1): CharacterData {
     hp: 1,
   });
 }
-test("Все 24 класса: кости хитов, 20 уровней, ячейки и защита", () => {
-  assert.equal(Object.keys(classRules).length, 24);
+test("Все 26 классов: кости хитов, 20 уровней, ячейки и защита", () => {
+  assert.equal(Object.keys(classRules).length, 26);
   for (const rule of Object.values(classRules)) {
     assert.ok([6, 8, 10, 12].includes(rule.hitDie));
     assert.equal(rule.rows.length, 20);
@@ -90,6 +91,15 @@ test("Мультикласс: округление полу-заклинател
       spellSlots(c).slice(0, 2),
       year === 2014 ? [3, 0] : [4, 2],
     );
+  }
+});
+test("Изобретатель обеих редакций использует Интеллект и округляет половину уровня вверх", () => {
+  assert.equal(castingAbility("Artificer"), "INT");
+  for (const year of [2014, 2024]) {
+    const c = hero(year, "Artificer", 3);
+    assert.deepEqual(spellSlots(c).slice(0, 2), [3, 0]);
+    c.classes.push(...hero(year, "Wizard").classes);
+    assert.deepEqual(spellSlots(c).slice(0, 2), [4, 2]);
   }
 });
 test("Длительный отдых: половина костей в 2014 и все в 2024", () => {

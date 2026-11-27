@@ -1,0 +1,691 @@
+{
+  "schemaVersion": 1,
+  "name": "Справочник ДнД.су · 2014-class · 01",
+  "sources": [
+    {
+      "id": "31b244ca-d1d3-5ec8-ac46-f9c2f70bc28d",
+      "shortName": "Каталог 2014 · Tasha's Cauldron of Everything",
+      "fullNameRu": "Котёл Таши со всякой всячиной",
+      "fullNameOriginal": "Tasha's Cauldron of Everything",
+      "edition": "5e_2014",
+      "publisher": "Справочник ДнД.су",
+      "releaseDate": null,
+      "contentType": "MetadataOnly",
+      "licenseType": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке."
+    }
+  ],
+  "entries": [
+    {
+      "id": "613dea10-2dd7-562b-a99b-bdf001a31297",
+      "edition": "5e_2014",
+      "nameRu": "Боец",
+      "nameOriginal": "Warrior Sidekick",
+      "sourceBookId": "31b244ca-d1d3-5ec8-ac46-f9c2f70bc28d",
+      "source": "https://dnd.su/class/199-warrior-sidekick/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2014",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Напарник из правил Таши для мастера. Выберите боевую роль, затем ведите запас Второго дыхания и число атак по уровню напарника.",
+      "reference": {
+        "category": "Class",
+        "properties": [
+          {
+            "nameRu": "Вариант правил",
+            "valueRu": "Класс напарника мастера"
+          }
+        ],
+        "progression": [
+          {
+            "level": 1,
+            "proficiencyBonus": 2,
+            "featuresRu": "Бонусные владения, Воинская роль",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 2,
+            "proficiencyBonus": 2,
+            "featuresRu": "Второе дыхание (1 использование)",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 3,
+            "proficiencyBonus": 2,
+            "featuresRu": "Улучшенные критические попадания",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 4,
+            "proficiencyBonus": 2,
+            "featuresRu": "Увеличение характеристик",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 5,
+            "proficiencyBonus": 3,
+            "featuresRu": "—",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 6,
+            "proficiencyBonus": 3,
+            "featuresRu": "Дополнительная атака (1 дополнительная атака)",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 7,
+            "proficiencyBonus": 3,
+            "featuresRu": "Боеготовность",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 8,
+            "proficiencyBonus": 3,
+            "featuresRu": "Увеличение характеристик",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 9,
+            "proficiencyBonus": 4,
+            "featuresRu": "—",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 10,
+            "proficiencyBonus": 4,
+            "featuresRu": "Улучшенная оборона",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 11,
+            "proficiencyBonus": 4,
+            "featuresRu": "Упорство (1 использование)",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 12,
+            "proficiencyBonus": 4,
+            "featuresRu": "Увеличение характеристик",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 13,
+            "proficiencyBonus": 5,
+            "featuresRu": "—",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 14,
+            "proficiencyBonus": 5,
+            "featuresRu": "Увеличение характеристик",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 15,
+            "proficiencyBonus": 5,
+            "featuresRu": "Дополнительная атака (2 дополнительные атаки)",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 16,
+            "proficiencyBonus": 5,
+            "featuresRu": "Увеличение характеристик",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 17,
+            "proficiencyBonus": 6,
+            "featuresRu": "—",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 18,
+            "proficiencyBonus": 6,
+            "featuresRu": "Упорство (2 использования)",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 19,
+            "proficiencyBonus": 6,
+            "featuresRu": "Увеличение характеристик",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 20,
+            "proficiencyBonus": 6,
+            "featuresRu": "Второе дыхание (2 использования)",
+            "resourcesRu": "",
+            "spellSlots": []
+          }
+        ],
+        "features": [
+          {
+            "level": 1,
+            "nameRu": "Воинская роль",
+            "descriptionRu": "Сначала выберите, сосредоточится ли напарник на защите союзников или на собственных атаках."
+          },
+          {
+            "level": 2,
+            "nameRu": "Второе дыхание",
+            "descriptionRu": "Напарник восстанавливает хиты бонусным действием."
+          }
+        ]
+      }
+    },
+    {
+      "id": "64c727fc-566d-5080-a863-4d899ee0ceec",
+      "edition": "5e_2014",
+      "nameRu": "Эксперт",
+      "nameOriginal": "Expert Sidekick",
+      "sourceBookId": "31b244ca-d1d3-5ec8-ac46-f9c2f70bc28d",
+      "source": "https://dnd.su/class/197-expert-sidekick/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2014",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Напарник помогает группе проверками навыков и действием Помощь. Компетентность и Хитрое действие позволяют ему действовать как специалисту вне боя и в схватке.",
+      "reference": {
+        "category": "Class",
+        "properties": [
+          {
+            "nameRu": "Вариант правил",
+            "valueRu": "Класс напарника мастера"
+          }
+        ],
+        "progression": [
+          {
+            "level": 1,
+            "proficiencyBonus": 2,
+            "featuresRu": "Бонусные владения, Полезность",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 2,
+            "proficiencyBonus": 2,
+            "featuresRu": "Хитрое действие",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 3,
+            "proficiencyBonus": 2,
+            "featuresRu": "Компетентность",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 4,
+            "proficiencyBonus": 2,
+            "featuresRu": "Увеличение характеристик",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 5,
+            "proficiencyBonus": 3,
+            "featuresRu": "—",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 6,
+            "proficiencyBonus": 3,
+            "featuresRu": "Скоординированный удар",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 7,
+            "proficiencyBonus": 3,
+            "featuresRu": "Увёртливость",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 8,
+            "proficiencyBonus": 3,
+            "featuresRu": "Увеличение характеристик",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 9,
+            "proficiencyBonus": 4,
+            "featuresRu": "—",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 10,
+            "proficiencyBonus": 4,
+            "featuresRu": "Увеличение характеристик",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 11,
+            "proficiencyBonus": 4,
+            "featuresRu": "Вдохновляющая помощь (1к6)",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 12,
+            "proficiencyBonus": 4,
+            "featuresRu": "Увеличение характеристик",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 13,
+            "proficiencyBonus": 5,
+            "featuresRu": "—",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 14,
+            "proficiencyBonus": 5,
+            "featuresRu": "Надёжный талант",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 15,
+            "proficiencyBonus": 5,
+            "featuresRu": "Компетентность",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 16,
+            "proficiencyBonus": 5,
+            "featuresRu": "Увеличение характеристик",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 17,
+            "proficiencyBonus": 6,
+            "featuresRu": "—",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 18,
+            "proficiencyBonus": 6,
+            "featuresRu": "Острый ум",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 19,
+            "proficiencyBonus": 6,
+            "featuresRu": "Увеличение характеристик",
+            "resourcesRu": "",
+            "spellSlots": []
+          },
+          {
+            "level": 20,
+            "proficiencyBonus": 6,
+            "featuresRu": "Вдохновляющая помощь (2к6)",
+            "resourcesRu": "",
+            "spellSlots": []
+          }
+        ],
+        "features": [
+          {
+            "level": 1,
+            "nameRu": "Полезность",
+            "descriptionRu": "Напарник может использовать Помощь бонусным действием."
+          },
+          {
+            "level": 2,
+            "nameRu": "Хитрое действие",
+            "descriptionRu": "Бонусное действие даёт выбор между Рывком, Отходом и Засадой."
+          }
+        ]
+      }
+    },
+    {
+      "id": "c9d32639-13c5-598e-a0ef-40c6ab2bbd3a",
+      "edition": "5e_2014",
+      "nameRu": "Заклинатель",
+      "nameOriginal": "Spellcaster Sidekick",
+      "sourceBookId": "31b244ca-d1d3-5ec8-ac46-f9c2f70bc28d",
+      "source": "https://dnd.su/class/198-spellcaster-sidekick/",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2014",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Напарник осваивает заклинания выбранной роли. Таблица показывает известные заклинания и заговоры, а также его собственные ячейки на каждом уровне.",
+      "reference": {
+        "category": "Class",
+        "properties": [
+          {
+            "nameRu": "Вариант правил",
+            "valueRu": "Класс напарника мастера"
+          }
+        ],
+        "progression": [
+          {
+            "level": 1,
+            "proficiencyBonus": 2,
+            "featuresRu": "Бонусные владения, Использование заклинаний",
+            "resourcesRu": "Известные заговоры — 2, Известные заклинания — 1",
+            "spellSlots": [
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "level": 2,
+            "proficiencyBonus": 2,
+            "featuresRu": "—",
+            "resourcesRu": "Известные заговоры — 2, Известные заклинания — 2",
+            "spellSlots": [
+              2,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "level": 3,
+            "proficiencyBonus": 2,
+            "featuresRu": "—",
+            "resourcesRu": "Известные заговоры — 2, Известные заклинания — 3",
+            "spellSlots": [
+              3,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "level": 4,
+            "proficiencyBonus": 2,
+            "featuresRu": "Увеличение характеристик",
+            "resourcesRu": "Известные заговоры — 3, Известные заклинания — 3",
+            "spellSlots": [
+              3,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "level": 5,
+            "proficiencyBonus": 3,
+            "featuresRu": "—",
+            "resourcesRu": "Известные заговоры — 3, Известные заклинания — 4",
+            "spellSlots": [
+              4,
+              2,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "level": 6,
+            "proficiencyBonus": 3,
+            "featuresRu": "Могущественные заговоры",
+            "resourcesRu": "Известные заговоры — 3, Известные заклинания — 4",
+            "spellSlots": [
+              4,
+              2,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "level": 7,
+            "proficiencyBonus": 3,
+            "featuresRu": "—",
+            "resourcesRu": "Известные заговоры — 3, Известные заклинания — 5",
+            "spellSlots": [
+              4,
+              3,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "level": 8,
+            "proficiencyBonus": 3,
+            "featuresRu": "Увеличение характеристик",
+            "resourcesRu": "Известные заговоры — 3, Известные заклинания — 5",
+            "spellSlots": [
+              4,
+              3,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "level": 9,
+            "proficiencyBonus": 4,
+            "featuresRu": "—",
+            "resourcesRu": "Известные заговоры — 3, Известные заклинания — 6",
+            "spellSlots": [
+              4,
+              3,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "level": 10,
+            "proficiencyBonus": 4,
+            "featuresRu": "—",
+            "resourcesRu": "Известные заговоры — 4, Известные заклинания — 6",
+            "spellSlots": [
+              4,
+              3,
+              2,
+              0,
+              0
+            ]
+          },
+          {
+            "level": 11,
+            "proficiencyBonus": 4,
+            "featuresRu": "—",
+            "resourcesRu": "Известные заговоры — 4, Известные заклинания — 7",
+            "spellSlots": [
+              4,
+              3,
+              3,
+              0,
+              0
+            ]
+          },
+          {
+            "level": 12,
+            "proficiencyBonus": 4,
+            "featuresRu": "Увеличение характеристик",
+            "resourcesRu": "Известные заговоры — 4, Известные заклинания — 7",
+            "spellSlots": [
+              4,
+              3,
+              3,
+              0,
+              0
+            ]
+          },
+          {
+            "level": 13,
+            "proficiencyBonus": 5,
+            "featuresRu": "—",
+            "resourcesRu": "Известные заговоры — 4, Известные заклинания — 8",
+            "spellSlots": [
+              4,
+              3,
+              3,
+              1,
+              0
+            ]
+          },
+          {
+            "level": 14,
+            "proficiencyBonus": 5,
+            "featuresRu": "Усиленные заклинания",
+            "resourcesRu": "Известные заговоры — 4, Известные заклинания — 8",
+            "spellSlots": [
+              4,
+              3,
+              3,
+              1,
+              0
+            ]
+          },
+          {
+            "level": 15,
+            "proficiencyBonus": 5,
+            "featuresRu": "—",
+            "resourcesRu": "Известные заговоры — 4, Известные заклинания — 9",
+            "spellSlots": [
+              4,
+              3,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "level": 16,
+            "proficiencyBonus": 5,
+            "featuresRu": "Увеличение характеристик",
+            "resourcesRu": "Известные заговоры — 4, Известные заклинания — 9",
+            "spellSlots": [
+              4,
+              3,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "level": 17,
+            "proficiencyBonus": 6,
+            "featuresRu": "—",
+            "resourcesRu": "Известные заговоры — 4, Известные заклинания — 10",
+            "spellSlots": [
+              4,
+              3,
+              3,
+              3,
+              1
+            ]
+          },
+          {
+            "level": 18,
+            "proficiencyBonus": 6,
+            "featuresRu": "Увеличение характеристик",
+            "resourcesRu": "Известные заговоры — 4, Известные заклинания — 10",
+            "spellSlots": [
+              4,
+              3,
+              3,
+              3,
+              1
+            ]
+          },
+          {
+            "level": 19,
+            "proficiencyBonus": 6,
+            "featuresRu": "—",
+            "resourcesRu": "Известные заговоры — 4, Известные заклинания — 11",
+            "spellSlots": [
+              4,
+              3,
+              3,
+              3,
+              2
+            ]
+          },
+          {
+            "level": 20,
+            "proficiencyBonus": 6,
+            "featuresRu": "Фокусированное колдовство",
+            "resourcesRu": "Известные заговоры — 4, Известные заклинания — 11",
+            "spellSlots": [
+              4,
+              3,
+              3,
+              3,
+              2
+            ]
+          }
+        ],
+        "features": [
+          {
+            "level": 1,
+            "nameRu": "Выбор роли",
+            "descriptionRu": "Роль определяет основную характеристику и доступные источники заклинаний."
+          },
+          {
+            "level": 2,
+            "nameRu": "Подготовка к ходу",
+            "descriptionRu": "Сверьте известные заклинания и оставшиеся ячейки по строке текущего уровня."
+          }
+        ]
+      }
+    }
+  ]
+}

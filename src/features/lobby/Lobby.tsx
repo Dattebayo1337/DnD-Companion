@@ -1,5 +1,6 @@
 "use client";
 import { TabletopPanel } from "./TabletopPanel";
+import { LobbyCharacterSharing } from "./LobbyCharacterSharing";
 import { CharacterPrint } from "../print/CharacterPrint";
 import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
@@ -321,12 +322,19 @@ export function Lobby() {
           </section>
           <section className="lobby-panel">
             <h2>Персонажи группы</h2>
+            <LobbyCharacterSharing
+              key={view.id}
+              view={view}
+              characters={index?.characters ?? []}
+              busy={busy}
+              action={action}
+            />
             <p>
-              Полные листы доступны всем участникам. Изменения мастера
+              Опубликованные листы доступны всем участникам. Изменения
               обновляются автоматически каждые 5 секунд.
             </p>
             {!view.characters.length && (
-              <p>Мастер ещё не добавил персонажей.</p>
+              <p>В лобби пока нет опубликованных листов.</p>
             )}
             <div className="lobby-character-grid">
               {view.characters.map((c) => (

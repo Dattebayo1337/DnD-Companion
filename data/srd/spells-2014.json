@@ -257,10 +257,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 2,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-10-02T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 0,
@@ -291,8 +291,14 @@
         "subclasses": [],
         "damage": "1к6",
         "damageType": "Acid",
+        "damageTypes": [
+          "Acid"
+        ],
         "healing": "",
         "savingThrow": "DEX",
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -313,10 +319,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 2,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-10-02T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 0,
@@ -347,6 +353,9 @@
         "subclasses": [],
         "damage": "1к8",
         "damageType": "Cold",
+        "damageTypes": [
+          "Cold"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": "Ranged",
@@ -427,10 +436,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 0,
@@ -460,6 +469,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Force"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -482,10 +494,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 0,
@@ -517,6 +529,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Necrotic"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -539,10 +554,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 2,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-10-02T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 0,
@@ -573,6 +588,9 @@
         "subclasses": [],
         "damage": "1к10",
         "damageType": "Fire",
+        "damageTypes": [
+          "Fire"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": "Ranged",
@@ -655,10 +673,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 0,
@@ -693,6 +711,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -713,10 +734,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 0,
@@ -746,8 +767,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Radiant"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -938,10 +965,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 0,
@@ -971,6 +998,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Fire"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -1219,10 +1249,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 2,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-10-02T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 0,
@@ -1253,6 +1283,9 @@
         "subclasses": [],
         "damage": "1к8",
         "damageType": "Lightning",
+        "damageTypes": [
+          "Lightning"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": "Melee",
@@ -1275,10 +1308,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 0,
@@ -1311,8 +1344,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Poison"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -1333,10 +1372,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 0,
@@ -1365,8 +1404,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Psychic"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -1387,10 +1432,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 1,
@@ -1420,8 +1465,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Fire"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -1499,10 +1550,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 1,
@@ -1532,6 +1583,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Radiant"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -1554,10 +1608,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 1,
@@ -1590,8 +1644,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Thunder"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -1725,10 +1785,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 1,
@@ -1763,6 +1823,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -1783,10 +1846,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 1,
@@ -1820,6 +1883,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -2015,10 +2081,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 2,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-10-02T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 1,
@@ -2049,6 +2115,9 @@
         "subclasses": [],
         "damage": "1к4 + 1 (каждая стрела)",
         "damageType": "Force",
+        "damageTypes": [
+          "Force"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -2182,10 +2251,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 1,
@@ -2215,6 +2284,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Necrotic"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -2237,10 +2309,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 1,
@@ -2270,6 +2342,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Radiant"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -2584,10 +2659,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 1,
@@ -2618,8 +2693,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Fire"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -2752,10 +2833,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 1,
@@ -2787,6 +2868,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "STR"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -2807,10 +2891,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 1,
@@ -2846,6 +2930,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -3265,10 +3352,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 1,
@@ -3300,6 +3387,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -3493,10 +3583,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 1,
@@ -3529,6 +3619,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -3549,10 +3642,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 1,
@@ -3585,6 +3678,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -4574,10 +4670,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -4612,6 +4708,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -4745,10 +4844,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -4782,8 +4881,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Thunder"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -4917,10 +5022,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -4953,6 +5058,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -5087,10 +5195,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -5124,6 +5232,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CHA"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -5144,10 +5255,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -5178,6 +5289,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Acid"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -5200,10 +5314,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -5232,6 +5346,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Radiant"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -5311,10 +5428,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -5348,6 +5465,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -5368,10 +5488,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -5402,8 +5522,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Radiant"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -5424,10 +5550,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -5460,6 +5586,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -5652,10 +5781,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -5690,6 +5819,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -5823,10 +5955,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -5857,6 +5989,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Fire"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -5879,10 +6014,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -5914,6 +6049,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Fire"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -6282,10 +6420,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -6320,6 +6458,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "STR"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -6396,10 +6537,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -6431,8 +6572,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Fire"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -6453,10 +6600,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -6487,6 +6634,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Fire"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -6564,10 +6714,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -6599,8 +6749,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Fire"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -6621,10 +6777,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -6658,6 +6814,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -6963,10 +7122,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -7000,6 +7159,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -7020,10 +7182,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -7061,6 +7223,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -7140,10 +7305,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -7176,6 +7341,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CHA"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -7196,10 +7364,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 2,
@@ -7231,6 +7399,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Piercing"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -7427,10 +7598,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 3,
@@ -7465,6 +7636,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -7544,10 +7718,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 5,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 3,
@@ -7578,8 +7752,15 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Necrotic",
+          "Radiant"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -7659,10 +7840,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 3,
@@ -7696,6 +7877,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -7888,10 +8072,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 3,
@@ -7927,6 +8111,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CHA"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -8112,10 +8299,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 3,
@@ -8147,8 +8334,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Lightning"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -8169,10 +8362,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 3,
@@ -8202,8 +8395,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Lightning"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -8224,10 +8423,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 3,
@@ -8259,8 +8458,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Necrotic"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -8339,10 +8544,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 2,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-10-02T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 3,
@@ -8374,8 +8579,14 @@
         "subclasses": [],
         "damage": "8к6",
         "damageType": "Fire",
+        "damageTypes": [
+          "Fire"
+        ],
         "healing": "",
         "savingThrow": "DEX",
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -8453,10 +8664,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 3,
@@ -8491,6 +8702,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -8738,10 +8952,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 3,
@@ -8772,6 +8986,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Necrotic"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -9026,10 +9243,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 3,
@@ -9060,6 +9277,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Bludgeoning"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -9082,10 +9302,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 3,
@@ -9120,6 +9340,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -9254,10 +9477,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 3,
@@ -9289,8 +9512,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Bludgeoning"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "STR"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -9311,10 +9540,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 3,
@@ -9350,6 +9579,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -9370,10 +9602,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 3,
@@ -9408,6 +9640,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -9718,10 +9953,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 4,
@@ -9752,6 +9987,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Piercing"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -9774,10 +10012,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 4,
@@ -9810,8 +10048,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Bludgeoning"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "STR"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -10000,10 +10244,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 4,
@@ -10036,8 +10280,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Necrotic"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -10058,10 +10308,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 4,
@@ -10094,8 +10344,15 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Bludgeoning",
+          "Cold"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -10116,10 +10373,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 4,
@@ -10151,6 +10408,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Force"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -10173,10 +10433,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 4,
@@ -10212,6 +10472,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -10288,10 +10551,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 4,
@@ -10328,6 +10591,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CHA"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -10580,10 +10846,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 4,
@@ -10614,6 +10880,10 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Cold",
+          "Fire"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -10636,10 +10906,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 4,
@@ -10672,6 +10942,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -10753,10 +11026,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 4,
@@ -10792,6 +11065,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -10812,10 +11088,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 4,
@@ -10845,8 +11121,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Psychic"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -10980,10 +11262,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 4,
@@ -11015,6 +11297,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -11094,10 +11379,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 4,
@@ -11130,8 +11415,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Fire"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -11152,10 +11443,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 4,
@@ -11186,6 +11477,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -11262,10 +11556,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 4,
@@ -11298,6 +11592,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -11373,10 +11670,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 4,
@@ -11407,8 +11704,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Bludgeoning"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -11429,10 +11732,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -11463,6 +11766,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Force"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -11711,10 +12017,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -11747,6 +12053,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -11825,10 +12134,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -11861,6 +12170,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -11881,10 +12193,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -11919,6 +12231,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -11939,10 +12254,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -11974,8 +12289,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Cold"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -12053,10 +12374,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -12090,6 +12411,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CHA"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -12167,10 +12491,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -12207,6 +12531,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -12227,10 +12554,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -12263,8 +12590,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Piercing"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -12285,10 +12618,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -12319,8 +12652,15 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Fire",
+          "Radiant"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -12341,10 +12681,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -12377,8 +12717,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Psychic"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -12399,10 +12745,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -12433,8 +12779,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Poison"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -12512,10 +12864,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -12548,6 +12900,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CHA"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -12568,10 +12923,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -12607,6 +12962,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CHA"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -12627,10 +12985,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -12664,6 +13022,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -12853,10 +13214,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -12890,6 +13251,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CHA"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -12966,10 +13330,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -12999,6 +13363,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Psychic"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -13077,10 +13444,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -13113,8 +13480,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Psychic"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -13417,10 +13790,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 5,
@@ -13456,6 +13829,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -13592,10 +13968,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 6,
@@ -13628,6 +14004,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CHA"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -13819,10 +14198,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 6,
@@ -13857,6 +14236,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -13933,10 +14315,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 6,
@@ -13969,8 +14351,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Necrotic"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -13991,10 +14379,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 6,
@@ -14029,6 +14417,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -14105,10 +14496,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 6,
@@ -14139,8 +14530,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Cold"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -14161,10 +14558,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 6,
@@ -14194,8 +14591,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Necrotic"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -14216,10 +14619,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 6,
@@ -14251,6 +14654,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -14271,10 +14677,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 6,
@@ -14308,6 +14714,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -14609,10 +15018,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 6,
@@ -14644,8 +15053,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Force"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -14778,10 +15193,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 6,
@@ -14814,8 +15229,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Radiant"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -14892,10 +15313,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 6,
@@ -14925,8 +15346,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Slashing"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -14947,10 +15374,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 6,
@@ -14981,8 +15408,15 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Cold"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX",
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -15003,10 +15437,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 6,
@@ -15037,8 +15471,15 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Piercing",
+          "Slashing"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -15229,10 +15670,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 6,
@@ -15264,8 +15705,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Lightning"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -15286,10 +15733,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 7,
@@ -15321,6 +15768,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Force"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -15343,10 +15793,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 7,
@@ -15377,6 +15827,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CHA"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -15511,10 +15964,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 7,
@@ -15548,6 +16001,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -15681,10 +16137,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 7,
@@ -15716,8 +16172,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Fire"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -15738,10 +16200,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 7,
@@ -15778,6 +16240,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CHA"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -15798,10 +16263,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 7,
@@ -15833,8 +16298,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Necrotic"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -15967,10 +16438,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 7,
@@ -16001,8 +16472,20 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Acid",
+          "Cold",
+          "Fire",
+          "Lightning",
+          "Poison"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX",
+          "CON",
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -16023,10 +16506,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 7,
@@ -16061,6 +16544,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -16139,10 +16625,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 7,
@@ -16177,6 +16663,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CHA"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -16197,10 +16686,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 7,
@@ -16233,8 +16722,17 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Necrotic"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON",
+          "INT",
+          "WIS",
+          "CHA"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -16311,10 +16809,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 7,
@@ -16345,6 +16843,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Force"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -16483,10 +16984,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 8,
@@ -16520,6 +17021,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -16540,10 +17044,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 8,
@@ -16576,6 +17080,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -16764,10 +17271,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 8,
@@ -16800,8 +17307,15 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Bludgeoning"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX",
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -16933,10 +17447,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 8,
@@ -16967,8 +17481,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Fire"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -16989,10 +17509,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 8,
@@ -17027,6 +17547,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -17102,10 +17625,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 8,
@@ -17139,8 +17662,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Psychic"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "INT"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -17217,10 +17746,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 8,
@@ -17254,6 +17783,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -17274,10 +17806,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 8,
@@ -17310,8 +17842,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Radiant"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -17390,10 +17928,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 9,
@@ -17423,8 +17961,19 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Acid",
+          "Bludgeoning",
+          "Cold",
+          "Lightning",
+          "Thunder"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX",
+          "CON"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -17503,10 +18052,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 9,
@@ -17540,6 +18089,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -17617,10 +18169,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 9,
@@ -17650,6 +18202,9 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Necrotic"
+        ],
         "healing": "",
         "savingThrow": null,
         "attackType": null,
@@ -17729,10 +18284,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 9,
@@ -17767,6 +18322,9 @@
         "damageType": null,
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -17787,10 +18345,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 9,
@@ -17820,8 +18378,14 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Psychic"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -17897,10 +18461,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 9,
@@ -17931,8 +18495,15 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Bludgeoning",
+          "Fire"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX"
+        ],
         "attackType": null,
         "conditions": []
       }
@@ -18067,10 +18638,10 @@
       "contentOrigin": "SRD",
       "aliases": [],
       "tags": [],
-      "contentVersion": 1,
+      "contentVersion": 4,
       "errataVersion": "",
       "createdAt": "2026-09-17T00:00:00.000Z",
-      "updatedAt": "2026-09-17T00:00:00.000Z",
+      "updatedAt": "2026-11-26T00:00:00.000Z",
       "kind": "Spell",
       "spell": {
         "level": 9,
@@ -18100,8 +18671,20 @@
         "subclasses": [],
         "damage": "",
         "damageType": null,
+        "damageTypes": [
+          "Acid",
+          "Cold",
+          "Fire",
+          "Lightning",
+          "Poison"
+        ],
         "healing": "",
         "savingThrow": null,
+        "savingThrows": [
+          "DEX",
+          "CON",
+          "WIS"
+        ],
         "attackType": null,
         "conditions": []
       }

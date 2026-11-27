@@ -22,18 +22,14 @@ export function comparisonFields(entry: Content): Record<string, string> {
       fields[`Свойство: ${p.nameRu}${count > 1 ? ` (${count})` : ""}`] =
         p.valueRu;
     }
-    fields["Умения по уровням"] = entry.reference.features
-      .map(
-        (f) =>
-          `${f.level === null ? "" : `${f.level}-й уровень · `}${f.nameRu}\n${f.descriptionRu}`,
-      )
-      .join("\n\n");
-    fields["Развитие класса"] = entry.reference.progression
-      .map(
-        (r) =>
-          `${r.level}: +${r.proficiencyBonus}; ${r.featuresRu}; ${r.resourcesRu}; ячейки: ${r.spellSlots.join(" / ")}`,
-      )
-      .join("\n");
+    for (const feature of entry.reference.features) {
+      const label = `Умение · ${feature.nameRu}`;
+      const value = `${feature.level === null ? "" : `${feature.level}-й уровень\n`}${feature.descriptionRu}`;
+      fields[label] = fields[label] ? `${fields[label]}\n\n${value}` : value;
+    }
+    for (const row of entry.reference.progression)
+      fields[`Развитие класса · уровень ${row.level}`] =
+        `Бонус мастерства +${row.proficiencyBonus}\n${row.featuresRu}\n${row.resourcesRu}\nЯчейки: ${row.spellSlots.join(" / ")}`;
   } else if (entry.kind === "Spell") {
     const s = entry.spell;
     Object.assign(fields, {

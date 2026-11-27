@@ -132,10 +132,13 @@ export const spellSchema = z
     higherLevelsOriginal: text.default(""),
     classes: strings,
     subclasses: strings,
+    accessNoteRu: z.string().max(500).optional(),
     damage: z.string().max(100).default(""),
     damageType: z.enum(damages).nullable().default(null),
+    damageTypes: z.array(z.enum(damages)).max(damages.length).optional(),
     healing: z.string().max(100).default(""),
     savingThrow: z.enum(abilities).nullable().default(null),
+    savingThrows: z.array(z.enum(abilities)).max(abilities.length).optional(),
     attackType: z.enum(["Melee", "Ranged"]).nullable().default(null),
     conditions: strings,
   })
@@ -223,6 +226,7 @@ export const referenceCategories = [
   "Armor",
   "Equipment",
   "MagicItem",
+  "BestiaryProfile",
   "Condition",
   "Rule",
 ] as const;

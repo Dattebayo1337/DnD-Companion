@@ -2,6 +2,27 @@ import { db } from "@/database/client";
 import { contentInclude, toContent } from "@/database/repository";
 import type { Content } from "@/entities/content";
 
+// PHB 2024 change notes identify these specific Tasha's subclasses.
+// https://www.dndbeyond.com/posts/1810-updates-in-the-players-handbook-2024
+const verifiedPairs = [
+  [
+    "dcdd2808-3aca-5cd0-af9b-bfeafc69b318",
+    "2240a933-35fa-561f-a34b-d6522ab71fda",
+  ], // Circle of Stars
+  [
+    "9995d0da-fdff-5598-a0ea-53f0a039d0d0",
+    "9a84bc4f-1818-57c9-a0e6-2006a7854865",
+  ], // Psi Warrior
+  [
+    "ff66faef-da3d-52f0-a6e7-4ab61f618140",
+    "8e1e88ce-2593-5636-ac02-357e04be2ee3",
+  ], // Mercy
+  [
+    "3916e6ae-8efe-5b8c-aa22-38ef7cad975f",
+    "4b8c5b91-d35e-535f-afe3-4dcd6c6b9701",
+  ], // Soulknife
+] as const;
+
 const key = (value: string) =>
   value.trim().toLocaleLowerCase("en").replace(/ё/g, "е");
 export function versionCandidate(a: Content, b: Content): boolean {
@@ -41,6 +62,10 @@ export async function contentVersions(id: string) {
   const linked = new Set(
     relations.map((r) => (r.sourceId === id ? r.targetId : r.sourceId)),
   );
+  for (const [legacy, revised] of verifiedPairs) {
+    if (id === legacy) linked.add(revised);
+    if (id === revised) linked.add(legacy);
+  }
   const rows = await db.content.findMany({
     where: {
       translationStatus: "Approved",

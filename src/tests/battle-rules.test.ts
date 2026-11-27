@@ -136,3 +136,33 @@ test("Кубы: парсер, преимущества, помехи, крит �
   assert.throws(() => parseDice("51d6", "critical"));
   assert.throws(() => rollDice("1d6", "normal", () => 7));
 });
+
+test("Battle snapshot expires round bonuses without ticking twice when navigating backwards", () => {
+  const fighter = {
+    ...newCombatant(randomUUID(), "Герой", "5e_2024"),
+    ac: 16,
+    effectSnapshot: {
+      baseAc: 11,
+      effects: [{ source: "Щит", acBonus: 5, remaining: 2 }],
+    },
+  };
+  const battle = startBattle(
+    battleSchema.parse({
+      name: "Проверка раундов",
+      edition: "5e_2024",
+      status: "preparing",
+      round: 1,
+      turn: 0,
+      participants: [fighter],
+      notes: "",
+      log: [],
+    }),
+  );
+  const second = moveTurn(battle, "next");
+  const repeat = moveTurn(moveTurn(second, "previous"), "next");
+  assert.equal(repeat.participants[0].effectSnapshot?.effects[0].remaining, 1);
+  const third = moveTurn(repeat, "round");
+  assert.equal(third.participants[0].ac, 11);
+  assert.deepEqual(third.participants[0].effectSnapshot?.effects, []);
+  assert.equal(battle.participants[0].ac, 16);
+});

@@ -11,7 +11,7 @@ for (const [index, year] of [2014, 2024].entries())
   test(`Справочники ${year}: все категории, классы 1–20 и полный индекс предметов`, () => {
     const d = data[index];
     assert.deepEqual(auditDataset(d).issues, []);
-    assert.equal(d.entries.length, index === 0 ? 532 : 682);
+    assert.equal(d.entries.length, index === 0 ? 674 : 692);
     const refs = d.entries as ReferenceEntry[];
     assert.equal(
       refs.filter((e) => e.reference.category === "Class").length,
@@ -75,10 +75,10 @@ test("Подкласс не может ссылаться на класс дру
 });
 test("Справочники проходят реальный импорт, повторный импорт, поиск и связи класса", async () => {
   const result = await importDataset(data[1]);
-  assert.equal(result.imported, 682);
+  assert.equal(result.imported, data[1].entries.length);
   const repeat = await importDataset(data[1]);
   assert.equal(repeat.imported, 0);
-  assert.equal(repeat.skipped, 682);
+  assert.equal(repeat.skipped, data[1].entries.length);
   const classes = await search(
     filtersSchema.parse({
       kind: "Reference",

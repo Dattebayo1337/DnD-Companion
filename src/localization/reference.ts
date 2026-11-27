@@ -12,6 +12,7 @@ export const referenceLabels: Record<
   Armor: "Доспехи",
   Equipment: "Снаряжение",
   MagicItem: "Магические предметы",
+  BestiaryProfile: "Спутники и особые блоки бестиария",
   Condition: "Состояния",
   Rule: "Правила",
 };

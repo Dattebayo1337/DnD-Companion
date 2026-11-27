@@ -1,5 +1,7 @@
 "use client";
 import { CharacterImport } from "./CharacterImport";
+import { OfflineSnapshotSave } from "../offline/OfflineSnapshotSave";
+import { characterSnapshot } from "@/domain/offline-snapshot";
 import {
   CustomSheet,
   PlayableCustomSheet,
@@ -1133,6 +1135,10 @@ export function Characters({
             </button>
           )}
           <CharacterPrint character={c} content={entries} />
+          <OfflineSnapshotSave
+            key={selected.id}
+            makeSnapshot={() => characterSnapshot(selected, entries)}
+          />
           <nav className="character-tabs" aria-label="Разделы листа">
             {[
               "Бумажный лист",

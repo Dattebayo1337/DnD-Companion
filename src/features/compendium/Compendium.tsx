@@ -42,6 +42,7 @@ export function Compendium({
   settings,
   parentId,
   className,
+  onBestiaryProfiles,
   signedIn = false,
 }: {
   kind?: "Spell" | "Monster" | "Reference";
@@ -54,6 +55,7 @@ export function Compendium({
   settings: Settings;
   parentId?: string;
   className?: string;
+  onBestiaryProfiles?: () => void;
   signedIn?: boolean;
 }) {
   const setQuery = onQueryChange;
@@ -164,6 +166,11 @@ export function Compendium({
         )}
       </div>
       <div className="filter-panel">
+        {kind === "Monster" && onBestiaryProfiles && edition === "5e_2014" && (
+          <button type="button" className="button" onClick={onBestiaryProfiles}>
+            Спутники, объекты и существа без фиксированного ПО
+          </button>
+        )}
         <div className="filter-search">
           <Search size={18} />
           <input

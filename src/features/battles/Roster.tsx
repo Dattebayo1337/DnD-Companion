@@ -361,6 +361,16 @@ export function ParticipantRow({
       </header>
       <meter min={0} max={p.maxHp} value={p.hp} aria-label={`Хиты ${p.name}`} />
       <div className="battle-condition-tags">
+        {p.effectSnapshot?.effects.map((effect, index) =>
+          effect.remaining === null ? null : (
+            <span
+              key={index}
+              title="Эффект из снимка листа. Счётчик меняется только в этом бою."
+            >
+              {effect.source} · раундов: {effect.remaining}
+            </span>
+          ),
+        )}
         {p.conditions.map((c) => (
           <span key={c.id}>
             <button onClick={() => open(c.id)}>{c.name}</button>

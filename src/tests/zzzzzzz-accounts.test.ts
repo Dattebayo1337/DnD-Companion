@@ -435,6 +435,55 @@ test("Два аккаунта: приватные API, ссылки на чуж�
     assert.ok(!JSON.stringify(view).includes("SECRET"));
     assert.ok((await lobbyView(a.req, lobby.id)).master);
     assert.equal((await lobbyIndex(b.req)).lobbies.length, 1);
+    const playerChar = await db.character.create({
+      data: {
+        id: randomUUID(),
+        ownerId: b.id,
+        name: "Лист игрока",
+        edition: cd.edition,
+        data: json({
+          ...cd,
+          name: "Лист игрока",
+          notes: "PLAYER_PRIVATE_UNTIL_APPROVAL",
+        }),
+      },
+    });
+    await assert.rejects(
+      lobbyCommand(b.req, {
+        action: "shareCharacter",
+        id: lobby.id,
+        characterId: char.id,
+      }),
+      /не найден/,
+    );
+    await lobbyCommand(b.req, {
+      action: "shareCharacter",
+      id: lobby.id,
+      characterId: playerChar.id,
+    });
+    const pending = await lobbyView(a.req, lobby.id);
+    const share = pending.master!.shares[0];
+    assert.equal(share.approved, false);
+    assert.ok(
+      !JSON.stringify(pending).includes("PLAYER_PRIVATE_UNTIL_APPROVAL"),
+    );
+    const approve = {
+      action: "reviewCharacter",
+      id: lobby.id,
+      memberId: share.memberId,
+      requestId: share.requestId,
+      approved: true,
+    };
+    await assert.rejects(lobbyCommand(b.req, approve), /не найдено/);
+    await lobbyCommand(a.req, approve);
+    assert.equal((await lobbyView(a.req, lobby.id)).characters.length, 2);
+    await lobbyCommand(b.req, {
+      action: "shareCharacter",
+      id: lobby.id,
+      characterId: null,
+    });
+    assert.equal((await lobbyView(a.req, lobby.id)).characters.length, 1);
+    await assert.rejects(lobbyCommand(a.req, approve), /отозвана/);
     await lobbyCommand(b.req, { action: "leave", id: lobby.id });
     await assert.rejects(lobbyView(b.req, lobby.id), /Нет доступа/);
     assert.equal(

@@ -68,8 +68,8 @@ export function spellSlots(c: CharacterData) {
   const level = casters.reduce(
     (n, x) =>
       n +
-      (["Paladin", "Ranger"].includes(classRules[x.classId].name)
-        ? c.edition === "5e_2024"
+      (["Artificer", "Paladin", "Ranger"].includes(classRules[x.classId].name)
+        ? c.edition === "5e_2024" || classRules[x.classId].name === "Artificer"
           ? Math.ceil(x.level / 2)
           : Math.floor(x.level / 2)
         : x.level),
@@ -178,6 +178,14 @@ export function resources(c: CharacterData): Resource[] {
   return result;
 }
 export function deriveCharacter(c: CharacterData) {
+  const bonus = effectBonuses(c);
+  // Stable IDs from the SRD datasets. These conditions forbid speed increases.
+  const fixedSpeed = c.conditionIds.some((id) => zeroSpeedConditions.has(id))
+    ? 0
+    : c.effects?.findLast(
+        (effect) =>
+          effect.target === "speedOverride" && isEffectActive(c, effect),
+      )?.bonus;
   const level = totalLevel(c),
     scores = finalAbilities(c),
     mods = Object.fromEntries(
@@ -212,6 +220,7 @@ export function deriveCharacter(c: CharacterData) {
     Object.keys(scores).map((a) => [
       a,
       mods[a as keyof typeof mods] +
+        bonus("saves", a) +
         (first.saves.includes(a) ||
         c.extraSaves.includes(a as keyof typeof mods)
           ? proficiency
@@ -225,6 +234,7 @@ export function deriveCharacter(c: CharacterData) {
     Object.entries(skillAbilities).map(([skill, ability]) => [
       skill,
       mods[ability] +
+        bonus("skills", skill) +
         ((c.skills[skill as keyof typeof skillAbilities] ?? 0) > 0
           ? proficiency * c.skills[skill as keyof typeof skillAbilities]!
           : jack
@@ -244,9 +254,9 @@ export function deriveCharacter(c: CharacterData) {
     scores,
     mods,
     maxHp,
-    ac,
+    ac: Math.max(0, ac + bonus("ac")),
     initiative: mods.DEX + c.adjustments.initiative,
-    speed: c.adjustments.speed,
+    speed: fixedSpeed ?? Math.max(0, c.adjustments.speed + bonus("speed")),
     saves,
     skills,
     passivePerception: 10 + skills.Perception,
@@ -258,8 +268,78 @@ export function deriveCharacter(c: CharacterData) {
       max: x.level,
       remaining: Math.max(0, x.level - (c.spentHitDice[x.classId] ?? 0)),
     })),
-    resources: resources(c),
+    resources: resources(c).map((resource) => ({
+      ...resource,
+      max: Math.max(0, resource.max + bonus("resource", resource.key)),
+    })),
   };
+}
+const zeroSpeedConditions = new Set([
+  "e4f0e702-26cf-5a5a-a70e-d7c1f1aecb92", // Grappled, 2014
+  "681dc70f-601e-560b-adf3-e617622dd663", // Restrained, 2014
+  "a934dbcb-8d75-5dfa-a642-5c04428c499f", // Grappled, 2024
+  "8a13461d-9c24-5b29-a138-bf9fb6b81b63", // Restrained, 2024
+]);
+export function isEffectActive(
+  c: CharacterData,
+  effect: CharacterData["effects"][number],
+) {
+  const { duration } = effect;
+  switch (duration.kind) {
+    case "concentration":
+      return duration.spellId === c.concentrationId;
+    case "equipment":
+      return c.inventory.some(
+        (item) => item.id === duration.itemId && item.equipped,
+      );
+    case "condition":
+      return c.conditionIds.includes(duration.conditionId);
+    default:
+      return true;
+  }
+}
+
+function effectBonuses(c: CharacterData) {
+  const active = (c.effects ?? [])
+    .filter((effect) => isEffectActive(c, effect))
+    .toReversed();
+  return (
+    target: CharacterData["effects"][number]["target"],
+    specific?: string,
+  ) => {
+    const sources = new Set<string>();
+    let total = 0;
+    for (const effect of active) {
+      if (
+        effect.target !== target ||
+        (effect.specific !== undefined && effect.specific !== specific)
+      )
+        continue;
+      const source = effect.source.trim().toLowerCase();
+      if (sources.has(source)) continue;
+      sources.add(source);
+      total += effect.bonus;
+    }
+    return total;
+  };
+}
+
+export function advanceEffectRound(
+  effects: CharacterData["effects"],
+): CharacterData["effects"] {
+  return effects.flatMap((effect) => {
+    if (effect.duration.kind !== "rounds") return [effect];
+    if (effect.duration.remaining === 1) return [];
+    return [
+      {
+        ...effect,
+        duration: {
+          ...effect.duration,
+          remaining: effect.duration.remaining - 1,
+        },
+      },
+    ];
+  });
 }
 export function validateCharacter(
   c: CharacterData,
@@ -325,6 +405,7 @@ export function validateCharacter(
     const abilities = finalAbilities(c);
     const requirements: Record<string, string[][]> = {
       Barbarian: [["STR"]],
+      Artificer: [["INT"]],
       Bard: [["CHA"]],
       Cleric: [["WIS"]],
       Druid: [["WIS"]],
@@ -376,6 +457,16 @@ export function validateCharacter(
     issues.push("Можно надеть один доспех и один щит.");
   for (const id of c.featIds) check(id, "Feat");
   for (const id of c.conditionIds) check(id, "Condition");
+  for (const { duration } of c.effects) {
+    if (duration.kind === "condition") check(duration.conditionId, "Condition");
+    if (
+      duration.kind === "equipment" &&
+      !c.inventory.some((item) => item.id === duration.itemId)
+    )
+      issues.push(
+        "Предмет, к которому привязан эффект, отсутствует в инвентаре.",
+      );
+  }
   for (const s of c.spells) {
     const spell = check(s.spellId, "Spell");
     const owner = c.classes.find((x) => x.classId === s.classId);
@@ -433,6 +524,13 @@ export function restCharacter(input: CharacterData, kind: "short" | "long") {
     else if (kind === "short")
       c.resourcesUsed[r.key] = Math.max(0, spent - r.short);
   }
+  c.effects = c.effects.filter(
+    (effect) =>
+      effect.duration.kind !== "rest" &&
+      effect.duration.kind !== "rounds" &&
+      (effect.duration.kind !== "concentration" ||
+        effect.duration.spellId === c.concentrationId),
+  );
   return c;
 }
 export function gainLevel(
@@ -458,7 +556,7 @@ export function gainLevel(
   return c;
 }
 export const castingAbility = (name: string): "INT" | "WIS" | "CHA" =>
-  ["Wizard"].includes(name)
+  ["Wizard", "Artificer"].includes(name)
     ? "INT"
     : ["Cleric", "Druid", "Ranger"].includes(name)
       ? "WIS"

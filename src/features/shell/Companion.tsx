@@ -224,6 +224,7 @@ export function Companion() {
               <input
                 placeholder="Поиск по вашей библиотеке…"
                 aria-label="Глобальный поиск"
+                title='Кавычки ищут точную фразу, минус исключает слово. Пример: "огненный шар" -свиток'
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
               />
@@ -329,6 +330,10 @@ export function Companion() {
                   !(section === "reference" && category === "Subclass") && (
                     <Compendium
                       signedIn={Boolean(host)}
+                      onBestiaryProfiles={() => {
+                        setCategory("BestiaryProfile");
+                        navigate("reference");
+                      }}
                       key={`${section}-${category}-${edition}-${query}`}
                       category={section === "reference" ? category : undefined}
                       kind={

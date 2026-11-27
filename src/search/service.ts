@@ -11,7 +11,11 @@ import {
   sizes,
   abilities,
 } from "@/entities/content";
-import { normalize, searchScore } from "./normalize";
+import {
+  createSearchScorer,
+  normalize,
+  usesSearchOperators,
+} from "./normalize";
 
 export const filtersSchema = z.object({
   scope: z.enum(["all", "mine", "public", "archived"]).optional(),
@@ -59,6 +63,7 @@ export interface SearchEngine {
 }
 export class SqliteSearchEngine implements SearchEngine {
   async find(query: string) {
+    const scoreDocument = createSearchScorer(query);
     // Scan only compact persisted search documents, not stat blocks. Swap engine for large catalogs.
     const docs = await db.content.findMany({
       where: { translationStatus: "Approved" },
@@ -66,14 +71,14 @@ export class SqliteSearchEngine implements SearchEngine {
     });
     return docs
       .map((d) => {
-        const score = searchScore(d.searchText, query);
+        const score = scoreDocument(d.searchText);
         const title = normalize(d.nameRu + " " + d.nameOriginal);
         return {
           id: d.id,
           score:
             score > 0
               ? score +
-                5 * searchScore(title, query) +
+                5 * scoreDocument(title) +
                 ([normalize(d.nameRu), normalize(d.nameOriginal)].includes(
                   normalize(query),
                 )
@@ -83,12 +88,13 @@ export class SqliteSearchEngine implements SearchEngine {
         };
       })
       .filter((d) => d.score > 0)
-      .sort((a, b) => b.score - a.score)
+      .sort((a, b) => b.score - a.score || a.id.localeCompare(b.id))
       .map((d) => d.id);
   }
 }
 export class PostgresSearchEngine implements SearchEngine {
   async find(query: string) {
+    if (usesSearchOperators(query)) return new SqliteSearchEngine().find(query);
     const q = normalize(query);
     const rows = await db.$queryRaw<{ id: string }[]>(Prisma.sql`
       SELECT "id" FROM "Content"
@@ -152,7 +158,6 @@ export async function search(filters: SearchFilters, skipOverride?: number) {
     concentration: filters.concentration
       ? filters.concentration === "true"
       : undefined,
-    damageType: filters.damageType,
   };
   const monster = {
     challengeRating: filters.cr,
@@ -181,6 +186,7 @@ export async function search(filters: SearchFilters, skipOverride?: number) {
   };
   if (
     filters.spellClass ||
+    filters.damageType ||
     filters.subclass ||
     filters.castingTime ||
     filters.savingThrow ||
@@ -212,7 +218,12 @@ export async function search(filters: SearchFilters, skipOverride?: number) {
             (c) => normalize(c) === normalize(filters.subclass!),
           )) &&
         (!filters.castingTime || s.castingTime === filters.castingTime) &&
-        (!filters.savingThrow || s.savingThrow === filters.savingThrow) &&
+        (!filters.damageType ||
+          s.damageType === filters.damageType ||
+          s.damageTypes?.includes(filters.damageType)) &&
+        (!filters.savingThrow ||
+          s.savingThrow === filters.savingThrow ||
+          s.savingThrows?.includes(filters.savingThrow)) &&
         (!filters.attackType || s.attackType === filters.attackType) &&
         (!filters.rangeKind || s.rangeKind === filters.rangeKind) &&
         (filters.minRange === undefined ||

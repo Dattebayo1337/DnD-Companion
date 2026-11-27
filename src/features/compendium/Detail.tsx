@@ -1,4 +1,5 @@
 import { OfflineSave } from "./OfflineSave";
+import { hasVerifiedNoActions } from "@/domain/monster-actions";
 import { isPersonalMonster } from "@/entities/custom-monster";
 import type { Monster } from "@/entities/content";
 import { EntryIcon, EntrySummary } from "./EntrySummary";
@@ -371,6 +372,12 @@ export function Detail({
                 {entry.spell.classes.length > 0 && (
                   <Fact label="Классы" value={entry.spell.classes.join(", ")} />
                 )}
+                {entry.spell.subclasses.length > 0 && (
+                  <Fact label="Подклассы" value={entry.spell.subclasses.join(", ")} />
+                )}
+                {entry.spell.accessNoteRu && (
+                  <Fact label="Особый доступ" value={entry.spell.accessNoteRu} />
+                )}
                 <div className="tags">
                   {entry.spell.ritual && <span>Ритуал</span>}
                   {entry.spell.concentration && <span>Концентрация</span>}
@@ -392,15 +399,33 @@ export function Detail({
                       value={`${entry.spell.damage} ${entry.spell.damageType ? damageLabels[entry.spell.damageType] : ""}`}
                     />
                   )}{" "}
+                  {!!entry.spell.damageTypes?.length && (
+                    <Fact
+                      label="Типы урона в описании"
+                      value={entry.spell.damageTypes
+                        .map((type) => damageLabels[type])
+                        .join(", ")}
+                    />
+                  )}
                   {entry.spell.healing && (
                     <Fact label="Лечение" value={entry.spell.healing} />
                   )}{" "}
-                  {entry.spell.savingThrow && (
+                  {entry.spell.savingThrow ||
+                  entry.spell.savingThrows?.length ? (
                     <Fact
                       label="Спасбросок"
-                      value={abilityLabels[entry.spell.savingThrow]}
+                      value={[
+                        ...new Set([
+                          ...(entry.spell.savingThrow
+                            ? [entry.spell.savingThrow]
+                            : []),
+                          ...(entry.spell.savingThrows ?? []),
+                        ]),
+                      ]
+                        .map((ability) => abilityLabels[ability])
+                        .join(", ")}
                     />
-                  )}{" "}
+                  ) : null}{" "}
                   {entry.spell.attackType && (
                     <Fact
                       label="Атака"
@@ -499,6 +524,10 @@ export function Detail({
                   .map(([label, value]) => (
                     <Fact key={label} label={label} value={value} />
                   ))}
+                {!entry.monster.actions.length &&
+                  hasVerifiedNoActions(entry.id) && (
+                    <p>В исходном блоке характеристик особых действий нет.</p>
+                  )}
                 {(
                   [
                     ["Особенности", entry.monster.traits],

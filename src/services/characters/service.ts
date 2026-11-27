@@ -1,3 +1,5 @@
+import { calculateDamage } from "@/domain/rules/character-combat";
+import { damages } from "@/entities/content";
 import { randomUUID, randomInt } from "node:crypto";
 import { z } from "zod";
 import { db } from "@/database/client";
@@ -77,6 +79,7 @@ const command = z
     version: z.number().int().positive().optional(),
     data: characterSchema.optional(),
     amount: z.number().int().min(0).max(100000).optional(),
+    damageType: z.enum(damages).optional(),
     key: z.string().max(160).optional(),
     slot: z.number().int().min(0).max(9).optional(),
     pact: z.boolean().optional(),
@@ -135,9 +138,10 @@ export async function characterCommand(
       c = b.data;
       break;
     case "damage": {
-      const absorbed = Math.min(c.tempHp, amount);
+      const damage = calculateDamage(c, amount, b.damageType).total;
+      const absorbed = Math.min(c.tempHp, damage);
       c.tempHp -= absorbed;
-      c.hp = Math.max(0, c.hp - (amount - absorbed));
+      c.hp = Math.max(0, c.hp - (damage - absorbed));
       if (c.hp === 0) c.concentrationId = null;
       break;
     }
@@ -222,6 +226,13 @@ export async function characterCommand(
       archived = b.archived ?? true;
       break;
   }
+  c.effects = c.effects.filter(({ duration }) => {
+    if (duration.kind === "concentration")
+      return duration.spellId === c.concentrationId;
+    if (duration.kind === "equipment")
+      return c.inventory.some((item) => item.id === duration.itemId);
+    return true;
+  });
   const entries = await catalog(c.edition);
   const issues = validateCharacter(c, new Map(entries.map((e) => [e.id, e])));
   if (issues.length) throw new CharacterError(issues.join("\n"));

@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { createHash } from "node:crypto";
-import { datasetSchema, type Spell } from "../src/entities/content";
+import { datasetSchema, damages, type Spell } from "../src/entities/content";
 import { auditDataset } from "../src/imports/pipeline";
 const manifest = JSON.parse(
   readFileSync("data/raw/srd-sources.json", "utf8"),
@@ -133,6 +133,44 @@ for (const year of [2014, 2024]) {
         : 0;
     const material = (s: string) => s.match(/\(([\s\S]+)\)/)?.[1] ?? "";
     const original = description(eng, "Duration");
+    const prose = original.replace(/[*_]/g, "").split(/^#{2,}/m)[0];
+    const damageTypes = damages.filter((type) =>
+      new RegExp(
+        `\\b\\d+d\\d+(?:\\s*[+-]\\s*\\d+)?\\s+${type} damage\\b`,
+        "i",
+      ).test(prose),
+    );
+    const saveNames = {
+      STR: "Strength",
+      DEX: "Dexterity",
+      CON: "Constitution",
+      INT: "Intelligence",
+      WIS: "Wisdom",
+      CHA: "Charisma",
+    } as const;
+    const savingThrows = (
+      Object.keys(saveNames) as (keyof typeof saveNames)[]
+    ).filter((ability) =>
+      new RegExp(
+        `\\b(?:makes?|attempts?|succeeds? on) an? ${saveNames[ability]} saving throw\\b`,
+        "i",
+      ).test(prose),
+    );
+    const choiceDamage: Record<string, (typeof damages)[number][]> = {
+      "2024:Chromatic Orb": [
+        "Acid",
+        "Cold",
+        "Fire",
+        "Lightning",
+        "Poison",
+        "Thunder",
+      ],
+      "2014:Spirit Guardians": ["Necrotic", "Radiant"],
+      "2024:Spirit Guardians": ["Necrotic", "Radiant"],
+    };
+    const alternateTypes = choiceDamage[`${year}:${name}`];
+    const indexedTypes = alternateTypes ?? damageTypes;
+    const indexed = indexedTypes.length > 0 || savingThrows.length > 0;
     return {
       id: uuid(`${year}:spell:${name}`),
       kind: "Spell",
@@ -148,9 +186,19 @@ for (const year of [2014, 2024]) {
       rulesVersion: `SRD ${version}`,
       translationStatus: "Approved",
       contentOrigin: "SRD",
-      contentVersion: reviewed.editions[year]?.[name] ? 2 : 1,
+      contentVersion: alternateTypes
+        ? 5
+        : indexed
+          ? 4
+          : reviewed.editions[year]?.[name]
+            ? 2
+            : 1,
       createdAt: stamp,
-      updatedAt: reviewed.editions[year]?.[name] ? reviewed.reviewedAt : stamp,
+      updatedAt: indexed
+        ? "2026-11-26T00:00:00.000Z"
+        : reviewed.editions[year]?.[name]
+          ? reviewed.reviewedAt
+          : stamp,
       spell: {
         level: meta[1] === "Cantrip" ? 0 : Number(meta[1].match(/\d+/)?.[0]),
         school: meta[2],
@@ -192,6 +240,8 @@ for (const year of [2014, 2024]) {
           return classNames[c.trim()];
         }),
         ...reviewed.editions[year]?.[name],
+        ...(indexedTypes.length ? { damageTypes: indexedTypes } : {}),
+        ...(savingThrows.length ? { savingThrows } : {}),
       },
     };
   });

@@ -20,5 +20,6 @@ backups
 .github
 coverage
 android/
+downloads/android/
 
 ios/

@@ -1,4 +1,5 @@
 import { tabletopSchema } from "@/entities/tabletop";
+import { randomUUID } from "node:crypto";
 import {
   identity,
   requireAccount,
@@ -13,6 +14,7 @@ import {
   lobbySettings,
   type LobbySettings,
   type LobbyView,
+  type LobbyShare,
 } from "@/entities/lobby";
 import {
   cookieValue,
@@ -29,6 +31,11 @@ export class LobbyError extends Error {
     super(message);
   }
 }
+const emptyShare = {
+  sharedCharacterId: null,
+  shareRequestId: null,
+  shareApproved: false,
+};
 async function validateSettings(data: LobbySettings, ownerId: string | null) {
   if (
     (await db.character.count({
@@ -124,15 +131,59 @@ export async function lobbyView(
   if (lobby.closed && !host)
     throw new LobbyError("Лобби закрыто или недоступно.", 404);
   const ids = z.array(z.string()).parse(lobby.characterIds);
-  const characters = (
-    await db.character.findMany({
-      where: { id: { in: ids }, archived: false, ownerId: lobby.ownerId },
-    })
-  ).map((c) => ({
-    id: c.id,
-    version: c.version,
-    data: { ...characterSchema.parse(c.data), importSource: undefined },
-  }));
+  const participants = await db.lobbyMember.findMany({
+    where: { lobbyId: id, revoked: false, expiresAt: { gt: new Date() } },
+    select: {
+      id: true,
+      name: true,
+      accountId: true,
+      sharedCharacterId: true,
+      shareRequestId: true,
+      shareApproved: true,
+    },
+    orderBy: { createdAt: "asc" },
+  });
+  const candidates = participants.filter(
+    (p) => p.accountId && p.sharedCharacterId && p.shareRequestId,
+  );
+  const rows = await db.character.findMany({
+    where: {
+      archived: false,
+      OR: [
+        { id: { in: ids }, ownerId: lobby.ownerId },
+        ...candidates
+          .filter((p) => p.shareApproved || host || p.id === member?.id)
+          .map((p) => ({ id: p.sharedCharacterId!, ownerId: p.accountId! })),
+      ],
+    },
+  });
+  const byId = new Map(rows.map((row) => [row.id, row]));
+  const shares: LobbyShare[] = candidates.flatMap((p) => {
+    const row = byId.get(p.sharedCharacterId!);
+    if (!row || row.ownerId !== p.accountId) return [];
+    return [
+      {
+        memberId: p.id,
+        memberName: p.name,
+        requestId: p.shareRequestId!,
+        characterName: row.name,
+        approved: p.shareApproved,
+      },
+    ];
+  });
+  const published = new Set([
+    ...ids,
+    ...candidates
+      .filter((p) => p.shareApproved)
+      .map((p) => p.sharedCharacterId!),
+  ]);
+  const characters = rows
+    .filter((row) => published.has(row.id))
+    .map((c) => ({
+      id: c.id,
+      version: c.version,
+      data: { ...characterSchema.parse(c.data), importSource: undefined },
+    }));
   const contentIds = new Set<string>();
   for (const { data: c } of characters) {
     [
@@ -149,17 +200,10 @@ export async function lobbyView(
       ...c.inventory.map((i) => i.contentId),
     ].forEach((id) => contentIds.add(id));
   }
-  const [content, participants] = await Promise.all([
-    db.content.findMany({
-      where: { id: { in: [...contentIds] } },
-      include: contentInclude,
-    }),
-    db.lobbyMember.findMany({
-      where: { lobbyId: id, revoked: false, expiresAt: { gt: new Date() } },
-      select: { id: true, name: true },
-      orderBy: { createdAt: "asc" },
-    }),
-  ]);
+  const content = await db.content.findMany({
+    where: { id: { in: [...contentIds] } },
+    include: contentInclude,
+  });
   const result: LobbyView = {
     id: lobby.id,
     name: lobby.name,
@@ -168,7 +212,7 @@ export async function lobbyView(
     memberName: host ? user!.displayName : member!.name,
     characters,
     content: content.map(toContent),
-    participants,
+    participants: participants.map(({ id, name }) => ({ id, name })),
     tabletop: (() => {
       const data = tabletopSchema.parse(lobby.tabletop);
       return {
@@ -177,6 +221,10 @@ export async function lobbyView(
       };
     })(),
   };
+  if (!host && user?.id && member)
+    result.sharing = {
+      current: shares.find((share) => share.memberId === member.id) ?? null,
+    };
   // Do not fetch or serialize campaign data for players, including hidden entry fields.
   if (host) {
     const campaign = lobby.campaignId
@@ -185,6 +233,7 @@ export async function lobbyView(
         })
       : null;
     result.master = {
+      shares,
       settings: {
         name: lobby.name,
         campaignId: lobby.campaignId,
@@ -197,6 +246,22 @@ export async function lobbyView(
   return result;
 }
 const command = z.discriminatedUnion("action", [
+  z
+    .object({
+      action: z.literal("shareCharacter"),
+      id: z.string().uuid(),
+      characterId: z.string().uuid().nullable(),
+    })
+    .strict(),
+  z
+    .object({
+      action: z.literal("reviewCharacter"),
+      id: z.string().uuid(),
+      memberId: z.string().uuid(),
+      requestId: z.string().uuid(),
+      approved: z.boolean(),
+    })
+    .strict(),
   z.object({ action: z.literal("create"), data: lobbySettings }).strict(),
   z
     .object({
@@ -258,7 +323,7 @@ export async function lobbyCommand(request: Request, input: unknown) {
       await db.lobbyMember.upsert({
         where: { lobbyId_accountId: { lobbyId: lobby.id, accountId: user.id } },
         create: data,
-        update: data,
+        update: { ...data, ...emptyShare },
       });
     else await db.lobbyMember.create({ data });
     return { id: lobby.id, token };
@@ -272,12 +337,47 @@ export async function lobbyCommand(request: Request, input: unknown) {
             accountId: null,
             tokenHash: digest(cookieValue(request, PLAYER_COOKIE)),
           },
-      data: { revoked: true },
+      data: { revoked: true, ...emptyShare },
     });
     return { ok: true };
   }
   const user = await requireAccount(request);
   const ownerId = user.id;
+  if (b.action === "shareCharacter") {
+    if (!ownerId) throw new LobbyError("Войдите в аккаунт игрока.", 403);
+    const characterId = b.characterId;
+    await db.$transaction(async (tx) => {
+      if (
+        characterId &&
+        !(await tx.character.findUnique({
+          where: { id: characterId, ownerId, archived: false },
+        }))
+      )
+        throw new LobbyError("Ваш персонаж не найден.", 404);
+      const change = await tx.lobbyMember.updateMany({
+        where: {
+          lobbyId: b.id,
+          accountId: ownerId,
+          revoked: false,
+          expiresAt: { gt: new Date() },
+          lobby: {
+            closed: false,
+            OR: [{ ownerId: null }, { ownerId: { not: ownerId } }],
+          },
+        },
+        data: characterId
+          ? {
+              sharedCharacterId: characterId,
+              shareRequestId: randomUUID(),
+              shareApproved: false,
+            }
+          : emptyShare,
+      });
+      if (!change.count)
+        throw new LobbyError("Нет доступа к этому лобби.", 403);
+    });
+    return { id: b.id };
+  }
   if (b.action === "create") {
     await validateSettings(b.data, ownerId);
     const invite = secretToken();
@@ -293,7 +393,22 @@ export async function lobbyCommand(request: Request, input: unknown) {
   }
   const lobby = await db.lobby.findUnique({ where: { id: b.id, ownerId } });
   if (!lobby) throw new LobbyError("Лобби не найдено.", 404);
-  if (b.action === "save") {
+  if (b.action === "reviewCharacter") {
+    const result = await db.lobbyMember.updateMany({
+      where: {
+        id: b.memberId,
+        lobbyId: b.id,
+        accountId: { not: null },
+        revoked: false,
+        expiresAt: { gt: new Date() },
+        shareRequestId: b.requestId,
+        lobby: { closed: false, ownerId },
+      },
+      data: b.approved ? { shareApproved: true } : emptyShare,
+    });
+    if (!result.count)
+      throw new LobbyError("Заявка уже отозвана или изменена.", 409);
+  } else if (b.action === "save") {
     await validateSettings(b.data, ownerId);
     const saved = await db.lobby.updateMany({
       where: { id: b.id, version: b.version, ownerId },
@@ -323,7 +438,7 @@ export async function lobbyCommand(request: Request, input: unknown) {
   } else if (b.action === "kick") {
     await db.lobbyMember.updateMany({
       where: { id: b.memberId, lobbyId: b.id },
-      data: { revoked: true },
+      data: { revoked: true, ...emptyShare },
     });
     // Rotate invitations as well so the removed player cannot reuse their old link.
     await db.lobby.update({

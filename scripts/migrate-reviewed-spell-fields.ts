@@ -16,6 +16,7 @@ export async function migrateReviewedSpellFields() {
   const review = JSON.parse(
     readFileSync("data/srd/spell-fields-reviewed.json", "utf8"),
   ) as {
+    reviewedAt: string;
     editions: Record<string, Record<string, Partial<Spell["spell"]>>>;
   };
   const vocabulary = await terms();
@@ -23,10 +24,22 @@ export async function migrateReviewedSpellFields() {
     const dataset = datasetSchema.parse(
       JSON.parse(readFileSync(`data/srd/spells-${year}.json`, "utf8")),
     );
-    return dataset.entries.filter(
-      (e): e is Spell =>
-        e.kind === "Spell" && !!review.editions[year][e.nameOriginal],
-    );
+    return dataset.entries
+      .filter(
+        (e): e is Spell =>
+          e.kind === "Spell" && !!review.editions[year][e.nameOriginal],
+      )
+      .map((entry) => {
+        const spell = { ...entry.spell };
+        delete spell.damageTypes;
+        delete spell.savingThrows;
+        return {
+          ...entry,
+          spell,
+          contentVersion: 2,
+          updatedAt: review.reviewedAt,
+        };
+      });
   });
   if (entries.length !== 16)
     throw new Error("Ожидалось 16 проверенных записей.");
@@ -40,6 +53,7 @@ export async function migrateReviewedSpellFields() {
       if (!row)
         throw new Error(`Сначала импортируйте базу SRD: ${entry.nameRu}.`);
       const current = toContent(row);
+      if (current.contentVersion > entry.contentVersion) continue;
       if (isDeepStrictEqual(current, entry)) continue;
       const original: Spell = structuredClone(entry);
       original.contentVersion = 1;

@@ -215,6 +215,9 @@ model Lobby {
   members LobbyMember[]
 }
 model LobbyMember {
+  sharedCharacterId String?
+  shareRequestId String?
+  shareApproved Boolean @default(false)
   accountId String?
   @@unique([lobbyId, accountId])
   id String @id @default(uuid())

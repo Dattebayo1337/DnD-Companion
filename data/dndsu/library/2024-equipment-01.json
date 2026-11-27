@@ -1,0 +1,1863 @@
+{
+  "schemaVersion": 1,
+  "name": "Справочник ДнД.су · 2024-equipment · 01",
+  "sources": [
+    {
+      "id": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "shortName": "Каталог 2024 · Каталог ДнД.су",
+      "fullNameRu": "Каталог ДнД.су",
+      "fullNameOriginal": "Каталог ДнД.су",
+      "edition": "5e_2024",
+      "publisher": "Справочник ДнД.су",
+      "releaseDate": null,
+      "contentType": "MetadataOnly",
+      "licenseType": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке."
+    }
+  ],
+  "entries": [
+    {
+      "id": "070d1bb2-2cb2-548f-a197-58075ca4bcff",
+      "edition": "5e_2024",
+      "nameRu": "Сфера",
+      "nameOriginal": "Orb",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/281-orb",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Волшебники, колдуны и чародеи могут использовать этот предмет в качестве фокусировки. Он заменяет указанные материальные компоненты заклинания, если у них нет стоимости и заклинание их не расходует.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Заклинательная фокусировка (Волшебник, Колдун, Чародей)"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "20 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "3 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Магическая фокусировка"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "072fadac-5208-58ec-a696-3ed6d5d73ac3",
+      "edition": "5e_2024",
+      "nameRu": "Тёплый грибной плащ",
+      "nameOriginal": "Warm Fungal Clothing",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/17350-warm-fungal-clothing",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "В этом плаще вы автоматически проходите спасброски от сильного холода. В него вшит 1 фунт съедобной грибницы. Если съесть её, плащ станет обычной дорожной одеждой.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Предмет снаряжения"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "15 ЗМ"
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Дорожной одеждой"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "109cff42-1136-5a6c-adbd-c2daf213a617",
+      "edition": "5e_2024",
+      "nameRu": "Драконьи шахматы",
+      "nameOriginal": "Dragonchess",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/14373-dragonchess",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Это отдельная разновидность игрового набора. Для проверок с этим набором используется владение именно этой игрой.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "1 ЗМ"
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Игрового набора"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "115056f4-c77f-56b7-ae25-8f07f13e5506",
+      "edition": "5e_2024",
+      "nameRu": "Бандура",
+      "nameOriginal": "Bandore",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/17353-bandore",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Для исполнения на этом инструменте применяется отдельное владение. Запишите его в раздел владений персонажа.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "65 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "3 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Музыкального инструмента"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "12deab12-bcfe-55c4-a6db-b16bdc3fdfec",
+      "edition": "5e_2024",
+      "nameRu": "Зимняя маскировка",
+      "nameOriginal": "Winter Camouflage",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/17352-winter-camouflage",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "В подходящем зимнем окружении маскировка даёт преимущество при проверке Ловкости (Скрытность).",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Предмет снаряжения"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "18de1594-a253-5184-a8f2-d1ace4677484",
+      "edition": "5e_2024",
+      "nameRu": "Игральные карты",
+      "nameOriginal": "Playing cards",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/14374-playing-cards",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Это отдельная разновидность игрового набора. Для проверок с этим набором используется владение именно этой игрой.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "5 СМ"
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Игрового набора"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "2431962e-02e6-50c2-a438-2b99cffa8130",
+      "edition": "5e_2024",
+      "nameRu": "Мантия гения",
+      "nameOriginal": "Genie Robe",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/17347-genie-robe",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "У мантии есть связь с одним из четырёх стихийных планов. Она даёт преимущество на проверки влияния на элементалей именно этого плана.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Предмет снаряжения"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "280fea39-21aa-52f2-a2b8-b96174da0afc",
+      "edition": "5e_2024",
+      "nameRu": "Игровой набор",
+      "nameOriginal": "Gaming Set",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/14371-gaming-set",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "При выборе владения укажите одну игру. В этой группе есть кости, карты, драконьи шахматы и ставка трёх драконов.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "кости, драконьи шахматы, игральные карты, ставка трёх драконов"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "3512ba9b-77b3-571c-ace9-eb876ed578cb",
+      "edition": "5e_2024",
+      "nameRu": "Одежда для пустыни",
+      "nameOriginal": "Desert Clothing",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/17344-desert-clothing",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Путник в этой одежде автоматически проходит спасброски от чрезвычайной жары. Для этого на нём не должно быть средних или тяжёлых доспехов.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Предмет снаряжения"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "10 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "3b4747b1-3352-5747-a146-9117f7b4bb60",
+      "edition": "5e_2024",
+      "nameRu": "Шалмей",
+      "nameOriginal": "Shawm",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/14388-shawm",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Для исполнения на этом инструменте применяется отдельное владение. Запишите его в раздел владений персонажа.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "2 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "1 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Музыкального инструмента"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "3cdf3d5a-66c3-5f61-afd5-483ea4573a86",
+      "edition": "5e_2024",
+      "nameRu": "Лира",
+      "nameOriginal": "Lyre",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/14384-lyre",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Для исполнения на этом инструменте применяется отдельное владение. Запишите его в раздел владений персонажа.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "30 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "2 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Музыкального инструмента"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "3f41470d-9fec-52c6-a8e6-d66c771e1ff1",
+      "edition": "5e_2024",
+      "nameRu": "Лютня",
+      "nameOriginal": "Lute",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/14385-lute",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Для исполнения на этом инструменте применяется отдельное владение. Запишите его в раздел владений персонажа.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "35 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "2 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Музыкального инструмента"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "4ed4b6c3-d83b-59c6-ae4b-44b31e9d3c59",
+      "edition": "5e_2024",
+      "nameRu": "Книга заклинаний с замком",
+      "nameOriginal": "Locking Spellbook",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/17348-locking-spellbook",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Это книга заклинаний на 100 страниц с замком и ключом. Замок можно вскрыть воровскими инструментами, потратив действие и пройдя проверку Ловкости (Ловкость рук) со Сл 15.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Предмет снаряжения"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "35 ЗМ"
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Воровские инструменты"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "5103d4bd-42b1-517e-a501-0a59682b252c",
+      "edition": "5e_2024",
+      "nameRu": "Жезл",
+      "nameOriginal": "Rod",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/282-rod",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Волшебники, колдуны и чародеи могут использовать этот предмет в качестве фокусировки. Он заменяет указанные материальные компоненты заклинания, если у них нет стоимости и заклинание их не расходует.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Заклинательная фокусировка (Волшебник, Колдун, Чародей)"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "10 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "2 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Магическая фокусировка"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "53b291af-53c1-5fdb-a125-584874800b16",
+      "edition": "5e_2024",
+      "nameRu": "Виола да гамба",
+      "nameOriginal": "Viol",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/14382-viol",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Для исполнения на этом инструменте применяется отдельное владение. Запишите его в раздел владений персонажа.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "30 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "1 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Музыкального инструмента"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "5e42bbee-f519-5c6f-ad79-2d5124e683a0",
+      "edition": "5e_2024",
+      "nameRu": "Яртинг",
+      "nameOriginal": "Yarting",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/17355-yarting",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Для исполнения на этом инструменте применяется отдельное владение. Запишите его в раздел владений персонажа.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "40 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "2 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Музыкального инструмента"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "5ea37d9f-5278-5706-ad9e-916e352e9c39",
+      "edition": "5e_2024",
+      "nameRu": "Одеяние света и тьмы",
+      "nameOriginal": "Garb of Light and Shadow",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/17346-garb-of-light-and-shadow",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Выберите домен фей, на который указывает одежда. При попытке повлиять на связанных с ним фей проверки характеристик получают преимущество.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Предмет снаряжения"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "50 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "5f3cedd4-4a11-57a1-a15c-038f948a28d7",
+      "edition": "5e_2024",
+      "nameRu": "Пули",
+      "nameOriginal": "Firearm Bullets",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/42-firearm-bullets",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Пули — боеприпас. Используется с оружием: Мушкет, Пистоль. Для хранения предусмотрен контейнер: Кошель. В комплекте 10 шт.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Боеприпас"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "3 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "2 фнт."
+          },
+          {
+            "nameRu": "Контейнер",
+            "valueRu": "Кошель"
+          },
+          {
+            "nameRu": "Количество",
+            "valueRu": "10"
+          },
+          {
+            "nameRu": "Подходящее оружие",
+            "valueRu": "Мушкет, Пистоль"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "70bfe960-a7ed-5d93-a8d3-9f0c2a9b5eac",
+      "edition": "5e_2024",
+      "nameRu": "Иглы",
+      "nameOriginal": "Needles",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/55-needles",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Иглы — боеприпас. Используется с оружием: Духовая трубка. Для хранения предусмотрен контейнер: Кошель. В комплекте 50 шт.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Боеприпас"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "1 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "1 фнт."
+          },
+          {
+            "nameRu": "Контейнер",
+            "valueRu": "Кошель"
+          },
+          {
+            "nameRu": "Количество",
+            "valueRu": "50"
+          },
+          {
+            "nameRu": "Подходящее оружие",
+            "valueRu": "Духовая трубка"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "74190935-17cb-56ed-a9a9-64bf165f6f25",
+      "edition": "5e_2024",
+      "nameRu": "Волынка",
+      "nameOriginal": "Bagpipes",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/14383-bagpipes",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Для исполнения на этом инструменте применяется отдельное владение. Запишите его в раздел владений персонажа.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "30 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "6 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Музыкального инструмента"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "838c3e7d-9c6d-5a38-af10-dda37b835753",
+      "edition": "5e_2024",
+      "nameRu": "Рожок",
+      "nameOriginal": "Horn",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/14387-horn",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Для исполнения на этом инструменте применяется отдельное владение. Запишите его в раздел владений персонажа.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "3 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "2 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Музыкального инструмента"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "83ba0765-1041-5f8b-acc3-b69044c79054",
+      "edition": "5e_2024",
+      "nameRu": "Плащ светящейся грибницы",
+      "nameOriginal": "Bright Fungal Cloak",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/17343-bright-fungal-cloak",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:10:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Бонусным действием раскройте или закройте плащ. В открытом виде он даёт яркий свет на 5 футов и тусклый ещё на 5 футов. В плаще есть 1 фунт съедобной грибницы. Если её съесть, останется обычная дорожная одежда.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Предмет снаряжения"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "25 ЗМ"
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Дорожной одеждой"
+          }
+        ],
+        "features": [
+          {
+            "level": null,
+            "nameRu": "Условия применения",
+            "descriptionRu": "Размер области или расстояние — 5 футов."
+          }
+        ]
+      }
+    },
+    {
+      "id": "85e22b1c-7082-5790-aed4-2719083fc0f4",
+      "edition": "5e_2024",
+      "nameRu": "Барабан",
+      "nameOriginal": "Drum",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/14381-drum",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Для исполнения на этом инструменте применяется отдельное владение. Запишите его в раздел владений персонажа.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "6 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "3 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Музыкального инструмента"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "87393426-3315-50b3-aaa5-364a61bad6ed",
+      "edition": "5e_2024",
+      "nameRu": "Флейта Пана",
+      "nameOriginal": "Pan Flute",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/14391-pan-flute",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Для исполнения на этом инструменте применяется отдельное владение. Запишите его в раздел владений персонажа.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "12 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "2 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Музыкального инструмента"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "87a08ba5-4670-5b16-a426-2b7b0afaf198",
+      "edition": "5e_2024",
+      "nameRu": "Снаряды для пращи",
+      "nameOriginal": "Sling Bullets",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/40-sling-bullets",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Снаряды для пращи — боеприпас. Используется с оружием: Праща. Для хранения предусмотрен контейнер: Кошель. В комплекте 20 шт.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Боеприпас"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "4 ММ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "1.5 фнт."
+          },
+          {
+            "nameRu": "Контейнер",
+            "valueRu": "Кошель"
+          },
+          {
+            "nameRu": "Количество",
+            "valueRu": "20"
+          },
+          {
+            "nameRu": "Подходящее оружие",
+            "valueRu": "Праща"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "8f2a7f76-7a9b-5425-ae8d-d80dd60b4da9",
+      "edition": "5e_2024",
+      "nameRu": "Болты",
+      "nameOriginal": "Crossbow Bolts",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/39-crossbow-bolts",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Болты — боеприпас. Используется с оружием: Лёгкий арбалет, Одноручный арбалет, Тяжёлый арбалет. Для хранения предусмотрен контейнер: Футляр для арбалетных болтов. В комплекте 20 шт.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Боеприпас"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "1 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "1.5 фнт."
+          },
+          {
+            "nameRu": "Контейнер",
+            "valueRu": "Футляр для арбалетных болтов"
+          },
+          {
+            "nameRu": "Количество",
+            "valueRu": "20"
+          },
+          {
+            "nameRu": "Подходящее оружие",
+            "valueRu": "Лёгкий арбалет, Одноручный арбалет, Тяжёлый арбалет"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "8fa67316-b137-5444-a3ec-695b93449fad",
+      "edition": "5e_2024",
+      "nameRu": "Тисовая палочка",
+      "nameOriginal": "Yew Wand",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/287-yew-wand",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Друиды и следопыты могут использовать этот предмет в качестве фокусировки. Он заменяет указанные материальные компоненты заклинания, если у них нет стоимости и заклинание их не расходует.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Заклинательная фокусировка (Друид, Следопыт)"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "10 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "1 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Друидической фокусировки"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "92cdb69d-551d-53ef-a0b8-78b3c64067fb",
+      "edition": "5e_2024",
+      "nameRu": "Флейта",
+      "nameOriginal": "Flute",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/14390-flute",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Для исполнения на этом инструменте применяется отдельное владение. Запишите его в раздел владений персонажа.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "2 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "1 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Музыкального инструмента"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "9c260ebe-5c38-5375-aae6-845dba60b2db",
+      "edition": "5e_2024",
+      "nameRu": "Кости",
+      "nameOriginal": "Dice",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/14372-dice",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Это отдельная разновидность игрового набора. Для проверок с этим набором используется владение именно этой игрой.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "1 СМ"
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Игрового набора"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "9e8b20a5-0b30-57d3-a8af-6acb53355cd8",
+      "edition": "5e_2024",
+      "nameRu": "Дульцимер",
+      "nameOriginal": "Dulcimer",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/14389-dulcimer",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Для исполнения на этом инструменте применяется отдельное владение. Запишите его в раздел владений персонажа.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "25 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "10 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Музыкального инструмента"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "a35c6219-4156-5546-ad5a-5742a6761cb1",
+      "edition": "5e_2024",
+      "nameRu": "Волшебная палочка",
+      "nameOriginal": "Wand",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/284-wand",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Волшебники, колдуны и чародеи могут использовать этот предмет в качестве фокусировки. Он заменяет указанные материальные компоненты заклинания, если у них нет стоимости и заклинание их не расходует.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Заклинательная фокусировка (Волшебник, Колдун, Чародей)"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "10 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "1 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Магическая фокусировка"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "a479eeee-b93d-57ce-a36d-dc84eb5e2e1a",
+      "edition": "5e_2024",
+      "nameRu": "Деревянный посох",
+      "nameOriginal": "Wooden Staff",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/286-wooden-staff",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Друиды и следопыты могут использовать этот предмет в качестве фокусировки. Он заменяет указанные материальные компоненты заклинания, если у них нет стоимости и заклинание их не расходует.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Заклинательная фокусировка (Друид, Следопыт)"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "5 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "4 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Друидической фокусировки"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "a662c97d-e427-52ce-aa63-5b5451f7479e",
+      "edition": "5e_2024",
+      "nameRu": "Стрелы",
+      "nameOriginal": "Arrows",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/41-arrows",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 1,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T06:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Стрелы — боеприпас. Используется с оружием: Короткий лук, Длинный лук. Для хранения предусмотрен контейнер: Колчан. В комплекте 20 шт.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Боеприпас"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "1 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "1 фнт."
+          },
+          {
+            "nameRu": "Контейнер",
+            "valueRu": "Колчан"
+          },
+          {
+            "nameRu": "Количество",
+            "valueRu": "20"
+          },
+          {
+            "nameRu": "Подходящее оружие",
+            "valueRu": "Короткий лук, Длинный лук"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "a977f2ca-5df1-5c8d-a9fb-75a212536972",
+      "edition": "5e_2024",
+      "nameRu": "Маска дьявола",
+      "nameOriginal": "Devil Mask",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/17345-devil-mask",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Существа, пытающиеся понять ваши намерения или истинную сущность, получают помеху на проверки Интеллекта (Расследование) и Мудрости (Проницательность).",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Предмет снаряжения"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "25 ЗМ"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "bca6886a-d31b-5345-ae25-a969013858e6",
+      "edition": "5e_2024",
+      "nameRu": "Музыкальный инструмент",
+      "nameOriginal": "Musical Instrument",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/14380-musical-instrument",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "При выборе владения укажите один музыкальный инструмент. Владения другими инструментами учитываются отдельно.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "бандура, барабан, виола да гамба, волынка, дульцимер, лира, лютня, рожок, флейта, флейта Пана, цистра, шалмей, яртинг"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "be2ee8be-0a55-553e-a067-4073acc6665c",
+      "edition": "5e_2024",
+      "nameRu": "Цистра",
+      "nameOriginal": "Cittern",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/17354-cittern",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Для исполнения на этом инструменте применяется отдельное владение. Запишите его в раздел владений персонажа.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "65 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "2 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Музыкального инструмента"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "c423408a-c4bb-5281-a13f-957fe382f7cb",
+      "edition": "5e_2024",
+      "nameRu": "Набор маскировки под монстра",
+      "nameOriginal": "Monster Camouflage",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/17349-monster-camouflage",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:10:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Позволяет выглядеть как зверь или чудовище. Распознать обман можно действием «Изучение» с проверкой Интеллекта (Расследование или Природа) со Сл 10. В пределах 30 футов наблюдатель бросает с преимуществом. Действие, невозможное для имитируемого существа, сразу выдаёт обман.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Предмет снаряжения"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "50 ЗМ"
+          }
+        ],
+        "features": [
+          {
+            "level": null,
+            "nameRu": "Условия применения",
+            "descriptionRu": "Размер области или расстояние — 30 футов."
+          }
+        ]
+      }
+    },
+    {
+      "id": "c651b08f-fcde-54cb-a9f3-13c4a793bbd1",
+      "edition": "5e_2024",
+      "nameRu": "Амулет",
+      "nameOriginal": "Amulet",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/288-amulet",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Жрецы и паладины могут использовать этот предмет в качестве фокусировки. Он заменяет указанные материальные компоненты заклинания, если у них нет стоимости и заклинание их не расходует.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Заклинательная фокусировка (Жрец, Паладин)"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "5 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "1 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Священного символа"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "c7bfe0c5-4274-52bf-a586-75b9b2c46d50",
+      "edition": "5e_2024",
+      "nameRu": "Реликварий",
+      "nameOriginal": "Reliquary",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/290-reliquary",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Жрецы и паладины могут использовать этот предмет в качестве фокусировки. Он заменяет указанные материальные компоненты заклинания, если у них нет стоимости и заклинание их не расходует.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Заклинательная фокусировка (Жрец, Паладин)"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "5 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "2 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Священного символа"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "d497d24e-52ca-5dbf-a877-9e82ca6a7da1",
+      "edition": "5e_2024",
+      "nameRu": "Кристалл",
+      "nameOriginal": "Crystal",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/280-crystal",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Волшебники, колдуны и чародеи могут использовать этот предмет в качестве фокусировки. Он заменяет указанные материальные компоненты заклинания, если у них нет стоимости и заклинание их не расходует.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Заклинательная фокусировка (Волшебник, Колдун, Чародей)"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "10 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "1 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Магическая фокусировка"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "d983a2e7-923f-5175-a9f7-a97734d77340",
+      "edition": "5e_2024",
+      "nameRu": "Эмблема",
+      "nameOriginal": "Emblem",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/289-emblem",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Жрецы и паладины могут использовать этот предмет в качестве фокусировки. Он заменяет указанные материальные компоненты заклинания, если у них нет стоимости и заклинание их не расходует.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Заклинательная фокусировка (Жрец, Паладин)"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "5 ЗМ"
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Священного символа"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "d9b956c1-7378-5b4b-ac89-3c27d00fe598",
+      "edition": "5e_2024",
+      "nameRu": "Веточка омелы",
+      "nameOriginal": "Sprig of Mistletoe",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/285-sprig-of-mistletoe",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Друиды и следопыты могут использовать этот предмет в качестве фокусировки. Он заменяет указанные материальные компоненты заклинания, если у них нет стоимости и заклинание их не расходует.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Заклинательная фокусировка (Друид, Следопыт)"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "1 ЗМ"
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Друидической фокусировки"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "df4f9de7-16a1-5851-a03a-4a8d43aedf79",
+      "edition": "5e_2024",
+      "nameRu": "Ставка трёх драконов",
+      "nameOriginal": "Three-dragon ante",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/14375-three-dragon-ante",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Это отдельная разновидность игрового набора. Для проверок с этим набором используется владение именно этой игрой.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Инструмент"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "1 ЗМ"
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Игрового набора"
+          }
+        ],
+        "features": []
+      }
+    },
+    {
+      "id": "f4d53f1a-3df3-5375-af15-b5355f64ae8e",
+      "edition": "5e_2024",
+      "nameRu": "Посох",
+      "nameOriginal": "Staff",
+      "sourceBookId": "5ddf018b-a682-5112-a0e2-4556f879fda7",
+      "source": "https://next.dnd.su/equipment/283-staff",
+      "license": "Справочные сведения и самостоятельное изложение механики. Оригинальные книги и переводы принадлежат правообладателям. Ссылка на источник приведена в карточке.",
+      "rulesVersion": "2024",
+      "translationStatus": "Approved",
+      "contentOrigin": "MetadataOnly",
+      "aliases": [],
+      "tags": [
+        "Справочные сведения"
+      ],
+      "contentVersion": 2,
+      "createdAt": "2026-11-27T06:00:00.000Z",
+      "updatedAt": "2026-11-27T08:00:00.000Z",
+      "kind": "Reference",
+      "descriptionRu": "Волшебники, колдуны и чародеи могут использовать этот предмет в качестве фокусировки. Он заменяет указанные материальные компоненты заклинания, если у них нет стоимости и заклинание их не расходует.",
+      "reference": {
+        "category": "Equipment",
+        "properties": [
+          {
+            "nameRu": "Категория",
+            "valueRu": "Заклинательная фокусировка (Волшебник, Колдун, Чародей)"
+          },
+          {
+            "nameRu": "Стоимость",
+            "valueRu": "5 ЗМ"
+          },
+          {
+            "nameRu": "Вес",
+            "valueRu": "4 фнт."
+          },
+          {
+            "nameRu": "Связанные записи",
+            "valueRu": "Магическая фокусировка"
+          }
+        ],
+        "features": []
+      }
+    }
+  ]
+}

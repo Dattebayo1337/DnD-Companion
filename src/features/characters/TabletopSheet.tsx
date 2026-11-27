@@ -1,4 +1,11 @@
+import { CharacterRolls } from "./CharacterRolls";
+import {
+  calculateDamage,
+  type DamageType,
+} from "@/domain/rules/character-combat";
+import { damageLabels } from "@/localization/labels";
 import { useState } from "react";
+import { CharacterEffects } from "./CharacterEffects";
 import type { CharacterData } from "@/entities/character";
 import type { Content } from "@/entities/content";
 import type { deriveCharacter } from "@/domain/rules/character";
@@ -25,7 +32,9 @@ export function TabletopSheet({
   navigate: (tab: string) => void;
 }) {
   const [amount, setAmount] = useState("1");
+  const [damageType, setDamageType] = useState<DamageType | "">("");
   const value = Number(amount);
+  const damage = calculateDamage(c, value, damageType || undefined);
   const valid =
     amount.trim() !== "" &&
     Number.isSafeInteger(value) &&
@@ -39,6 +48,12 @@ export function TabletopSheet({
   ];
   return (
     <div className="tabletop-sheet">
+      <CharacterEffects
+        character={c}
+        entries={entries}
+        save={(effects) => patch({ effects })}
+      />
+      <CharacterRolls character={c} stats={stats} />
       <section className="tool-panel">
         <h2>Хиты и состояние</h2>
         <p className="tabletop-hp">
@@ -55,11 +70,39 @@ export function TabletopSheet({
             onChange={(e) => setAmount(e.target.value)}
           />
         </label>
+        <label>
+          Тип урона
+          <select
+            value={damageType}
+            onChange={(event) =>
+              setDamageType(event.target.value as DamageType | "")
+            }
+          >
+            <option value="">Итоговый урон вручную</option>
+            {Object.entries(damageLabels).map(([key, label]) => (
+              <option key={key} value={key}>
+                {label}
+              </option>
+            ))}
+          </select>
+        </label>
+        {valid && damageType && (
+          <p role="status">
+            Урон: {value} → {damage.total}. Временные хиты поглотят{" "}
+            {Math.min(c.tempHp, damage.total)}.{" "}
+            {damage.effects.map((effect) => effect.source).join(" · ")}
+          </p>
+        )}
         <div className="character-row">
           <button
             className="button secondary"
             disabled={!valid}
-            onClick={() => void command("damage", { amount: value })}
+            onClick={() =>
+              void command("damage", {
+                amount: value,
+                damageType: damageType || undefined,
+              })
+            }
           >
             Получить урон
           </button>
@@ -79,8 +122,8 @@ export function TabletopSheet({
           </button>
         </div>
         <p>
-          Изменения сохраняются сразу. Вводите итоговый урон после сопротивлений
-          и других поправок. Временные хиты не складываются: остаётся большее
+          Изменения сохраняются сразу. Для ручного режима вводите урон после
+          всех поправок. Временные хиты не складываются: остаётся большее
           значение.
         </p>
         <h3>Концентрация</h3>

@@ -41,6 +41,7 @@ export function EditionComparison({ entry }: { entry: Content }) {
             }>(`/api/content/${entry.id}/versions`);
             setOriginal(result.original);
             setItems(result.items);
+            if (result.items.length === 1) setChosen(result.items[0].entry.id);
           } catch (e) {
             setError(
               e instanceof Error ? e.message : "Не удалось загрузить версии.",

@@ -3,20 +3,32 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Правила без сети · D&D Companion</title>
+    <title>Читать без сети · D&D Companion</title>
     <link rel="stylesheet" href="/offline-reader.css" />
     <script src="/offline-reader.js" defer></script>
   </head>
   <body>
     <header>
       <a href="/">Вернуться в приложение</a>
-      <h1>Правила без сети</h1>
+      <h1>Читать без сети</h1>
       <p>
-        Сохранённые публичные карточки этого браузера. Снимки не обновляются
-        автоматически; личные переводы и данные аккаунта сюда не попадают.
-        Очистка данных браузера удалит копии.
+        Копии хранятся в этом браузере. Чтобы обновить копию, сохраните её
+        заново в приложении.
+        <span id="privacy" hidden
+          >Личные копии доступны всем, кто пользуется этим профилем браузера,
+          даже после выхода из аккаунта.</span
+        >
       </p>
       <label
+        >Раздел
+        <select id="kind">
+          <option value="public">Справочник</option>
+          <option value="character">Листы персонажей</option>
+          <option value="campaign">Заметки кампаний</option>
+        </select>
+      </label>
+      <button id="clear-personal" hidden>Удалить все личные копии</button>
+      <label id="edition-filter"
         >Редакция
         <select id="edition">
           <option value="5e_2014">2014</option>

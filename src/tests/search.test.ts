@@ -26,3 +26,11 @@ test("Поиск: все слова запроса обязательны", () =
   assert.equal(searchScore(document, "дракон молния"), 0));
 test("Поиск: пустой запрос допускает все записи", () =>
   assert.equal(searchScore(document, ""), 1));
+
+test("Поиск поддерживает точную фразу и исключение целого слова", () => {
+  const doc = searchDocument(["Огненный шар", "заклинание"]);
+  assert.ok(searchScore(doc, "«огненный шар» -свиток") > 0);
+  assert.equal(searchScore(doc, '"шар огненный"'), 0);
+  assert.equal(searchScore(doc, '"огненный шар" -заклинание'), 0);
+  assert.ok(searchScore(doc, "-шарик") > 0);
+});

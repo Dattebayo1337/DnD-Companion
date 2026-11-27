@@ -14,6 +14,20 @@ export const combatantSchema = z
     hp,
     tempHp: hp,
     ac: z.number().int().min(0).max(100),
+    effectSnapshot: z
+      .object({
+        baseAc: z.number().int().min(0).max(100),
+        effects: z
+          .array(
+            z.object({
+              source: z.string().max(120),
+              acBonus: z.number().int().min(-100).max(100).nullable(),
+              remaining: z.number().int().min(1).max(100).nullable(),
+            }),
+          )
+          .max(30),
+      })
+      .optional(),
     initiative: z.number().int().min(-100).max(100),
     initiativeMod: z.number().int().min(-50).max(50),
     conditions: z
@@ -40,6 +54,7 @@ export const battleSchema = z
     edition: editionSchema,
     status: z.enum(["preparing", "running", "finished"]),
     round: z.number().int().min(1).max(100000),
+    furthestRound: z.number().int().min(1).max(100000).optional(),
     turn: z.number().int().min(0).max(99),
     participants: z.array(combatantSchema).max(100),
     notes: z.string().max(20000),

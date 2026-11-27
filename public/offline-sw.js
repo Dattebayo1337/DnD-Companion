@@ -1,5 +1,5 @@
 /* Only the static reader is cached. Never cache account pages, APIs or campaigns. */
-const CACHE = "companion-reader-v1";
+const CACHE = "companion-reader-v3";
 const ASSETS = ["/offline.html", "/offline-reader.js", "/offline-reader.css"];
 self.addEventListener("install", (event) =>
   event.waitUntil(

@@ -1,0 +1,3216 @@
+{
+  "checkedAt": "2026-11-27",
+  "catalogs": [
+    {
+      "name": "Глоссарий правил, включая состояния",
+      "year": 2024,
+      "source": "https://next.dnd.su/glossary/",
+      "items": [
+        [
+          "Атака",
+          "Rule",
+          "Attack [Action]"
+        ],
+        [
+          "Бонусное действие",
+          "Rule",
+          "Bonus Action"
+        ],
+        [
+          "Влияние",
+          "Rule",
+          "Influence [Action]"
+        ],
+        [
+          "Действие",
+          "Rule",
+          "Action"
+        ],
+        [
+          "Затаивание",
+          "Rule",
+          "Hide [Action]"
+        ],
+        [
+          "Изучение",
+          "Rule",
+          "Study [Action]"
+        ],
+        [
+          "Использование",
+          "Rule",
+          "Utilize [Action]"
+        ],
+        [
+          "Магия",
+          "Rule",
+          "Magic [Action]"
+        ],
+        [
+          "Отход",
+          "Rule",
+          "Disengage [Action]"
+        ],
+        [
+          "Подготовка",
+          "Rule",
+          "Ready [Action]"
+        ],
+        [
+          "Поиск",
+          "Rule",
+          "Search [Action]"
+        ],
+        [
+          "Помощь",
+          "Rule",
+          "Help [Action]"
+        ],
+        [
+          "Реакция",
+          "Rule",
+          "Reaction"
+        ],
+        [
+          "Рывок",
+          "Rule",
+          "Dash [Action]"
+        ],
+        [
+          "Уклонение",
+          "Rule",
+          "Dodge [Action]"
+        ],
+        [
+          "Конус",
+          "Rule",
+          "Cone [Area of Effect]"
+        ],
+        [
+          "Куб",
+          "Rule",
+          "Cube [Area of Effect]"
+        ],
+        [
+          "Линия",
+          "Rule",
+          "Line [Area of Effect]"
+        ],
+        [
+          "Область воздействия",
+          "Rule",
+          "Area of Effect"
+        ],
+        [
+          "Сфера",
+          "Rule",
+          "Sphere [Area of Effect]"
+        ],
+        [
+          "Цилиндр",
+          "Rule",
+          "Cylinder [Area of Effect]"
+        ],
+        [
+          "Эманация",
+          "Rule",
+          "Emanation [Area of Effect]"
+        ],
+        [
+          "Бессознательный",
+          "Condition",
+          "Unconscious [Condition]"
+        ],
+        [
+          "Испуганный",
+          "Condition",
+          "Frightened [Condition]"
+        ],
+        [
+          "Истощение",
+          "Condition",
+          "Exhaustion [Condition]"
+        ],
+        [
+          "Невидимый",
+          "Condition",
+          "Invisible [Condition]"
+        ],
+        [
+          "Недееспособный",
+          "Condition",
+          "Incapacitated [Condition]"
+        ],
+        [
+          "Оглохший",
+          "Condition",
+          "Deafened [Condition]"
+        ],
+        [
+          "Окаменевший",
+          "Condition",
+          "Petrified [Condition]"
+        ],
+        [
+          "Опрокинутый",
+          "Condition",
+          "Prone [Condition]"
+        ],
+        [
+          "Опутанный",
+          "Condition",
+          "Restrained [Condition]"
+        ],
+        [
+          "Ослеплённый",
+          "Condition",
+          "Blinded [Condition]"
+        ],
+        [
+          "Отравленный",
+          "Condition",
+          "Poisoned [Condition]"
+        ],
+        [
+          "Очарованный",
+          "Condition",
+          "Charmed [Condition]"
+        ],
+        [
+          "Ошеломлённый",
+          "Condition",
+          "Stunned [Condition]"
+        ],
+        [
+          "Парализованный",
+          "Condition",
+          "Paralyzed [Condition]"
+        ],
+        [
+          "Состояние",
+          "Rule",
+          "Condition"
+        ],
+        [
+          "Схваченный",
+          "Condition",
+          "Grappled [Condition]"
+        ],
+        [
+          "Лазание",
+          "Rule",
+          "Climbing"
+        ],
+        [
+          "Полёт",
+          "Rule",
+          "Flying"
+        ],
+        [
+          "Ползание",
+          "Rule",
+          "Crawling"
+        ],
+        [
+          "Прыжки",
+          "Rule",
+          "Jumping"
+        ],
+        [
+          "Прыжок в высоту",
+          "Rule",
+          "High Jump"
+        ],
+        [
+          "Прыжок в длину",
+          "Rule",
+          "Long Jump"
+        ],
+        [
+          "Скорость",
+          "Rule",
+          "Speed"
+        ],
+        [
+          "Скорость копания",
+          "Rule",
+          "Burrow Speed"
+        ],
+        [
+          "Скорость лазания",
+          "Rule",
+          "Climb Speed"
+        ],
+        [
+          "Скорость плавания",
+          "Rule",
+          "Swim Speed"
+        ],
+        [
+          "Скорость полёта",
+          "Rule",
+          "Fly Speed"
+        ],
+        [
+          "Истинное зрение",
+          "Rule",
+          "Truesight"
+        ],
+        [
+          "Слепое зрение",
+          "Rule",
+          "Blindsight"
+        ],
+        [
+          "Тёмное зрение",
+          "Rule",
+          "Darkvision"
+        ],
+        [
+          "Чувство вибрации",
+          "Rule",
+          "Tremorsense"
+        ],
+        [
+          "Безразличное отношение",
+          "Rule",
+          "Indifferent [Attitude]"
+        ],
+        [
+          "Враждебное отношение",
+          "Rule",
+          "Hostile [Attitude]"
+        ],
+        [
+          "Дружелюбное отношение",
+          "Rule",
+          "Friendly [Attitude]"
+        ],
+        [
+          "Отношение",
+          "Rule",
+          "Attitude"
+        ],
+        [
+          "Атака заклинанием",
+          "Rule",
+          "Spell Attack"
+        ],
+        [
+          "Атака оружием",
+          "Rule",
+          "Weapon Attack"
+        ],
+        [
+          "Безоружный удар",
+          "Rule",
+          "Unarmed Strike"
+        ],
+        [
+          "Блок статистики",
+          "Rule",
+          "Stat Block"
+        ],
+        [
+          "Бросок атаки",
+          "Rule",
+          "Attack Roll"
+        ],
+        [
+          "Бросок урона",
+          "Rule",
+          "Damage Roll"
+        ],
+        [
+          "В день",
+          "Rule",
+          "Per Day"
+        ],
+        [
+          "Владение",
+          "Rule",
+          "Proficiency"
+        ],
+        [
+          "Враг",
+          "Rule",
+          "Enemy"
+        ],
+        [
+          "Временные хиты",
+          "Rule",
+          "Temporary Hit Points"
+        ],
+        [
+          "Героическое вдохновение",
+          "Rule",
+          "Heroic Inspiration"
+        ],
+        [
+          "Горение",
+          "Rule",
+          "Burning [Hazard]"
+        ],
+        [
+          "Грузоподъёмность",
+          "Rule",
+          "Carrying Capacity"
+        ],
+        [
+          "Долгий отдых",
+          "Rule",
+          "Long Rest"
+        ],
+        [
+          "Досягаемость",
+          "Rule",
+          "Reach"
+        ],
+        [
+          "Заговор",
+          "Rule",
+          "Cantrip"
+        ],
+        [
+          "Заклинание",
+          "Rule",
+          "Spell"
+        ],
+        [
+          "Заклинательная фокусировка",
+          "Rule",
+          "Spellcasting Focus"
+        ],
+        [
+          "Занятое пространство",
+          "Rule",
+          "Occupied Space"
+        ],
+        [
+          "Застигнуты врасплох",
+          "Rule",
+          "Surprise"
+        ],
+        [
+          "Захват",
+          "Rule",
+          "Grappling"
+        ],
+        [
+          "Значения и модификаторы характеристик",
+          "Rule",
+          "Ability Score and Modifier"
+        ],
+        [
+          "Иллюзии",
+          "Rule",
+          "Illusions"
+        ],
+        [
+          "Иммунитет",
+          "Rule",
+          "Immunity"
+        ],
+        [
+          "Импровизированное оружие",
+          "Rule",
+          "Improvised Weapons"
+        ],
+        [
+          "Инициатива",
+          "Rule",
+          "Initiative"
+        ],
+        [
+          "Кампания",
+          "Rule",
+          "Campaign"
+        ],
+        [
+          "Класс Защиты",
+          "Rule",
+          "Armor Class"
+        ],
+        [
+          "Концентрация",
+          "Rule",
+          "Concentration"
+        ],
+        [
+          "Короткий отдых",
+          "Rule",
+          "Short Rest"
+        ],
+        [
+          "Кости хитов",
+          "Rule",
+          "Hit Point Dice"
+        ],
+        [
+          "Критическое попадание",
+          "Rule",
+          "Critical Hit"
+        ],
+        [
+          "Лечение",
+          "Rule",
+          "Healing"
+        ],
+        [
+          "Лист персонажа",
+          "Rule",
+          "Character Sheet"
+        ],
+        [
+          "Магический эффект",
+          "Rule",
+          "Magical Effect"
+        ],
+        [
+          "Мировоззрение",
+          "Rule",
+          "Alignment"
+        ],
+        [
+          "Монстр",
+          "Rule",
+          "Monster"
+        ],
+        [
+          "Навык",
+          "Rule",
+          "Skill"
+        ],
+        [
+          "Настройка",
+          "Rule",
+          "Attunement"
+        ],
+        [
+          "Недоедание",
+          "Rule",
+          "Malnutrition [Hazard]"
+        ],
+        [
+          "Незанятое пространство",
+          "Rule",
+          "Unoccupied Space"
+        ],
+        [
+          "Неигровой персонаж",
+          "Rule",
+          "Nonplayer Character"
+        ],
+        [
+          "Нокаутирование существа",
+          "Rule",
+          "Knocking Out a Creature"
+        ],
+        [
+          "Обезвоживание",
+          "Rule",
+          "Dehydration [Hazard]"
+        ],
+        [
+          "Объект",
+          "Rule",
+          "Object"
+        ],
+        [
+          "Одержимость",
+          "Rule",
+          "Possession"
+        ],
+        [
+          "Одновременные эффекты",
+          "Rule",
+          "Simultaneous Effects"
+        ],
+        [
+          "Окровавленный",
+          "Rule",
+          "Bloodied"
+        ],
+        [
+          "Округление вниз",
+          "Rule",
+          "Round Down"
+        ],
+        [
+          "Оружие",
+          "Rule",
+          "Weapon"
+        ],
+        [
+          "Очки опыта",
+          "Rule",
+          "Experience Points"
+        ],
+        [
+          "Падение",
+          "Rule",
+          "Falling [Hazard]"
+        ],
+        [
+          "Парение",
+          "Rule",
+          "Hover"
+        ],
+        [
+          "Пассивное Восприятие",
+          "Rule",
+          "Passive Perception"
+        ],
+        [
+          "Перевоплощение",
+          "Rule",
+          "Shape-Shifting"
+        ],
+        [
+          "Персонаж игрока",
+          "Rule",
+          "Player Character"
+        ],
+        [
+          "Плавание",
+          "Rule",
+          "Swimming"
+        ],
+        [
+          "Показатель опасности",
+          "Rule",
+          "Challenge Rating"
+        ],
+        [
+          "Помеха",
+          "Rule",
+          "Disadvantage"
+        ],
+        [
+          "Порог урона",
+          "Rule",
+          "Damage Threshold"
+        ],
+        [
+          "Преимущество",
+          "Rule",
+          "Advantage"
+        ],
+        [
+          "Приключение",
+          "Rule",
+          "Adventure"
+        ],
+        [
+          "Проверка характеристики",
+          "Rule",
+          "Ability Check"
+        ],
+        [
+          "Провоцированные атаки",
+          "Rule",
+          "Opportunity Attacks"
+        ],
+        [
+          "Проклятия",
+          "Rule",
+          "Curses"
+        ],
+        [
+          "Размер",
+          "Rule",
+          "Size"
+        ],
+        [
+          "Ритуал",
+          "Rule",
+          "Ritual"
+        ],
+        [
+          "Сильное заслонение",
+          "Rule",
+          "Heavily Obscured"
+        ],
+        [
+          "Слабое заслонение",
+          "Rule",
+          "Lightly Obscured"
+        ],
+        [
+          "Сложность",
+          "Rule",
+          "Difficulty Class"
+        ],
+        [
+          "Смерть",
+          "Rule",
+          "Dead"
+        ],
+        [
+          "Сопротивление",
+          "Rule",
+          "Resistance"
+        ],
+        [
+          "Союзник",
+          "Rule",
+          "Ally"
+        ],
+        [
+          "Спасбросок",
+          "Rule",
+          "Saving Throw"
+        ],
+        [
+          "Спасбросок от Cмерти",
+          "Rule",
+          "Death Saving Throw"
+        ],
+        [
+          "Стабилизированный",
+          "Rule",
+          "Stable"
+        ],
+        [
+          "Столкновение",
+          "Rule",
+          "Encounter"
+        ],
+        [
+          "Существо",
+          "Rule",
+          "Creature"
+        ],
+        [
+          "Телепатия",
+          "Rule",
+          "Telepathy"
+        ],
+        [
+          "Телепортация",
+          "Rule",
+          "Teleportation"
+        ],
+        [
+          "Темнота",
+          "Rule",
+          "Darkness"
+        ],
+        [
+          "Тест к20",
+          "Rule",
+          "D20 Test"
+        ],
+        [
+          "Тип существа",
+          "Rule",
+          "Creature Type"
+        ],
+        [
+          "Типы урона",
+          "Rule",
+          "Damage Types"
+        ],
+        [
+          "Тренированность с доспехами",
+          "Rule",
+          "Armor Training"
+        ],
+        [
+          "Труднопроходимая местность",
+          "Rule",
+          "Difficult Terrain"
+        ],
+        [
+          "Тусклый свет",
+          "Rule",
+          "Dim Light"
+        ],
+        [
+          "Угроза окружения",
+          "Rule",
+          "Hazard"
+        ],
+        [
+          "Удушение",
+          "Rule",
+          "Suffocation [Hazard]"
+        ],
+        [
+          "Укрытие",
+          "Rule",
+          "Cover"
+        ],
+        [
+          "Уничтожение объектов",
+          "Rule",
+          "Breaking Objects"
+        ],
+        [
+          "Урон",
+          "Rule",
+          "Damage"
+        ],
+        [
+          "Уязвимость",
+          "Rule",
+          "Vulnerability"
+        ],
+        [
+          "Хиты",
+          "Rule",
+          "Hit Points"
+        ],
+        [
+          "Цель",
+          "Rule",
+          "Target"
+        ],
+        [
+          "Экспертность",
+          "Rule",
+          "Expertise"
+        ],
+        [
+          "Яркий свет",
+          "Rule",
+          "Bright Light"
+        ]
+      ]
+    },
+    {
+      "name": "Состояния из Книги игрока",
+      "year": 2014,
+      "source": "https://dnd.su/articles/mechanics/27-conditions/",
+      "items": [
+        [
+          "Бессознательный",
+          "Condition",
+          "Unconscious"
+        ],
+        [
+          "Испуганный",
+          "Condition",
+          "Frightened"
+        ],
+        [
+          "Истощённый",
+          "Condition",
+          "Exhaustion"
+        ],
+        [
+          "Невидимый",
+          "Condition",
+          "Invisible"
+        ],
+        [
+          "Недееспособный",
+          "Condition",
+          "Incapacitated"
+        ],
+        [
+          "Оглохший",
+          "Condition",
+          "Deafened"
+        ],
+        [
+          "Окаменевший",
+          "Condition",
+          "Petrified"
+        ],
+        [
+          "Опутанный",
+          "Condition",
+          "Restrained"
+        ],
+        [
+          "Ослеплённый",
+          "Condition",
+          "Blinded"
+        ],
+        [
+          "Отравленный",
+          "Condition",
+          "Poisoned"
+        ],
+        [
+          "Очарованный",
+          "Condition",
+          "Charmed"
+        ],
+        [
+          "Ошеломлённый",
+          "Condition",
+          "Stunned"
+        ],
+        [
+          "Парализованный",
+          "Condition",
+          "Paralyzed"
+        ],
+        [
+          "Сбитый с ног / Лежащий ничком",
+          "Condition",
+          "Prone"
+        ],
+        [
+          "Схваченный",
+          "Condition",
+          "Grappled"
+        ]
+      ]
+    },
+    {
+      "name": "Инвентарь, инструменты и наборы из статьи о снаряжении",
+      "year": 2014,
+      "source": "https://dnd.su/articles/inventory/147-armor-arms-equipment-tools/",
+      "items": [
+        [
+          "Стёганый",
+          "Armor",
+          "Padded"
+        ],
+        [
+          "Кожаный",
+          "Armor",
+          "Leather"
+        ],
+        [
+          "Проклёпанный кожаный",
+          "Armor",
+          "Studded leather"
+        ],
+        [
+          "Шкурный",
+          "Armor",
+          "Hide"
+        ],
+        [
+          "Кольчужная рубаха",
+          "Armor",
+          "Chain shirt"
+        ],
+        [
+          "Чешуйчатый",
+          "Armor",
+          "Scale mail"
+        ],
+        [
+          "Кираса",
+          "Armor",
+          "Breastplate"
+        ],
+        [
+          "Полулаты",
+          "Armor",
+          "Half plate"
+        ],
+        [
+          "Колечный",
+          "Armor",
+          "Ring mail"
+        ],
+        [
+          "Кольчуга",
+          "Armor",
+          "Chain mail"
+        ],
+        [
+          "Наборный",
+          "Armor",
+          "Splint"
+        ],
+        [
+          "Латы",
+          "Armor",
+          "Plate"
+        ],
+        [
+          "Щит",
+          "Armor",
+          "Shield"
+        ],
+        [
+          "Боевой посох",
+          "Weapon",
+          "Quarterstaff"
+        ],
+        [
+          "Булава",
+          "Weapon",
+          "Mace"
+        ],
+        [
+          "Дубинка",
+          "Weapon",
+          "Club"
+        ],
+        [
+          "Кинжал",
+          "Weapon",
+          "Dagger"
+        ],
+        [
+          "Копьё",
+          "Weapon",
+          "Spear"
+        ],
+        [
+          "Лёгкий молот",
+          "Weapon",
+          "Light hammer"
+        ],
+        [
+          "Метательное копьё",
+          "Weapon",
+          "Javelin"
+        ],
+        [
+          "Палица",
+          "Weapon",
+          "Greatclub"
+        ],
+        [
+          "Ручной топор",
+          "Weapon",
+          "Handaxe"
+        ],
+        [
+          "Серп",
+          "Weapon",
+          "Sickle"
+        ],
+        [
+          "Арбалет, лёгкий",
+          "Weapon",
+          "Crossbow, light"
+        ],
+        [
+          "Дротик",
+          "Weapon",
+          "Dart"
+        ],
+        [
+          "Короткий лук",
+          "Weapon",
+          "Shortbow"
+        ],
+        [
+          "Праща",
+          "Weapon",
+          "Sling"
+        ],
+        [
+          "Алебарда",
+          "Weapon",
+          "Halberd"
+        ],
+        [
+          "Боевая кирка",
+          "Weapon",
+          "War pick"
+        ],
+        [
+          "Боевой молот",
+          "Weapon",
+          "Warhammer"
+        ],
+        [
+          "Боевой топор",
+          "Weapon",
+          "Battleaxe"
+        ],
+        [
+          "Глефа",
+          "Weapon",
+          "Glaive"
+        ],
+        [
+          "Двуручный меч",
+          "Weapon",
+          "Greatsword"
+        ],
+        [
+          "Длинное копьё",
+          "Weapon",
+          "Lance"
+        ],
+        [
+          "Длинный меч",
+          "Weapon",
+          "Longsword"
+        ],
+        [
+          "Кнут",
+          "Weapon",
+          "Whip"
+        ],
+        [
+          "Короткий меч",
+          "Weapon",
+          "Shortsword"
+        ],
+        [
+          "Молот",
+          "Weapon",
+          "Maul"
+        ],
+        [
+          "Моргенштерн",
+          "Weapon",
+          "Morningstar"
+        ],
+        [
+          "Пика",
+          "Weapon",
+          "Pike"
+        ],
+        [
+          "Рапира",
+          "Weapon",
+          "Rapier"
+        ],
+        [
+          "Секира",
+          "Weapon",
+          "Greataxe"
+        ],
+        [
+          "Скимитар",
+          "Weapon",
+          "Scimitar"
+        ],
+        [
+          "Трезубец",
+          "Weapon",
+          "Trident"
+        ],
+        [
+          "Цеп",
+          "Weapon",
+          "Flail"
+        ],
+        [
+          "Арбалет, ручной",
+          "Weapon",
+          "Crossbow, hand"
+        ],
+        [
+          "Арбалет, тяжёлый",
+          "Weapon",
+          "Crossbow, heavy"
+        ],
+        [
+          "Длинный лук",
+          "Weapon",
+          "Longbow"
+        ],
+        [
+          "Духовая трубка",
+          "Weapon",
+          "Blowgun"
+        ],
+        [
+          "Сеть",
+          "Weapon",
+          "Net"
+        ],
+        [
+          "Абак",
+          "Equipment",
+          "Abacus"
+        ],
+        [
+          "Алхимический огонь (фляга)",
+          "Equipment",
+          "Alchemist's fire (flask)"
+        ],
+        [
+          "Блок и лебёдка",
+          "Equipment",
+          "Block and tackle"
+        ],
+        [
+          "Арбалетные болты (20)",
+          "Equipment",
+          "~ Crossbow bolts (20)"
+        ],
+        [
+          "Иглы для трубки (50)",
+          "Equipment",
+          "~ Blowgun needles (50)"
+        ],
+        [
+          "Снаряды для пращи (20)",
+          "Equipment",
+          "~ Sling bullets (20)"
+        ],
+        [
+          "Стрелы (20)",
+          "Equipment",
+          "~ Arrows (20)"
+        ],
+        [
+          "Бочка",
+          "Equipment",
+          "Barrel"
+        ],
+        [
+          "Бумага (один лист)",
+          "Equipment",
+          "Paper (one sheet)"
+        ],
+        [
+          "Бурдюк",
+          "Equipment",
+          "Waterskin"
+        ],
+        [
+          "Бутылка, стеклянная",
+          "Equipment",
+          "Bottle, glass"
+        ],
+        [
+          "Ведро",
+          "Equipment",
+          "Bucket"
+        ],
+        [
+          "Верёвка пеньковая (50 футов)",
+          "Equipment",
+          "Rope, hempen (50 feet)"
+        ],
+        [
+          "Верёвка, шёлковая (50 футов)",
+          "Equipment",
+          "Rope, silk (50 feet)"
+        ],
+        [
+          "Весы, торговые",
+          "Equipment",
+          "Scale, merchant's"
+        ],
+        [
+          "Воск",
+          "Equipment",
+          "Sealing wax"
+        ],
+        [
+          "Горшок, железный",
+          "Equipment",
+          "Pot, iron"
+        ],
+        [
+          "Духи (флакон)",
+          "Equipment",
+          "Perfume (vial)"
+        ],
+        [
+          "Замок",
+          "Equipment",
+          "Lock"
+        ],
+        [
+          "Зелье лечения",
+          "Equipment",
+          "Potion of healing 5"
+        ],
+        [
+          "Зеркало, стальное",
+          "Equipment",
+          "Mirror, steel"
+        ],
+        [
+          "Калтропы (20 штук в сумке)",
+          "Equipment",
+          "Caltrops (bag of 20)"
+        ],
+        [
+          "Кандалы",
+          "Equipment",
+          "Manacles"
+        ],
+        [
+          "Кирка, горняцкая",
+          "Equipment",
+          "Pick, miner's"
+        ],
+        [
+          "Кислота (флакон)",
+          "Equipment",
+          "Acid (vial)"
+        ],
+        [
+          "Книга",
+          "Equipment",
+          "Book"
+        ],
+        [
+          "Книга заклинаний",
+          "Equipment",
+          "Spellbook"
+        ],
+        [
+          "Колокольчик",
+          "Equipment",
+          "Bell"
+        ],
+        [
+          "Колчан",
+          "Equipment",
+          "Quiver"
+        ],
+        [
+          "Кольцо-печатка",
+          "Equipment",
+          "Signet ring"
+        ],
+        [
+          "Комплект для лазания",
+          "Equipment",
+          "Climber's kit"
+        ],
+        [
+          "Комплект для рыбалки",
+          "Equipment",
+          "Fishing tackle"
+        ],
+        [
+          "Комплект целителя",
+          "Equipment",
+          "Healer's kit"
+        ],
+        [
+          "Контейнер для арбалетных болтов",
+          "Equipment",
+          "Case, crossbow bolt"
+        ],
+        [
+          "Контейнер для карт и свитков",
+          "Equipment",
+          "Case, map or scroll"
+        ],
+        [
+          "Корзина",
+          "Equipment",
+          "Basket"
+        ],
+        [
+          "Кошель",
+          "Equipment",
+          "Pouch"
+        ],
+        [
+          "Крюк-кошка",
+          "Equipment",
+          "Grappling hook"
+        ],
+        [
+          "Кувшин или графин",
+          "Equipment",
+          "Jug or pitcher"
+        ],
+        [
+          "Лампа",
+          "Equipment",
+          "Lamp"
+        ],
+        [
+          "Лестница (10 футов)",
+          "Equipment",
+          "Ladder (10-foot)"
+        ],
+        [
+          "Ломик",
+          "Equipment",
+          "Crowbar"
+        ],
+        [
+          "Лопата",
+          "Equipment",
+          "Shovel"
+        ],
+        [
+          "Волшебная палочка",
+          "Equipment",
+          "~ Wand"
+        ],
+        [
+          "Жезл",
+          "Equipment",
+          "~ Rod"
+        ],
+        [
+          "Кристалл",
+          "Equipment",
+          "~ Crystal"
+        ],
+        [
+          "Посох",
+          "Equipment",
+          "~ Staff"
+        ],
+        [
+          "Сфера",
+          "Equipment",
+          "~ Orb"
+        ],
+        [
+          "Масло (фляга)",
+          "Equipment",
+          "Oil (flask)"
+        ],
+        [
+          "Мел (1 кусочек)",
+          "Equipment",
+          "Chalk (1 piece)"
+        ],
+        [
+          "Металлические шарики (1 000 шт. в сумке)",
+          "Equipment",
+          "Ball bearings (bag of 1,000)"
+        ],
+        [
+          "Мешок",
+          "Equipment",
+          "Sack"
+        ],
+        [
+          "Мешочек с компонентами",
+          "Equipment",
+          "Component pouch"
+        ],
+        [
+          "Молот, кузнечный",
+          "Equipment",
+          "Hammer, sledge"
+        ],
+        [
+          "Молоток",
+          "Equipment",
+          "Hammer"
+        ],
+        [
+          "Мыло",
+          "Equipment",
+          "Soap"
+        ],
+        [
+          "Одежда, дорожная",
+          "Equipment",
+          "Clothes, traveler's"
+        ],
+        [
+          "Одежда, костюм",
+          "Equipment",
+          "Clothes, costume"
+        ],
+        [
+          "Одежда, обычная",
+          "Equipment",
+          "Clothes, common"
+        ],
+        [
+          "Одежда, отличная",
+          "Equipment",
+          "Clothes, fine"
+        ],
+        [
+          "Одеяло",
+          "Equipment",
+          "Blanket"
+        ],
+        [
+          "Охотничий капкан",
+          "Equipment",
+          "Hunting trap"
+        ],
+        [
+          "Палатка, двухместная",
+          "Equipment",
+          "Tent, two-person"
+        ],
+        [
+          "Пергамент (один лист)",
+          "Equipment",
+          "Parchment (one sheet)"
+        ],
+        [
+          "Песочные часы",
+          "Equipment",
+          "Hourglass"
+        ],
+        [
+          "Писчее перо",
+          "Equipment",
+          "Ink pen"
+        ],
+        [
+          "Подзорная труба",
+          "Equipment",
+          "Spyglass"
+        ],
+        [
+          "Противоядие (флакон)",
+          "Equipment",
+          "Antitoxin (vial)"
+        ],
+        [
+          "Рационы (1 день)",
+          "Equipment",
+          "Rations (1 day)"
+        ],
+        [
+          "Рюкзак",
+          "Equipment",
+          "Backpack"
+        ],
+        [
+          "Ряса",
+          "Equipment",
+          "Robes"
+        ],
+        [
+          "Свеча",
+          "Equipment",
+          "Candle"
+        ],
+        [
+          "Святая вода (фляга)",
+          "Equipment",
+          "Holy water (flask)"
+        ],
+        [
+          "Амулет",
+          "Equipment",
+          "~ Amulet"
+        ],
+        [
+          "Реликварий",
+          "Equipment",
+          "~ Reliquary"
+        ],
+        [
+          "Эмблема",
+          "Equipment",
+          "~ Emblem"
+        ],
+        [
+          "Сигнальный свисток",
+          "Equipment",
+          "Signal whistle"
+        ],
+        [
+          "Спальник",
+          "Equipment",
+          "Bedroll"
+        ],
+        [
+          "Столовый набор",
+          "Equipment",
+          "Mess kit"
+        ],
+        [
+          "Сундук",
+          "Equipment",
+          "Chest"
+        ],
+        [
+          "Таран, портативный",
+          "Equipment",
+          "Ram, portable"
+        ],
+        [
+          "Точильный камень",
+          "Equipment",
+          "Whetstone"
+        ],
+        [
+          "Трутница",
+          "Equipment",
+          "Tinderbox"
+        ],
+        [
+          "Увеличительное стекло",
+          "Equipment",
+          "Magnifying glass"
+        ],
+        [
+          "Факел",
+          "Equipment",
+          "Torch"
+        ],
+        [
+          "Флакон",
+          "Equipment",
+          "Vial"
+        ],
+        [
+          "Фляга или большая кружка",
+          "Equipment",
+          "Flask or tankard"
+        ],
+        [
+          "Веточка омелы",
+          "Equipment",
+          "~ Sprig of mistletoe"
+        ],
+        [
+          "Деревянный посох",
+          "Equipment",
+          "~ Wooden staff"
+        ],
+        [
+          "Тисовая палочка",
+          "Equipment",
+          "~ Yew wand"
+        ],
+        [
+          "Тотем",
+          "Equipment",
+          "~ Totem"
+        ],
+        [
+          "Фонарь, закрытый",
+          "Equipment",
+          "Lantern, hooded"
+        ],
+        [
+          "Фонарь, направленный",
+          "Equipment",
+          "Lantern, bullseye"
+        ],
+        [
+          "Цепь (10 футов)",
+          "Equipment",
+          "Chain (10 feet)"
+        ],
+        [
+          "Чернила (бутылочка 30 граммов)",
+          "Equipment",
+          "Ink (1 ounce bottle)"
+        ],
+        [
+          "Шест (10 футов)",
+          "Equipment",
+          "Pole (10-foot)"
+        ],
+        [
+          "Шипы, железные (10)",
+          "Equipment",
+          "Spikes, iron (10)"
+        ],
+        [
+          "Шлямбур",
+          "Equipment",
+          "Piton"
+        ],
+        [
+          "Яд, простой (флакон)",
+          "Equipment",
+          "Poison, basic (vial)"
+        ],
+        [
+          "Двухклинковый скимитар (RLW)",
+          "Weapon",
+          "Double-Bladed Scimitar"
+        ],
+        [
+          "Иклва (TOA)",
+          "Weapon",
+          "Yklwa"
+        ],
+        [
+          "Короткое копьё с крюком (OOTA)",
+          "Weapon",
+          "Hooked Shortspear"
+        ],
+        [
+          "Лёгкий многозарядный арбалет (OOTA)",
+          "Weapon",
+          "Light Repeating Crossbow"
+        ],
+        [
+          "Большой длинный лук (WDH)",
+          "Weapon",
+          "Oversized Longbow"
+        ],
+        [
+          "Хупак (SDQ)",
+          "Weapon",
+          "Hoopak"
+        ],
+        [
+          "Воровские инструменты",
+          "Equipment",
+          "Thieves' tools"
+        ],
+        [
+          "Инструменты алхимика",
+          "Equipment",
+          "~ Alchemist's supplies"
+        ],
+        [
+          "Драконьи шахматы",
+          "Equipment",
+          "Dragonchess Set"
+        ],
+        [
+          "Инструменты гончара",
+          "Equipment",
+          "~ Potter's tools"
+        ],
+        [
+          "Карты",
+          "Equipment",
+          "~ Playing card set"
+        ],
+        [
+          "Инструменты каллиграфа",
+          "Equipment",
+          "~ Calligrapher's supplies"
+        ],
+        [
+          "Кости",
+          "Equipment",
+          "~ Dice set"
+        ],
+        [
+          "Инструменты каменщика",
+          "Equipment",
+          "~ Mason's tools"
+        ],
+        [
+          "Ставка трёх драконов",
+          "Equipment",
+          "Three-Dragon Ante Set"
+        ],
+        [
+          "Инструменты картографа",
+          "Equipment",
+          "~ Cartographer's tools"
+        ],
+        [
+          "Инструменты навигатора",
+          "Equipment",
+          "Navigator's tools"
+        ],
+        [
+          "Инструменты кожевника",
+          "Equipment",
+          "~ Leatherworker's tools"
+        ],
+        [
+          "Инструменты отравителя",
+          "Equipment",
+          "Poisoner's kit"
+        ],
+        [
+          "Инструменты кузнеца",
+          "Equipment",
+          "~ Smith's tools"
+        ],
+        [
+          "Инструменты пивовара",
+          "Equipment",
+          "~ Brewer's supplies"
+        ],
+        [
+          "Барабан",
+          "Equipment",
+          "~ Drum"
+        ],
+        [
+          "Инструменты плотника",
+          "Equipment",
+          "~ Carpenter's tools"
+        ],
+        [
+          "Виола",
+          "Equipment",
+          "~ Viol"
+        ],
+        [
+          "Инструменты повара",
+          "Equipment",
+          "~ Cook's utensils"
+        ],
+        [
+          "Волынка",
+          "Equipment",
+          "~ Bagpipes"
+        ],
+        [
+          "Инструменты резчика по дереву",
+          "Equipment",
+          "~ Woodcarver's tools"
+        ],
+        [
+          "Лира",
+          "Equipment",
+          "~ Lyre"
+        ],
+        [
+          "Инструменты ремонтника",
+          "Equipment",
+          "~ Tinker's tools"
+        ],
+        [
+          "Лютня",
+          "Equipment",
+          "~ Lute"
+        ],
+        [
+          "Инструменты сапожника",
+          "Equipment",
+          "~ Cobbler's tools"
+        ],
+        [
+          "Рожок",
+          "Equipment",
+          "~ Horn"
+        ],
+        [
+          "Инструменты стеклодува",
+          "Equipment",
+          "~ Glassblower's tools"
+        ],
+        [
+          "Свирель",
+          "Equipment",
+          "~ Pan flute"
+        ],
+        [
+          "Инструменты ткача",
+          "Equipment",
+          "~ Weaver's tools"
+        ],
+        [
+          "Флейта",
+          "Equipment",
+          "~ Flute"
+        ],
+        [
+          "Инструменты художника",
+          "Equipment",
+          "~ Painter's supplies"
+        ],
+        [
+          "Цимбалы",
+          "Equipment",
+          "~ Dulcimer"
+        ],
+        [
+          "Инструменты ювелира",
+          "Equipment",
+          "~ Jeweler's tools"
+        ],
+        [
+          "Шалмей",
+          "Equipment",
+          "~ Shawm"
+        ],
+        [
+          "Набор для грима",
+          "Equipment",
+          "Disguise kit"
+        ],
+        [
+          "Набор для фальсификации",
+          "Equipment",
+          "Forgery kit"
+        ],
+        [
+          "Набор травника",
+          "Equipment",
+          "Herbalism kit"
+        ],
+        [
+          "Набор артиста",
+          "Equipment",
+          "Entertainer's Pack"
+        ],
+        [
+          "Набор взломщика",
+          "Equipment",
+          "Burglar's Pack"
+        ],
+        [
+          "Набор дипломата",
+          "Equipment",
+          "Diplomat's Pack"
+        ],
+        [
+          "Набор исследователя подземелий",
+          "Equipment",
+          "Dungeoneer's Pack"
+        ],
+        [
+          "Набор путешественника",
+          "Equipment",
+          "Explorer's Pack"
+        ],
+        [
+          "Набор священника",
+          "Equipment",
+          "Priest's Pack"
+        ],
+        [
+          "Набор учёного",
+          "Equipment",
+          "Scholar's Pack"
+        ],
+        [
+          "Набор охотника на монстров",
+          "Equipment",
+          "Monster Hunter's Pack"
+        ],
+        [
+          "Покров выживания",
+          "Armor",
+          "Survival Mantle"
+        ],
+        [
+          "Разделочные когти",
+          "Weapon",
+          "Flensing Claws"
+        ]
+      ]
+    },
+    {
+      "name": "Разделы главы «Бой» SRD 5.1",
+      "year": 2014,
+      "source": "https://github.com/OmnisGM-App/OmnisGM-Rules/blob/9d31cc106d780a62cef82cf4e2caa9f9d2dcccb5/src/dnd/srd-5.1/en/03_Combat.md",
+      "items": [
+        [
+          "Порядок боя",
+          "Rule",
+          "Combat: Combat Step by Step"
+        ],
+        [
+          "Внезапность",
+          "Rule",
+          "Combat: Surprise"
+        ],
+        [
+          "Инициатива",
+          "Rule",
+          "Combat: Initiative"
+        ],
+        [
+          "Ваш ход",
+          "Rule",
+          "Combat: Your Turn"
+        ],
+        [
+          "Бонусные действия",
+          "Rule",
+          "Combat: Bonus Actions"
+        ],
+        [
+          "Прочая деятельность в ваш ход",
+          "Rule",
+          "Combat: Other Activity on Your Turn"
+        ],
+        [
+          "Реакции",
+          "Rule",
+          "Combat: Reactions"
+        ],
+        [
+          "Перемещение и позиция",
+          "Rule",
+          "Combat: Movement and Position"
+        ],
+        [
+          "Разделение перемещения",
+          "Rule",
+          "Combat: Breaking Up Your Move"
+        ],
+        [
+          "Перемещение между атаками",
+          "Rule",
+          "Combat: Moving between Attacks"
+        ],
+        [
+          "Использование разных скоростей",
+          "Rule",
+          "Combat: Using Different Speeds"
+        ],
+        [
+          "Труднопроходимая местность",
+          "Rule",
+          "Combat: Difficult Terrain"
+        ],
+        [
+          "Положение лёжа",
+          "Rule",
+          "Combat: Being Prone"
+        ],
+        [
+          "Перемещение вокруг других существ",
+          "Rule",
+          "Combat: Moving Around Other Creatures"
+        ],
+        [
+          "Полёт",
+          "Rule",
+          "Combat: Flying Movement"
+        ],
+        [
+          "Размер существа",
+          "Rule",
+          "Combat: Creature Size"
+        ],
+        [
+          "Пространство",
+          "Rule",
+          "Combat: Space"
+        ],
+        [
+          "Протискивание в меньшее пространство",
+          "Rule",
+          "Combat: Squeezing into a Smaller Space"
+        ],
+        [
+          "Действия в бою",
+          "Rule",
+          "Combat: Actions in Combat"
+        ],
+        [
+          "Атака",
+          "Rule",
+          "Combat: Attack"
+        ],
+        [
+          "Сотворение заклинания",
+          "Rule",
+          "Combat: Cast a Spell"
+        ],
+        [
+          "Рывок",
+          "Rule",
+          "Combat: Dash"
+        ],
+        [
+          "Отход",
+          "Rule",
+          "Combat: Disengage"
+        ],
+        [
+          "Уклонение",
+          "Rule",
+          "Combat: Dodge"
+        ],
+        [
+          "Помощь",
+          "Rule",
+          "Combat: Help"
+        ],
+        [
+          "Скрыться",
+          "Rule",
+          "Combat: Hide"
+        ],
+        [
+          "Подготовка",
+          "Rule",
+          "Combat: Ready"
+        ],
+        [
+          "Поиск",
+          "Rule",
+          "Combat: Search"
+        ],
+        [
+          "Использование предмета",
+          "Rule",
+          "Combat: Use an Object"
+        ],
+        [
+          "Совершение атаки",
+          "Rule",
+          "Combat: Making an Attack"
+        ],
+        [
+          "Броски атаки",
+          "Rule",
+          "Combat: Attack Rolls"
+        ],
+        [
+          "Модификаторы к броску",
+          "Rule",
+          "Combat: Modifiers to the Roll"
+        ],
+        [
+          "Выпадение 1 или 20",
+          "Rule",
+          "Combat: Rolling 1 or 20"
+        ],
+        [
+          "Незримые атакующие и цели",
+          "Rule",
+          "Combat: Unseen Attackers and Targets"
+        ],
+        [
+          "Дальнобойные атаки",
+          "Rule",
+          "Combat: Ranged Attacks"
+        ],
+        [
+          "Дистанция",
+          "Rule",
+          "Combat: Range"
+        ],
+        [
+          "Дальнобойные атаки в ближнем бою",
+          "Rule",
+          "Combat: Ranged Attacks in Close Combat"
+        ],
+        [
+          "Рукопашные атаки",
+          "Rule",
+          "Combat: Melee Attacks"
+        ],
+        [
+          "Провоцированные атаки",
+          "Rule",
+          "Combat: Opportunity Attacks"
+        ],
+        [
+          "Сражение двумя оружиями",
+          "Rule",
+          "Combat: Two-Weapon Fighting"
+        ],
+        [
+          "Захват",
+          "Rule",
+          "Combat: Grappling"
+        ],
+        [
+          "Толчок существа",
+          "Rule",
+          "Combat: Shoving a Creature"
+        ],
+        [
+          "Укрытие",
+          "Rule",
+          "Combat: Cover"
+        ],
+        [
+          "Урон и лечение",
+          "Rule",
+          "Combat: Damage and Healing"
+        ],
+        [
+          "Хиты",
+          "Rule",
+          "Combat: Hit Points"
+        ],
+        [
+          "Броски урона",
+          "Rule",
+          "Combat: Damage Rolls"
+        ],
+        [
+          "Критические попадания",
+          "Rule",
+          "Combat: Critical Hits"
+        ],
+        [
+          "Типы урона",
+          "Rule",
+          "Combat: Damage Types"
+        ],
+        [
+          "Сопротивление и уязвимость к урону",
+          "Rule",
+          "Combat: Damage Resistance and Vulnerability"
+        ],
+        [
+          "Лечение",
+          "Rule",
+          "Combat: Healing"
+        ],
+        [
+          "Падение до 0 хитов",
+          "Rule",
+          "Combat: Dropping to 0 Hit Points"
+        ],
+        [
+          "Мгновенная смерть",
+          "Rule",
+          "Combat: Instant Death"
+        ],
+        [
+          "Потеря сознания",
+          "Rule",
+          "Combat: Falling Unconscious"
+        ],
+        [
+          "Спасброски от смерти",
+          "Rule",
+          "Combat: Death Saving Throws"
+        ],
+        [
+          "Стабилизация существа",
+          "Rule",
+          "Combat: Stabilizing a Creature"
+        ],
+        [
+          "Монстры и смерть",
+          "Rule",
+          "Combat: Monsters and Death"
+        ],
+        [
+          "Оглушение существа",
+          "Rule",
+          "Combat: Knocking a Creature Out"
+        ],
+        [
+          "Временные хиты",
+          "Rule",
+          "Combat: Temporary Hit Points"
+        ],
+        [
+          "Конный бой",
+          "Rule",
+          "Combat: Mounted Combat"
+        ],
+        [
+          "Посадка и спешивание",
+          "Rule",
+          "Combat: Mounting and Dismounting"
+        ],
+        [
+          "Управление скакуном",
+          "Rule",
+          "Combat: Controlling a Mount"
+        ],
+        [
+          "Подводный бой",
+          "Rule",
+          "Combat: Underwater Combat"
+        ]
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "name": "Коллегия духов",
+      "year": 2024,
+      "id": "bb3317c4-bc6b-56cf-a7e6-061342d96b8c",
+      "source": "https://next.dnd.su/class/bard#subclass.college-of-the-spirits",
+      "feature": "Замогильные духи",
+      "rows": [
+        [
+          "1",
+          "Возлюбленный",
+          "лечен",
+          "харизм"
+        ],
+        [
+          "2",
+          "Стрелок",
+          "силов",
+          "харизм"
+        ],
+        [
+          "3",
+          "Мститель",
+          "рукопашн",
+          "силов"
+        ],
+        [
+          "4",
+          "Отступник",
+          "реакци",
+          "30"
+        ],
+        [
+          "5",
+          "Предсказатель",
+          "преимуществ",
+          "к20"
+        ],
+        [
+          "6",
+          "Странник",
+          "временн",
+          "10"
+        ],
+        [
+          "7",
+          "Проказник",
+          "мудрост",
+          "очарован"
+        ],
+        [
+          "8",
+          "Тень",
+          "телосложени",
+          "5 фут",
+          "невидим"
+        ],
+        [
+          "9",
+          "Поджигатель",
+          "ловкост",
+          "четыр"
+        ],
+        [
+          "10",
+          "Трус",
+          "мудрост",
+          "30",
+          "испуган"
+        ],
+        [
+          "11",
+          "Силач",
+          "спасбросок силы",
+          "звуков",
+          "ничком"
+        ],
+        [
+          "12",
+          "Жрец",
+          "двух",
+          "паралич",
+          "ошеломл"
+        ]
+      ]
+    },
+    {
+      "name": "Удар великанов",
+      "year": 2014,
+      "id": "cc6639e0-4c4a-52e2-aef6-3b2b07958628",
+      "source": "https://dnd.su/feats/234-strike-of-the-giants/",
+      "feature": "",
+      "rows": [
+        [
+          "",
+          "Холмовой удар",
+          "1к6",
+          "силы",
+          "ничком"
+        ],
+        [
+          "",
+          "Каменный удар",
+          "1к6",
+          "силов",
+          "10"
+        ],
+        [
+          "",
+          "Ледяной удар",
+          "1к6",
+          "телосложения",
+          "0"
+        ],
+        [
+          "",
+          "Огненный удар",
+          "1к10",
+          "огнём"
+        ],
+        [
+          "",
+          "Облачный удар",
+          "1к4",
+          "мудрости",
+          "невидим"
+        ],
+        [
+          "",
+          "Штормовой удар",
+          "1к6",
+          "электричеств",
+          "помехой"
+        ]
+      ]
+    },
+    {
+      "name": "Колода чудес",
+      "year": 2014,
+      "id": "10037805-b013-5645-a459-40e9e157cc6f",
+      "source": "https://dnd.su/items/7248-deck-of-wonder/",
+      "feature": "Игральные карты и их эффекты",
+      "rows": [
+        [
+          "Туз ♦",
+          "Канцлер",
+          "гадание",
+          "8 часов"
+        ],
+        [
+          "Король ♦",
+          "День",
+          "+1",
+          "спасброск"
+        ],
+        [
+          "Дама ♦",
+          "Ночь",
+          "300",
+          "8 часов"
+        ],
+        [
+          "Валет ♦",
+          "Рассвет",
+          "инициатив",
+          "мастерства"
+        ],
+        [
+          "2 ♦",
+          "Сумерки",
+          "инициатив",
+          "помех"
+        ],
+        [
+          "Туз ♥",
+          "Судьба",
+          "1 хит",
+          "0"
+        ],
+        [
+          "Король ♥",
+          "Корона",
+          "дружба",
+          "харизм"
+        ],
+        [
+          "Дама ♥",
+          "Замок",
+          "открывание",
+          "1к3"
+        ],
+        [
+          "Валет ♥",
+          "Чемпион",
+          "+1",
+          "оружием"
+        ],
+        [
+          "2 ♥",
+          "Монета",
+          "100 зм",
+          "50 зм"
+        ],
+        [
+          "Туз ♣",
+          "Стервятник",
+          "сл 15",
+          "восприятие"
+        ],
+        [
+          "Король ♣",
+          "Хаос",
+          "1к12",
+          "кислоту"
+        ],
+        [
+          "Дама ♣",
+          "Порядок",
+          "1к12",
+          "излучение"
+        ],
+        [
+          "Валет ♣",
+          "Начало",
+          "2к10",
+          "8 часов"
+        ],
+        [
+          "2 ♣",
+          "Тайна",
+          "интеллекта",
+          "замену"
+        ],
+        [
+          "Туз ♠",
+          "Изоляция",
+          "1к4",
+          "сл 11"
+        ],
+        [
+          "Король ♠",
+          "Конец",
+          "2к10",
+          "10"
+        ],
+        [
+          "Дама ♠",
+          "Монстр",
+          "1к4",
+          "проклятия"
+        ],
+        [
+          "Валет ♠",
+          "Нож",
+          "оружие",
+          "владеете"
+        ],
+        [
+          "2 ♠",
+          "Справедливость",
+          "60",
+          "реакцией"
+        ],
+        [
+          "Джокер со знаком",
+          "Студент",
+          "мудрости",
+          "харизмы"
+        ],
+        [
+          "Джокер без знака",
+          "Озорство",
+          "предмет",
+          "две"
+        ]
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "64b160eb-a4e5-54e1-a5db-26fba91c6507",
+      "feature": "Владения инструментами Дома",
+      "count": 13,
+      "digest": "fda18f6cc6cddcf314bee265d6890c85c9df51e47613bdcbcfe7096cbed8cdbc",
+      "source": "https://dnd.su/backgrounds/788-house-agent/"
+    },
+    {
+      "id": "fffcfb8e-be27-5a53-a539-9170cc6e276a",
+      "feature": "Заклинания Гильдии Голгари",
+      "count": 6,
+      "digest": "f6bfe2d8febc967460c2a6e7c406eb81a292aaf9647b8563431626b5af386baa",
+      "source": "https://dnd.su/backgrounds/802-golgari-agent/"
+    },
+    {
+      "id": "0641895f-5b65-5741-a11b-39af2448d2c9",
+      "feature": "Заклинания Гильдии",
+      "count": 6,
+      "digest": "4bc0d9a5c54b56daf1e745765c39802304899206bf42a5f90d372729493732a7",
+      "source": "https://dnd.su/backgrounds/803-gruul-anarch/"
+    },
+    {
+      "id": "b2cfd736-cc8f-52a4-a2a0-b6efe2568d87",
+      "feature": "Заклинания Гильдии Иззетов",
+      "count": 6,
+      "digest": "866cba36416c95256efa56ae78280a58ea7f5f222ee72ac08ae11f49709056a8",
+      "source": "https://dnd.su/backgrounds/804-izzet-engineer/"
+    },
+    {
+      "id": "23111930-7fcf-5903-a8ac-f2db1af7fcda",
+      "feature": "Заклинания Гильдии Ракдоса",
+      "count": 6,
+      "digest": "637e87a76558dcf2d2206bda00c73c897d7b47af77a8c89c1ad8a4f4785e99d5",
+      "source": "https://dnd.su/backgrounds/806-rakdos-cultist/"
+    },
+    {
+      "id": "49a1f021-cb9e-50b7-acec-61dff337700c",
+      "feature": "Заклинания Гильдии Боросов",
+      "count": 6,
+      "digest": "91e95d033b91372a993cedf194133d0b160bbecd80b121a2a318c5fe66eceaed",
+      "source": "https://dnd.su/backgrounds/800-boros-legionnaire/"
+    },
+    {
+      "id": "153f787c-3535-5d07-a6c5-15c0dd537e6a",
+      "feature": "Заклинания Гильдии Димиров",
+      "count": 6,
+      "digest": "10a081e9e4643f2185a10adfdf6f17ed8413085952d698c7e30c45632952f823",
+      "source": "https://dnd.su/backgrounds/801-dimir-operative/"
+    },
+    {
+      "id": "8d6f29e2-592d-5aa9-aa21-f87ff74d7e60",
+      "feature": "Заклинания Гильдии Селезнии",
+      "count": 6,
+      "digest": "44ecf8bc033a4d91941e85e4f02dbd2c1062cc407f4d5c053086500299a6942a",
+      "source": "https://dnd.su/backgrounds/807-selesnya-initiate/"
+    },
+    {
+      "id": "163f960c-4ec3-566b-a526-a5398e13facb",
+      "feature": "Заклинания Гильдии",
+      "count": 6,
+      "digest": "1c38ab1a695aedcc443e71e7301760d7a77756b5f5121c0195bc26ea16b6554c",
+      "source": "https://dnd.su/backgrounds/805-orzhov-representative/"
+    },
+    {
+      "id": "fbef7f0b-b331-5ea2-a6ee-60847916f15c",
+      "feature": "Заклинания Гильдии Симиков",
+      "count": 6,
+      "digest": "9900e8733518064e7cfc08772837df0d80418369d3a4580409fb01f63d47346a",
+      "source": "https://dnd.su/backgrounds/808-simic-scientist/"
+    },
+    {
+      "id": "390887e8-a720-52ca-ae99-d6a63ec3af2d",
+      "feature": "Заклинания Гильдии Азориусов",
+      "count": 6,
+      "digest": "12725b7085627aa12f66fe8fbd6d0301ced32703790dcee442aa215b67ea0c86",
+      "source": "https://dnd.su/backgrounds/799-azorius-functionary/"
+    },
+    {
+      "id": "8ad6f514-ff20-5977-aa8d-d5662b0b13d4",
+      "feature": "Принадлежность Фракции Сигила",
+      "count": 12,
+      "digest": "9321c99d4f6af063cfdd2dbdcfc5deddd64994b565673aa330fb8e71f69ffd24",
+      "source": "https://dnd.su/backgrounds/821-planar-philosopher/"
+    },
+    {
+      "id": "550fe401-8c7d-5757-af36-dc883a9d35af",
+      "feature": "Заклинания Визерблума",
+      "count": 5,
+      "digest": "f4f8824f9f9459321016919176dfdcd012afcae771541191b881b9fa38dc23da",
+      "source": "https://dnd.su/backgrounds/798-witherbloom-student/"
+    },
+    {
+      "id": "df398757-80e1-52e7-ad73-11621f59a929",
+      "feature": "Заклинания Квандрикса",
+      "count": 5,
+      "digest": "d5d64e67a4024255e71410cbbe0081c743472a8f9ea4d95ae30539287af64412",
+      "source": "https://dnd.su/backgrounds/796-quandrix-student/"
+    },
+    {
+      "id": "e5fc96be-bb21-5f3a-a37f-df868dd745b2",
+      "feature": "Заклинания Лорхолда",
+      "count": 5,
+      "digest": "f6261fc22a47e610b699378d5921202634c9eb5e9be6e543a849e27960755462",
+      "source": "https://dnd.su/backgrounds/794-lorehold-student/"
+    },
+    {
+      "id": "55b9025e-ede9-5fbd-ad45-95e8ff3dbbb9",
+      "feature": "Заклинания Призмари",
+      "count": 5,
+      "digest": "f843941878e393b06eb10823281397668d57df5fe2e248363443d6727189ce43",
+      "source": "https://dnd.su/backgrounds/795-prismari-student/"
+    },
+    {
+      "id": "e5306b07-a2f9-5e21-a695-73c5fc7c60d5",
+      "feature": "Заклинания Сильверквилл",
+      "count": 5,
+      "digest": "16b17a2986ac1565ce801cc7f6a6928990f224d2151712d39a9c7c2657f3cd7a",
+      "source": "https://dnd.su/backgrounds/797-silverquill-student/"
+    },
+    {
+      "id": "761a5011-e3b7-560b-a9c5-7eea16bb5539",
+      "feature": "Рунические заклинания",
+      "count": 13,
+      "digest": "539183a50cd96c0c770de22935ee55dd9c473a957ce0809d1241a362b0bd9aa3",
+      "source": "https://dnd.su/feats/218-rune-shaper/"
+    },
+    {
+      "id": "cf30b11c-0a98-5b49-ad6f-e65f490d8cb8",
+      "feature": "Дары планов",
+      "count": 5,
+      "digest": "8ea9aade5ee6b25f1f24fe77ac5e17fdb6137c0723319af03d74aca82bf8b031",
+      "source": "https://dnd.su/feats/233-scion-of-the-outer-planes/"
+    },
+    {
+      "id": "3dc66e74-261b-5fd8-ad63-5e4089796b19",
+      "feature": "Заклинания мировоззрения",
+      "count": 3,
+      "digest": "5865bffdae7d17cf584f0a9db1bb71f331aaa2488218af7bc43be2b385adfb00",
+      "source": "https://dnd.su/feats/247-divinely-favored/"
+    },
+    {
+      "id": "ca1015bc-8eaf-5271-a569-8dcb5c208730",
+      "feature": "Лунные заклинания",
+      "count": 3,
+      "digest": "22321690782349af22d712aba52cbf5b4073ab3ae1ab18148eccdf6eff2895a5",
+      "source": "https://dnd.su/feats/248-initiate-of-high-sorcery/"
+    },
+    {
+      "id": "d81b48b1-6f74-5bac-a147-76ae28a40f07",
+      "feature": "Заклинания Стриксхейвена",
+      "count": 5,
+      "digest": "7c5d447a4a8b27daa48e11f22bdcf167172389b8319714d7b5c51c2fd57ad597",
+      "source": "https://dnd.su/feats/179-strixhaven-initiate/"
+    },
+    {
+      "id": "499eb423-fc79-5665-aacd-decad05ddbd6",
+      "feature": "Объём по видам жидкости",
+      "count": 10,
+      "digest": "d13bba3e4e5e7ea076960fd40f9e0b96e8ee62e0b3e510f25e573323ad6871d6",
+      "source": "https://dnd.su/items/2-alchemy-jug/"
+    },
+    {
+      "id": "7843dcff-0ed5-5f7b-ac93-7ce460faa94d",
+      "feature": "Объём по видам жидкости",
+      "count": 9,
+      "digest": "398c816c0eeaea1a3b9e8501cd4dc3d038fd866f15da7336a91374cfee478882",
+      "source": "https://dnd.su/items/2112-alchemy-jug-orange/"
+    },
+    {
+      "id": "c7a82617-82ca-572d-ac79-729befb855b1",
+      "feature": "Объём по видам жидкости",
+      "count": 9,
+      "digest": "87e5b0c505c40db348a747220e8418774737a5511e31fb5e8c5d1fe6b954fc92",
+      "source": "https://dnd.su/items/2113-alchemy-jug-blue/"
+    },
+    {
+      "id": "489d72ab-10dc-56f2-a88f-9ec9066bb9a0",
+      "feature": "Оружие дыхания Воли когтя",
+      "count": 5,
+      "digest": "6c6a68257389aedbcb263083915e228efe3c56dc2128dde3c2a7aed2f509a892",
+      "source": "https://dnd.su/items/2319-will-of-the-talon/"
+    },
+    {
+      "id": "46b93796-69b1-55b9-a3f8-f048052de0ea",
+      "feature": "Часть и Заклинание",
+      "count": 7,
+      "digest": "2f846226939ad24015888063778cf9eea2093121031a9b23a31f98513801450a",
+      "source": "https://dnd.su/items/9134-rod-of-seven-parts/"
+    },
+    {
+      "id": "a7f5499c-1668-5f4e-a511-bea9fc1c6303",
+      "feature": "Защитная Сфера",
+      "count": 8,
+      "digest": "2482a46acaf531655c050a9f0868e4bffdcbb544bc74f01e062f070cecaf5c88",
+      "source": "https://dnd.su/items/2257-orb-of-shielding/"
+    },
+    {
+      "id": "33a574eb-c7b0-5c81-a8f3-27949f6acaa1",
+      "feature": "Зелье... и Редкость",
+      "count": 3,
+      "digest": "0d87e84eea4cfabeb161f0532903be7f20e8994b5279f0ce932756824f65534d",
+      "source": "https://dnd.su/items/2431-potion-of-mind-control/"
+    },
+    {
+      "id": "f255016a-149e-5209-a541-ea251d178d50",
+      "feature": "Редкость и заклинания инструментов",
+      "count": 8,
+      "digest": "d028b292fd65a8f9d86782e5d07e1e08e0fb2a25783547eefe69ba32e9cea4ce",
+      "source": "https://dnd.su/items/76-instrument-of-the-bards/"
+    },
+    {
+      "id": "82484e54-acac-5ce7-a546-508de1efcde9",
+      "feature": "Заклинания 1-го уровня",
+      "count": 6,
+      "digest": "95ec03296cd866f449ff58223c339c2779f2d20ca6359505e694e6f31fa7077e",
+      "source": "https://dnd.su/items/2167-mizzium-apparatus/"
+    },
+    {
+      "id": "82484e54-acac-5ce7-a546-508de1efcde9",
+      "feature": "Заклинания 2-го уровня",
+      "count": 6,
+      "digest": "73af3f7e3466fb1e890cdd50708ff3274ca8321c49df246b1b41e772e5c39708",
+      "source": "https://dnd.su/items/2167-mizzium-apparatus/"
+    },
+    {
+      "id": "82484e54-acac-5ce7-a546-508de1efcde9",
+      "feature": "Заклинания 3-го уровня",
+      "count": 6,
+      "digest": "418a4b9164e311c184c0b2237bceb5651e0511e35d211994b5744402b7068eff",
+      "source": "https://dnd.su/items/2167-mizzium-apparatus/"
+    },
+    {
+      "id": "82484e54-acac-5ce7-a546-508de1efcde9",
+      "feature": "Заклинания 4-го уровня",
+      "count": 4,
+      "digest": "64f7d9aa937dbc8eb8029a443eef7b28e075f9c77cc25e5c0bd73078ff684fce",
+      "source": "https://dnd.su/items/2167-mizzium-apparatus/"
+    },
+    {
+      "id": "82484e54-acac-5ce7-a546-508de1efcde9",
+      "feature": "Заклинания 5-го уровня",
+      "count": 4,
+      "digest": "6a9fc3ee4f847b66a6a4980d88b7ee9c80f0280442658d0d8f6b0cd3874adff5",
+      "source": "https://dnd.su/items/2167-mizzium-apparatus/"
+    },
+    {
+      "id": "318a6814-ec0f-5300-a472-bb79007cfaea",
+      "feature": "Печатки мудреца",
+      "count": 6,
+      "digest": "9a91b078fe0de69546298e092900bfb883a4b5ccd7e1e5704e3331a5c8a90a0a",
+      "source": "https://dnd.su/items/7256-sages-signet/"
+    },
+    {
+      "id": "2cc54e7d-6448-512a-a628-06b9a3456567",
+      "feature": "Пропитанная древесная фокусировка",
+      "count": 8,
+      "digest": "f4e0228417178c605d376503f88a4c25d65b7d96b1efb766127b986a3511e620",
+      "source": "https://dnd.su/items/2265-imbued-wood-focus/"
+    },
+    {
+      "id": "eb1df4e0-ec88-55ae-afc6-7d8d9df92377",
+      "feature": "Разноцветная роза",
+      "count": 5,
+      "digest": "9ac65d5534fdea6b95df42dd065fdd8211fde2550a16e359c86596a0a55faeaf",
+      "source": "https://dnd.su/items/2835-chromatic-rose/"
+    },
+    {
+      "id": "ca87bec3-bd28-5fe1-ad90-2ce17ca4f402",
+      "feature": "Самоцвет заклинаний",
+      "count": 10,
+      "digest": "834afb9033353f8d34960ccfcc05fe3a2d1c4488a91886541cd30d55317a22e3",
+      "source": "https://dnd.su/items/2373-spell-gem/"
+    },
+    {
+      "id": "9792d4c6-66b6-52bb-ad03-8b26b62bccea",
+      "feature": "Солитеров раскола и Заклинания",
+      "count": 6,
+      "digest": "30c802c9de584a5e3022965456bea5a04ed237a7f6915eff30f1965c68ec617a",
+      "source": "https://dnd.su/items/5259-shard-solitaire/"
+    },
+    {
+      "id": "fa405798-930e-573c-a522-bb990dda0819",
+      "feature": "Татуировка заклинания",
+      "count": 6,
+      "digest": "fdc5167b0dfbd7bdb57326a876abd7fa0ef94e9ba82aeddb774833399121f167",
+      "source": "https://dnd.su/items/2478-spellwrought-tattoo/"
+    },
+    {
+      "id": "cc76bd2c-52c5-5995-a045-723231a83ac0",
+      "feature": "Параметры по редкости",
+      "count": 3,
+      "digest": "ce50fa1f396e0d007380f8cca3c8d74132c0c69d887c4983a930dcb1c8724a70",
+      "source": "https://dnd.su/items/2479-barrier-tattoo/"
+    },
+    {
+      "id": "00b32f5b-c516-591e-af25-71b25288defe",
+      "feature": "Варианты по броску к10",
+      "count": 10,
+      "digest": "dda5f2e0662613bb73c26422a31871dc29ec59eae2e98d497e8805c7a2e1df9d",
+      "source": "https://dnd.su/items/2483-absorbing-tattoo/"
+    },
+    {
+      "id": "ca72171d-edcc-5862-a1f1-079dbd28624c",
+      "feature": "Цвет линзы и Заклинание и Стоимость топлива",
+      "count": 8,
+      "digest": "e4007502e5de132e9b5fc2c03684fdbf85933b247e79ffd3fffd4a1e51c66f06",
+      "source": "https://dnd.su/items/10597-daouds-wondrous-lanthorn/"
+    },
+    {
+      "id": "e4692632-f527-500c-aec9-769e1ed87b6e",
+      "feature": "Шлем богов",
+      "count": 15,
+      "digest": "9ef1a736e83575f4aa9b069c12be0dae1859a5e1a884ac6eb08bf17f0d99d3b0",
+      "source": "https://dnd.su/items/2103-helm-of-the-gods/"
+    },
+    {
+      "id": "2b7d609f-d637-5d63-a419-0e5b2922f3c4",
+      "feature": "Заклинания Метки обнаружения",
+      "count": 5,
+      "digest": "fc90e36b3191ca258cc7507f9ac4592bd5a1bd8cd7026620740493edd9813e44",
+      "source": "https://next.dnd.su/feats/440-mark-of-detection"
+    },
+    {
+      "id": "507c386a-2967-57ad-acb2-fde091e3be65",
+      "feature": "Заклинания Метки поиска",
+      "count": 5,
+      "digest": "ae8f0bcf658fe31751b8c64e65b19cdc228eeeb82450c0b21b8d9c62ca7aefeb",
+      "source": "https://next.dnd.su/feats/441-mark-of-finding"
+    },
+    {
+      "id": "bfd0c387-ece6-5d15-aec9-a3f7653a131c",
+      "feature": "Заклинания Метки обхождения",
+      "count": 5,
+      "digest": "c31807bd91c8fc72322b8ce650f2da09350699f1790a01de524b32f59b5513bc",
+      "source": "https://next.dnd.su/feats/442-mark-of-handling"
+    },
+    {
+      "id": "9a3c2ae4-3a75-5662-a9fa-a07ef250b503",
+      "feature": "Заклинания Метки исцеления",
+      "count": 5,
+      "digest": "b5b1afb4a51bbc091d278a3f6bd652aaa7fee9da816bebaf1e243a73b6d14264",
+      "source": "https://next.dnd.su/feats/443-mark-of-healing"
+    },
+    {
+      "id": "cbb3ad57-d257-5bed-a8bd-e009ca692142",
+      "feature": "Заклинания Метки гостеприимства",
+      "count": 5,
+      "digest": "129ff388c1d59447045134d27f4ef728f94148644bc26be8dd8e947c7e4e33d5",
+      "source": "https://next.dnd.su/feats/444-mark-of-hospitality"
+    },
+    {
+      "id": "9cfc1647-0855-5dc5-ae49-a0c5115b6b6a",
+      "feature": "Заклинания Метки создания",
+      "count": 5,
+      "digest": "089c459b0ecc4b5e6006ece3b8f830dba91fbba7860997da75639c92dbc74485",
+      "source": "https://next.dnd.su/feats/445-mark-of-making"
+    },
+    {
+      "id": "bb3b0fbe-a324-5110-a755-152d7e71988d",
+      "feature": "Заклинания Метки прохода",
+      "count": 5,
+      "digest": "8100e5425e916111f28b3dc9b84bc9845e3d979ee581392e7319a2c7e8e12d4a",
+      "source": "https://next.dnd.su/feats/446-mark-of-passage"
+    },
+    {
+      "id": "c2d260af-4b23-5d48-a9fa-595489d381b5",
+      "feature": "Заклинания Метки письма",
+      "count": 5,
+      "digest": "c1bd5d4aaf81005cce2860c6f3fd6417382e145d02b4ccf783291fe2c67a3a3b",
+      "source": "https://next.dnd.su/feats/447-mark-of-scribing"
+    },
+    {
+      "id": "8936f4f4-aaa4-5e12-a41f-abcca2883fad",
+      "feature": "Заклинания Метки стража",
+      "count": 5,
+      "digest": "2c1142cfc54e6be61d191d8f254472780acc71807718e1398f9798d73a146fd2",
+      "source": "https://next.dnd.su/feats/448-mark-of-sentinel"
+    },
+    {
+      "id": "8359f38b-ccf3-5e87-ae77-a90626b23b0a",
+      "feature": "Заклинания Метки тени",
+      "count": 5,
+      "digest": "5bd495ab22ccc9b1b4e69b055adcb5ad9d03c9be0a32dff057440bd993b7144f",
+      "source": "https://next.dnd.su/feats/449-mark-of-shadow"
+    },
+    {
+      "id": "ac27a82f-09d0-594c-a9a5-0af133063cbf",
+      "feature": "Заклинания Метки бури",
+      "count": 5,
+      "digest": "93a430e7104874f0071e05923f5f09c5976ac525e235e22dba424acf7df7cb96",
+      "source": "https://next.dnd.su/feats/450-mark-of-storm"
+    },
+    {
+      "id": "ea9b9026-d262-54de-afca-bf1f656f7f69",
+      "feature": "Заклинания Метки охранения",
+      "count": 5,
+      "digest": "4e88ffec5d8c523e8641b0061407ca4a5a65b0067825d86c78f8b33aee6f872e",
+      "source": "https://next.dnd.su/feats/451-mark-of-warding"
+    },
+    {
+      "id": "4b386919-40e6-59cc-ada3-4a8dfc8811f6",
+      "feature": "Заклинания драконьей метки Сибериса",
+      "count": 12,
+      "digest": "ec8a5b62c98cb696b7385d9e46d0e3f6cea8bfa3740273438e85d802a43e5628",
+      "source": "https://next.dnd.su/feats/466-boon-of-siberys"
+    },
+    {
+      "id": "d02ce85c-0dfc-56ae-a1a3-4ffc4fe1c8bd",
+      "feature": "Заклинания адепта Ограждения",
+      "count": 5,
+      "digest": "5b80dde2f7af2ec77f6993516440db14fe948740874fe7bc0c118a73731339fb",
+      "source": "https://next.dnd.su/feats/519-abjuration-adept"
+    },
+    {
+      "id": "246605f1-4a9a-53fb-a740-3a9f83886917",
+      "feature": "Заклинания адепта Призыва",
+      "count": 5,
+      "digest": "4818b14aa58e9d35a094bc29d15a44ed6596b755b6e4d23700ae3b8a6a41d45e",
+      "source": "https://next.dnd.su/feats/520-conjuration-adept"
+    },
+    {
+      "id": "3b710c62-6102-58e6-a2ef-6a1befb20ef0",
+      "feature": "Заклинания адепта Прорицания",
+      "count": 5,
+      "digest": "7c279466e8b50797911a9ddfe71d8f94516729fbb7d5709e805f1cb28f3e0614",
+      "source": "https://next.dnd.su/feats/521-divination-adept"
+    },
+    {
+      "id": "15028ec8-e5f4-5d85-a0ac-730f53c9e8ff",
+      "feature": "Заклинания адепта Очарования",
+      "count": 5,
+      "digest": "386c83b7b3e87ae2d3289cff389985e9604116d24256d180b359772e47e0d0bb",
+      "source": "https://next.dnd.su/feats/522-enchantment-adept"
+    },
+    {
+      "id": "3cf883bf-d4c0-57c3-aa4f-9b0a85235d87",
+      "feature": "Заклинания адепта Воплощения",
+      "count": 5,
+      "digest": "ce7df5c6cf0f928596ae5e313892bebbd64caf99cc3033fbbdfa10a5ee7e46cc",
+      "source": "https://next.dnd.su/feats/524-evocation-adept"
+    },
+    {
+      "id": "e1b895e8-3e7b-524d-acd4-cc5ef789d5c6",
+      "feature": "Заклинания адепта Иллюзии",
+      "count": 5,
+      "digest": "545849a0a6f5ae3ee170343ac01b09f5146b0b6c37e1f25d98edf11710c537fb",
+      "source": "https://next.dnd.su/feats/525-illusion-adept"
+    },
+    {
+      "id": "c0b12fe5-1f1a-5984-a740-aba5c98cbb24",
+      "feature": "Заклинания адепта Некромантии",
+      "count": 5,
+      "digest": "4e2d2cbb67334c4d30ece5b360ed6abdcd3aeba7884730c032e259619e50ad22",
+      "source": "https://next.dnd.su/feats/526-necromancy-adept"
+    },
+    {
+      "id": "4394b2f9-2ad3-57e0-a1f5-058756e0ebe0",
+      "feature": "Заклинания адепта Преобразования",
+      "count": 5,
+      "digest": "ea0786117fc5c6c3b95b4b4928d5d682ec67a7ae8a6978845784ac8ce70b4793",
+      "source": "https://next.dnd.su/feats/527-transmutation-adept"
+    },
+    {
+      "id": "2f1c71b9-4632-5d4c-a973-41852286c245",
+      "feature": "Владение и Заклинание",
+      "count": 2,
+      "digest": "2315611346c63bdb8453eb78ee3ebcd5a203c2f7b845a26b0dae9a37d8702b52",
+      "source": "https://next.dnd.su/feats/548-inscription-adept"
+    },
+    {
+      "id": "90ef43df-d48d-5338-a0a4-84857484e029",
+      "feature": "Жидкости Алхимического сосуда",
+      "count": 10,
+      "digest": "4d33a5684ad8f8a479a05b398a8e2a4c4ff0ca04e5757053edc69684fbe081b2",
+      "source": "https://next.dnd.su/items/15831-alchemy-jug"
+    },
+    {
+      "id": "8c9042db-9c57-57ba-ae49-27d24c5e23ac",
+      "feature": "1к6 и Заклинание",
+      "count": 6,
+      "digest": "d6fd3f90ee3634c344477baf06428a0f4e42350a6ccbfa71f35231f7489fae21",
+      "source": "https://next.dnd.su/items/15895-cube-of-summoning"
+    },
+    {
+      "id": "857f660d-1264-524d-aa7e-4d85cc595e9c",
+      "feature": "Заклинания и условия",
+      "count": 7,
+      "digest": "9286a2e81230a51f1278825e63a652224b18a1e61142eaf3684321c05ea023a0",
+      "source": "https://next.dnd.su/items/15906-demonomicon-of-iggwilv"
+    },
+    {
+      "id": "4cd75751-b9cd-5c3e-ae42-4d9aa04f4519",
+      "feature": "Заклинания Глаза Векны",
+      "count": 5,
+      "digest": "eed16d4b36db6f736d8d32afa926aa16eb6269f07621e1e8d2896f6f64968ad7",
+      "source": "https://next.dnd.su/items/15931-eye-and-hand-of-vecna"
+    },
+    {
+      "id": "4cd75751-b9cd-5c3e-ae42-4d9aa04f4519",
+      "feature": "Заклинания Руки Векны",
+      "count": 4,
+      "digest": "4e9965c1d01e868f53656dcdb0c30e5b60a16f06e342a47de074334f88b9aaa3",
+      "source": "https://next.dnd.su/items/15931-eye-and-hand-of-vecna"
+    },
+    {
+      "id": "2a0287b3-2ed7-5cdd-a95d-2c672ed35466",
+      "feature": "Заклинания и условия",
+      "count": 5,
+      "digest": "942d6a768bb54bdaf5d5247017cde090fcb54aafd1c3eb7454c28bf07ea12516",
+      "source": "https://next.dnd.su/items/16006-orb-of-dragonkind"
+    },
+    {
+      "id": "199c5d4e-3248-5b52-a5b2-f2a166486ab9",
+      "feature": "Заклинания и условия",
+      "count": 2,
+      "digest": "c5175b473ef4ceb63a164346e41c9e75b2b3bb84620c7eee627c1bcdc1971b8c",
+      "source": "https://next.dnd.su/items/16106-spirit-board"
+    },
+    {
+      "id": "8117d299-5058-571a-a4be-cc88aced4826",
+      "feature": "Заклинания и условия",
+      "count": 6,
+      "digest": "ec889bc104e7dbea758459bd1a4329ea87ca3ec4fc1aefcb60d5ab0b068aa2ca",
+      "source": "https://next.dnd.su/items/16158-wand-of-orcus"
+    },
+    {
+      "id": "ef15940b-4f47-5514-abdf-fa4502d43516",
+      "feature": "Зелье и Восстанавливаемые Хиты и Редкость",
+      "count": 4,
+      "digest": "2c1f2ac70024a0b0cdbdc7ce12e4e053d76421882f7e06a3e6c9527d831e2c1e",
+      "source": "https://next.dnd.su/items/16522-potion-of-healing"
+    },
+    {
+      "id": "b632089a-2787-5e92-a20c-75a91a00ba24",
+      "feature": "Редкость и заклинания инструментов",
+      "count": 8,
+      "digest": "d486ed08bd686da602bd8be18db26c4192d748e58d84c7d3df785c3b35fb748e",
+      "source": "https://next.dnd.su/items/16835-instrument-of-the-bards"
+    },
+    {
+      "id": "567ad9ab-524e-5251-afa3-238b7649ea98",
+      "feature": "Параметры по уровню заклинания",
+      "count": 9,
+      "digest": "97507abe358a39cb86e3a8adeef0c91b9d77fa63d638a8491416b8478ea9dfa5",
+      "source": "https://next.dnd.su/items/16886-enspelled-armor"
+    },
+    {
+      "id": "fc62fac5-38f5-5039-aaf9-9265ec6d5651",
+      "feature": "Параметры по уровню заклинания",
+      "count": 9,
+      "digest": "97507abe358a39cb86e3a8adeef0c91b9d77fa63d638a8491416b8478ea9dfa5",
+      "source": "https://next.dnd.su/items/16896-enspelled-staff"
+    },
+    {
+      "id": "b5840392-f925-5e94-ab4b-787efc6e5955",
+      "feature": "Параметры по уровню заклинания",
+      "count": 9,
+      "digest": "97507abe358a39cb86e3a8adeef0c91b9d77fa63d638a8491416b8478ea9dfa5",
+      "source": "https://next.dnd.su/items/16897-enspelled-weapon"
+    },
+    {
+      "id": "00e0d006-05a6-5016-a492-b4175e14a6a6",
+      "feature": "Заклинания и условия",
+      "count": 5,
+      "digest": "e8294642bd838906667c30101de59bd1dd1721a8c5825591ca49dae475dfcef3",
+      "source": "https://next.dnd.su/items/18610-orb-of-damara"
+    },
+    {
+      "id": "ece8af42-008b-5cc1-a710-31b17fd36c94",
+      "feature": "Диво и Редкость",
+      "count": 4,
+      "digest": "feddd7d4f5bb48aa4176a783733b1e139eb9ed539df70c6537a7ba7940f62b96",
+      "source": "https://next.dnd.su/items/18700-mechanical-wonder"
+    },
+    {
+      "id": "104cfcdf-20e2-5033-acd5-e6411f9b1333",
+      "feature": "Заклинания и условия",
+      "count": 8,
+      "digest": "8f205a8adc54b6b5078a53eda9ce8e71a8e16632298bd559a8b9533762b20929",
+      "source": "https://next.dnd.su/items/21143-diamond-staff"
+    },
+    {
+      "id": "bc2f6001-eed4-57ae-af6a-851082fccc5f",
+      "feature": "Свойства самоцветов",
+      "count": 5,
+      "digest": "5dd3a3bad9cf6232e1e493d87c496ceb6228c88a352f49a74e4985d8b571b96f",
+      "source": "https://next.dnd.su/items/21162-necklace-of-the-beastly-familiar"
+    },
+    {
+      "id": "f94e18c9-c0d9-5ad5-a3ec-8416cca424b8",
+      "feature": "Эффекты по цвету",
+      "count": 5,
+      "digest": "bf33138ea10354feb3b3c28c495fb6d25724fa7135bb017da4e80d7d42ccbe51",
+      "source": "https://next.dnd.su/items/21165-potion-of-dragons-breath"
+    },
+    {
+      "id": "193f3c11-981c-502e-a656-c119185d2943",
+      "feature": "Заклинания и условия",
+      "count": 8,
+      "digest": "ebd28c98f09f47497374b3899bd04b845881360896bedf4516ac72452c0681bb",
+      "source": "https://next.dnd.su/items/21168-queen-ehlissas-marvelous-nightingale"
+    },
+    {
+      "id": "c7f8e644-5028-5598-a8b5-8292d0ddfe1b",
+      "feature": "Заклинания и условия",
+      "count": 2,
+      "digest": "10c955ff960d784ca31e5fe1510ee74fc0c1353add78c823362ea3f16a8a1132",
+      "source": "https://next.dnd.su/items/21184-wand-of-slumber"
+    },
+    {
+      "id": "8755d235-0ece-51af-a3a4-e43ed11104f6",
+      "feature": "Область и Сл спасброска и Дробящий урон",
+      "count": 4,
+      "digest": "f7bfbf67a7375b9734c2a69ce89fc5a13985ebf565dd6e2bc5f18e34fbd301b7",
+      "source": "https://next.dnd.su/items/21186-workshop-wrecker"
+    },
+    {
+      "id": "051d9d6b-13ac-5cf5-a1cd-d0039909f4d4",
+      "feature": "Заклинания кадила",
+      "count": 5,
+      "digest": "fb75943f0a0dd8a58efb1fce5a84b08b786d809508cf9a2eddcac8aba1023010",
+      "source": "https://next.dnd.su/items/21328-spirit-binding-censer"
+    },
+    {
+      "id": "935501d4-1aee-570b-add3-2f476775a404",
+      "feature": "Зелье и Уровень ячейки и Редкость",
+      "count": 3,
+      "digest": "3d4809f9882b8b54c4e3322049f84e2666ee7b33fcc11018a5deeb4402112f03",
+      "source": "https://next.dnd.su/items/22124-potion-of-mana"
+    },
+    {
+      "id": "4553f410-f4d4-5fa4-a908-869e8185d7ed",
+      "feature": "Зелье и Восстанавливаемые Хиты и ячейка и Редкость",
+      "count": 3,
+      "digest": "faa2da76b293e4c09b54dadbd313672b38a7c868e4b17324201acc3196d9fc11",
+      "source": "https://next.dnd.su/items/22125-potion-of-rejuvenation"
+    },
+    {
+      "id": "99f98991-da29-59fd-ae24-0a91036322e9",
+      "feature": "Заклинания Шлема Господства",
+      "count": 6,
+      "digest": "ede928d9d939c82c54815a3dd292737253b5e2a3a5463bec0910933a03fdb98b",
+      "source": "https://next.dnd.su/items/22166-helm-of-domination"
+    },
+    {
+      "id": "9b527617-e61d-5dbb-a378-ac6906be8d64",
+      "feature": "Зелье и Хиты и Редкость",
+      "count": 4,
+      "digest": "a0068fe8200b0f84542e3284eef49befbbe1e1ac4c9fcbf04d541a666f5ba41d",
+      "source": "https://next.dnd.su/items/22229-trolls-blood-elixir"
+    },
+    {
+      "id": "e574650f-085d-5c24-a420-a318386bca09",
+      "feature": "Десять рычагов",
+      "count": 10,
+      "digest": "7feaa1bd7b2d523d98196c1fa8dc513df170267d9faf3fabf57c9763277dcbf0",
+      "source": "https://dnd.su/items/6-apparatus-of-kwalish/"
+    },
+    {
+      "id": "7caf9cd4-e03b-58f0-adbb-f30e26202a03",
+      "feature": "Десять рычагов",
+      "count": 10,
+      "digest": "dcf5faa9bc11b9fc71e6e42d1a30c732fe455d57dd0833b2c170682ed5bae669",
+      "source": "https://www.dndbeyond.com/magic-items/9228348-apparatus-of-kwalish"
+    },
+    {
+      "id": "e8b12eda-aa41-55be-a93b-528000e867f2",
+      "feature": "Вид урона по к8",
+      "count": 8,
+      "digest": "4e9d3b62ef250494b3cd87fbd1f4a6b7d7937cfc4608f4b9d5cac3bb686bcb4f",
+      "source": "https://dnd.su/spells/464-chaos-bolt/"
+    },
+    {
+      "id": "2c704f58-42d3-55cc-a6ce-c97c6aeae5f8",
+      "feature": "Эффекты бреши",
+      "count": 4,
+      "digest": "7f4042fdad9e3264b7c162e8244a3567535d6c8f87da63edfd720a7082006052",
+      "source": "https://dnd.su/spells/2454-reality-break/"
+    },
+    {
+      "id": "0e0a608c-1957-5cd5-aa94-12dae5221e3f",
+      "feature": "Озорной порыв",
+      "count": 4,
+      "digest": "76d77ab538b41b1b2c2dcd979b287be247853722e34eb09e08d69a824950d0f8",
+      "source": "https://dnd.su/spells/3816-nathairs-mischief/"
+    },
+    {
+      "id": "eb8d4cde-03e6-55a9-a24b-6f3b0c712a6c",
+      "feature": "Область и длительность круга",
+      "count": 3,
+      "digest": "56ef4e5eacb33bb41fc93972398c4937ea54da19dd7d36d9196ae372e006cc5b",
+      "source": "https://next.dnd.su/spells/12466-spellfire-storm"
+    },
+    {
+      "id": "6d2d1227-3356-5bd1-aa78-19ca9c3bffa3",
+      "feature": "Карты приключения",
+      "count": 22,
+      "digest": "bb70649772f01e024d41975802e78fb622031f98a829b23a474d712408a87d61",
+      "source": "https://dnd.su/items/10840-deck-of-several-things/"
+    },
+    {
+      "id": "49c985c2-9d91-5647-aa96-95a81a5de016",
+      "feature": "",
+      "count": 6,
+      "digest": "00d498dcfa87100d4124c3cf68a66783978c1c2d2f74b25b348a33edcd6b7355",
+      "source": "https://github.com/OmnisGM-App/OmnisGM-Rules/blob/9d31cc106d780a62cef82cf4e2caa9f9d2dcccb5/src/dnd/srd-5.1/ru/13_MagicItems.md"
+    },
+    {
+      "id": "c1dd9929-4351-59a8-acb0-d2e120d4e24e",
+      "feature": "",
+      "count": 6,
+      "digest": "2384b8b771b020fa501256dd8b6d8c2ef9d1bd1f93dd0607282b4bf555d6c776",
+      "source": "https://github.com/OmnisGM-App/OmnisGM-Rules/blob/9d31cc106d780a62cef82cf4e2caa9f9d2dcccb5/src/dnd/srd-5.2/ru/10_MagicItems.md"
+    },
+    {
+      "id": "393f5df2-b2ae-5d6f-a879-09077af2afd9",
+      "feature": "Заклинания Глаза Векны",
+      "count": 5,
+      "digest": "6eabc59d6e5d24d9d6984c323214936c3dfe43ea365e003f7aad6c9f588eb54e",
+      "source": "https://dnd.su/items/2223-eye-and-hand-of-vecna/"
+    },
+    {
+      "id": "393f5df2-b2ae-5d6f-a879-09077af2afd9",
+      "feature": "Заклинания Руки Векны",
+      "count": 4,
+      "digest": "90203fa7fda6128ad5ee97f89f2ba0d75f71a9ddff44f30b9f6ef2c20584a16d",
+      "source": "https://dnd.su/items/2223-eye-and-hand-of-vecna/"
+    }
+  ],
+  "change": {
+    "date": "2026-11-27",
+    "previousCatalog": 7688,
+    "catalog": 7851,
+    "modified": 119,
+    "addedRules": 145,
+    "addedGear": 18,
+    "previousNamed": 401,
+    "remainingNamed": 367
+  }
+}

@@ -1,5 +1,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { verifySources } from "./srd-source";
+import { contentSchema } from "../src/entities/content";
+import { reviewedEntry } from "./bundled-catalog";
 verifySources();
 const tables = (s: string) =>
   [...s.matchAll(/(^\|.*\n(?:\|.*\n?)+)/gm)].map((m) =>
@@ -75,6 +77,22 @@ for (const year of [2014, 2024]) {
       };
     }
   }
+  const options = JSON.parse(readFileSync(`data/dndsu/options-${year}.json`, "utf8"));
+  const artificer = reviewedEntry(contentSchema.parse(options.entries.find(
+    (entry: { nameOriginal: string }) => entry.nameOriginal === "Artificer",
+  )));
+  if (artificer.kind !== "Reference" || artificer.reference.progression.length !== 20)
+    throw new Error("Таблица развития изобретателя неполна");
+  classes[artificer.id] = {
+    id: artificer.id, name: artificer.nameOriginal, nameRu: artificer.nameRu,
+    edition: artificer.edition, hitDie: 8, saves: ["CON", "INT"],
+    skillChoices: "Choose 2: Arcana, History, Investigation, Medicine, Nature, Perception, or Sleight of Hand",
+    rows: artificer.reference.progression.map(row => ({
+      level: row.level,
+      slots: Array.from({ length: 9 }, (_, index) => row.spellSlots[index] ?? 0),
+      values: { "Class Features": row.featuresRu, Resources: row.resourcesRu },
+    })),
+  };
 }
 mkdirSync("data/rules", { recursive: true });
 writeFileSync(

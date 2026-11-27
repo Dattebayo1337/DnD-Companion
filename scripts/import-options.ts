@@ -1,14 +1,11 @@
-import { readFileSync } from "node:fs";
 import { db } from "../src/database/client";
-import { importDataset, parseDataset } from "../src/imports/pipeline";
+import { importBundledFile } from "./bundled-catalog";
+
 try {
-  for (const year of [2014, 2024])
-    console.log(
-      year,
-      await importDataset(
-        parseDataset(readFileSync(`data/dndsu/options-${year}.json`, "utf8")),
-      ),
-    );
+  for (const year of [2014, 2024]) {
+    const path = `data/dndsu/options-${year}.json`;
+    console.log(year, await importBundledFile(path));
+  }
 } finally {
   await db.$disconnect();
 }

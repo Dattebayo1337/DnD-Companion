@@ -110,6 +110,14 @@ for (const year of [2014, 2024]) {
         : [];
     const spellcasting =
       Object.values(groups).find((v) => /заклинани/i.test(v)) ?? "";
+    const foldedActions =
+      year === 2014 && name.startsWith("Ancient Green Dragon")
+        ? (groups["Свойства"]?.search(/\*\*_Мультиатака\./) ?? -1)
+        : -1;
+    if (foldedActions >= 0) {
+      groups["Действия"] = groups["Свойства"].slice(foldedActions).trim();
+      groups["Свойства"] = groups["Свойства"].slice(0, foldedActions).trim();
+    }
     return {
       id: uuid(`${year}:monster:${name}`),
       kind: "Monster",
@@ -125,9 +133,9 @@ for (const year of [2014, 2024]) {
       rulesVersion: `SRD ${version}`,
       translationStatus: "Approved",
       contentOrigin: "SRD",
-      contentVersion: 1,
+      contentVersion: foldedActions >= 0 ? 2 : 1,
       createdAt: date,
-      updatedAt: date,
+      updatedAt: foldedActions >= 0 ? "2026-11-26T00:00:00.000Z" : date,
       monster: {
         size,
         type,

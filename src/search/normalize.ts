@@ -67,7 +67,7 @@ function oneEdit(a: string, b: string): boolean {
   }
   return edits + (i < a.length || j < b.length ? 1 : 0) <= 1;
 }
-export function searchScore(document: string, query: string): number {
+function tokenScore(document: string, query: string): number {
   const tokens = normalize(query).split(" ").filter(Boolean);
   if (!tokens.length) return 1;
   const words = document.split(" ");
@@ -82,4 +82,35 @@ export function searchScore(document: string, query: string): number {
     else return 0;
   }
   return score;
+}
+
+export const usesSearchOperators = (query: string) =>
+  /["«»]|(?:^|\s)-\S/u.test(query);
+
+export function createSearchScorer(query: string) {
+  if (!usesSearchOperators(query))
+    return (document: string) => tokenScore(document, query);
+  const terms = [...query.matchAll(/(-?)(?:"([^"]*)"|«([^»]*)»|([^\s"]+))/gu)]
+    .map(([, minus, quoted, russianQuote, word]) => ({
+      excluded: minus === "-",
+      exact: quoted !== undefined || russianQuote !== undefined,
+      term: normalize(quoted ?? russianQuote ?? word ?? ""),
+    }))
+    .filter(({ term }) => Boolean(term));
+  return (document: string) => {
+    let score = 1;
+    for (const { excluded, exact, term } of terms) {
+      const match =
+        exact || excluded
+          ? Number(` ${document} `.includes(` ${term} `)) * 15
+          : tokenScore(document, term);
+      if (excluded ? match > 0 : match === 0) return 0;
+      if (!excluded) score += match;
+    }
+    return score;
+  };
+}
+
+export function searchScore(document: string, query: string) {
+  return createSearchScorer(query)(document);
 }

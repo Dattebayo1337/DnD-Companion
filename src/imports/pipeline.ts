@@ -163,7 +163,10 @@ export async function validateAgainstDatabase(data: Dataset): Promise<Audit> {
     new Map(entries.map((e) => [e.id, toContent(e)])),
   );
 }
-export async function importDataset(data: Dataset) {
+export async function importDataset(
+  data: Dataset,
+  reviewedRevision?: (current: Content, next: Content) => boolean,
+) {
   return db.$transaction(
     async (tx) => {
       const [books, current, oldTerms] = await Promise.all([
@@ -227,7 +230,7 @@ export async function importDataset(data: Dataset) {
                   "Конфликт версии. Увеличьте contentVersion и дату обновления.",
               },
             ]);
-          if (["SRD", "Licensed"].includes(old.contentOrigin))
+          if ((reviewedRevision || ["SRD", "Licensed"].includes(old.contentOrigin)) && !reviewedRevision?.(toContent(old), entry))
             throw new DatasetError([
               {
                 path: entry.id,

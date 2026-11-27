@@ -6,6 +6,7 @@ node_modules/
 *.log
 *.zip
 *.apk
+!downloads/android/dnd-companion-debug.apk
 *.ipa
 *.pem
 *.key

@@ -15,6 +15,13 @@ export const lobbySettings = z
   })
   .strict();
 export type LobbySettings = z.infer<typeof lobbySettings>;
+export type LobbyShare = {
+  memberId: string;
+  memberName: string;
+  requestId: string;
+  characterName: string;
+  approved: boolean;
+};
 export type LobbyView = {
   id: string;
   name: string;
@@ -25,7 +32,12 @@ export type LobbyView = {
   content: Content[];
   tabletop: Tabletop;
   participants: { id: string; name: string }[];
-  master?: { settings: LobbySettings; campaign: CampaignData | null };
+  sharing?: { current: LobbyShare | null };
+  master?: {
+    settings: LobbySettings;
+    campaign: CampaignData | null;
+    shares: LobbyShare[];
+  };
 };
 export type LobbyIndex = {
   lobbies: { id: string; name: string; closed: boolean }[];

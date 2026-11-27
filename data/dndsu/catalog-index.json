@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-02T11:34:05.414Z",
+  "checkedAt": "2026-11-27T06:37:00.659Z",
   "indexes": [
     {
       "edition": "5e_2014",
@@ -27884,6 +27884,18 @@
           "source": "Player's Handbook 2024"
         },
         {
+          "nameRu": "Рыцарь смерти",
+          "nameOriginal": "Death Knight",
+          "url": "https://next.dnd.su/class/wow/death-knight",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Чернокнижник",
+          "nameOriginal": "Warlock",
+          "url": "https://next.dnd.su/class/wow/warlock",
+          "source": "World of Warcraft"
+        },
+        {
           "nameRu": "Кулачник",
           "nameOriginal": "Pugilist",
           "url": "https://next.dnd.su/class/pugilist",
@@ -28009,6 +28021,42 @@
           "nameOriginal": "Elf",
           "url": "https://next.dnd.su/species/elf",
           "source": "PH24"
+        },
+        {
+          "nameRu": "Боггарт",
+          "nameOriginal": "Boggart",
+          "url": "https://next.dnd.su/species/boggart",
+          "source": "LFL"
+        },
+        {
+          "nameRu": "Измороз",
+          "nameOriginal": "Rimekin",
+          "url": "https://next.dnd.su/species/rimekin",
+          "source": "LFL"
+        },
+        {
+          "nameRu": "Огневик",
+          "nameOriginal": "Flamekin",
+          "url": "https://next.dnd.su/species/flamekin",
+          "source": "LFL"
+        },
+        {
+          "nameRu": "Пересад Лорвина",
+          "nameOriginal": "Lorwyn Changeling",
+          "url": "https://next.dnd.su/species/lorwyn-changeling",
+          "source": "LFL"
+        },
+        {
+          "nameRu": "Свояк",
+          "nameOriginal": "Kithkin",
+          "url": "https://next.dnd.su/species/kithkin",
+          "source": "LFL"
+        },
+        {
+          "nameRu": "Феери",
+          "nameOriginal": "Faerie",
+          "url": "https://next.dnd.su/species/faerie",
+          "source": "LFL"
         }
       ]
     },
@@ -28277,8 +28325,8 @@
         },
         {
           "nameRu": "Арфист",
-          "nameOriginal": "",
-          "url": "https://next.dnd.su/backgrounds/913-arfist/",
+          "nameOriginal": "Harper",
+          "url": "https://next.dnd.su/backgrounds/913-harper/",
           "source": "FRHoF"
         },
         {
@@ -29613,6 +29661,54 @@
           "nameOriginal": "Boon of Magic School Mastery",
           "url": "https://next.dnd.su/feats/537-boon-of-magic-school-mastery",
           "source": "315"
+        },
+        {
+          "nameRu": "Ясность мысли",
+          "nameOriginal": "Clearcasting",
+          "url": "https://next.dnd.su/feats/541-clearcasting",
+          "source": "318"
+        },
+        {
+          "nameRu": "Ледяные пальцы",
+          "nameOriginal": "Fingers of Frost",
+          "url": "https://next.dnd.su/feats/542-fingers-of-frost",
+          "source": "318"
+        },
+        {
+          "nameRu": "Путь огня",
+          "nameOriginal": "Hot Streak",
+          "url": "https://next.dnd.su/feats/543-hot-streak",
+          "source": "318"
+        },
+        {
+          "nameRu": "Вёрткий задира",
+          "nameOriginal": "Elusive Brawler",
+          "url": "https://next.dnd.su/feats/544-elusive-brawler",
+          "source": "318"
+        },
+        {
+          "nameRu": "Окутывающий туман",
+          "nameOriginal": "Enveloping Mist",
+          "url": "https://next.dnd.su/feats/545-enveloping-mist",
+          "source": "318"
+        },
+        {
+          "nameRu": "Неистовые кулаки",
+          "nameOriginal": "Fists of Fury",
+          "url": "https://next.dnd.su/feats/546-fists-of-fury",
+          "source": "318"
+        },
+        {
+          "nameRu": "Пошатывание",
+          "nameOriginal": "Stagger and Sway",
+          "url": "https://next.dnd.su/feats/547-stagger-and-sway",
+          "source": "318"
+        },
+        {
+          "nameRu": "Адепт начертания",
+          "nameOriginal": "Inscription Adept",
+          "url": "https://next.dnd.su/feats/548-inscription-adept",
+          "source": "318"
         }
       ]
     },
@@ -29808,7 +29904,7 @@
           "source": "301"
         },
         {
-          "nameRu": "Защита от зла и добра",
+          "nameRu": "Защита от добра и зла",
           "nameOriginal": "Protection from Evil and Good",
           "url": "https://next.dnd.su/spells/10226-protection-from-evil-and-good",
           "source": "301"
@@ -32284,6 +32380,348 @@
           "nameOriginal": "Summon Plant",
           "url": "https://next.dnd.su/spells/15061-summon-plant",
           "source": "315"
+        },
+        {
+          "nameRu": "Буря костей",
+          "nameOriginal": "Bonestorm",
+          "url": "https://next.dnd.su/spells/15509-bonestorm",
+          "source": "318"
+        },
+        {
+          "nameRu": "Ледяные оковы",
+          "nameOriginal": "Chains of Ice",
+          "url": "https://next.dnd.su/spells/15510-chains-of-ice",
+          "source": "318"
+        },
+        {
+          "nameRu": "Смерть и разложение",
+          "nameOriginal": "Death and Decay",
+          "url": "https://next.dnd.su/spells/15511-death-and-decay",
+          "source": "318"
+        },
+        {
+          "nameRu": "Хватка смерти",
+          "nameOriginal": "Death Grip",
+          "url": "https://next.dnd.su/spells/15512-death-grip",
+          "source": "318"
+        },
+        {
+          "nameRu": "Ледяная коса",
+          "nameOriginal": "Frostscythe",
+          "url": "https://next.dnd.su/spells/15513-frostscythe",
+          "source": "318"
+        },
+        {
+          "nameRu": "Вытягивающий удар",
+          "nameOriginal": "Leeching Strike",
+          "url": "https://next.dnd.su/spells/15514-leeching-strike",
+          "source": "318"
+        },
+        {
+          "nameRu": "Беспощадность зимы",
+          "nameOriginal": "Remorseless Winter",
+          "url": "https://next.dnd.su/spells/15515-remorseless-winter",
+          "source": "318"
+        },
+        {
+          "nameRu": "Рунический удар",
+          "nameOriginal": "Rune Strike",
+          "url": "https://next.dnd.su/spells/15516-rune-strike",
+          "source": "318"
+        },
+        {
+          "nameRu": "Удар Плети",
+          "nameOriginal": "Scourge Strike",
+          "url": "https://next.dnd.su/spells/15517-scourge-strike",
+          "source": "318"
+        },
+        {
+          "nameRu": "Кровь вампира",
+          "nameOriginal": "Vampiric Blood",
+          "url": "https://next.dnd.su/spells/15518-vampiric-blood",
+          "source": "318"
+        },
+        {
+          "nameRu": "Возгорание",
+          "nameOriginal": "Combustion",
+          "url": "https://next.dnd.su/spells/15520-combustion",
+          "source": "318"
+        },
+        {
+          "nameRu": "Шквал льда",
+          "nameOriginal": "Flurry",
+          "url": "https://next.dnd.su/spells/15521-flurry",
+          "source": "318"
+        },
+        {
+          "nameRu": "Кольцо льда",
+          "nameOriginal": "Frost Nova",
+          "url": "https://next.dnd.su/spells/15522-frost-nova",
+          "source": "318"
+        },
+        {
+          "nameRu": "Множественное превращение",
+          "nameOriginal": "Mass Polymorph",
+          "url": "https://next.dnd.su/spells/15523-mass-polymorph",
+          "source": "318"
+        },
+        {
+          "nameRu": "Взрывная ловушка",
+          "nameOriginal": "Explosive Trap",
+          "url": "https://next.dnd.su/spells/15524-explosive-trap",
+          "source": "318"
+        },
+        {
+          "nameRu": "Замораживающая ловушка",
+          "nameOriginal": "Freezing Trap",
+          "url": "https://next.dnd.su/spells/15526-freezing-trap",
+          "source": "318"
+        },
+        {
+          "nameRu": "Укус змеи",
+          "nameOriginal": "Serpent Sting",
+          "url": "https://next.dnd.su/spells/15527-serpent-sting",
+          "source": "318"
+        },
+        {
+          "nameRu": "Освящение",
+          "nameOriginal": "Consecration",
+          "url": "https://next.dnd.su/spells/15528-consecration",
+          "source": "318"
+        },
+        {
+          "nameRu": "Обретение скакуна",
+          "nameOriginal": "Find Steed",
+          "url": "https://next.dnd.su/spells/15529-find-steed",
+          "source": "318"
+        },
+        {
+          "nameRu": "Божественный щит",
+          "nameOriginal": "Divine Shield",
+          "url": "https://next.dnd.su/spells/15530-divine-shield",
+          "source": "318"
+        },
+        {
+          "nameRu": "Направленная молитва",
+          "nameOriginal": "Guided Prayer",
+          "url": "https://next.dnd.su/spells/15531-guided-prayer",
+          "source": "318"
+        },
+        {
+          "nameRu": "Апофеоз",
+          "nameOriginal": "Apotheosis",
+          "url": "https://next.dnd.su/spells/15532-apotheosis",
+          "source": "318"
+        },
+        {
+          "nameRu": "Кольцо света",
+          "nameOriginal": "Holy Nova",
+          "url": "https://next.dnd.su/spells/15533-holy-nova",
+          "source": "318"
+        },
+        {
+          "nameRu": "Молитва воссоздания",
+          "nameOriginal": "Prayer of Mending",
+          "url": "https://next.dnd.su/spells/15535-prayer-of-mending",
+          "source": "318"
+        },
+        {
+          "nameRu": "Глубинный ужас",
+          "nameOriginal": "Psychic Horror",
+          "url": "https://next.dnd.su/spells/15544-psychic-horror",
+          "source": "318"
+        },
+        {
+          "nameRu": "Слово тьмы: боль",
+          "nameOriginal": "Shadow Word: Pain",
+          "url": "https://next.dnd.su/spells/15545-shadow-word-pain",
+          "source": "318"
+        },
+        {
+          "nameRu": "Извержение Пустоты",
+          "nameOriginal": "Void Eruption",
+          "url": "https://next.dnd.su/spells/15546-void-eruption",
+          "source": "318"
+        },
+        {
+          "nameRu": "Проклятие агонии",
+          "nameOriginal": "Curse of Agony",
+          "url": "https://next.dnd.su/spells/15547-curse-of-agony",
+          "source": "318"
+        },
+        {
+          "nameRu": "Рука Гул’дана",
+          "nameOriginal": "Hand of Gul’dan",
+          "url": "https://next.dnd.su/spells/15548-hand-of-guldan",
+          "source": "318"
+        },
+        {
+          "nameRu": "Огненный ливень",
+          "nameOriginal": "Rain of Fire",
+          "url": "https://next.dnd.su/spells/15549-rain-of-fire",
+          "source": "318"
+        },
+        {
+          "nameRu": "Дикое подкрадывание",
+          "nameOriginal": "Feral Prowl",
+          "url": "https://next.dnd.su/spells/15550-feral-prowl",
+          "source": "318"
+        },
+        {
+          "nameRu": "Озарение",
+          "nameOriginal": "Innervate",
+          "url": "https://next.dnd.su/spells/15551-innervate",
+          "source": "318"
+        },
+        {
+          "nameRu": "Лунный огонь",
+          "nameOriginal": "Moonfire",
+          "url": "https://next.dnd.su/spells/15552-moonfire",
+          "source": "318"
+        },
+        {
+          "nameRu": "Оздоровление",
+          "nameOriginal": "Regrowth",
+          "url": "https://next.dnd.su/spells/15553-regrowth",
+          "source": "318"
+        },
+        {
+          "nameRu": "Рёв Урсока",
+          "nameOriginal": "Roar of Ursoc",
+          "url": "https://next.dnd.su/spells/15554-roar-of-ursoc",
+          "source": "318"
+        },
+        {
+          "nameRu": "Звездопад",
+          "nameOriginal": "Starfall",
+          "url": "https://next.dnd.su/spells/15555-starfall",
+          "source": "318"
+        },
+        {
+          "nameRu": "Лазурный удар",
+          "nameOriginal": "Azure Strike",
+          "url": "https://next.dnd.su/spells/15556-azure-strike",
+          "source": "318"
+        },
+        {
+          "nameRu": "Лазурный взмах",
+          "nameOriginal": "Azure Sweep",
+          "url": "https://next.dnd.su/spells/15558-azure-sweep",
+          "source": "318"
+        },
+        {
+          "nameRu": "Вздувшаяся чешуя",
+          "nameOriginal": "Blistering Scales",
+          "url": "https://next.dnd.su/spells/15560-blistering-scales",
+          "source": "318"
+        },
+        {
+          "nameRu": "Дыхание эпох",
+          "nameOriginal": "Breath of Eons",
+          "url": "https://next.dnd.su/spells/15561-breath-of-eons",
+          "source": "318"
+        },
+        {
+          "nameRu": "Изумрудное дыхание",
+          "nameOriginal": "Dream Breath",
+          "url": "https://next.dnd.su/spells/15562-dream-breath",
+          "source": "318"
+        },
+        {
+          "nameRu": "Изумрудный полёт",
+          "nameOriginal": "Dream Flight",
+          "url": "https://next.dnd.su/spells/15563-dream-flight",
+          "source": "318"
+        },
+        {
+          "nameRu": "Чёрная мощь",
+          "nameOriginal": "Ebon Might",
+          "url": "https://next.dnd.su/spells/15564-ebon-might",
+          "source": "318"
+        },
+        {
+          "nameRu": "Буря углей",
+          "nameOriginal": "Emberstorm",
+          "url": "https://next.dnd.su/spells/15565-emberstorm",
+          "source": "318"
+        },
+        {
+          "nameRu": "Изумрудный цветок",
+          "nameOriginal": "Emerald Blossom",
+          "url": "https://next.dnd.su/spells/15566-emerald-blossom",
+          "source": "318"
+        },
+        {
+          "nameRu": "Извержение",
+          "nameOriginal": "Eruption",
+          "url": "https://next.dnd.su/spells/15567-eruption",
+          "source": "318"
+        },
+        {
+          "nameRu": "Разгром",
+          "nameOriginal": "Lay Waste",
+          "url": "https://next.dnd.su/spells/15568-lay-waste",
+          "source": "318"
+        },
+        {
+          "nameRu": "Живой жар",
+          "nameOriginal": "Living Flame",
+          "url": "https://next.dnd.su/spells/15572-living-flame",
+          "source": "318"
+        },
+        {
+          "nameRu": "Спасение",
+          "nameOriginal": "Rescue",
+          "url": "https://next.dnd.su/spells/15571-rescue",
+          "source": "318"
+        },
+        {
+          "nameRu": "Сокрушающая звезда",
+          "nameOriginal": "Shattering Star",
+          "url": "https://next.dnd.su/spells/15573-shattering-star",
+          "source": "318"
+        },
+        {
+          "nameRu": "Растяжение времени",
+          "nameOriginal": "Time Dilation",
+          "url": "https://next.dnd.su/spells/15574-time-dilation",
+          "source": "318"
+        },
+        {
+          "nameRu": "Подземная дрожь",
+          "nameOriginal": "Upheaval",
+          "url": "https://next.dnd.su/spells/15575-upheaval",
+          "source": "318"
+        },
+        {
+          "nameRu": "Безмятежность",
+          "nameOriginal": "Tranquility",
+          "url": "https://next.dnd.su/spells/15618-tranquility",
+          "source": "318"
+        },
+        {
+          "nameRu": "Древо жизни",
+          "nameOriginal": "Tree of Life",
+          "url": "https://next.dnd.su/spells/15619-tree-of-life",
+          "source": "318"
+        },
+        {
+          "nameRu": "Гнев",
+          "nameOriginal": "Wrath",
+          "url": "https://next.dnd.su/spells/15620-wrath",
+          "source": "318"
+        },
+        {
+          "nameRu": "Волшебный импульс",
+          "nameOriginal": "Arcane Pulse",
+          "url": "https://next.dnd.su/spells/15621-arcane-pulse",
+          "source": "318"
+        },
+        {
+          "nameRu": "Единство с энтропией",
+          "nameOriginal": "Entropic Embrace",
+          "url": "https://next.dnd.su/spells/15622-entropic-embrace",
+          "source": "318"
         }
       ]
     },
@@ -33637,7 +34075,7 @@
           "source": "303"
         },
         {
-          "nameRu": "Вирмлинг зеленого дракона",
+          "nameRu": "Вирмлинг зелёного дракона",
           "nameOriginal": "Green Dragon Wyrmling",
           "url": "https://next.dnd.su/bestiary/21376-green-dragon-wyrmling",
           "source": "303"
@@ -33649,7 +34087,7 @@
           "source": "303"
         },
         {
-          "nameRu": "Зеленый слаад",
+          "nameRu": "Зелёный слаад",
           "nameOriginal": "Green Slaad",
           "url": "https://next.dnd.su/bestiary/21378-green-slaad",
           "source": "303"
@@ -35245,7 +35683,7 @@
           "source": "303"
         },
         {
-          "nameRu": "Молодой зеленый дракон",
+          "nameRu": "Молодой зелёный дракон",
           "nameOriginal": "Young Green Dragon",
           "url": "https://next.dnd.su/bestiary/21644-young-green-dragon",
           "source": "303"
@@ -36196,43 +36634,553 @@
           "nameRu": "Абвеку",
           "nameOriginal": "Abveku",
           "url": "https://next.dnd.su/bestiary/35780-abveku",
-          "source": "315"
+          "source": "315,317"
         },
         {
           "nameRu": "Ренделит",
           "nameOriginal": "Rendelith",
           "url": "https://next.dnd.su/bestiary/35781-rendelith",
-          "source": "315"
+          "source": "315,317"
         },
         {
           "nameRu": "Саррух деспот",
           "nameOriginal": "Sarrukh Tyrant",
           "url": "https://next.dnd.su/bestiary/35782-sarrukh-tyrant",
-          "source": "315"
+          "source": "315,317"
         },
         {
           "nameRu": "Саррух восставший",
           "nameOriginal": "Arisen Sarrukh",
           "url": "https://next.dnd.su/bestiary/35783-arisen-sarrukh",
-          "source": "315"
+          "source": "315,317"
         },
         {
           "nameRu": "Сзасс Тэм",
           "nameOriginal": "Szass Tam",
           "url": "https://next.dnd.su/bestiary/35805-szass-tam",
-          "source": "315"
+          "source": "315,317"
         },
         {
-          "nameRu": "Кселнена Трул",
+          "nameRu": "Зелнена Трул",
           "nameOriginal": "Xelnene Thrul",
           "url": "https://next.dnd.su/bestiary/35906-xelnene-thrul",
-          "source": "315"
+          "source": "315,317"
         },
         {
           "nameRu": "Земельникус-ликвидатор",
           "nameOriginal": "Groundling Slayer",
           "url": "https://next.dnd.su/bestiary/36034-groundling-slayer",
           "source": "315"
+        },
+        {
+          "nameRu": "Поганище",
+          "nameOriginal": "Abomination",
+          "url": "https://next.dnd.su/bestiary/36863-abomination",
+          "source": "318"
+        },
+        {
+          "nameRu": "Аллерия Ветрокрылая",
+          "nameOriginal": "Alleria Windrunner",
+          "url": "https://next.dnd.su/bestiary/36865-alleria-windrunner",
+          "source": "318"
+        },
+        {
+          "nameRu": "Древо войны",
+          "nameOriginal": "Ancient of War",
+          "url": "https://next.dnd.su/bestiary/36866-ancient-of-war",
+          "source": "318"
+        },
+        {
+          "nameRu": "Андуин Ринн",
+          "nameOriginal": "Anduin Wrynn",
+          "url": "https://next.dnd.su/bestiary/36867-anduin-wrynn",
+          "source": "318"
+        },
+        {
+          "nameRu": "Детёныш чёрной стаи",
+          "nameOriginal": "Black Dragonflight Whelp",
+          "url": "https://next.dnd.su/bestiary/36868-black-dragonflight-whelp",
+          "source": "318"
+        },
+        {
+          "nameRu": "Дрейк чёрной стаи",
+          "nameOriginal": "Black Dragonflight Drake",
+          "url": "https://next.dnd.su/bestiary/36869-black-dragonflight-drake",
+          "source": "318"
+        },
+        {
+          "nameRu": "Дракон чёрной стаи",
+          "nameOriginal": "Black Dragonflight Dragon",
+          "url": "https://next.dnd.su/bestiary/36870-black-dragonflight-dragon",
+          "source": "318"
+        },
+        {
+          "nameRu": "Детёныш синей стаи",
+          "nameOriginal": "Blue Dragonflight Whelp",
+          "url": "https://next.dnd.su/bestiary/36871-blue-dragonflight-whelp",
+          "source": "318"
+        },
+        {
+          "nameRu": "Детёныш бронзовой стаи",
+          "nameOriginal": "Bronze Dragonflight Whelp",
+          "url": "https://next.dnd.su/bestiary/36872-bronze-dragonflight-whelp",
+          "source": "318"
+        },
+        {
+          "nameRu": "Страж рока",
+          "nameOriginal": "Doomguard",
+          "url": "https://next.dnd.su/bestiary/36873-doomguard",
+          "source": "318"
+        },
+        {
+          "nameRu": "Бес Скверны",
+          "nameOriginal": "Fel Imp",
+          "url": "https://next.dnd.su/bestiary/36874-fel-imp",
+          "source": "318"
+        },
+        {
+          "nameRu": "Страж Скверны",
+          "nameOriginal": "Felguard",
+          "url": "https://next.dnd.su/bestiary/36875-felguard",
+          "source": "318"
+        },
+        {
+          "nameRu": "Гончая Скверны",
+          "nameOriginal": "Felhound",
+          "url": "https://next.dnd.su/bestiary/36876-felhound",
+          "source": "318"
+        },
+        {
+          "nameRu": "Фурболг тотемщик",
+          "nameOriginal": "Furbolg Totemic",
+          "url": "https://next.dnd.su/bestiary/36877-furbolg-totemic",
+          "source": "318"
+        },
+        {
+          "nameRu": "Фурболг урса",
+          "nameOriginal": "Furbolg Ursa",
+          "url": "https://next.dnd.su/bestiary/36878-furbolg-ursa",
+          "source": "318"
+        },
+        {
+          "nameRu": "Детёныш зелёной стаи",
+          "nameOriginal": "Green Dragonflight Whelp",
+          "url": "https://next.dnd.su/bestiary/36879-green-dragonflight-whelp",
+          "source": "318"
+        },
+        {
+          "nameRu": "Иллидан Ярость Бури",
+          "nameOriginal": "Illidan Stormrage",
+          "url": "https://next.dnd.su/bestiary/36880-illidan-stormrage",
+          "source": "318"
+        },
+        {
+          "nameRu": "Инфернал",
+          "nameOriginal": "Infernal",
+          "url": "https://next.dnd.su/bestiary/36881-infernal",
+          "source": "318"
+        },
+        {
+          "nameRu": "Джайна Праудмур",
+          "nameOriginal": "Jaina Proudmoore",
+          "url": "https://next.dnd.su/bestiary/36883-jaina-proudmoore",
+          "source": "318"
+        },
+        {
+          "nameRu": "Король-лич Артас",
+          "nameOriginal": "Lich King Arthas",
+          "url": "https://next.dnd.su/bestiary/36884-lich-king-arthas",
+          "source": "318"
+        },
+        {
+          "nameRu": "Лунный совух",
+          "nameOriginal": "Moonkin",
+          "url": "https://next.dnd.su/bestiary/36885-moonkin",
+          "source": "318"
+        },
+        {
+          "nameRu": "Мурлок добытчик",
+          "nameOriginal": "Murloc Forager",
+          "url": "https://next.dnd.su/bestiary/36886-murloc-forager",
+          "source": "318"
+        },
+        {
+          "nameRu": "Мурлок оракул",
+          "nameOriginal": "Murloc Oracle",
+          "url": "https://next.dnd.su/bestiary/36887-murloc-oracle",
+          "source": "318"
+        },
+        {
+          "nameRu": "Нага мирмидон",
+          "nameOriginal": "Naga Myrmidon",
+          "url": "https://next.dnd.su/bestiary/36891-naga-myrmidon",
+          "source": "318"
+        },
+        {
+          "nameRu": "Нага морская ведьма",
+          "nameOriginal": "Naga Sea Witch",
+          "url": "https://next.dnd.su/bestiary/36892-naga-sea-witch",
+          "source": "318"
+        },
+        {
+          "nameRu": "Нага сирена",
+          "nameOriginal": "Naga Siren",
+          "url": "https://next.dnd.su/bestiary/36893-naga-siren",
+          "source": "318"
+        },
+        {
+          "nameRu": "Неруб воитель",
+          "nameOriginal": "Nerubian Warrior",
+          "url": "https://next.dnd.su/bestiary/36894-nerubian-warrior",
+          "source": "318"
+        },
+        {
+          "nameRu": "Неруб ядомант",
+          "nameOriginal": "Nerubian Venomancer",
+          "url": "https://next.dnd.su/bestiary/36895-nerubian-venomancer",
+          "source": "318"
+        },
+        {
+          "nameRu": "Неруб некроарахнид",
+          "nameOriginal": "Nerubian Crypt Fiend",
+          "url": "https://next.dnd.su/bestiary/36896-nerubian-crypt-fiend",
+          "source": "318"
+        },
+        {
+          "nameRu": "Н’раки безликий",
+          "nameOriginal": "N’raqi Faceless One",
+          "url": "https://next.dnd.su/bestiary/36897-nraqi-faceless-one",
+          "source": "318"
+        },
+        {
+          "nameRu": "Н’раки безликий генерал (К’тракс)",
+          "nameOriginal": "N’raqi Faceless General",
+          "url": "https://next.dnd.su/bestiary/36898-nraqi-faceless-general",
+          "source": "318"
+        },
+        {
+          "nameRu": "Властитель преисподней",
+          "nameOriginal": "Pit Lord",
+          "url": "https://next.dnd.su/bestiary/36899-pit-lord",
+          "source": "318"
+        },
+        {
+          "nameRu": "Иглогрив терноплёт",
+          "nameOriginal": "Quilboar Thornweaver",
+          "url": "https://next.dnd.su/bestiary/36900-quilboar-thornweaver",
+          "source": "318"
+        },
+        {
+          "nameRu": "Рагнарос",
+          "nameOriginal": "Ragnaros",
+          "url": "https://next.dnd.su/bestiary/36901-ragnaros",
+          "source": "318"
+        },
+        {
+          "nameRu": "Детёныш красной стаи",
+          "nameOriginal": "Red Dragonflight Whelp",
+          "url": "https://next.dnd.su/bestiary/36902-red-dragonflight-whelp",
+          "source": "318"
+        },
+        {
+          "nameRu": "Сатир скверноподданный",
+          "nameOriginal": "Felsworn Satyr",
+          "url": "https://next.dnd.su/bestiary/36903-felsworn-satyr",
+          "source": "318"
+        },
+        {
+          "nameRu": "Сатир тенелов",
+          "nameOriginal": "Shadowstalker Satyr",
+          "url": "https://next.dnd.su/bestiary/36904-shadowstalker-satyr",
+          "source": "318"
+        },
+        {
+          "nameRu": "Шиварра",
+          "nameOriginal": "Shivarra",
+          "url": "https://next.dnd.su/bestiary/36905-shivarra",
+          "source": "318"
+        },
+        {
+          "nameRu": "Сильвана Ветрокрылая",
+          "nameOriginal": "Sylvanas Windrunner",
+          "url": "https://next.dnd.su/bestiary/36906-sylvanas-windrunner",
+          "source": "318"
+        },
+        {
+          "nameRu": "Тралл",
+          "nameOriginal": "Thrall",
+          "url": "https://next.dnd.su/bestiary/36907-thrall",
+          "source": "318"
+        },
+        {
+          "nameRu": "Демон Пустоты",
+          "nameOriginal": "Voidwalker",
+          "url": "https://next.dnd.su/bestiary/36908-voidwalker",
+          "source": "318"
+        },
+        {
+          "nameRu": "Призыватель Пустоты",
+          "nameOriginal": "Voidcaller",
+          "url": "https://next.dnd.su/bestiary/36909-voidcaller",
+          "source": "318"
+        },
+        {
+          "nameRu": "Крик’тир Хранитель Врат",
+          "nameOriginal": "Krik’thir the Gatewatcher",
+          "url": "https://next.dnd.su/bestiary/36910-krikthir-the-gatewatcher",
+          "source": "318"
+        },
+        {
+          "nameRu": "Хадронокс",
+          "nameOriginal": "Hadronox",
+          "url": "https://next.dnd.su/bestiary/36911-hadronox",
+          "source": "318"
+        },
+        {
+          "nameRu": "Ануб’арак",
+          "nameOriginal": "Anub’arak",
+          "url": "https://next.dnd.su/bestiary/36912-anubarak",
+          "source": "318"
+        },
+        {
+          "nameRu": "Гаму-Ра",
+          "nameOriginal": "Ghamoo-Ra",
+          "url": "https://next.dnd.su/bestiary/36913-ghamoo-ra",
+          "source": "318"
+        },
+        {
+          "nameRu": "Леди Саревесс",
+          "nameOriginal": "Lady Sarevess",
+          "url": "https://next.dnd.su/bestiary/36914-lady-sarevess",
+          "source": "318"
+        },
+        {
+          "nameRu": "Гелихаст",
+          "nameOriginal": "Gelihast",
+          "url": "https://next.dnd.su/bestiary/36915-gelihast",
+          "source": "318"
+        },
+        {
+          "nameRu": "Сумеречный владыка Келрис",
+          "nameOriginal": "Twilight Lord Kelris",
+          "url": "https://next.dnd.su/bestiary/36916-twilight-lord-kelris",
+          "source": "318"
+        },
+        {
+          "nameRu": "Штейгер Рак’зор",
+          "nameOriginal": "Foreman Rhahk’Zor",
+          "url": "https://next.dnd.su/bestiary/36917-foreman-rhahkzor",
+          "source": "318"
+        },
+        {
+          "nameRu": "Крошшер Снида",
+          "nameOriginal": "Sneed’s Shredder",
+          "url": "https://next.dnd.su/bestiary/36918-sneeds-shredder",
+          "source": "318"
+        },
+        {
+          "nameRu": "Гилнид",
+          "nameOriginal": "Gilnid",
+          "url": "https://next.dnd.su/bestiary/36919-gilnid",
+          "source": "318"
+        },
+        {
+          "nameRu": "Капитан Зеленямс",
+          "nameOriginal": "Captain Greenskin",
+          "url": "https://next.dnd.su/bestiary/36920-captain-greenskin",
+          "source": "318"
+        },
+        {
+          "nameRu": "Эдвин ван Клиф",
+          "nameOriginal": "Edwin VanCleef",
+          "url": "https://next.dnd.su/bestiary/36921-edwin-vancleef",
+          "source": "318"
+        },
+        {
+          "nameRu": "Иллиана Воронья Ольха",
+          "nameOriginal": "Illyanna Ravenoak",
+          "url": "https://next.dnd.su/bestiary/36922-illyanna-ravenoak",
+          "source": "318"
+        },
+        {
+          "nameRu": "Бессмер’тер",
+          "nameOriginal": "Immol’thar",
+          "url": "https://next.dnd.su/bestiary/36923-immolthar",
+          "source": "318"
+        },
+        {
+          "nameRu": "Принц Тортелдрин",
+          "nameOriginal": "Prince Tortheldrin",
+          "url": "https://next.dnd.su/bestiary/36924-prince-tortheldrin",
+          "source": "318"
+        },
+        {
+          "nameRu": "Король Гордок",
+          "nameOriginal": "King Gordok",
+          "url": "https://next.dnd.su/bestiary/36925-king-gordok",
+          "source": "318"
+        },
+        {
+          "nameRu": "Волшебник крови Талнос",
+          "nameOriginal": "Bloodmage Thalnos",
+          "url": "https://next.dnd.su/bestiary/36927-bloodmage-thalnos",
+          "source": "318"
+        },
+        {
+          "nameRu": "Псарь Локси",
+          "nameOriginal": "Houndmaster Loksey",
+          "url": "https://next.dnd.su/bestiary/36928-houndmaster-loksey",
+          "source": "318"
+        },
+        {
+          "nameRu": "Чародей Доан",
+          "nameOriginal": "Arcanist Doan",
+          "url": "https://next.dnd.su/bestiary/36929-arcanist-doan",
+          "source": "318"
+        },
+        {
+          "nameRu": "Герой Алого ордена Ирод",
+          "nameOriginal": "Scarlet Champion Herod",
+          "url": "https://next.dnd.su/bestiary/36930-scarlet-champion-herod",
+          "source": "318"
+        },
+        {
+          "nameRu": "Командир Алого ордена Могрейн",
+          "nameOriginal": "Scarlet Commander Mograine",
+          "url": "https://next.dnd.su/bestiary/36931-scarlet-commander-mograine",
+          "source": "318"
+        },
+        {
+          "nameRu": "Верховный инквизитор Салли Вайтмейн",
+          "nameOriginal": "High Inquisitor Sally Whitemane",
+          "url": "https://next.dnd.su/bestiary/36932-high-inquisitor-sally-whitemane",
+          "source": "318"
+        },
+        {
+          "nameRu": "Барон Сильверлейн",
+          "nameOriginal": "Baron Silverlaine",
+          "url": "https://next.dnd.su/bestiary/36933-baron-silverlaine",
+          "source": "318"
+        },
+        {
+          "nameRu": "Командир Спрингвейл",
+          "nameOriginal": "Commander Springvale",
+          "url": "https://next.dnd.su/bestiary/36934-commander-springvale",
+          "source": "318"
+        },
+        {
+          "nameRu": "Спектр Спрингвейла",
+          "nameOriginal": "Springvale’s Specter",
+          "url": "https://next.dnd.su/bestiary/36935-springvales-specter",
+          "source": "318"
+        },
+        {
+          "nameRu": "Лорд Вальден",
+          "nameOriginal": "Lord Walden",
+          "url": "https://next.dnd.su/bestiary/36936-lord-walden",
+          "source": "318"
+        },
+        {
+          "nameRu": "Лорд Годфри",
+          "nameOriginal": "Lord Godfrey",
+          "url": "https://next.dnd.su/bestiary/36937-lord-godfrey",
+          "source": "318"
+        },
+        {
+          "nameRu": "Пустулёзное чудовище",
+          "nameOriginal": "Pustulant Monstrosity",
+          "url": "https://next.dnd.su/bestiary/36938-pustulant-monstrosity",
+          "source": "318"
+        },
+        {
+          "nameRu": "Дрейк синей стаи",
+          "nameOriginal": "Blue Dragonflight Drake",
+          "url": "https://next.dnd.su/bestiary/36952-blue-dragonflight-drake",
+          "source": "318"
+        },
+        {
+          "nameRu": "Дракон синей стаи",
+          "nameOriginal": "Blue Dragonflight Dragon",
+          "url": "https://next.dnd.su/bestiary/36953-blue-dragonflight-dragon",
+          "source": "318"
+        },
+        {
+          "nameRu": "Дрейк бронзовой стаи",
+          "nameOriginal": "Bronze Dragonflight Drake",
+          "url": "https://next.dnd.su/bestiary/36956-bronze-dragonflight-drake",
+          "source": "318"
+        },
+        {
+          "nameRu": "Дракон бронзовой стаи",
+          "nameOriginal": "Bronze Dragonflight Dragon",
+          "url": "https://next.dnd.su/bestiary/36957-bronze-dragonflight-dragon",
+          "source": "318"
+        },
+        {
+          "nameRu": "Дрейк зелёной стаи",
+          "nameOriginal": "Green Dragonflight Drake",
+          "url": "https://next.dnd.su/bestiary/37006-green-dragonflight-drake",
+          "source": "318"
+        },
+        {
+          "nameRu": "Дракон зелёной стаи",
+          "nameOriginal": "Green Dragonflight Dragon",
+          "url": "https://next.dnd.su/bestiary/37007-green-dragonflight-dragon",
+          "source": "318"
+        },
+        {
+          "nameRu": "Дрейк красной стаи",
+          "nameOriginal": "Red Dragonflight Drake",
+          "url": "https://next.dnd.su/bestiary/37041-red-dragonflight-drake",
+          "source": "318"
+        },
+        {
+          "nameRu": "Дракон красной стаи",
+          "nameOriginal": "Red Dragonflight Dragon",
+          "url": "https://next.dnd.su/bestiary/37042-red-dragonflight-dragon",
+          "source": "318"
+        },
+        {
+          "nameRu": "Аку’май Пожиратель",
+          "nameOriginal": "Aku’mai the Devourer",
+          "url": "https://next.dnd.su/bestiary/37059-akumai-the-devourer",
+          "source": "318"
+        },
+        {
+          "nameRu": "Чо’раш Наблюдатель",
+          "nameOriginal": "Cho’Rush the Observer",
+          "url": "https://next.dnd.su/bestiary/37092-chorush-the-observer",
+          "source": "318"
+        },
+        {
+          "nameRu": "Алззин Перевертень",
+          "nameOriginal": "Alzzin the Wildshaper",
+          "url": "https://next.dnd.su/bestiary/37093-alzzin-the-wildshaper",
+          "source": "318"
+        },
+        {
+          "nameRu": "Ониксия",
+          "nameOriginal": "Onyxia",
+          "url": "https://next.dnd.su/bestiary/37100-onyxia",
+          "source": "318"
+        },
+        {
+          "nameRu": "Барон Эшбери",
+          "nameOriginal": "Baron Ashbury",
+          "url": "https://next.dnd.su/bestiary/37101-baron-ashbury",
+          "source": "318"
+        },
+        {
+          "nameRu": "Механодолгоног",
+          "nameOriginal": "Mechanostrider",
+          "url": "https://next.dnd.su/bestiary/37102-mechanostrider",
+          "source": "318"
+        },
+        {
+          "nameRu": "Пандарийская драконья черепаха",
+          "nameOriginal": "Pandarian Dragon Turtle",
+          "url": "https://next.dnd.su/bestiary/37103-pandarian-dragon-turtle",
+          "source": "318"
         }
       ]
     },
@@ -39551,85 +40499,301 @@
           "nameRu": "Клинок иссушения жизни",
           "nameOriginal": "Life-Sapping Blade",
           "url": "https://next.dnd.su/items/21316-life-sapping-blade",
-          "source": "315"
+          "source": "317"
         },
         {
           "nameRu": "Очи обмана",
           "nameOriginal": "Eyes of Deceit",
           "url": "https://next.dnd.su/items/21317-eyes-of-deceit",
-          "source": "315"
+          "source": "317"
         },
         {
           "nameRu": "Хрустальный шар дурных знамений",
           "nameOriginal": "Crystal Ball of Ominous Portent",
           "url": "https://next.dnd.su/items/21318-crystal-ball-of-ominous-portent",
-          "source": "315"
+          "source": "317"
         },
         {
           "nameRu": "Кольцо искренности",
           "nameOriginal": "Ring of Candor",
           "url": "https://next.dnd.su/items/21319-ring-of-candor",
-          "source": "315"
+          "source": "317"
         },
         {
           "nameRu": "Брошь маскарада",
           "nameOriginal": "Masquerader's Brooch",
           "url": "https://next.dnd.su/items/21323-masqueraders-brooch",
-          "source": "315"
+          "source": "317"
         },
         {
           "nameRu": "Мантия тэйского мага",
           "nameOriginal": "Robe of Thayan Arcana",
           "url": "https://next.dnd.su/items/21324-robe-of-thayan-arcana",
-          "source": "315"
+          "source": "317"
         },
         {
           "nameRu": "Алая книга заклинаний",
           "nameOriginal": "Scarlet Spellbook",
           "url": "https://next.dnd.su/items/21325-scarlet-spellbook",
-          "source": "315"
+          "source": "317"
         },
         {
           "nameRu": "Браслет меткого стрелка",
           "nameOriginal": "Sniper's Bracelet",
           "url": "https://next.dnd.su/items/21326-snipers-bracelet",
-          "source": "315"
+          "source": "317"
         },
         {
           "nameRu": "Доспех восстановления заклинаний",
           "nameOriginal": "Spell-Fueling Armor",
           "url": "https://next.dnd.su/items/21327-spell-fueling-armor",
-          "source": "315"
+          "source": "317"
         },
         {
           "nameRu": "Кадило пленения духов",
           "nameOriginal": "Spirit-Binding Censer",
           "url": "https://next.dnd.su/items/21328-spirit-binding-censer",
-          "source": "315"
+          "source": "317"
         },
         {
           "nameRu": "Посох эгиды духов",
           "nameOriginal": "Staff of the Spirit Aegis",
           "url": "https://next.dnd.su/items/21329-staff-of-the-spirit-aegis",
-          "source": "315"
+          "source": "317"
         },
         {
           "nameRu": "Тэйский меч",
           "nameOriginal": "Thayan Sword",
           "url": "https://next.dnd.su/items/21330-thayan-sword",
-          "source": "315"
+          "source": "317"
         },
         {
           "nameRu": "Потайное оружие",
           "nameOriginal": "Trick Weapon",
           "url": "https://next.dnd.su/items/21331-trick-weapon",
-          "source": "315"
+          "source": "317"
         },
         {
           "nameRu": "Волшебная палочка златоуста",
           "nameOriginal": "Wand of Enthralling",
           "url": "https://next.dnd.su/items/21332-wand-of-enthralling",
-          "source": "315"
+          "source": "317"
+        },
+        {
+          "nameRu": "Зелье маны",
+          "nameOriginal": "Potion of Mana",
+          "url": "https://next.dnd.su/items/22124-potion-of-mana",
+          "source": "318"
+        },
+        {
+          "nameRu": "Зелье омоложения",
+          "nameOriginal": "Potion of Rejuvenation",
+          "url": "https://next.dnd.su/items/22125-potion-of-rejuvenation",
+          "source": "318"
+        },
+        {
+          "nameRu": "Испепелитель",
+          "nameOriginal": "Ashbringer",
+          "url": "https://next.dnd.su/items/22128-ashbringer",
+          "source": "318"
+        },
+        {
+          "nameRu": "Перо Авианы",
+          "nameOriginal": "Aviana's Feather",
+          "url": "https://next.dnd.su/items/22129-avianas-feather",
+          "source": "318"
+        },
+        {
+          "nameRu": "Корона короля огров",
+          "nameOriginal": "Crown of the Ogre King",
+          "url": "https://next.dnd.su/items/22134-crown-of-the-ogre-king",
+          "source": "318"
+        },
+        {
+          "nameRu": "Кожаный доспех Братства Справедливости",
+          "nameOriginal": "Defias Leather",
+          "url": "https://next.dnd.su/items/22136-defias-leather",
+          "source": "318"
+        },
+        {
+          "nameRu": "Молот Рока",
+          "nameOriginal": "Doomhammer",
+          "url": "https://next.dnd.su/items/22137-doomhammer",
+          "source": "318"
+        },
+        {
+          "nameRu": "Гоблинский прототип реактивного ранца",
+          "nameOriginal": "Experimental Goblin Jetpack",
+          "url": "https://next.dnd.su/items/22139-experimental-goblin-jetpack",
+          "source": "318"
+        },
+        {
+          "nameRu": "Статуэтка чудесной силы (самоцветная пантера)",
+          "nameOriginal": "Figurine of Wondrous Power (Jeweled Panther)",
+          "url": "https://next.dnd.su/items/22140-figurine-of-wondrous-power-jeweled-panther",
+          "source": "318"
+        },
+        {
+          "nameRu": "Фляга титанов",
+          "nameOriginal": "Flask of the Titans",
+          "url": "https://next.dnd.su/items/22141-flask-of-the-titans",
+          "source": "318"
+        },
+        {
+          "nameRu": "Ледяная Скорбь",
+          "nameOriginal": "Frostmourne",
+          "url": "https://next.dnd.su/items/22143-frostmourne",
+          "source": "318"
+        },
+        {
+          "nameRu": "Гоблинские провода шоковой терапии",
+          "nameOriginal": "Goblin Jumper Cables",
+          "url": "https://next.dnd.su/items/22163-goblin-jumper-cables",
+          "source": "318"
+        },
+        {
+          "nameRu": "Камень возврата",
+          "nameOriginal": "Hearthstone",
+          "url": "https://next.dnd.su/items/22164-hearthstone",
+          "source": "318"
+        },
+        {
+          "nameRu": "Шлем Господства",
+          "nameOriginal": "Helm of Domination",
+          "url": "https://next.dnd.su/items/22166-helm-of-domination",
+          "source": "318"
+        },
+        {
+          "nameRu": "Доспех правосудия",
+          "nameOriginal": "Judgment Armor",
+          "url": "https://next.dnd.su/items/22167-judgment-armor",
+          "source": "318"
+        },
+        {
+          "nameRu": "Эликсир Гогельмогеля",
+          "nameOriginal": "Noggenfogger Elixir",
+          "url": "https://next.dnd.su/items/22168-noggenfogger-elixir",
+          "source": "318"
+        },
+        {
+          "nameRu": "Философский камень",
+          "nameOriginal": "Philosopher's Stone",
+          "url": "https://next.dnd.su/items/22169-philosophers-stone",
+          "source": "318"
+        },
+        {
+          "nameRu": "Паучий посох жизни",
+          "nameOriginal": "Life-Staff of the Web Lair",
+          "url": "https://next.dnd.su/items/22171-life-staff-of-the-web-lair",
+          "source": "318"
+        },
+        {
+          "nameRu": "Жезл сноходца",
+          "nameOriginal": "Rod of the Sleepwalker",
+          "url": "https://next.dnd.su/items/22222-rod-of-the-sleepwalker",
+          "source": "318"
+        },
+        {
+          "nameRu": "Тенеклык",
+          "nameOriginal": "Shadowfang",
+          "url": "https://next.dnd.su/items/22223-shadowfang",
+          "source": "318"
+        },
+        {
+          "nameRu": "Шаламейн",
+          "nameOriginal": "Shalamayne",
+          "url": "https://next.dnd.su/items/22224-shalamayne",
+          "source": "318"
+        },
+        {
+          "nameRu": "Посох Света и Тьмы",
+          "nameOriginal": "Staff of Light and Shadow",
+          "url": "https://next.dnd.su/items/22226-staff-of-light-and-shadow",
+          "source": "318"
+        },
+        {
+          "nameRu": "Сульфурас, Длань Рагнароса",
+          "nameOriginal": "Sulfuras, Hand of Ragnaros",
+          "url": "https://next.dnd.su/items/22228-sulfuras-hand-of-ragnaros",
+          "source": "318"
+        },
+        {
+          "nameRu": "Эликсир тролльей крови",
+          "nameOriginal": "Troll's Blood Elixir",
+          "url": "https://next.dnd.su/items/22229-trolls-blood-elixir",
+          "source": "318"
+        },
+        {
+          "nameRu": "Большой эликсир тролльей крови",
+          "nameOriginal": "Troll's Blood Elixir (greater)",
+          "url": "https://next.dnd.su/items/22230-trolls-blood-elixir-greater",
+          "source": "318"
+        },
+        {
+          "nameRu": "Эликсир тролльей крови",
+          "nameOriginal": "Troll's Blood Elixir",
+          "url": "https://next.dnd.su/items/22231-trolls-blood-elixir",
+          "source": "318"
+        },
+        {
+          "nameRu": "Отличный эликсир тролльей крови",
+          "nameOriginal": "Troll's Blood Elixir (superior)",
+          "url": "https://next.dnd.su/items/22232-trolls-blood-elixir-superior",
+          "source": "318"
+        },
+        {
+          "nameRu": "Превосходный эликсир тролльей крови",
+          "nameOriginal": "Troll's Blood Elixir (supreme)",
+          "url": "https://next.dnd.su/items/22233-trolls-blood-elixir-supreme",
+          "source": "318"
+        },
+        {
+          "nameRu": "Зелье маны",
+          "nameOriginal": "Potion of Mana",
+          "url": "https://next.dnd.su/items/22234-potion-of-mana",
+          "source": "318"
+        },
+        {
+          "nameRu": "Большое зелье маны",
+          "nameOriginal": "Potion of Mana (greater)",
+          "url": "https://next.dnd.su/items/22235-potion-of-mana-greater",
+          "source": "318"
+        },
+        {
+          "nameRu": "Отличное зелье маны",
+          "nameOriginal": "Potion of Mana (superior)",
+          "url": "https://next.dnd.su/items/22236-potion-of-mana-superior",
+          "source": "318"
+        },
+        {
+          "nameRu": "Зелье омоложения",
+          "nameOriginal": "Potion of Rejuvenation",
+          "url": "https://next.dnd.su/items/22237-potion-of-rejuvenation",
+          "source": "318"
+        },
+        {
+          "nameRu": "Большое зелье омоложения",
+          "nameOriginal": "Potion of Rejuvenation (greater)",
+          "url": "https://next.dnd.su/items/22238-potion-of-rejuvenation-greater",
+          "source": "318"
+        },
+        {
+          "nameRu": "Отличное зелье омоложения",
+          "nameOriginal": "Potion of Rejuvenation (superior)",
+          "url": "https://next.dnd.su/items/22239-potion-of-rejuvenation-superior",
+          "source": "318"
+        },
+        {
+          "nameRu": "Парные клинки Аззинота",
+          "nameOriginal": "Twin Blades of Azzinoth",
+          "url": "https://next.dnd.su/items/22240-twin-blades-of-azzinoth",
+          "source": "318"
+        },
+        {
+          "nameRu": "Витрак, Взгляд Мертвеца",
+          "nameOriginal": "Vithrak, Gaze of the Deadman",
+          "url": "https://next.dnd.su/items/22241-vithrak-gaze-of-the-deadman",
+          "source": "318"
         }
       ]
     },
@@ -41703,34 +42867,6 @@
           "parent": "Artificer"
         },
         {
-          "nameRu": "Путь берсерка",
-          "nameOriginal": "Path of the Berserker",
-          "url": "https://next.dnd.su/class/barbarian#subclass.berserker",
-          "source": "Player's Handbook 2024",
-          "parent": "Barbarian"
-        },
-        {
-          "nameRu": "Путь дикого сердца",
-          "nameOriginal": "Path of the Wild Heart",
-          "url": "https://next.dnd.su/class/barbarian#subclass.wild-heart",
-          "source": "Player's Handbook 2024",
-          "parent": "Barbarian"
-        },
-        {
-          "nameRu": "Путь Мирового древа",
-          "nameOriginal": "Path of the World Tree",
-          "url": "https://next.dnd.su/class/barbarian#subclass.world-tree",
-          "source": "Player's Handbook 2024",
-          "parent": "Barbarian"
-        },
-        {
-          "nameRu": "Путь фанатика",
-          "nameOriginal": "Path of the Zealot",
-          "url": "https://next.dnd.su/class/barbarian#subclass.zealot",
-          "source": "Player's Handbook 2024",
-          "parent": "Barbarian"
-        },
-        {
           "nameRu": "Коллегия доблести",
           "nameOriginal": "College of Valor",
           "url": "https://next.dnd.su/class/bard#subclass.valor",
@@ -41773,81 +42909,46 @@
           "parent": "Bard"
         },
         {
-          "nameRu": "Домен войны",
-          "nameOriginal": "War Domain",
-          "url": "https://next.dnd.su/class/cleric#subclass.war-domain",
+          "nameRu": "Путь берсерка",
+          "nameOriginal": "Path of the Berserker",
+          "url": "https://next.dnd.su/class/barbarian#subclass.berserker",
           "source": "Player's Handbook 2024",
-          "parent": "Cleric"
+          "parent": "Barbarian"
         },
         {
-          "nameRu": "Домен жизни",
-          "nameOriginal": "Life Domain",
-          "url": "https://next.dnd.su/class/cleric#subclass.life-domain",
+          "nameRu": "Путь дикого сердца",
+          "nameOriginal": "Path of the Wild Heart",
+          "url": "https://next.dnd.su/class/barbarian#subclass.wild-heart",
           "source": "Player's Handbook 2024",
-          "parent": "Cleric"
+          "parent": "Barbarian"
         },
         {
-          "nameRu": "Домен обмана",
-          "nameOriginal": "Trickery Domain",
-          "url": "https://next.dnd.su/class/cleric#subclass.trickery-domain",
+          "nameRu": "Путь Мирового древа",
+          "nameOriginal": "Path of the World Tree",
+          "url": "https://next.dnd.su/class/barbarian#subclass.world-tree",
           "source": "Player's Handbook 2024",
-          "parent": "Cleric"
+          "parent": "Barbarian"
         },
         {
-          "nameRu": "Домен света",
-          "nameOriginal": "Light Domain",
-          "url": "https://next.dnd.su/class/cleric#subclass.light-domain",
+          "nameRu": "Путь фанатика",
+          "nameOriginal": "Path of the Zealot",
+          "url": "https://next.dnd.su/class/barbarian#subclass.zealot",
           "source": "Player's Handbook 2024",
-          "parent": "Cleric"
+          "parent": "Barbarian"
         },
         {
-          "nameRu": "Домен знаний",
-          "nameOriginal": "Knowledge Domain",
-          "url": "https://next.dnd.su/class/cleric#subclass.knowledge-domain",
-          "source": "Forgotten Realms: Heroes of Faerun",
-          "parent": "Cleric"
+          "nameRu": "Путь бушующего в бою",
+          "nameOriginal": "Path of the Battlerager",
+          "url": "https://next.dnd.su/class/barbarian#subclass.battlerager",
+          "parent": "Barbarian",
+          "source": ""
         },
         {
-          "nameRu": "Домен упокоения",
-          "nameOriginal": "Grave Domain",
-          "url": "https://next.dnd.su/class/cleric#subclass.grave-domain",
-          "source": "Ravenloft: The Horrors Within",
-          "parent": "Cleric"
-        },
-        {
-          "nameRu": "Домен магии",
-          "nameOriginal": "Arcana Domain",
-          "url": "https://next.dnd.su/class/cleric#subclass.arcana-domain",
-          "source": "Arcana Unleashed",
-          "parent": "Cleric"
-        },
-        {
-          "nameRu": "Круг звёзд",
-          "nameOriginal": "Circle of Stars",
-          "url": "https://next.dnd.su/class/druid#subclass.stars",
-          "source": "Player's Handbook 2024",
-          "parent": "Druid"
-        },
-        {
-          "nameRu": "Круг земли",
-          "nameOriginal": "Circle of the Land",
-          "url": "https://next.dnd.su/class/druid#subclass.land",
-          "source": "Player's Handbook 2024",
-          "parent": "Druid"
-        },
-        {
-          "nameRu": "Круг луны",
-          "nameOriginal": "Circle of the Moon",
-          "url": "https://next.dnd.su/class/druid#subclass.moon",
-          "source": "Player's Handbook 2024",
-          "parent": "Druid"
-        },
-        {
-          "nameRu": "Круг моря",
-          "nameOriginal": "Circle of the Sea",
-          "url": "https://next.dnd.su/class/druid#subclass.sea",
-          "source": "Player's Handbook 2024",
-          "parent": "Druid"
+          "nameRu": "Путь дикой магии",
+          "nameOriginal": "Path of Wild Magic",
+          "url": "https://next.dnd.su/class/barbarian#subclass.e-wild-magic",
+          "parent": "Barbarian",
+          "source": ""
         },
         {
           "nameRu": "Мастер боя",
@@ -41890,244 +42991,6 @@
           "url": "https://next.dnd.su/class/fighter#subclass.arcane-archer",
           "source": "Arcana Unleashed",
           "parent": "Fighter"
-        },
-        {
-          "nameRu": "Воин открытой ладони",
-          "nameOriginal": "Warrior of the Open Hand",
-          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-the-hand",
-          "source": "Player's Handbook 2024",
-          "parent": "Monk"
-        },
-        {
-          "nameRu": "Воин тени",
-          "nameOriginal": "Warrior of Shadow",
-          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-shadow",
-          "source": "Player's Handbook 2024",
-          "parent": "Monk"
-        },
-        {
-          "nameRu": "Воин милосердия",
-          "nameOriginal": "Warrior of Mercy",
-          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-mercy",
-          "source": "Player's Handbook 2024",
-          "parent": "Monk"
-        },
-        {
-          "nameRu": "Воин cтихий",
-          "nameOriginal": "Warrior of the Elements",
-          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-the-elements",
-          "source": "Player's Handbook 2024",
-          "parent": "Monk"
-        },
-        {
-          "nameRu": "Мистический воин",
-          "nameOriginal": "Warrior of the Mystic Arts",
-          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-the-mystic-arts",
-          "source": "Arcana Unleashed",
-          "parent": "Monk"
-        },
-        {
-          "nameRu": "Клятва преданности",
-          "nameOriginal": "Oath of Devotion",
-          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-devotion",
-          "source": "Player's Handbook 2024",
-          "parent": "Paladin"
-        },
-        {
-          "nameRu": "Клятва славы",
-          "nameOriginal": "Oath of Glory",
-          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-glory",
-          "source": "Player's Handbook 2024",
-          "parent": "Paladin"
-        },
-        {
-          "nameRu": "Клятва возмездия",
-          "nameOriginal": "Oath of Vengeance",
-          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-vengeance",
-          "source": "Player's Handbook 2024",
-          "parent": "Paladin"
-        },
-        {
-          "nameRu": "Клятва древних",
-          "nameOriginal": "Oath of the Ancients",
-          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-the-ancients",
-          "source": "Player's Handbook 2024",
-          "parent": "Paladin"
-        },
-        {
-          "nameRu": "Клятва благородных гениев",
-          "nameOriginal": "Oath of the Noble Genies",
-          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-the-noble-genies",
-          "source": "Forgotten Realms: Heroes of Faerun",
-          "parent": "Paladin"
-        },
-        {
-          "nameRu": "Охотник",
-          "nameOriginal": "Hunter",
-          "url": "https://next.dnd.su/class/ranger#subclass.hunter-ranger",
-          "source": "Player's Handbook 2024",
-          "parent": "Ranger"
-        },
-        {
-          "nameRu": "Повелитель зверей",
-          "nameOriginal": "Beast Master",
-          "url": "https://next.dnd.su/class/ranger#subclass.beastmaster",
-          "source": "Player's Handbook 2024",
-          "parent": "Ranger"
-        },
-        {
-          "nameRu": "Странник фей",
-          "nameOriginal": "Fey Wanderer",
-          "url": "https://next.dnd.su/class/ranger#subclass.fey-wanderer",
-          "source": "Player's Handbook 2024",
-          "parent": "Ranger"
-        },
-        {
-          "nameRu": "Сумрачный охотник",
-          "nameOriginal": "Gloom Stalker",
-          "url": "https://next.dnd.su/class/ranger#subclass.gloom-stalker",
-          "source": "Player's Handbook 2024",
-          "parent": "Ranger"
-        },
-        {
-          "nameRu": "Зимний ходок",
-          "nameOriginal": "Winter Walker",
-          "url": "https://next.dnd.su/class/ranger#subclass.winter-walker",
-          "source": "Forgotten Realms: Heroes of Faerun",
-          "parent": "Ranger"
-        },
-        {
-          "nameRu": "Страж пустошей",
-          "nameOriginal": "Hollow Warden",
-          "url": "https://next.dnd.su/class/ranger#subclass.hollow-warden",
-          "source": "Ravenloft: The Horrors Within",
-          "parent": "Ranger"
-        },
-        {
-          "nameRu": "Вор",
-          "nameOriginal": "Thief",
-          "url": "https://next.dnd.su/class/rogue#subclass.thief",
-          "source": "Player's Handbook 2024",
-          "parent": "Rogue"
-        },
-        {
-          "nameRu": "Клинок душ",
-          "nameOriginal": "Soulknife",
-          "url": "https://next.dnd.su/class/rogue#subclass.soulknife",
-          "source": "Player's Handbook 2024",
-          "parent": "Rogue"
-        },
-        {
-          "nameRu": "Мистический ловкач",
-          "nameOriginal": "Arcane Trickster",
-          "url": "https://next.dnd.su/class/rogue#subclass.arcane-trickster",
-          "source": "Player's Handbook 2024",
-          "parent": "Rogue"
-        },
-        {
-          "nameRu": "Убийца",
-          "nameOriginal": "Assassin",
-          "url": "https://next.dnd.su/class/rogue#subclass.assassin",
-          "source": "Player's Handbook 2024",
-          "parent": "Rogue"
-        },
-        {
-          "nameRu": "Наследник троицы",
-          "nameOriginal": "Scion of the Three",
-          "url": "https://next.dnd.su/class/rogue#subclass.scion-of-the-three",
-          "source": "Forgotten Realms: Heroes of Faerun",
-          "parent": "Rogue"
-        },
-        {
-          "nameRu": "Фантом",
-          "nameOriginal": "Phantom",
-          "url": "https://next.dnd.su/class/rogue#subclass.phantom",
-          "source": "Ravenloft: The Horrors Within",
-          "parent": "Rogue"
-        },
-        {
-          "nameRu": "Аберрантное чародейство",
-          "nameOriginal": "Aberrant Sorcery",
-          "url": "https://next.dnd.su/class/sorcerer#subclass.aberrant-sorcery",
-          "source": "Player's Handbook 2024",
-          "parent": "Sorcerer"
-        },
-        {
-          "nameRu": "Драконье чародейство",
-          "nameOriginal": "Draconic Sorcery",
-          "url": "https://next.dnd.su/class/sorcerer#subclass.draconic-sorcery",
-          "source": "Player's Handbook 2024",
-          "parent": "Sorcerer"
-        },
-        {
-          "nameRu": "Заводное чародейство",
-          "nameOriginal": "Clockwork Sorcery",
-          "url": "https://next.dnd.su/class/sorcerer#subclass.clockwork-sorcery",
-          "source": "Player's Handbook 2024",
-          "parent": "Sorcerer"
-        },
-        {
-          "nameRu": "Чародейство дикой магии",
-          "nameOriginal": "Wild Magic Sorcery",
-          "url": "https://next.dnd.su/class/sorcerer#subclass.wild-magic-sorcery",
-          "source": "Player's Handbook 2024",
-          "parent": "Sorcerer"
-        },
-        {
-          "nameRu": "Чародейство чаропламени",
-          "nameOriginal": "Spellfire Sorcery",
-          "url": "https://next.dnd.su/class/sorcerer#subclass.spellfire-sorcery",
-          "source": "Forgotten Realms: Heroes of Faerun",
-          "parent": "Sorcerer"
-        },
-        {
-          "nameRu": "Теневое чародейство",
-          "nameOriginal": "Shadow Sorcery",
-          "url": "https://next.dnd.su/class/sorcerer#subclass.shadow-sorcery",
-          "source": "Ravenloft: The Horrors Within",
-          "parent": "Sorcerer"
-        },
-        {
-          "nameRu": "Архифея",
-          "nameOriginal": "Archfey Patron",
-          "url": "https://next.dnd.su/class/warlock#subclass.archfey",
-          "source": "Player's Handbook 2024",
-          "parent": "Warlock"
-        },
-        {
-          "nameRu": "Великий древний",
-          "nameOriginal": "Great Old One Patron",
-          "url": "https://next.dnd.su/class/warlock#subclass.greate-old-one-patron",
-          "source": "Player's Handbook 2024",
-          "parent": "Warlock"
-        },
-        {
-          "nameRu": "Исчадие",
-          "nameOriginal": "Fiend Patron",
-          "url": "https://next.dnd.su/class/warlock#subclass.fiend-patron",
-          "source": "Player's Handbook 2024",
-          "parent": "Warlock"
-        },
-        {
-          "nameRu": "Небожитель",
-          "nameOriginal": "Celestial Patron",
-          "url": "https://next.dnd.su/class/warlock#subclass.celestial-patron",
-          "source": "Player's Handbook 2024",
-          "parent": "Warlock"
-        },
-        {
-          "nameRu": "Нежить",
-          "nameOriginal": "Undead Patron",
-          "url": "https://next.dnd.su/class/warlock#subclass.undead",
-          "source": "Ravenloft: The Horrors Within",
-          "parent": "Warlock"
-        },
-        {
-          "nameRu": "Предтеча",
-          "nameOriginal": "Vestige Patron",
-          "url": "https://next.dnd.su/class/warlock#subclass.vestige-patron",
-          "source": "Arcana Unleashed",
-          "parent": "Warlock"
         },
         {
           "nameRu": "Воплотитель",
@@ -42191,6 +43054,470 @@
           "url": "https://next.dnd.su/class/wizard#subclass.bladesinger",
           "source": "Forgotten Realms: Heroes of Faerun",
           "parent": "Wizard"
+        },
+        {
+          "nameRu": "Круг звёзд",
+          "nameOriginal": "Circle of Stars",
+          "url": "https://next.dnd.su/class/druid#subclass.stars",
+          "source": "Player's Handbook 2024",
+          "parent": "Druid"
+        },
+        {
+          "nameRu": "Круг земли",
+          "nameOriginal": "Circle of the Land",
+          "url": "https://next.dnd.su/class/druid#subclass.land",
+          "source": "Player's Handbook 2024",
+          "parent": "Druid"
+        },
+        {
+          "nameRu": "Круг луны",
+          "nameOriginal": "Circle of the Moon",
+          "url": "https://next.dnd.su/class/druid#subclass.moon",
+          "source": "Player's Handbook 2024",
+          "parent": "Druid"
+        },
+        {
+          "nameRu": "Круг моря",
+          "nameOriginal": "Circle of the Sea",
+          "url": "https://next.dnd.su/class/druid#subclass.sea",
+          "source": "Player's Handbook 2024",
+          "parent": "Druid"
+        },
+        {
+          "nameRu": "Домен войны",
+          "nameOriginal": "War Domain",
+          "url": "https://next.dnd.su/class/cleric#subclass.war-domain",
+          "source": "Player's Handbook 2024",
+          "parent": "Cleric"
+        },
+        {
+          "nameRu": "Домен жизни",
+          "nameOriginal": "Life Domain",
+          "url": "https://next.dnd.su/class/cleric#subclass.life-domain",
+          "source": "Player's Handbook 2024",
+          "parent": "Cleric"
+        },
+        {
+          "nameRu": "Домен обмана",
+          "nameOriginal": "Trickery Domain",
+          "url": "https://next.dnd.su/class/cleric#subclass.trickery-domain",
+          "source": "Player's Handbook 2024",
+          "parent": "Cleric"
+        },
+        {
+          "nameRu": "Домен света",
+          "nameOriginal": "Light Domain",
+          "url": "https://next.dnd.su/class/cleric#subclass.light-domain",
+          "source": "Player's Handbook 2024",
+          "parent": "Cleric"
+        },
+        {
+          "nameRu": "Домен знаний",
+          "nameOriginal": "Knowledge Domain",
+          "url": "https://next.dnd.su/class/cleric#subclass.knowledge-domain",
+          "source": "Forgotten Realms: Heroes of Faerun",
+          "parent": "Cleric"
+        },
+        {
+          "nameRu": "Домен упокоения",
+          "nameOriginal": "Grave Domain",
+          "url": "https://next.dnd.su/class/cleric#subclass.grave-domain",
+          "source": "Ravenloft: The Horrors Within",
+          "parent": "Cleric"
+        },
+        {
+          "nameRu": "Домен магии",
+          "nameOriginal": "Arcana Domain",
+          "url": "https://next.dnd.su/class/cleric#subclass.arcana-domain",
+          "source": "Arcana Unleashed",
+          "parent": "Cleric"
+        },
+        {
+          "nameRu": "Архифея",
+          "nameOriginal": "Archfey Patron",
+          "url": "https://next.dnd.su/class/warlock#subclass.archfey",
+          "source": "Player's Handbook 2024",
+          "parent": "Warlock"
+        },
+        {
+          "nameRu": "Великий древний",
+          "nameOriginal": "Great Old One Patron",
+          "url": "https://next.dnd.su/class/warlock#subclass.greate-old-one-patron",
+          "source": "Player's Handbook 2024",
+          "parent": "Warlock"
+        },
+        {
+          "nameRu": "Исчадие",
+          "nameOriginal": "Fiend Patron",
+          "url": "https://next.dnd.su/class/warlock#subclass.fiend-patron",
+          "source": "Player's Handbook 2024",
+          "parent": "Warlock"
+        },
+        {
+          "nameRu": "Небожитель",
+          "nameOriginal": "Celestial Patron",
+          "url": "https://next.dnd.su/class/warlock#subclass.celestial-patron",
+          "source": "Player's Handbook 2024",
+          "parent": "Warlock"
+        },
+        {
+          "nameRu": "Нежить",
+          "nameOriginal": "Undead Patron",
+          "url": "https://next.dnd.su/class/warlock#subclass.undead",
+          "source": "Ravenloft: The Horrors Within",
+          "parent": "Warlock"
+        },
+        {
+          "nameRu": "Предтеча",
+          "nameOriginal": "Vestige Patron",
+          "url": "https://next.dnd.su/class/warlock#subclass.vestige-patron",
+          "source": "Arcana Unleashed",
+          "parent": "Warlock"
+        },
+        {
+          "nameRu": "Космический покровитель",
+          "nameOriginal": "Cosmic Patron",
+          "url": "https://next.dnd.su/class/warlock#subclass.cosmic",
+          "parent": "Warlock",
+          "source": ""
+        },
+        {
+          "nameRu": "Воин открытой ладони",
+          "nameOriginal": "Warrior of the Open Hand",
+          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-the-hand",
+          "source": "Player's Handbook 2024",
+          "parent": "Monk"
+        },
+        {
+          "nameRu": "Воин тени",
+          "nameOriginal": "Warrior of Shadow",
+          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-shadow",
+          "source": "Player's Handbook 2024",
+          "parent": "Monk"
+        },
+        {
+          "nameRu": "Воин милосердия",
+          "nameOriginal": "Warrior of Mercy",
+          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-mercy",
+          "source": "Player's Handbook 2024",
+          "parent": "Monk"
+        },
+        {
+          "nameRu": "Воин cтихий",
+          "nameOriginal": "Warrior of the Elements",
+          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-the-elements",
+          "source": "Player's Handbook 2024",
+          "parent": "Monk"
+        },
+        {
+          "nameRu": "Мистический воин",
+          "nameOriginal": "Warrior of the Mystic Arts",
+          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-the-mystic-arts",
+          "source": "Arcana Unleashed",
+          "parent": "Monk"
+        },
+        {
+          "nameRu": "Воин таинственных отваров",
+          "nameOriginal": "Warrior of the Mystic Brews",
+          "url": "https://next.dnd.su/class/monk#subclass.mystic-brews",
+          "parent": "Monk",
+          "source": ""
+        },
+        {
+          "nameRu": "Воин змеи",
+          "nameOriginal": "Warrior of the Serpent",
+          "url": "https://next.dnd.su/class/monk#subclass.warrior-of-the-serpent",
+          "parent": "Monk",
+          "source": ""
+        },
+        {
+          "nameRu": "Клятва преданности",
+          "nameOriginal": "Oath of Devotion",
+          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-devotion",
+          "source": "Player's Handbook 2024",
+          "parent": "Paladin"
+        },
+        {
+          "nameRu": "Клятва славы",
+          "nameOriginal": "Oath of Glory",
+          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-glory",
+          "source": "Player's Handbook 2024",
+          "parent": "Paladin"
+        },
+        {
+          "nameRu": "Клятва возмездия",
+          "nameOriginal": "Oath of Vengeance",
+          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-vengeance",
+          "source": "Player's Handbook 2024",
+          "parent": "Paladin"
+        },
+        {
+          "nameRu": "Клятва древних",
+          "nameOriginal": "Oath of the Ancients",
+          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-the-ancients",
+          "source": "Player's Handbook 2024",
+          "parent": "Paladin"
+        },
+        {
+          "nameRu": "Клятва благородных гениев",
+          "nameOriginal": "Oath of the Noble Genies",
+          "url": "https://next.dnd.su/class/paladin#subclass.oath-of-the-noble-genies",
+          "source": "Forgotten Realms: Heroes of Faerun",
+          "parent": "Paladin"
+        },
+        {
+          "nameRu": "Вор",
+          "nameOriginal": "Thief",
+          "url": "https://next.dnd.su/class/rogue#subclass.thief",
+          "source": "Player's Handbook 2024",
+          "parent": "Rogue"
+        },
+        {
+          "nameRu": "Клинок душ",
+          "nameOriginal": "Soulknife",
+          "url": "https://next.dnd.su/class/rogue#subclass.soulknife",
+          "source": "Player's Handbook 2024",
+          "parent": "Rogue"
+        },
+        {
+          "nameRu": "Мистический ловкач",
+          "nameOriginal": "Arcane Trickster",
+          "url": "https://next.dnd.su/class/rogue#subclass.arcane-trickster",
+          "source": "Player's Handbook 2024",
+          "parent": "Rogue"
+        },
+        {
+          "nameRu": "Убийца",
+          "nameOriginal": "Assassin",
+          "url": "https://next.dnd.su/class/rogue#subclass.assassin",
+          "source": "Player's Handbook 2024",
+          "parent": "Rogue"
+        },
+        {
+          "nameRu": "Наследник троицы",
+          "nameOriginal": "Scion of the Three",
+          "url": "https://next.dnd.su/class/rogue#subclass.scion-of-the-three",
+          "source": "Forgotten Realms: Heroes of Faerun",
+          "parent": "Rogue"
+        },
+        {
+          "nameRu": "Фантом",
+          "nameOriginal": "Phantom",
+          "url": "https://next.dnd.su/class/rogue#subclass.phantom",
+          "source": "Ravenloft: The Horrors Within",
+          "parent": "Rogue"
+        },
+        {
+          "nameRu": "Охотник",
+          "nameOriginal": "Hunter",
+          "url": "https://next.dnd.su/class/ranger#subclass.hunter-ranger",
+          "source": "Player's Handbook 2024",
+          "parent": "Ranger"
+        },
+        {
+          "nameRu": "Повелитель зверей",
+          "nameOriginal": "Beast Master",
+          "url": "https://next.dnd.su/class/ranger#subclass.beastmaster",
+          "source": "Player's Handbook 2024",
+          "parent": "Ranger"
+        },
+        {
+          "nameRu": "Странник фей",
+          "nameOriginal": "Fey Wanderer",
+          "url": "https://next.dnd.su/class/ranger#subclass.fey-wanderer",
+          "source": "Player's Handbook 2024",
+          "parent": "Ranger"
+        },
+        {
+          "nameRu": "Сумрачный охотник",
+          "nameOriginal": "Gloom Stalker",
+          "url": "https://next.dnd.su/class/ranger#subclass.gloom-stalker",
+          "source": "Player's Handbook 2024",
+          "parent": "Ranger"
+        },
+        {
+          "nameRu": "Зимний ходок",
+          "nameOriginal": "Winter Walker",
+          "url": "https://next.dnd.su/class/ranger#subclass.winter-walker",
+          "source": "Forgotten Realms: Heroes of Faerun",
+          "parent": "Ranger"
+        },
+        {
+          "nameRu": "Страж пустошей",
+          "nameOriginal": "Hollow Warden",
+          "url": "https://next.dnd.su/class/ranger#subclass.hollow-warden",
+          "source": "Ravenloft: The Horrors Within",
+          "parent": "Ranger"
+        },
+        {
+          "nameRu": "Аберрантное чародейство",
+          "nameOriginal": "Aberrant Sorcery",
+          "url": "https://next.dnd.su/class/sorcerer#subclass.aberrant-sorcery",
+          "source": "Player's Handbook 2024",
+          "parent": "Sorcerer"
+        },
+        {
+          "nameRu": "Драконье чародейство",
+          "nameOriginal": "Draconic Sorcery",
+          "url": "https://next.dnd.su/class/sorcerer#subclass.draconic-sorcery",
+          "source": "Player's Handbook 2024",
+          "parent": "Sorcerer"
+        },
+        {
+          "nameRu": "Заводное чародейство",
+          "nameOriginal": "Clockwork Sorcery",
+          "url": "https://next.dnd.su/class/sorcerer#subclass.clockwork-sorcery",
+          "source": "Player's Handbook 2024",
+          "parent": "Sorcerer"
+        },
+        {
+          "nameRu": "Чародейство дикой магии",
+          "nameOriginal": "Wild Magic Sorcery",
+          "url": "https://next.dnd.su/class/sorcerer#subclass.wild-magic-sorcery",
+          "source": "Player's Handbook 2024",
+          "parent": "Sorcerer"
+        },
+        {
+          "nameRu": "Чародейство чаропламени",
+          "nameOriginal": "Spellfire Sorcery",
+          "url": "https://next.dnd.su/class/sorcerer#subclass.spellfire-sorcery",
+          "source": "Forgotten Realms: Heroes of Faerun",
+          "parent": "Sorcerer"
+        },
+        {
+          "nameRu": "Теневое чародейство",
+          "nameOriginal": "Shadow Sorcery",
+          "url": "https://next.dnd.su/class/sorcerer#subclass.shadow-sorcery",
+          "source": "Ravenloft: The Horrors Within",
+          "parent": "Sorcerer"
+        },
+        {
+          "nameRu": "Кровь",
+          "nameOriginal": "Blood",
+          "url": "https://next.dnd.su/class/wow/death-knight#specialization.blood",
+          "parent": "Death Knight",
+          "parentUrl": "https://next.dnd.su/class/wow/death-knight",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Лёд",
+          "nameOriginal": "Frost",
+          "url": "https://next.dnd.su/class/wow/death-knight#specialization.Frost",
+          "parent": "Death Knight",
+          "parentUrl": "https://next.dnd.su/class/wow/death-knight",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Нечестивости",
+          "nameOriginal": "Unholy",
+          "url": "https://next.dnd.su/class/wow/death-knight#specialization.unholy",
+          "parent": "Death Knight",
+          "parentUrl": "https://next.dnd.su/class/wow/death-knight",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Архифея",
+          "nameOriginal": "Archfey",
+          "url": "https://next.dnd.su/class/wow/warlock#subclass.archfey",
+          "parent": "Warlock",
+          "parentUrl": "https://next.dnd.su/class/wow/warlock",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Великий древний",
+          "nameOriginal": "Greate Old One Patron",
+          "url": "https://next.dnd.su/class/wow/warlock#subclass.greate-old-one-patron",
+          "parent": "Warlock",
+          "parentUrl": "https://next.dnd.su/class/wow/warlock",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Исчадие",
+          "nameOriginal": "Fiend Patron",
+          "url": "https://next.dnd.su/class/wow/warlock#subclass.fiend-patron",
+          "parent": "Warlock",
+          "parentUrl": "https://next.dnd.su/class/wow/warlock",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Небожитель",
+          "nameOriginal": "Celestial Patron",
+          "url": "https://next.dnd.su/class/wow/warlock#subclass.celestial-patron",
+          "parent": "Warlock",
+          "parentUrl": "https://next.dnd.su/class/wow/warlock",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Нежить",
+          "nameOriginal": "Undead",
+          "url": "https://next.dnd.su/class/wow/warlock#subclass.undead",
+          "parent": "Warlock",
+          "parentUrl": "https://next.dnd.su/class/wow/warlock",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Предтеча",
+          "nameOriginal": "Vestige Patron",
+          "url": "https://next.dnd.su/class/wow/warlock#subclass.vestige-patron",
+          "parent": "Warlock",
+          "parentUrl": "https://next.dnd.su/class/wow/warlock",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Космический покровитель",
+          "nameOriginal": "Cosmic Patron",
+          "url": "https://next.dnd.su/class/wow/warlock#subclass.cosmic",
+          "parent": "Warlock",
+          "parentUrl": "https://next.dnd.su/class/wow/warlock",
+          "source": "World of Warcraft"
+        },
+        {
+          "nameRu": "Борец ринга",
+          "nameOriginal": "Squared Circle",
+          "url": "https://next.dnd.su/class/pugilist#subclass.squared-circle",
+          "parent": "Pugilist",
+          "parentUrl": "https://next.dnd.su/class/pugilist",
+          "source": "The Pugilist Class"
+        },
+        {
+          "nameRu": "Бретёр",
+          "nameOriginal": "Piss And Vinegar",
+          "url": "https://next.dnd.su/class/pugilist#subclass.piss-and-vinegar",
+          "parent": "Pugilist",
+          "parentUrl": "https://next.dnd.su/class/pugilist",
+          "source": "The Pugilist Class"
+        },
+        {
+          "nameRu": "Бродяга и дворняга",
+          "nameOriginal": "Dog And Hound",
+          "url": "https://next.dnd.su/class/pugilist#subclass.dog-and-hound",
+          "parent": "Pugilist",
+          "parentUrl": "https://next.dnd.su/class/pugilist",
+          "source": "The Pugilist Class"
+        },
+        {
+          "nameRu": "Десница ужаса",
+          "nameOriginal": "Hand Of Dread",
+          "url": "https://next.dnd.su/class/pugilist#subclass.hand-of-dread",
+          "parent": "Pugilist",
+          "parentUrl": "https://next.dnd.su/class/pugilist",
+          "source": "The Pugilist Class"
+        },
+        {
+          "nameRu": "Знаток науки тумаков",
+          "nameOriginal": "Sweet Science",
+          "url": "https://next.dnd.su/class/pugilist#subclass.sweet-science",
+          "parent": "Pugilist",
+          "parentUrl": "https://next.dnd.su/class/pugilist",
+          "source": "The Pugilist Class"
+        },
+        {
+          "nameRu": "Святой улиц",
+          "nameOriginal": "Street Saint",
+          "url": "https://next.dnd.su/class/pugilist#subclass.street-saint",
+          "parent": "Pugilist",
+          "parentUrl": "https://next.dnd.su/class/pugilist",
+          "source": "The Pugilist Class"
         }
       ]
     }

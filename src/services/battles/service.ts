@@ -14,7 +14,7 @@ import {
 import { editionSchema } from "@/entities/content";
 import { characterSchema } from "@/entities/character";
 import { campaignSchema } from "@/entities/campaign";
-import { deriveCharacter } from "@/domain/rules/character";
+import { deriveCharacter, isEffectActive } from "@/domain/rules/character";
 import {
   combatDamage,
   combatHeal,
@@ -189,7 +189,20 @@ async function fromSource(
     side: "ally",
     hp,
     maxHp: stats.maxHp,
-    ac: stats.ac,
+    ac: Math.min(100, stats.ac),
+    effectSnapshot: {
+      baseAc: Math.min(100, deriveCharacter({ ...c, effects: [] }).ac),
+      effects: c.effects
+        .filter((effect) => isEffectActive(c, effect))
+        .map((effect) => ({
+          source: effect.source,
+          acBonus: effect.target === "ac" ? effect.bonus : null,
+          remaining:
+            effect.duration.kind === "rounds"
+              ? effect.duration.remaining
+              : null,
+        })),
+    },
     tempHp: c.tempHp,
     initiativeMod: stats.initiative,
     deathSaves: true,
@@ -398,6 +411,16 @@ export async function battleCommand(
         )
           throw new BattleError("Меняйте инициативу в подготовке.");
         const q = { ...p, ...b.manual };
+        if (q.ac !== p.ac && q.effectSnapshot) {
+          q.effectSnapshot = {
+            ...q.effectSnapshot,
+            baseAc: q.ac,
+            effects: q.effectSnapshot.effects.map((effect) => ({
+              ...effect,
+              acBonus: null,
+            })),
+          };
+        }
         if (q.hp !== p.hp || q.deathSaves !== p.deathSaves) {
           if (q.hp > 0) {
             q.deathState = "alive";

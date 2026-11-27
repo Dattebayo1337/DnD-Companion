@@ -24,6 +24,44 @@ const ruClean = (s: string) =>
     )
     .replace(/PH-B/g, "Книги игрока, Б");
 type Part = { name: string; body: string; level: number; index: number };
+// These proper names and alignments are printed in English in the Russian SRD pantheon tables.
+const pantheonNames: Record<string, string> = {
+  "The Daghdha": "Дагда", Arawn: "Араун", Belenus: "Белен", Brigantia: "Бригантия",
+  Diancecht: "Диан Кехт", Dunatis: "Дунатис", Goibhniu: "Гоибниу", Lugh: "Луг",
+  "Manannan mac Lir": "Мананнан мак Лир", "Math Mathonwy": "Мат Матонви", Morrigan: "Морриган",
+  Nuada: "Нуада", Oghma: "Огма", Silvanus: "Сильванус", Zeus: "Зевс", Aphrodite: "Афродита",
+  Apollo: "Аполлон", Ares: "Арес", Artemis: "Артемида", Athena: "Афина", Demeter: "Деметра",
+  Dionysus: "Дионис", Hades: "Аид", Hecate: "Геката", Hephaestus: "Гефест", Hera: "Гера",
+  Hercules: "Геракл", Hermes: "Гермес", Hestia: "Гестия", Nike: "Ника", Pan: "Пан",
+  Poseidon: "Посейдон", Tyche: "Тюхе", Anubis: "Анубис", Set: "Сет", Osiris: "Осирис",
+  Nephthys: "Нефтида", "Re-Horakhty": "Ра-Хорахти", Apep: "Апоп", Bast: "Баст",
+  Bes: "Бес", Hathor: "Хатхор", Imhotep: "Имхотеп", Isis: "Исида", Ptah: "Птах",
+  Sobek: "Собек", Thoth: "Тот", Surtur: "Суртур", Thrym: "Трюм", Odin: "Один",
+  Aegir: "Эгир", Balder: "Бальдр", Forseti: "Форсети", Frey: "Фрейр", Freya: "Фрейя",
+  Frigga: "Фригг", Heimdall: "Хеймдалль", Hel: "Хель", Hermod: "Хермод", Loki: "Локи",
+  Njord: "Ньёрд", Odur: "Од", Sif: "Сиф", Skadi: "Скади", Thor: "Тор", Tyr: "Тюр", Uller: "Улль",
+  LG: "ПД", LN: "ПН", LE: "ПЗ", NG: "НД", N: "Н", NE: "НЗ", CG: "ХД", CN: "ХН", CE: "ХЗ",
+};
+function translatedPantheon(text: string) {
+  return text.replace("брата Osiris", "брата Осириса").replace("богов Surtur и Thrym", "богов Суртура и Трюма")
+    .replace(/The Daghdha|Manannan mac Lir|Math Mathonwy|Re-Horakhty|\b[A-Za-z]+\b/g, name => pantheonNames[name] ?? name);
+}
+const ruleExamples2014: Record<string, string> = {
+  "Combat: Moving between Attacks": "У воина скорость 30 футов и две атаки. Он проходит 10 футов, атакует одну цель, проходит ещё 20 футов и атакует другую.",
+  "Combat: Flying Movement": "Если у крылатого противника без парения скорость упала до 0, он начинает падать. Магический полёт, который удерживает его в воздухе, меняет исход.",
+  "Combat: Disengage": "Разбойник совершает Отход, пробегает мимо двух стражников и удаляется от обоих в тот же ход. Обычная провоцированная атака за выход из досягаемости им недоступна.",
+  "Combat: Hide": "Плут скрывается за непрозрачной ширмой. Мастер сравнивает его Скрытность с пассивным Восприятием стража. Если страж ищет плута, он может совершить проверку Восприятия.",
+  "Combat: Search": "Чтобы услышать шаги за дверью, мастер может попросить Мудрость (Восприятие). Чтобы по следам на полу вычислить, какая плита сдвигается, подойдёт Интеллект (Расследование).",
+  "Combat: Squeezing into a Smaller Space": "Большое существо может протиснуться через проход шириной 5 футов. На продвижение на 5 футов оно тратит 10 футов перемещения.",
+  "Combat: Ranged Attacks in Close Combat": "Лучник стреляет в дальнюю цель. Стоящий в 5 футах от лучника боеспособный враг, который его видит, уже даёт помеху этому броску.",
+  "Combat: Dropping to 0 Hit Points": "У героя 4 хита из 12. Получив 8 урона, он падает без сознания. Если бы удар нанёс 16 урона, остаток после достижения нуля равнялся бы максимуму хитов и герой умер бы сразу.",
+  "Multiclassing: Experience Points": "Воин 2-го уровня с одним уровнем плута уже имеет общий 3-й уровень. Для очередного повышения он использует порог 4-го уровня персонажа.",
+  "Multiclassing: Proficiency Bonus": "У жреца 1-го уровня с четырьмя уровнями воина общий 5-й уровень. Бонус мастерства равен +3 и для атак оружием с владением, и для заклинаний жреца.",
+  "Multiclassing: Unarmored Defense": "Варвар, который уже получил Защиту без доспехов и затем берёт уровень монаха, продолжает пользоваться полученной ранее классовой формулой КД.",
+  "Spells: Somatic (S)": "Для заклинания с жестом и без материального компонента нужна свободная рука. Для заклинания с жестом и материалом жест можно выполнять рукой, которая держит материал или подходящую фокусировку.",
+  "Spells: Instantaneous": "После мгновенного лечения восстановленные хиты сохраняются. Позднее сотворённое «Рассеивание магии» не отменяет уже завершившееся лечение.",
+  "Spells: Targeting Yourself": "Жрец может выбрать себя целью «Лечения ран». Для заклинания с прямым требованием выбрать другое существо потребуется отдельная цель.",
+};
 function parts(s: string, levels: number[]): Part[] {
   const heads = [...s.matchAll(/^(#{1,6}) (.+)$/gm)];
   return heads
@@ -422,6 +460,50 @@ for (const year of [2014, 2024]) {
         "parallel rules chapter",
       );
     });
+  }
+  // The 2014 translation keeps combat, ability and multiclass rules at several heading depths.
+  // Use the parallel headings for the new lookups and retain the IDs of the broader chapter cards.
+  const extraRuleFiles: [string, number[]][] = year === 2014 ? [
+    ["01_Abilities.md", [3, 4]], ["02_Adventuring.md", [3]], ["03_Combat.md", [3, 4, 5]],
+    ["05_CharacterDetails.md", [2]], ["07_Multiclassing.md", [3]],
+    ["10_Spells.md", [2, 3, 4]], ["12_GamemasteringToolbox.md", [2]],
+  ] : [["07_Spells.md", [2]], ["09_GameplayToolbox.md", [2]]];
+  for (const [file, levels] of extraRuleFiles) {
+    const chapter = (lang: string) => {
+      const text = read(file, lang);
+      // Spell descriptions already have their own cards. Stop at the start of the spell list.
+      return file.endsWith("_Spells.md") ? text.split(/^## (?:Cantrips \(Level 0\)|Заговоры \((?:уровень 0|0-й уровень)\))\s*$/im)[0] : text;
+    };
+    const english = chapter("en"), russian = chapter("ru");
+    const enTitle = parts(english, [1])[0].name, ruTitle = parts(russian, [1])[0].name;
+    const en = parts(english, levels), ru = parts(russian, levels);
+    if (en.length !== ru.length || en.some((p, i) => p.level !== ru[i].level))
+      throw new Error("Unmatched rule sections in " + file);
+    for (const [i, e] of en.entries()) {
+      if (!e.body || !ru[i].body) continue;
+      const name = enTitle + ": " + e.name;
+      if (entries.some(entry => entry.reference.category === "Rule" && entry.nameOriginal === name)) continue;
+      const body = e.name === "Pantheons" ? translatedPantheon(ru[i].body) : ru[i].body;
+      const example = year === 2014 ? ruleExamples2014[name] : undefined;
+      const details = example ? { features: [{ level: null, nameRu: "Пример за столом", descriptionRu: example }] } : {};
+      add("Rule", ruTitle + ": " + ru[i].name, name, body, e.body, file, details, "parallel rule section");
+    }
+  }
+  if (year === 2014) {
+    const combat = "03_Combat.md";
+    const opening = (lang: string) => read(combat, lang).split(/^### /m)[0].replace(/^# .*\n/, "").trim();
+    add("Rule", "Бой: порядок боя", "Combat: Combat Step by Step", opening("ru"), opening("en"), combat,
+      {}, "chapter opening and combat sequence");
+    const packs = [...ruEquip.matchAll(/^\*\*_(.+?) \(([^)]+ Pack)\) \((\d+) зм\)\._\*\* (.+)$/gm)];
+    const englishPacks = new Map([...enEquip.matchAll(/^\*\*_([^()\r\n]+ Pack) \((\d+) gp\)\._\*\* (.+)$/gm)]
+      .map(m => [m[1], m]));
+    if (!packs.length || packs.length !== englishPacks.size) throw new Error("Incomplete equipment pack list");
+    for (const [, nameRu, original, price, contents] of packs) {
+      const en = englishPacks.get(original);
+      if (!en || en[2] !== price) throw new Error("Equipment pack mismatch: " + original);
+      add("Equipment", nameRu, original, contents, en[3], equipFile,
+        { properties: [{ nameRu: "Стоимость набора", valueRu: price + " зм" }] }, "named equipment pack and price");
+    }
   }
   const data = datasetSchema.parse({
     schemaVersion: 1,

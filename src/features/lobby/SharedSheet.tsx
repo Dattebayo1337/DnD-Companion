@@ -162,7 +162,7 @@ export function SharedSheet({
         </div>
         <div>
           <small>Скорость</small>
-          <strong>{c.adjustments.speed} фт.</strong>
+          <strong>{stats?.speed ?? c.adjustments.speed} фт.</strong>
         </div>
         <div>
           <small>Мастерство</small>

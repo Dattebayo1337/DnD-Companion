@@ -263,10 +263,31 @@ test("Миграция полей SRD атомарна, сохраняет ре�
     const data = datasetSchema.parse(
       JSON.parse(readFileSync(`data/srd/spells-${year}.json`, "utf8")),
     );
-    const selected = data.entries.filter(
-      (e): e is Spell => e.kind === "Spell" && e.contentVersion === 2,
+    const selected = data.entries
+      .filter(
+        (e): e is Spell =>
+          e.kind === "Spell" && !!review.editions[year][e.nameOriginal],
+      )
+      .map((entry) => {
+        const spell = { ...entry.spell };
+        delete spell.damageTypes;
+        delete spell.savingThrows;
+        return {
+          ...entry,
+          spell,
+          contentVersion: 2,
+          updatedAt: review.reviewedAt,
+        };
+      });
+    const existingIds = new Set(
+      (await db.content.findMany({ select: { id: true } })).map(
+        (entry) => entry.id,
+      ),
     );
-    await importDataset({ ...data, entries: selected });
+    await importDataset({
+      ...data,
+      entries: selected.filter((entry) => !existingIds.has(entry.id)),
+    });
     entries.push(...selected);
   }
   // Restore only test fixtures to the original revision in this isolated test database.

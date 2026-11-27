@@ -42,6 +42,11 @@ export function shortPassage(text: string, limit = 360) {
 export function contentSummary(entry: Content) {
   if (entry.kind === "Monster") {
     const m = entry.monster;
+    const tactical = `${typeLabels[m.type]}. Опасность ${m.challengeRating}; ${m.xp} опыта.`;
+    const introduction = entry.descriptionRu.split(/\n\s*\n| КД \d/)[0]?.trim() || "";
+    const overview = introduction.length > 35 && !/\||https?:\/\/|^\s*[#*]/.test(introduction)
+      ? shortPassage(introduction, 355 - tactical.length)
+      : "";
     const features = [...m.traits, ...m.actions].flatMap((feature) => {
       const names = Array.from(
         feature.descriptionRu.matchAll(/(?:^|\n)\*\*_?([^*\n]+?)_?\*\*/g),
@@ -54,7 +59,7 @@ export function contentSummary(entry: Content) {
           : [feature.nameRu];
     });
     return {
-      text: `${typeLabels[m.type]}. Опасность ${m.challengeRating}; ${m.xp} опыта.`,
+      text: overview ? `${overview} ${tactical}` : tactical,
       facts: [
         { label: "Защита", value: `КД ${m.armorClass}` },
         { label: "Живучесть", value: `${m.hitPoints} хитов` },

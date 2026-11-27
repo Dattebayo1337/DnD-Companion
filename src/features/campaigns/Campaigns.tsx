@@ -1,6 +1,8 @@
 "use client";
 import { CampaignSearch } from "./CampaignSearch";
 import { SessionDesk } from "./SessionDesk";
+import { OfflineSnapshotSave } from "../offline/OfflineSnapshotSave";
+import { campaignSnapshot } from "@/domain/offline-snapshot";
 import { useEffect, useRef, useState } from "react";
 import { z } from "zod";
 import {
@@ -634,6 +636,14 @@ function CampaignEditor({
           </div>
         ) : tab === "live" ? (
           <>
+            {dirty && (
+              <p>Копия использует последнюю сохранённую версию кампании.</p>
+            )}
+            <OfflineSnapshotSave
+              key={row.id}
+              kind="campaign"
+              makeSnapshot={() => campaignSnapshot(row)}
+            />
             <SessionDesk
               data={data}
               change={change}

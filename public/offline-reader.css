@@ -12,6 +12,9 @@ header {
   border-bottom: 1px solid #c6b9a2;
   padding-bottom: 20px;
 }
+[hidden] {
+  display: none !important;
+}
 label {
   display: inline-flex;
   gap: 8px;
@@ -83,4 +86,14 @@ a {
     orphans: 3;
     widows: 3;
   }
+}
+
+article label:has(textarea) {
+  display: grid;
+  margin-inline: 0;
+}
+article textarea {
+  width: 100%;
+  min-height: 10rem;
+  font: inherit;
 }

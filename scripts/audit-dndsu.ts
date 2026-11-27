@@ -7,6 +7,8 @@ type Item = {
   nameOriginal: string;
   url: string;
   source: string;
+  parent?: string;
+  parentUrl?: string;
 };
 type Index = { edition: string; category: string; url: string; items: Item[] };
 const decode = (s: string) =>
@@ -144,6 +146,8 @@ async function main() {
       .replace(/ё/g, "е")
       .replace(/\[[^\]]*\]/g, "")
       .replace(/[^\p{L}\p{N}]/gu, "");
+  const byId = new Map(entries.map(entry => [entry.id, entry]));
+  const link = (url: string) => url.replace(/\/$/, "");
   const reports = snapshot.indexes.map((index) => {
     const local = entries.filter(
       (e) =>
@@ -151,6 +155,8 @@ async function main() {
         (index.category === "Equipment"
           ? e.kind === "Reference" &&
             ["Equipment", "Weapon", "Armor"].includes(e.reference.category)
+          : index.category === "Monster"
+            ? e.kind === "Monster" || (e.kind === "Reference" && e.reference.category === "BestiaryProfile")
           : e.kind === "Reference"
             ? e.reference.category === index.category
             : e.kind === index.category),
@@ -162,14 +168,23 @@ async function main() {
           .map((n) => [norm(n), e.id] as const),
       ),
     );
-    const matched = index.items.filter((i) =>
-      index.category === "SpeciesRace" && i.url.includes("/multiverse/")
-        ? local.some(
-            (e) => e.source.replace(/\/$/, "") === i.url.replace(/\/$/, ""),
-          )
-        : names.has(norm(i.nameRu)) ||
-          Boolean(i.nameOriginal && names.has(norm(i.nameOriginal))),
-    );
+    const links = new Set(local.map(e => link(e.source)));
+    const matched = index.items.filter(i => {
+      if (index.category === "Subclass" && i.parent) {
+        return local.some(e => {
+          if (e.kind !== "Reference") return false;
+          const parent = byId.get(e.reference.parentId ?? "");
+          return parent?.kind === "Reference" && parent.reference.category === "Class" &&
+            parent.edition === index.edition && [parent.nameOriginal, parent.nameRu, ...parent.aliases].some(n => norm(n) === norm(i.parent!)) &&
+            (link(e.source) === link(i.url) || [e.nameRu, e.nameOriginal, ...e.aliases].some(name => norm(name) === norm(i.nameRu) ||
+              Boolean(i.nameOriginal && norm(name) === norm(i.nameOriginal))));
+        });
+      }
+      if (links.has(link(i.url))) return true;
+      if (index.category === "SpeciesRace" && i.url.includes("/multiverse/")) return false;
+      if (i.url.includes("/class/wow/")) return false;
+      return names.has(norm(i.nameRu)) || Boolean(i.nameOriginal && names.has(norm(i.nameOriginal)));
+    });
     const unmatched = index.items.filter((i) => !matched.includes(i));
     return {
       edition: index.edition,
@@ -187,13 +202,13 @@ async function main() {
     checkedAt: snapshot.checkedAt,
     generatedAt: new Date().toISOString(),
     method:
-      "Сопоставление названий и aliases в одной редакции; варианты рас из Мультивселенной сверяются по ссылке на отдельную карточку. Индекс подклассов проверен по страницам 13 классов каждой редакции 24 сентября 2026, без разделов Homebrew и сторонних классов. Совпадение записи не доказывает полноту текста или механики.",
+      "Сопоставление внутри редакции по ссылке, названию или псевдониму. Для подклассов учитывается родительский класс. В бестиарий включены отдельные справочные блоки для спутников и объектов без фиксированной сложности.",
     localCount: entries.length,
     localizationIssues: quality,
     coverage: reports,
     notComparable: [
-      "Подрасы и альтернативные варианты внутри статей, Homebrew и сторонние классы не входят в заявленное покрытие. Обзоры не заменяют полные тексты правил.",
-      "Правила и состояния: страницы сайта группируют термины иначе; процент полноты не вычислялся.",
+      "Вложенные варианты внутри статей и пользовательские материалы вне сохранённых индексов учитываются отдельно. Совпадение карточки подтверждает наличие записи. Полнота правил требует отдельной сверки.",
+      "Состояния 2014, глоссарий 2024, таблицы инвентаря 2014 и заголовки главы о бое сверяются отдельно в [аудите наполнения](CONTENT_AUDIT.md).",
     ],
   };
   writeFileSync(
@@ -213,10 +228,10 @@ async function main() {
   };
   const lines = [
     "# Проверка полноты по ДнД.су",
-    `Дата индексов: ${snapshot.checkedAt.slice(0, 10)}.`,
+    `Дата последнего обновления сохранённой подборки — ${snapshot.checkedAt.slice(0, 10)}.`,
     report.method,
-    "База неполная относительно каталогов сайта. Пустые карточки и фиктивные версии 2024 для заполнения счётчиков не создавались.",
-    "| Редакция | Категория | В базе | В индексе сайта | Совпало по названию | Требуют сверки |",
+    `Позиций в сохранённых индексах: ${reports.reduce((n,r)=>n+r.indexed,0)}. Требуют сопоставления: ${reports.reduce((n,r)=>n+r.unmatched,0)}.`,
+    "| Редакция | Категория | В базе | В индексе сайта | Сопоставлено | Требуют сверки |",
     "|---|---|---:|---:|---:|---:|",
     ...reports.map(
       (r) =>
@@ -231,8 +246,8 @@ async function main() {
     "## Воспроизведение",
     "`pnpm data:dndsu:audit` пересчитывает отчёт по сохранённому индексу и текущей базе. `pnpm data:dndsu:audit --refresh` загружает открытые каталоги заново. Команда не импортирует тексты карточек и не меняет игровые записи.",
     "",
-    "## Приоритет следующего наполнения",
-    "Добавлены основные расы/виды, книжные варианты Мультивселенной и подклассы дополнений из проверенного индекса. Далее — подрасы внутри статей, дополнительные предыстории, заклинания, существа и предметы. Обзоры следует уточнять до полной механики отдельно; количество записей не означает полноту правил.",
+    "## Полнота карточек",
+    "Длина текста, доступность вкладки с подробностями, наличие умений и уровней проверяются в CONTENT_AUDIT.md. Для записей с авторским обзором карточка также содержит ссылку на источник.",
   ];
   writeFileSync(
     "docs/DNDSU_COVERAGE.md",

@@ -4772,5 +4772,75 @@
     "en": "Monsters: Parts of a Stat Block",
     "file": "11_Monsters.md",
     "method": "parallel rules chapter"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Получение заклинаний",
+    "en": "Spells: Gaining Spells",
+    "file": "07_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Заклинания: Сотворение заклинаний",
+    "en": "Spells: Casting Spells",
+    "file": "07_Spells.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Инструментарий игрового процесса: Темп путешествия",
+    "en": "Gameplay Toolbox: Travel Pace",
+    "file": "09_GameplayToolbox.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Инструментарий игрового процесса: Создание предыстории",
+    "en": "Gameplay Toolbox: Creating a Background",
+    "file": "09_GameplayToolbox.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Инструментарий игрового процесса: Проклятия и магические заражения",
+    "en": "Gameplay Toolbox: Curses and Magical Contagions",
+    "file": "09_GameplayToolbox.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Инструментарий игрового процесса: Эффекты окружающей среды",
+    "en": "Gameplay Toolbox: Environmental Effects",
+    "file": "09_GameplayToolbox.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Инструментарий игрового процесса: Страх и психический стресс",
+    "en": "Gameplay Toolbox: Fear and Mental Stress",
+    "file": "09_GameplayToolbox.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Инструментарий игрового процесса: Яд",
+    "en": "Gameplay Toolbox: Poison",
+    "file": "09_GameplayToolbox.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Инструментарий игрового процесса: Ловушки",
+    "en": "Gameplay Toolbox: Traps",
+    "file": "09_GameplayToolbox.md",
+    "method": "parallel rule section"
+  },
+  {
+    "category": "Rule",
+    "ru": "Инструментарий игрового процесса: Боевые столкновения",
+    "en": "Gameplay Toolbox: Combat Encounters",
+    "file": "09_GameplayToolbox.md",
+    "method": "parallel rule section"
   }
 ]

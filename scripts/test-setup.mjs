@@ -48,4 +48,10 @@ database.exec(
 database.exec(
   readFileSync("prisma/migrations/0013_tabletop/migration.sql", "utf8"),
 );
+database.exec(
+  readFileSync(
+    "prisma/migrations/0014_lobby_character_sharing/migration.sql",
+    "utf8",
+  ),
+);
 database.close();
